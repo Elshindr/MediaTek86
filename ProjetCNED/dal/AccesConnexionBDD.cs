@@ -31,7 +31,7 @@ namespace ProjetCned.dal
             param.Add("@login", log);
             param.Add("@pwd", pwd);
 
-            ConnexionBDD curs = ConnexionBDD.GetInstance(chaineConnexion);
+            ConnexionBdd curs = ConnexionBdd.GetInstance(chaineConnexion);
             curs.ReqSelect(req, param);
 
             if (curs.Read())
@@ -61,7 +61,7 @@ namespace ProjetCned.dal
 
             List<Personnel> lePersonnels = new List<Personnel>();
 
-            ConnexionBDD curs = ConnexionBDD.GetInstance(chaineConnexion);
+            ConnexionBdd curs = ConnexionBdd.GetInstance(chaineConnexion);
             curs.ReqSelect(req, null);
 
             while (curs.Read())
@@ -84,7 +84,7 @@ namespace ProjetCned.dal
 
             List<Service> lesservices = new List<Service>();
 
-            ConnexionBDD curs = ConnexionBDD.GetInstance(chaineConnexion);
+            ConnexionBdd curs = ConnexionBdd.GetInstance(chaineConnexion);
             curs.ReqSelect(req, null);
 
             while (curs.Read())
@@ -112,7 +112,7 @@ namespace ProjetCned.dal
 
             List<Absence> lesAbsences = new List<Absence>();
 
-            ConnexionBDD curs = ConnexionBDD.GetInstance(chaineConnexion);
+            ConnexionBdd curs = ConnexionBdd.GetInstance(chaineConnexion);
 
             Dictionary<string, object> param = new Dictionary<string, object>();
             param.Add("@idpersonnel", unpersonnel.Idpersonnel);
@@ -148,7 +148,7 @@ namespace ProjetCned.dal
             param.Add("@mail", unpersonnel.Mail);
             param.Add("@idservice", unpersonnel.Idservice);
 
-            ConnexionBDD connexion = ConnexionBDD.GetInstance(chaineConnexion);
+            ConnexionBdd connexion = ConnexionBdd.GetInstance(chaineConnexion);
             connexion.ReqUpdate(req, param);
         }
 
@@ -168,7 +168,7 @@ namespace ProjetCned.dal
             param.Add("@idmotif", uneabs.Idmotif);
             param.Add("@idpersonnel", uneabs.Idpersonnel);
 
-            ConnexionBDD connexion = ConnexionBDD.GetInstance(chaineConnexion);
+            ConnexionBdd connexion = ConnexionBdd.GetInstance(chaineConnexion);
             connexion.ReqUpdate(req, param);
         }
 
@@ -184,7 +184,7 @@ namespace ProjetCned.dal
             Dictionary<string, object> param = new Dictionary<string, object>();
             param.Add("@idpersonnel", unpersonnel.Idpersonnel);
 
-            ConnexionBDD connexion = ConnexionBDD.GetInstance(chaineConnexion);
+            ConnexionBdd connexion = ConnexionBdd.GetInstance(chaineConnexion);
             connexion.ReqUpdate(req, param);
         }
 
@@ -202,7 +202,7 @@ namespace ProjetCned.dal
             param.Add("@datedebut", uneabs.Datedebut);
             param.Add("@datefin", uneabs.Datefin);
 
-            ConnexionBDD connexion = ConnexionBDD.GetInstance(chaineConnexion);
+            ConnexionBdd connexion = ConnexionBdd.GetInstance(chaineConnexion);
             connexion.ReqUpdate(req, param);
         }
 
@@ -226,7 +226,7 @@ namespace ProjetCned.dal
             param.Add("@mail", unpersonnel.Mail);
             param.Add("@idservice", unpersonnel.Idservice);
 
-            ConnexionBDD connexion = ConnexionBDD.GetInstance(chaineConnexion);
+            ConnexionBdd connexion = ConnexionBdd.GetInstance(chaineConnexion);
             connexion.ReqUpdate(req, param);
         }
 
@@ -246,7 +246,7 @@ namespace ProjetCned.dal
             param.Add("@datedebut", uneabs.Datedebut);
             param.Add("@idmotif", uneabs.Idmotif);
 
-            ConnexionBDD connexion = ConnexionBDD.GetInstance(chaineConnexion);
+            ConnexionBdd connexion = ConnexionBdd.GetInstance(chaineConnexion);
             connexion.ReqUpdate(req, param);
 
         }
@@ -266,7 +266,7 @@ namespace ProjetCned.dal
             
             param.Add("@datedebut", uneabs.Datedebut);
             
-            ConnexionBDD connexion = ConnexionBDD.GetInstance(chaineConnexion);
+            ConnexionBdd connexion = ConnexionBdd.GetInstance(chaineConnexion);
             connexion.ReqUpdate(req, param);
 
         }
@@ -281,7 +281,7 @@ namespace ProjetCned.dal
 
             List<Motif> lesMotifs = new List<Motif>();
 
-            ConnexionBDD curs = ConnexionBDD.GetInstance(chaineConnexion);
+            ConnexionBdd curs = ConnexionBdd.GetInstance(chaineConnexion);
             curs.ReqSelect(req, null);
 
             while (curs.Read())

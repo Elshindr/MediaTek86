@@ -8,12 +8,12 @@ namespace ProjetCned.connexion
     /// <summary>
     /// Classe permettant la connexion à la base de données ainsi que l'exécution des requêtes sql
     /// </summary>
-    public class ConnexionBDD
+    public class ConnexionBdd
     {
         /// <summary>
         /// Instance de la classe
         /// </summary>
-        private static ConnexionBDD instance = null;
+        private static ConnexionBdd instance = null;
 
         /// <summary>
         /// objet de connexion à la BDD à partir d'une chaîne de connexion
@@ -35,7 +35,7 @@ namespace ProjetCned.connexion
         /// Constructeur privé de ConnexionBDD permettant la création de la connexion ainsi que son ouverture
         /// </summary>
         /// <param name="chaineConnexion">chaine de connexion</param>
-        private ConnexionBDD(string chaineConnexion)
+        private ConnexionBdd(string chaineConnexion)
         {
             try
             {
@@ -54,11 +54,11 @@ namespace ProjetCned.connexion
         /// </summary>
         /// <param name="chaineConnexion"> chaine de connexion à la base de données </param>
         /// <returns>instance de la classe ConnexionBDD</returns>
-        public static ConnexionBDD GetInstance(string chaineConnexion)
+        public static ConnexionBdd GetInstance(string chaineConnexion)
         {
             if (instance is null)
             {
-                instance = new ConnexionBDD(chaineConnexion);
+                instance = new ConnexionBdd(chaineConnexion);
             }
 
             return instance;

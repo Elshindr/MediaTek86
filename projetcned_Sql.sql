@@ -34,7 +34,7 @@ CREATE TABLE `absence` (
   `DATEDEBUT` datetime NOT NULL,
   `IDMOTIF` int NOT NULL,
   `DATEFIN` datetime DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 ;
 
 --
 -- Déchargement des données de la table `absence`
@@ -104,7 +104,7 @@ DROP TABLE IF EXISTS `motif`;
 CREATE TABLE `motif` (
   `IDMOTIF` int NOT NULL,
   `LIBELLE` varchar(128) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 ;
 
 --
 -- Déchargement des données de la table `motif`
@@ -130,7 +130,7 @@ CREATE TABLE `personnel` (
   `PRENOM` varchar(50) DEFAULT NULL,
   `TEL` varchar(15) DEFAULT NULL,
   `MAIL` varchar(128) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 ;
 
 --
 -- Déchargement des données de la table `personnel`
@@ -165,7 +165,7 @@ DROP TABLE IF EXISTS `responsable`;
 CREATE TABLE `responsable` (
   `login` varchar(256) NOT NULL,
   `pwd` varchar(256) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 ;
 
 --
 -- Déchargement des données de la table `responsable`
@@ -184,7 +184,7 @@ DROP TABLE IF EXISTS `service`;
 CREATE TABLE `service` (
   `IDSERVICE` int NOT NULL,
   `NOM` varchar(50) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 ;
 
 --
 -- Déchargement des données de la table `service`
