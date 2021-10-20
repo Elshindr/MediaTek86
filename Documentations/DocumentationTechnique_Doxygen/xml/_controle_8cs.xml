@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="_controle_8cs" kind="file" language="C#">
+    <compoundname>Controle.cs</compoundname>
+    <innerclass refid="class_media_tek_1_1controleur_1_1_controle" prot="public">MediaTek::controleur::Controle</innerclass>
+    <innernamespace refid="namespace_media_tek">MediaTek</innernamespace>
+    <innernamespace refid="namespace_media_tek_1_1controleur">MediaTek::controleur</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_media_tek" kindref="compound">MediaTek</ref>.<ref refid="namespace_media_tek_1_1dal" kindref="compound">dal</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_media_tek" kindref="compound">MediaTek</ref>.<ref refid="namespace_media_tek_1_1modele" kindref="compound">modele</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_media_tek" kindref="compound">MediaTek</ref>.<ref refid="namespace_media_tek_1_1vue" kindref="compound">vue</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="namespace_media_tek_1_1controleur" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_media_tek_1_1controleur" kindref="compound">MediaTek.controleur</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13" refid="class_media_tek_1_1controleur_1_1_controle" refkind="compound"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_media_tek_1_1controleur_1_1_controle" kindref="compound">Controle</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_1_1vue_1_1_frm_connexion" kindref="compound">FrmConnexion</ref><sp/>frmConnexion;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_1_1controleur_1_1_controle_1a7bfc16c571f774a5e5eddc124f7127f8" kindref="member">Controle</ref>()</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>frmConnexion<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_1_1vue_1_1_frm_connexion" kindref="compound">FrmConnexion</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>frmConnexion.ShowDialog();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Boolean<sp/><ref refid="class_media_tek_1_1controleur_1_1_controle_1a257a4792f9ac1755ebd961167d49434c" kindref="member">Authentification</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>log,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>pwd)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd" kindref="compound">AccesConnexionBdd</ref>.<ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a71fa166bd0a58cc30d0a2da1c3cfc9b1" kindref="member">Authentification</ref>(log,<sp/>pwd))</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>frmConnexion.Hide();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_1_1vue_1_1_frm_gestion" kindref="compound">FrmGestion</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">)).ShowDialog();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>List&lt;Personnel&gt;<sp/><ref refid="class_media_tek_1_1controleur_1_1_controle_1a53c814aa157ea9d198afb555639bf6fb" kindref="member">GetPersonnels</ref>()</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd" kindref="compound">AccesConnexionBdd</ref>.<ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a125c77a185a72ace2bb96fca5d579c54" kindref="member">GetLePersonnel</ref>();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>List&lt;Service&gt;<sp/><ref refid="class_media_tek_1_1controleur_1_1_controle_1a986e0167fe8f85e24cc46a03902c22c4" kindref="member">GetService</ref>()</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd" kindref="compound">AccesConnexionBdd</ref>.<ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1aea09f9537db0d5f4b908be91d6df06b4" kindref="member">GetService</ref>();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>List&lt;Absence&gt;<sp/><ref refid="class_media_tek_1_1controleur_1_1_controle_1a203eac8b66aa2aec0769b9ba8e5492dc" kindref="member">GetAbsences</ref>(<ref refid="class_media_tek_1_1modele_1_1_personnel" kindref="compound">Personnel</ref><sp/>unpersonnel)</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd" kindref="compound">AccesConnexionBdd</ref>.<ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a2ac7438e41d5381e2d27ab7b312c6eee" kindref="member">GetLesAbsences</ref>(unpersonnel);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_1_1controleur_1_1_controle_1afcfccd3149b91c0bfa20005a73eed910" kindref="member">AddPersonnel</ref>(<ref refid="class_media_tek_1_1modele_1_1_personnel" kindref="compound">Personnel</ref><sp/>unpersonnel)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd" kindref="compound">AccesConnexionBdd</ref>.<ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a13df939cbd1c80c239bb94b2b0b862dd" kindref="member">AddPersonnel</ref>(unpersonnel);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_1_1controleur_1_1_controle_1a8c46d718631edb8c0af70b6a93133708" kindref="member">AddAbsence</ref>(<ref refid="class_media_tek_1_1modele_1_1_absence" kindref="compound">Absence</ref><sp/>uneabs)</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd" kindref="compound">AccesConnexionBdd</ref>.<ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a5950b3e50043b5c3b469941d5a428388" kindref="member">AddAbsence</ref>(uneabs);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_1_1controleur_1_1_controle_1a7d1b52b2f6db0fbd7d7713c3c1a54d77" kindref="member">DelPersonnel</ref>(<ref refid="class_media_tek_1_1modele_1_1_personnel" kindref="compound">Personnel</ref><sp/>unpersonnel)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd" kindref="compound">AccesConnexionBdd</ref>.<ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a6c0c000fa833dbbbf50b5cc90b64defd" kindref="member">DelPersonnel</ref>(unpersonnel);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_1_1controleur_1_1_controle_1a943d2119a5568bb0580b88eb6a92d591" kindref="member">DelAbs</ref>(<ref refid="class_media_tek_1_1modele_1_1_absence" kindref="compound">Absence</ref><sp/>uneabs)</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd" kindref="compound">AccesConnexionBdd</ref>.<ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a4f65794f75241f803e2adfd7ad9f3a18" kindref="member">DelAbs</ref>(uneabs);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_1_1controleur_1_1_controle_1a99c77b6feb3926ab826b461f5ab15180" kindref="member">ModPersonnel</ref>(<ref refid="class_media_tek_1_1modele_1_1_personnel" kindref="compound">Personnel</ref><sp/>unpersonnel)</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd" kindref="compound">AccesConnexionBdd</ref>.<ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a46fcd22db0b11ec861632025028326e7" kindref="member">ModPersonnel</ref>(unpersonnel);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_1_1controleur_1_1_controle_1aa3130069979d186a680ba7435ab66deb" kindref="member">ModAbsdebut</ref>(<ref refid="class_media_tek_1_1modele_1_1_absence" kindref="compound">Absence</ref><sp/>uneabs)</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd" kindref="compound">AccesConnexionBdd</ref>.<ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a468de86ff8a5bac1cbffe7bd2b32627a" kindref="member">ModAbsdebut</ref>(uneabs);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_1_1controleur_1_1_controle_1a67f0153655b765062b11776dde9014a6" kindref="member">ModAbs</ref>(<ref refid="class_media_tek_1_1modele_1_1_absence" kindref="compound">Absence</ref><sp/>uneabs)</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd" kindref="compound">AccesConnexionBdd</ref>.<ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1aa724b83bc00104535c28b09634c3c4b2" kindref="member">ModAbs</ref>(uneabs);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>List&lt;Motif&gt;<sp/><ref refid="class_media_tek_1_1controleur_1_1_controle_1a5fa8934b6e8ed5bd40515d30f1da7ffb" kindref="member">GetMotifs</ref>()</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd" kindref="compound">AccesConnexionBdd</ref>.<ref refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a03c037a9e0a7ae352e0d788bafea5fe3" kindref="member">GetMotif</ref>();</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="DigimediaTek86/controleur/Controle.cs"/>
+  </compounddef>
+</doxygen>

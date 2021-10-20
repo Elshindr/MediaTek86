@@ -1,0 +1,511 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table" kind="class" language="C#" prot="public">
+    <compoundname>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global::SystemData::TypedTableBase&lt; serviceRow &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1aa52da46305635fecb4b8ee11bafd28fd" prot="private" static="no" mutable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.serviceDataTable.columnIDSERVICE</definition>
+        <argsstring></argsstring>
+        <name>columnIDSERVICE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1602" column="50" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1602" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a9296cb5305cc5bb81e40a1c5ace15c59" prot="private" static="no" mutable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.serviceDataTable.columnNOM</definition>
+        <argsstring></argsstring>
+        <name>columnNOM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1604" column="50" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1604" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a873216e98387fe2108384d7f163cebb1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.serviceDataTable.IDSERVICEColumn</definition>
+        <argsstring></argsstring>
+        <name>IDSERVICEColumn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1641" column="49" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1641" bodyend="1645"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a9d62dbc10a984eb26473fd33162dc3f0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.serviceDataTable.NOMColumn</definition>
+        <argsstring></argsstring>
+        <name>NOMColumn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1649" column="49" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1649" bodyend="1653"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1abdec60a4fcc48f539a05bf36a021f23a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MediaTek.DataBase.projetcnedDataSet.serviceDataTable.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1658" column="24" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1658" bodyend="1662"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a86d3b1773d443cad80ec066a8daf6780" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row" kindref="compound">serviceRow</ref></type>
+        <definition>serviceRow MediaTek.DataBase.projetcnedDataSet.serviceDataTable.this[int index]</definition>
+        <argsstring></argsstring>
+        <name>this[int index]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1666" column="31" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1666" bodyend="1670"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1adfe406ef66077c30db3f2a2294059ae9" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>serviceRowChangeEventHandler</type>
+        <definition>serviceRowChangeEventHandler MediaTek.DataBase.projetcnedDataSet.serviceDataTable.serviceRowChanging</definition>
+        <argsstring></argsstring>
+        <name>serviceRowChanging</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1673" column="55" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1673" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a0563ec8c6dd0bdfbce20b9cf965113c9" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>serviceRowChangeEventHandler</type>
+        <definition>serviceRowChangeEventHandler MediaTek.DataBase.projetcnedDataSet.serviceDataTable.serviceRowChanged</definition>
+        <argsstring></argsstring>
+        <name>serviceRowChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1676" column="55" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1676" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a861b13bd9e24d97ffcc515e5bb0d008f" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>serviceRowChangeEventHandler</type>
+        <definition>serviceRowChangeEventHandler MediaTek.DataBase.projetcnedDataSet.serviceDataTable.serviceRowDeleting</definition>
+        <argsstring></argsstring>
+        <name>serviceRowDeleting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1679" column="55" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1679" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a04b9c56b166d42eb0a00393f55af1dbf" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>serviceRowChangeEventHandler</type>
+        <definition>serviceRowChangeEventHandler MediaTek.DataBase.projetcnedDataSet.serviceDataTable.serviceRowDeleted</definition>
+        <argsstring></argsstring>
+        <name>serviceRowDeleted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1682" column="55" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1682" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a652aac66eaae486cf45b81d8aaa8301a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.DataBase.projetcnedDataSet.serviceDataTable.serviceDataTable</definition>
+        <argsstring>()</argsstring>
+        <name>serviceDataTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1608" column="20" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1608" bodyend="1613"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1ae7de864fded45a036ee0c6935c498571" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSet.serviceDataTable.AddserviceRow</definition>
+        <argsstring>(serviceRow row)</argsstring>
+        <name>AddserviceRow</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row" kindref="compound">serviceRow</ref></type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1686" column="25" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1686" bodyend="1688"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1ad6e063d5a9e07276ea43356c9580cd4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row" kindref="compound">serviceRow</ref></type>
+        <definition>serviceRow MediaTek.DataBase.projetcnedDataSet.serviceDataTable.AddserviceRow</definition>
+        <argsstring>(string NOM)</argsstring>
+        <name>AddserviceRow</name>
+        <param>
+          <type>string</type>
+          <declname>NOM</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1692" column="31" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1692" bodyend="1700"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a5946bc9bb2c64b4a90380541dee48825" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row" kindref="compound">serviceRow</ref></type>
+        <definition>serviceRow MediaTek.DataBase.projetcnedDataSet.serviceDataTable.FindByIDSERVICE</definition>
+        <argsstring>(int IDSERVICE)</argsstring>
+        <name>FindByIDSERVICE</name>
+        <param>
+          <type>int</type>
+          <declname>IDSERVICE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1704" column="31" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1704" bodyend="1707"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1ae0d9b372bd954e48048d12fffb57e93d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override global::System.Data.DataTable</type>
+        <definition>override global::System.Data.DataTable MediaTek.DataBase.projetcnedDataSet.serviceDataTable.Clone</definition>
+        <argsstring>()</argsstring>
+        <name>Clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1711" column="57" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1711" bodyend="1715"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a6a67855581432df3207eaadf77b0712b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row" kindref="compound">serviceRow</ref></type>
+        <definition>serviceRow MediaTek.DataBase.projetcnedDataSet.serviceDataTable.NewserviceRow</definition>
+        <argsstring>()</argsstring>
+        <name>NewserviceRow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1749" column="31" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1749" bodyend="1751"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1ad4c6668b8a42756ad4f92df0b99c252c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSet.serviceDataTable.RemoveserviceRow</definition>
+        <argsstring>(serviceRow row)</argsstring>
+        <name>RemoveserviceRow</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row" kindref="compound">serviceRow</ref></type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1803" column="25" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1803" bodyend="1805"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a0974fc5f15669fc39bcb200c260fbec2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.DataBase.projetcnedDataSet.serviceDataTable.serviceDataTable</definition>
+        <argsstring>(global::System.Data.DataTable table)</argsstring>
+        <name>serviceDataTable</name>
+        <param>
+          <type>global::System.Data.DataTable</type>
+          <declname>table</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1617" column="22" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1617" bodyend="1630"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1ac336aebe4e9e3d8e0c0c05292cf97bc6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSet.serviceDataTable.InitVars</definition>
+        <argsstring>()</argsstring>
+        <name>InitVars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1725" column="27" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1725" bodyend="1728"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a454a7c8fac6dba91252e4271f788653d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.DataBase.projetcnedDataSet.serviceDataTable.serviceDataTable</definition>
+        <argsstring>(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context)</argsstring>
+        <name>serviceDataTable</name>
+        <param>
+          <type>global::System.Runtime.Serialization.SerializationInfo</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>global::System.Runtime.Serialization.StreamingContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1634" column="23" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1634" bodyend="1637"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1af4a29105f47108fec12101628e87990c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override global::System.Data.DataTable</type>
+        <definition>override global::System.Data.DataTable MediaTek.DataBase.projetcnedDataSet.serviceDataTable.CreateInstance</definition>
+        <argsstring>()</argsstring>
+        <name>CreateInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1719" column="60" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1719" bodyend="1721"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a47f9c9658393a0fdd52bbc9219b6e894" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override global::System.Data.DataRow</type>
+        <definition>override global::System.Data.DataRow MediaTek.DataBase.projetcnedDataSet.serviceDataTable.NewRowFromBuilder</definition>
+        <argsstring>(global::System.Data.DataRowBuilder builder)</argsstring>
+        <name>NewRowFromBuilder</name>
+        <param>
+          <type>global::System.Data.DataRowBuilder</type>
+          <declname>builder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1755" column="58" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1755" bodyend="1757"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a0ca90dda833c195674a46a76be293359" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override global::System.Type</type>
+        <definition>override global::System.Type MediaTek.DataBase.projetcnedDataSet.serviceDataTable.GetRowType</definition>
+        <argsstring>()</argsstring>
+        <name>GetRowType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1761" column="51" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1761" bodyend="1763"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a4ee58af61ed199c34a53b8f8eccac2a2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaTek.DataBase.projetcnedDataSet.serviceDataTable.OnRowChanged</definition>
+        <argsstring>(global::System.Data.DataRowChangeEventArgs e)</argsstring>
+        <name>OnRowChanged</name>
+        <param>
+          <type>global::System.Data.DataRowChangeEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1767" column="37" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1767" bodyend="1772"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a0ac39c5f7e12cf14f13b6f4190abec9b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaTek.DataBase.projetcnedDataSet.serviceDataTable.OnRowChanging</definition>
+        <argsstring>(global::System.Data.DataRowChangeEventArgs e)</argsstring>
+        <name>OnRowChanging</name>
+        <param>
+          <type>global::System.Data.DataRowChangeEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1776" column="37" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1776" bodyend="1781"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1afb62fb558f860f38be38c516f7d4709d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaTek.DataBase.projetcnedDataSet.serviceDataTable.OnRowDeleted</definition>
+        <argsstring>(global::System.Data.DataRowChangeEventArgs e)</argsstring>
+        <name>OnRowDeleted</name>
+        <param>
+          <type>global::System.Data.DataRowChangeEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1785" column="37" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1785" bodyend="1790"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a0c86fb5f34ea96dd8f40982999bb2a65" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaTek.DataBase.projetcnedDataSet.serviceDataTable.OnRowDeleting</definition>
+        <argsstring>(global::System.Data.DataRowChangeEventArgs e)</argsstring>
+        <name>OnRowDeleting</name>
+        <param>
+          <type>global::System.Data.DataRowChangeEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1794" column="37" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1794" bodyend="1799"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1af8e9a853b6d329966d812b4cb0b80180" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSet.serviceDataTable.InitClass</definition>
+        <argsstring>()</argsstring>
+        <name>InitClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1732" column="26" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1732" bodyend="1745"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a7ef7fdc2216822847b578ba601faa231" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Xml.Schema.XmlSchemaComplexType</type>
+        <definition>static global::System.Xml.Schema.XmlSchemaComplexType MediaTek.DataBase.projetcnedDataSet.serviceDataTable.GetTypedTableSchema</definition>
+        <argsstring>(global::System.Xml.Schema.XmlSchemaSet xs)</argsstring>
+        <name>GetTypedTableSchema</name>
+        <param>
+          <type>global::System.Xml.Schema.XmlSchemaSet</type>
+          <declname>xs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1809" column="71" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1809" bodyend="1868"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSet.serviceDataTable</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemData::TypedTableBase&lt; serviceRow &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSet.serviceDataTable</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemData::TypedTableBase&lt; serviceRow &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1600" column="23" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1600" bodyend="1869"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1ae7de864fded45a036ee0c6935c498571" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>AddserviceRow</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1ad6e063d5a9e07276ea43356c9580cd4f" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>AddserviceRow</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1ae0d9b372bd954e48048d12fffb57e93d" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>Clone</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1aa52da46305635fecb4b8ee11bafd28fd" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>columnIDSERVICE</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a9296cb5305cc5bb81e40a1c5ace15c59" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>columnNOM</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1abdec60a4fcc48f539a05bf36a021f23a" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>Count</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1af4a29105f47108fec12101628e87990c" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>CreateInstance</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a5946bc9bb2c64b4a90380541dee48825" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>FindByIDSERVICE</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a0ca90dda833c195674a46a76be293359" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>GetRowType</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a7ef7fdc2216822847b578ba601faa231" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>GetTypedTableSchema</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a873216e98387fe2108384d7f163cebb1" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>IDSERVICEColumn</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1af8e9a853b6d329966d812b4cb0b80180" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>InitClass</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1ac336aebe4e9e3d8e0c0c05292cf97bc6" prot="package" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>InitVars</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a47f9c9658393a0fdd52bbc9219b6e894" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>NewRowFromBuilder</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a6a67855581432df3207eaadf77b0712b" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>NewserviceRow</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a9d62dbc10a984eb26473fd33162dc3f0" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>NOMColumn</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a4ee58af61ed199c34a53b8f8eccac2a2" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>OnRowChanged</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a0ac39c5f7e12cf14f13b6f4190abec9b" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>OnRowChanging</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1afb62fb558f860f38be38c516f7d4709d" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>OnRowDeleted</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a0c86fb5f34ea96dd8f40982999bb2a65" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>OnRowDeleting</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1ad4c6668b8a42756ad4f92df0b99c252c" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>RemoveserviceRow</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a652aac66eaae486cf45b81d8aaa8301a" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>serviceDataTable</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a0974fc5f15669fc39bcb200c260fbec2" prot="package" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>serviceDataTable</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a454a7c8fac6dba91252e4271f788653d" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>serviceDataTable</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a0563ec8c6dd0bdfbce20b9cf965113c9" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>serviceRowChanged</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1adfe406ef66077c30db3f2a2294059ae9" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>serviceRowChanging</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a04b9c56b166d42eb0a00393f55af1dbf" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>serviceRowDeleted</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a861b13bd9e24d97ffcc515e5bb0d008f" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>serviceRowDeleting</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a86d3b1773d443cad80ec066a8daf6780" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::serviceDataTable</scope><name>this[int index]</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="dir_4ad93f38c2d9ec5ce8c281afc718aecd" kind="dir">
+    <compoundname>DigimediaTek86/obj</compoundname>
+    <innerdir refid="dir_f229ee0f484d3174eeeb8ce223b730c7">DigimediaTek86/obj/Debug</innerdir>
+    <innerdir refid="dir_820ece415ab99cc37e25090b951e2734">DigimediaTek86/obj/Release</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DigimediaTek86/obj/"/>
+  </compounddef>
+</doxygen>

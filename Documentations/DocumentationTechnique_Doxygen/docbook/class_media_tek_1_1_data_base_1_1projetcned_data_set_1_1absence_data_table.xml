@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table" xml:lang="fr">
+<title>Référence de la classe MediaTek.DataBase.projetcnedDataSet.absenceDataTable</title>
+<indexterm><primary>MediaTek.DataBase.projetcnedDataSet.absenceDataTable</primary></indexterm>
+<para>
+
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+ 
+</para>
+<para>
+Est dérivée de global.SystemData.TypedTableBase&lt; absenceRow &gt;.</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1a0c073b1bcb12c69ef442b962068e0f2f"/>void <emphasis role="strong">AddabsenceRow</emphasis> (<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row">absenceRow</link> row)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1a0d0a3d0cd4a0ea7480858ae276ebe615"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row">absenceRow</link> <emphasis role="strong">AddabsenceRow</emphasis> (int IDPERSONNEL, System.DateTime DATEDEBUT, int IDMOTIF, System.DateTime DATEFIN)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1a551b2bc9952c7bc80ad96eb3b4d3125b"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row">absenceRow</link> <emphasis role="strong">FindByIDPERSONNELDATEDEBUT</emphasis> (int IDPERSONNEL, System.DateTime DATEDEBUT)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1a0c0a715c577bd66854261955175e62a5"/>override global::System.Data.DataTable <emphasis role="strong">Clone</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1a743953b9064db488b801da87ca910afb"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row">absenceRow</link> <emphasis role="strong">NewabsenceRow</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1a5a963c5e7e289ea72d894367eb605873"/>void <emphasis role="strong">RemoveabsenceRow</emphasis> (<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row">absenceRow</link> row)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres publiques statiques    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1aa2ef305e65d5c565a9a03e23b8365c5c"/>static global::System.Xml.Schema.XmlSchemaComplexType <emphasis role="strong">GetTypedTableSchema</emphasis> (global::System.Xml.Schema.XmlSchemaSet xs)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres protégées    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1aaaaa7642e3840aa6124f2b1aa4d2bba7"/><emphasis role="strong">absenceDataTable</emphasis> (global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1a6db0001d377db19e3731735bd6b42caa"/>override global::System.Data.DataTable <emphasis role="strong">CreateInstance</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1a4bc0c961c46c36cb267bc6e4d5971150"/>override global::System.Data.DataRow <emphasis role="strong">NewRowFromBuilder</emphasis> (global::System.Data.DataRowBuilder builder)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1ac061795c09f0cd98f34b91e4a6ec19b7"/>override global::System.Type <emphasis role="strong">GetRowType</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1ad9b17f05d9bd4442c44ce79af0e01d82"/>override void <emphasis role="strong">OnRowChanged</emphasis> (global::System.Data.DataRowChangeEventArgs e)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1a189c89ce537c0f202deb48f3c303d14e"/>override void <emphasis role="strong">OnRowChanging</emphasis> (global::System.Data.DataRowChangeEventArgs e)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1aa4fe755841fc0b54bc3a986a8b069d6e"/>override void <emphasis role="strong">OnRowDeleted</emphasis> (global::System.Data.DataRowChangeEventArgs e)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1a42dc4558115f4d9d599416fd55a0c7dd"/>override void <emphasis role="strong">OnRowDeleting</emphasis> (global::System.Data.DataRowChangeEventArgs e)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1ac165694f61db7af242550ea1d09239b8"/>global::System.Data.DataColumn <emphasis role="strong">IDPERSONNELColumn</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1af7d70e970184ccfc0308ea5c8a568a66"/>global::System.Data.DataColumn <emphasis role="strong">DATEDEBUTColumn</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1ae56323f76f954859fb0b387c3541bd48"/>global::System.Data.DataColumn <emphasis role="strong">IDMOTIFColumn</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1ac9fc208de30690897c9e90f1d3938510"/>global::System.Data.DataColumn <emphasis role="strong">DATEFINColumn</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1ad73aedccd3da252fd35f1cc9c8cd0b59"/>int <emphasis role="strong">Count</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1a2f5596a3b92b2a650e24b8684e0da06a"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row">absenceRow</link> <emphasis role="strong">this[int index]</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Événements    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1a22ef6800937050238689662852b327ce"/>absenceRowChangeEventHandler <emphasis role="strong">absenceRowChanging</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1aea7da292b2de7057784bb9db6a32ce9e"/>absenceRowChangeEventHandler <emphasis role="strong">absenceRowChanged</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1a74c54af1226d34a2e5494f6bef9055b0"/>absenceRowChangeEventHandler <emphasis role="strong">absenceRowDeleting</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table_1aedb49b1d1b7b17cb1ba4e9be55499571"/>absenceRowChangeEventHandler <emphasis role="strong">absenceRowDeleted</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs</section>
+</section>

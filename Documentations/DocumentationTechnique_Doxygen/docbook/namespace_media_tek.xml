@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_media_tek" xml:lang="fr">
+<title>Référence de l&apos;espace de nommage MediaTek</title>
+<indexterm><primary>MediaTek</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <emphasis role="strong">Program</emphasis></para>
+
+<para>Classe d&apos;entrée de l&apos;application </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

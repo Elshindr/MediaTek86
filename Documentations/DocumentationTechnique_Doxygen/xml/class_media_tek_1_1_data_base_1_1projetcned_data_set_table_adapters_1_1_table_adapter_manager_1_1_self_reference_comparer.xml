@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer" kind="class" language="C#" prot="private">
+    <compoundname>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager::SelfReferenceComparer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">global::SystemCollections::Generic::IComparer&lt; global::System.Data.DataRow &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1a379fc6fa314ef38f5d71f62b4e85695a" prot="private" static="no" mutable="no">
+        <type>global::System.Data.DataRelation</type>
+        <definition>global::System.Data.DataRelation MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer._relation</definition>
+        <argsstring></argsstring>
+        <name>_relation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="5123" column="52" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="5123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1a6744f97f838005507e07911075f47607" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer._childFirst</definition>
+        <argsstring></argsstring>
+        <name>_childFirst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="5125" column="25" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="5125" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1a8d35786fb7713df316a4c0e27019fbc7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer.SelfReferenceComparer</definition>
+        <argsstring>(global::System.Data.DataRelation relation, bool childFirst)</argsstring>
+        <name>SelfReferenceComparer</name>
+        <param>
+          <type>global::System.Data.DataRelation</type>
+          <declname>relation</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>childFirst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="5129" column="22" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="5129" bodyend="5137"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1ad16ef3f27ffd359f72f4135bb4036aee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Data.DataRow</type>
+        <definition>global::System.Data.DataRow MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer.GetRoot</definition>
+        <argsstring>(global::System.Data.DataRow row, out int distance)</argsstring>
+        <name>GetRoot</name>
+        <param>
+          <type>global::System.Data.DataRow</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="5141" column="47" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="5141" bodyend="5176"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1afe75672fac317173f6cf7298e9f06fae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer.Compare</definition>
+        <argsstring>(global::System.Data.DataRow row1, global::System.Data.DataRow row2)</argsstring>
+        <name>Compare</name>
+        <param>
+          <type>global::System.Data.DataRow</type>
+          <declname>row1</declname>
+        </param>
+        <param>
+          <type>global::System.Data.DataRow</type>
+          <declname>row2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="5180" column="24" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="5180" bodyend="5210"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Used to sort self-referenced table&apos;s rows /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>global::SystemCollections::Generic::IComparer&lt; global::System.Data.DataRow &gt;</label>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>global::SystemCollections::Generic::IComparer&lt; global::System.Data.DataRow &gt;</label>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="5121" column="16" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="5121" bodyend="5211"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1a6744f97f838005507e07911075f47607" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager::SelfReferenceComparer</scope><name>_childFirst</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1a379fc6fa314ef38f5d71f62b4e85695a" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager::SelfReferenceComparer</scope><name>_relation</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1afe75672fac317173f6cf7298e9f06fae" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager::SelfReferenceComparer</scope><name>Compare</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1ad16ef3f27ffd359f72f4135bb4036aee" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager::SelfReferenceComparer</scope><name>GetRoot</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer_1a8d35786fb7713df316a4c0e27019fbc7" prot="package" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager::SelfReferenceComparer</scope><name>SelfReferenceComparer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

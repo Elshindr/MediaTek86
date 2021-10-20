@@ -1,0 +1,511 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table" kind="class" language="C#" prot="public">
+    <compoundname>MediaTek::DataBase::projetcnedDataSet::motifDataTable</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global::SystemData::TypedTableBase&lt; motifRow &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1abe93a871a9f91f0c5b42b9a8a40935bd" prot="private" static="no" mutable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.motifDataTable.columnIDMOTIF</definition>
+        <argsstring></argsstring>
+        <name>columnIDMOTIF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="725" column="50" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="725" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a799405e76c4ab761851d1b0a8c5bd588" prot="private" static="no" mutable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.motifDataTable.columnLIBELLE</definition>
+        <argsstring></argsstring>
+        <name>columnLIBELLE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="727" column="50" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="727" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a392a6f2ce30aef46d08dbfc9ba44dcab" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.motifDataTable.IDMOTIFColumn</definition>
+        <argsstring></argsstring>
+        <name>IDMOTIFColumn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="764" column="49" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="764" bodyend="768"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a080b664697bec6e5158e9ffc478f734a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.motifDataTable.LIBELLEColumn</definition>
+        <argsstring></argsstring>
+        <name>LIBELLEColumn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="772" column="49" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="772" bodyend="776"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1af01c08aca75a4f6360801750c9724073" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MediaTek.DataBase.projetcnedDataSet.motifDataTable.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="781" column="24" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="781" bodyend="785"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a429530a8f319a0e92dba2c61559a713b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row" kindref="compound">motifRow</ref></type>
+        <definition>motifRow MediaTek.DataBase.projetcnedDataSet.motifDataTable.this[int index]</definition>
+        <argsstring></argsstring>
+        <name>this[int index]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="789" column="29" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="789" bodyend="793"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a1abada30ef460245b50f2120aec28151" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>motifRowChangeEventHandler</type>
+        <definition>motifRowChangeEventHandler MediaTek.DataBase.projetcnedDataSet.motifDataTable.motifRowChanging</definition>
+        <argsstring></argsstring>
+        <name>motifRowChanging</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="796" column="53" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="796" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a0abf146d2d7c343c4f6e4654288cfbc7" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>motifRowChangeEventHandler</type>
+        <definition>motifRowChangeEventHandler MediaTek.DataBase.projetcnedDataSet.motifDataTable.motifRowChanged</definition>
+        <argsstring></argsstring>
+        <name>motifRowChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="799" column="53" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="799" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a11b2da161d7f9b532f69d19ff3cfddb9" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>motifRowChangeEventHandler</type>
+        <definition>motifRowChangeEventHandler MediaTek.DataBase.projetcnedDataSet.motifDataTable.motifRowDeleting</definition>
+        <argsstring></argsstring>
+        <name>motifRowDeleting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="802" column="53" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="802" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1aa14de0c3d365928e4693ecd80e15630e" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>motifRowChangeEventHandler</type>
+        <definition>motifRowChangeEventHandler MediaTek.DataBase.projetcnedDataSet.motifDataTable.motifRowDeleted</definition>
+        <argsstring></argsstring>
+        <name>motifRowDeleted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="805" column="53" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="805" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1adf48fbe4f0994ba1b2a293c98f9a2b79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.DataBase.projetcnedDataSet.motifDataTable.motifDataTable</definition>
+        <argsstring>()</argsstring>
+        <name>motifDataTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="731" column="20" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="731" bodyend="736"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a3df458459ddc1c44c203c143abdc953c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSet.motifDataTable.AddmotifRow</definition>
+        <argsstring>(motifRow row)</argsstring>
+        <name>AddmotifRow</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row" kindref="compound">motifRow</ref></type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="809" column="25" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="809" bodyend="811"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a44b4b09590816f598b78e2fdb78f4656" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row" kindref="compound">motifRow</ref></type>
+        <definition>motifRow MediaTek.DataBase.projetcnedDataSet.motifDataTable.AddmotifRow</definition>
+        <argsstring>(string LIBELLE)</argsstring>
+        <name>AddmotifRow</name>
+        <param>
+          <type>string</type>
+          <declname>LIBELLE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="815" column="29" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="815" bodyend="823"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1aff88a04456bb5b52ae075aba4768c643" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row" kindref="compound">motifRow</ref></type>
+        <definition>motifRow MediaTek.DataBase.projetcnedDataSet.motifDataTable.FindByIDMOTIF</definition>
+        <argsstring>(int IDMOTIF)</argsstring>
+        <name>FindByIDMOTIF</name>
+        <param>
+          <type>int</type>
+          <declname>IDMOTIF</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="827" column="29" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="827" bodyend="830"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a9775d3daf7740a12f9625885d28593bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override global::System.Data.DataTable</type>
+        <definition>override global::System.Data.DataTable MediaTek.DataBase.projetcnedDataSet.motifDataTable.Clone</definition>
+        <argsstring>()</argsstring>
+        <name>Clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="834" column="57" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="834" bodyend="838"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a498544e6e61c4b1a3272978135585f91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row" kindref="compound">motifRow</ref></type>
+        <definition>motifRow MediaTek.DataBase.projetcnedDataSet.motifDataTable.NewmotifRow</definition>
+        <argsstring>()</argsstring>
+        <name>NewmotifRow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="872" column="29" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="872" bodyend="874"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1aeae9d7c1b714945eabb520cf93b30ba8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSet.motifDataTable.RemovemotifRow</definition>
+        <argsstring>(motifRow row)</argsstring>
+        <name>RemovemotifRow</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row" kindref="compound">motifRow</ref></type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="926" column="25" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="926" bodyend="928"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a83994464084036749386fe22ac677636" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.DataBase.projetcnedDataSet.motifDataTable.motifDataTable</definition>
+        <argsstring>(global::System.Data.DataTable table)</argsstring>
+        <name>motifDataTable</name>
+        <param>
+          <type>global::System.Data.DataTable</type>
+          <declname>table</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="740" column="22" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="740" bodyend="753"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1afa6763850341bcad92043a34113f790e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSet.motifDataTable.InitVars</definition>
+        <argsstring>()</argsstring>
+        <name>InitVars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="848" column="27" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="848" bodyend="851"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a48784298cd42bc1b85bd9ebd7d23c2ea" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.DataBase.projetcnedDataSet.motifDataTable.motifDataTable</definition>
+        <argsstring>(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context)</argsstring>
+        <name>motifDataTable</name>
+        <param>
+          <type>global::System.Runtime.Serialization.SerializationInfo</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>global::System.Runtime.Serialization.StreamingContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="757" column="23" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="757" bodyend="760"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a775fadbbe0f9eb6e69a906a59d48a5bf" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override global::System.Data.DataTable</type>
+        <definition>override global::System.Data.DataTable MediaTek.DataBase.projetcnedDataSet.motifDataTable.CreateInstance</definition>
+        <argsstring>()</argsstring>
+        <name>CreateInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="842" column="60" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="842" bodyend="844"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1afdfcb70fbcbc8d2e58466c120bb6ddac" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override global::System.Data.DataRow</type>
+        <definition>override global::System.Data.DataRow MediaTek.DataBase.projetcnedDataSet.motifDataTable.NewRowFromBuilder</definition>
+        <argsstring>(global::System.Data.DataRowBuilder builder)</argsstring>
+        <name>NewRowFromBuilder</name>
+        <param>
+          <type>global::System.Data.DataRowBuilder</type>
+          <declname>builder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="878" column="58" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="878" bodyend="880"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a725b4a8be1cf895d9751f9383956c58b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override global::System.Type</type>
+        <definition>override global::System.Type MediaTek.DataBase.projetcnedDataSet.motifDataTable.GetRowType</definition>
+        <argsstring>()</argsstring>
+        <name>GetRowType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="884" column="51" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="884" bodyend="886"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1acdf264667bcf3640325247ef231e65dd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaTek.DataBase.projetcnedDataSet.motifDataTable.OnRowChanged</definition>
+        <argsstring>(global::System.Data.DataRowChangeEventArgs e)</argsstring>
+        <name>OnRowChanged</name>
+        <param>
+          <type>global::System.Data.DataRowChangeEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="890" column="37" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="890" bodyend="895"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a33abfc2bf1b8e355b5e1ba0f06a8f59b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaTek.DataBase.projetcnedDataSet.motifDataTable.OnRowChanging</definition>
+        <argsstring>(global::System.Data.DataRowChangeEventArgs e)</argsstring>
+        <name>OnRowChanging</name>
+        <param>
+          <type>global::System.Data.DataRowChangeEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="899" column="37" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="899" bodyend="904"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a8098f4baf3141b685aa8c6ed07d04107" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaTek.DataBase.projetcnedDataSet.motifDataTable.OnRowDeleted</definition>
+        <argsstring>(global::System.Data.DataRowChangeEventArgs e)</argsstring>
+        <name>OnRowDeleted</name>
+        <param>
+          <type>global::System.Data.DataRowChangeEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="908" column="37" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="908" bodyend="913"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a41802014cef7c890eaab0f329eb2e872" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaTek.DataBase.projetcnedDataSet.motifDataTable.OnRowDeleting</definition>
+        <argsstring>(global::System.Data.DataRowChangeEventArgs e)</argsstring>
+        <name>OnRowDeleting</name>
+        <param>
+          <type>global::System.Data.DataRowChangeEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="917" column="37" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="917" bodyend="922"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1aa33be82a99f81e997abb933fa204222a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSet.motifDataTable.InitClass</definition>
+        <argsstring>()</argsstring>
+        <name>InitClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="855" column="26" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="855" bodyend="868"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a21784851df9e1b3b5769c69802261508" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Xml.Schema.XmlSchemaComplexType</type>
+        <definition>static global::System.Xml.Schema.XmlSchemaComplexType MediaTek.DataBase.projetcnedDataSet.motifDataTable.GetTypedTableSchema</definition>
+        <argsstring>(global::System.Xml.Schema.XmlSchemaSet xs)</argsstring>
+        <name>GetTypedTableSchema</name>
+        <param>
+          <type>global::System.Xml.Schema.XmlSchemaSet</type>
+          <declname>xs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="932" column="71" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="932" bodyend="991"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSet.motifDataTable</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemData::TypedTableBase&lt; motifRow &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSet.motifDataTable</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemData::TypedTableBase&lt; motifRow &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="723" column="23" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="723" bodyend="992"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a3df458459ddc1c44c203c143abdc953c" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>AddmotifRow</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a44b4b09590816f598b78e2fdb78f4656" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>AddmotifRow</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a9775d3daf7740a12f9625885d28593bf" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>Clone</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1abe93a871a9f91f0c5b42b9a8a40935bd" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>columnIDMOTIF</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a799405e76c4ab761851d1b0a8c5bd588" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>columnLIBELLE</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1af01c08aca75a4f6360801750c9724073" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>Count</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a775fadbbe0f9eb6e69a906a59d48a5bf" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>CreateInstance</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1aff88a04456bb5b52ae075aba4768c643" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>FindByIDMOTIF</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a725b4a8be1cf895d9751f9383956c58b" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>GetRowType</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a21784851df9e1b3b5769c69802261508" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>GetTypedTableSchema</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a392a6f2ce30aef46d08dbfc9ba44dcab" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>IDMOTIFColumn</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1aa33be82a99f81e997abb933fa204222a" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>InitClass</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1afa6763850341bcad92043a34113f790e" prot="package" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>InitVars</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a080b664697bec6e5158e9ffc478f734a" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>LIBELLEColumn</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1adf48fbe4f0994ba1b2a293c98f9a2b79" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>motifDataTable</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a83994464084036749386fe22ac677636" prot="package" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>motifDataTable</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a48784298cd42bc1b85bd9ebd7d23c2ea" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>motifDataTable</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a0abf146d2d7c343c4f6e4654288cfbc7" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>motifRowChanged</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a1abada30ef460245b50f2120aec28151" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>motifRowChanging</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1aa14de0c3d365928e4693ecd80e15630e" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>motifRowDeleted</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a11b2da161d7f9b532f69d19ff3cfddb9" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>motifRowDeleting</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a498544e6e61c4b1a3272978135585f91" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>NewmotifRow</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1afdfcb70fbcbc8d2e58466c120bb6ddac" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>NewRowFromBuilder</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1acdf264667bcf3640325247ef231e65dd" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>OnRowChanged</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a33abfc2bf1b8e355b5e1ba0f06a8f59b" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>OnRowChanging</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a8098f4baf3141b685aa8c6ed07d04107" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>OnRowDeleted</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a41802014cef7c890eaab0f329eb2e872" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>OnRowDeleting</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1aeae9d7c1b714945eabb520cf93b30ba8" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>RemovemotifRow</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a429530a8f319a0e92dba2c61559a713b" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::motifDataTable</scope><name>this[int index]</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

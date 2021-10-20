@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_4ad93f38c2d9ec5ce8c281afc718aecd" xml:lang="fr">
+<title>Répertoire de référence de DigimediaTek86/obj</title>
+<indexterm><primary>Répertoire de référence de DigimediaTek86/obj</primary></indexterm>
+<simplesect>
+    <title>Répertoires    </title>
+        <itemizedlist>
+            <listitem><para>répertoire <link linkend="_dir_f229ee0f484d3174eeeb8ce223b730c7">Debug</link></para>
+</listitem>
+            <listitem><para>répertoire <link linkend="_dir_820ece415ab99cc37e25090b951e2734">Release</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="dir_5b8f81b93f2829baf7244ef41799e628" kind="dir">
+    <compoundname>DigimediaTek86/vue</compoundname>
+    <innerfile refid="_frm_connexion_8cs">FrmConnexion.cs</innerfile>
+    <innerfile refid="_frm_connexion_8_designer_8cs">FrmConnexion.Designer.cs</innerfile>
+    <innerfile refid="_frm_gestion_8cs">FrmGestion.cs</innerfile>
+    <innerfile refid="_frm_gestion_8_designer_8cs">FrmGestion.Designer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DigimediaTek86/vue/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1modele_1_1_motif" xml:lang="fr">
+<title>Référence de la classe MediaTek.modele.Motif</title>
+<indexterm><primary>MediaTek.modele.Motif</primary></indexterm>
+<para>
+
+<para>Classe représentant les motifs d&apos;absence d&apos;un personnel </para>
+ 
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_1_1modele_1_1_motif_1afc5eec43d187bc5b05198c16624725ca">Motif</link> (int idmotif, string libelle)</para>
+
+<para>Constructeur de <link linkend="_class_media_tek_1_1modele_1_1_motif">Motif</link> et valorise ses propriétés </para>
+</listitem>
+            <listitem><para>override string <link linkend="_class_media_tek_1_1modele_1_1_motif_1ac5c7388e87d043d441a49945f5dc7481">ToString</link> ()</para>
+
+<para>Définir le libelle à afficher </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1modele_1_1_motif_1a253df8290953312336a3c13b1073f4f2"/>int <emphasis role="strong">Idmotif</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Getter sur idmotif </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1modele_1_1_motif_1aa36d133b6a9d5510b92915eb1630f8d1"/>string <emphasis role="strong">Libelle</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Getter sur libelle </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Classe représentant les motifs d&apos;absence d&apos;un personnel </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_1_1modele_1_1_motif_1afc5eec43d187bc5b05198c16624725ca"/><section>
+    <title>Motif()</title>
+<indexterm><primary>Motif</primary><secondary>MediaTek.modele.Motif</secondary></indexterm>
+<indexterm><primary>MediaTek.modele.Motif</primary><secondary>Motif</secondary></indexterm>
+<para><computeroutput>MediaTek.modele.Motif.Motif (int idmotif, string libelle)</computeroutput></para><para>
+
+<para>Constructeur de <link linkend="_class_media_tek_1_1modele_1_1_motif">Motif</link> et valorise ses propriétés </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>idmotif</entry><entry></entry>
+                            </row>
+                            <row>
+<entry>libelle</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Documentation des fonctions membres</title>
+<anchor xml:id="_class_media_tek_1_1modele_1_1_motif_1ac5c7388e87d043d441a49945f5dc7481"/><section>
+    <title>ToString()</title>
+<indexterm><primary>ToString</primary><secondary>MediaTek.modele.Motif</secondary></indexterm>
+<indexterm><primary>MediaTek.modele.Motif</primary><secondary>ToString</secondary></indexterm>
+<para><computeroutput>override string MediaTek.modele.Motif.ToString ( )</computeroutput></para><para>
+
+<para>Définir le libelle à afficher </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para></para>
+</formalpara>
+</para>
+</section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/modele/Motif.cs</section>
+</section>

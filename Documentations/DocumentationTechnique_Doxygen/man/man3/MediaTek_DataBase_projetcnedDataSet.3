@@ -1,0 +1,161 @@
+.TH "MediaTek.DataBase.projetcnedDataSet" 3 "Mardi 19 Octobre 2021" "Digimedia86" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MediaTek.DataBase.projetcnedDataSet \- Represents a strongly typed in-memory cache of data\&. /summary>  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Est dérivée de global\&.SystemData\&.DataSet\&.
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBabsenceDataTable\fP"
+.br
+.RI "Represents the strongly named DataTable class\&. /summary> "
+.ti -1c
+.RI "class \fBabsenceRow\fP"
+.br
+.RI "Represents strongly named DataRow class\&. /summary> "
+.ti -1c
+.RI "class \fBabsenceRowChangeEvent\fP"
+.br
+.RI "Row event argument class /summary> "
+.ti -1c
+.RI "class \fBmotifDataTable\fP"
+.br
+.RI "Represents the strongly named DataTable class\&. /summary> "
+.ti -1c
+.RI "class \fBmotifRow\fP"
+.br
+.RI "Represents strongly named DataRow class\&. /summary> "
+.ti -1c
+.RI "class \fBmotifRowChangeEvent\fP"
+.br
+.RI "Row event argument class /summary> "
+.ti -1c
+.RI "class \fBpersonnelDataTable\fP"
+.br
+.RI "Represents the strongly named DataTable class\&. /summary> "
+.ti -1c
+.RI "class \fBpersonnelRow\fP"
+.br
+.RI "Represents strongly named DataRow class\&. /summary> "
+.ti -1c
+.RI "class \fBpersonnelRowChangeEvent\fP"
+.br
+.RI "Row event argument class /summary> "
+.ti -1c
+.RI "class \fBresponsableDataTable\fP"
+.br
+.RI "Represents the strongly named DataTable class\&. /summary> "
+.ti -1c
+.RI "class \fBresponsableRow\fP"
+.br
+.RI "Represents strongly named DataRow class\&. /summary> "
+.ti -1c
+.RI "class \fBresponsableRowChangeEvent\fP"
+.br
+.RI "Row event argument class /summary> "
+.ti -1c
+.RI "class \fBserviceDataTable\fP"
+.br
+.RI "Represents the strongly named DataTable class\&. /summary> "
+.ti -1c
+.RI "class \fBserviceRow\fP"
+.br
+.RI "Represents strongly named DataRow class\&. /summary> "
+.ti -1c
+.RI "class \fBserviceRowChangeEvent\fP"
+.br
+.RI "Row event argument class /summary> "
+.in -1c
+.SS "Fonctions membres publiques"
+
+.in +1c
+.ti -1c
+.RI "override global::System\&.Data\&.DataSet \fBClone\fP ()"
+.br
+.ti -1c
+.RI "delegate void \fBabsenceRowChangeEventHandler\fP (object sender, \fBabsenceRowChangeEvent\fP e)"
+.br
+.ti -1c
+.RI "delegate void \fBmotifRowChangeEventHandler\fP (object sender, \fBmotifRowChangeEvent\fP e)"
+.br
+.ti -1c
+.RI "delegate void \fBpersonnelRowChangeEventHandler\fP (object sender, \fBpersonnelRowChangeEvent\fP e)"
+.br
+.ti -1c
+.RI "delegate void \fBresponsableRowChangeEventHandler\fP (object sender, \fBresponsableRowChangeEvent\fP e)"
+.br
+.ti -1c
+.RI "delegate void \fBserviceRowChangeEventHandler\fP (object sender, \fBserviceRowChangeEvent\fP e)"
+.br
+.in -1c
+.SS "Fonctions membres publiques statiques"
+
+.in +1c
+.ti -1c
+.RI "static global::System\&.Xml\&.Schema\&.XmlSchemaComplexType \fBGetTypedDataSetSchema\fP (global::System\&.Xml\&.Schema\&.XmlSchemaSet xs)"
+.br
+.in -1c
+.SS "Fonctions membres protégées"
+
+.in +1c
+.ti -1c
+.RI "\fBprojetcnedDataSet\fP (global::System\&.Runtime\&.Serialization\&.SerializationInfo info, global::System\&.Runtime\&.Serialization\&.StreamingContext context)"
+.br
+.ti -1c
+.RI "override void \fBInitializeDerivedDataSet\fP ()"
+.br
+.ti -1c
+.RI "override bool \fBShouldSerializeTables\fP ()"
+.br
+.ti -1c
+.RI "override bool \fBShouldSerializeRelations\fP ()"
+.br
+.ti -1c
+.RI "override void \fBReadXmlSerializable\fP (global::System\&.Xml\&.XmlReader reader)"
+.br
+.ti -1c
+.RI "override global::System\&.Xml\&.Schema\&.XmlSchema \fBGetSchemaSerializable\fP ()"
+.br
+.in -1c
+.SS "Propriétés"
+
+.in +1c
+.ti -1c
+.RI "\fBabsenceDataTable\fP \fBabsence\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBmotifDataTable\fP \fBmotif\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBpersonnelDataTable\fP \fBpersonnel\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBresponsableDataTable\fP \fBresponsable\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBserviceDataTable\fP \fBservice\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "override global::System\&.Data\&.SchemaSerializationMode \fBSchemaSerializationMode\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "new global::System\&.Data\&.DataTableCollection \fBTables\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "new global::System\&.Data\&.DataRelationCollection \fBRelations\fP\fC [get]\fP"
+.br
+.in -1c
+.SH "Description détaillée"
+.PP 
+Represents a strongly typed in-memory cache of data\&. /summary> 
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour Digimedia86 à partir du code source\&.

@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1controleur_1_1_controle" kind="class" language="C#" prot="public">
+    <compoundname>MediaTek::controleur::Controle</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1controleur_1_1_controle_1abf10350c186d9ee19415f31c50506e71" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_tek_1_1vue_1_1_frm_connexion" kindref="compound">FrmConnexion</ref></type>
+        <definition>FrmConnexion MediaTek.controleur.Controle.frmConnexion</definition>
+        <argsstring></argsstring>
+        <name>frmConnexion</name>
+        <briefdescription>
+<para>Fenetre de connexion </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/controleur/Controle.cs" line="18" column="30" bodyfile="DigimediaTek86/controleur/Controle.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_1_1controleur_1_1_controle_1a7bfc16c571f774a5e5eddc124f7127f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.controleur.Controle.Controle</definition>
+        <argsstring>()</argsstring>
+        <name>Controle</name>
+        <briefdescription>
+<para>Contructeur et ouverture de la fenetre FrmConnexion </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/controleur/Controle.cs" line="24" column="16" bodyfile="DigimediaTek86/controleur/Controle.cs" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1controleur_1_1_controle_1a257a4792f9ac1755ebd961167d49434c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean MediaTek.controleur.Controle.Authentification</definition>
+        <argsstring>(string log, string pwd)</argsstring>
+        <name>Authentification</name>
+        <param>
+          <type>string</type>
+          <declname>log</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>pwd</declname>
+        </param>
+        <briefdescription>
+<para>Methode de vérification de connexion, si vrai, ouverture de la fenetre FrmGestion </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string log</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pwd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string pwd</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retourne Vrai si l&apos;authentification réussi, sinon Faux</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/controleur/Controle.cs" line="38" column="24" bodyfile="DigimediaTek86/controleur/Controle.cs" bodystart="38" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1controleur_1_1_controle_1a53c814aa157ea9d198afb555639bf6fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_1_1modele_1_1_personnel" kindref="compound">Personnel</ref> &gt;</type>
+        <definition>List&lt; Personnel &gt; MediaTek.controleur.Controle.GetPersonnels</definition>
+        <argsstring>()</argsstring>
+        <name>GetPersonnels</name>
+        <briefdescription>
+<para>Recuperer puis retourner les infos du personnel de la base de données </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Liste et infos sur le personnel</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/controleur/Controle.cs" line="59" column="21" bodyfile="DigimediaTek86/controleur/Controle.cs" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1controleur_1_1_controle_1a986e0167fe8f85e24cc46a03902c22c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_1_1modele_1_1_service" kindref="compound">Service</ref> &gt;</type>
+        <definition>List&lt; Service &gt; MediaTek.controleur.Controle.GetService</definition>
+        <argsstring>()</argsstring>
+        <name>GetService</name>
+        <briefdescription>
+<para>Récupérer puis retourner la liste des services </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/controleur/Controle.cs" line="69" column="21" bodyfile="DigimediaTek86/controleur/Controle.cs" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1controleur_1_1_controle_1a203eac8b66aa2aec0769b9ba8e5492dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_1_1modele_1_1_absence" kindref="compound">Absence</ref> &gt;</type>
+        <definition>List&lt; Absence &gt; MediaTek.controleur.Controle.GetAbsences</definition>
+        <argsstring>(Personnel unpersonnel)</argsstring>
+        <name>GetAbsences</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1modele_1_1_personnel" kindref="compound">Personnel</ref></type>
+          <declname>unpersonnel</declname>
+        </param>
+        <briefdescription>
+<para>Récupérer puis retourner les infos d&apos;un personnel sur ses absences </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Liste des absences</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/controleur/Controle.cs" line="78" column="21" bodyfile="DigimediaTek86/controleur/Controle.cs" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1controleur_1_1_controle_1afcfccd3149b91c0bfa20005a73eed910" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.controleur.Controle.AddPersonnel</definition>
+        <argsstring>(Personnel unpersonnel)</argsstring>
+        <name>AddPersonnel</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1modele_1_1_personnel" kindref="compound">Personnel</ref></type>
+          <declname>unpersonnel</declname>
+        </param>
+        <briefdescription>
+<para>Ajouter un personnel </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>unpersonnel</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/controleur/Controle.cs" line="88" column="21" bodyfile="DigimediaTek86/controleur/Controle.cs" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1controleur_1_1_controle_1a8c46d718631edb8c0af70b6a93133708" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.controleur.Controle.AddAbsence</definition>
+        <argsstring>(Absence uneabs)</argsstring>
+        <name>AddAbsence</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1modele_1_1_absence" kindref="compound">Absence</ref></type>
+          <declname>uneabs</declname>
+        </param>
+        <briefdescription>
+<para>Ajouter une absence </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uneabs</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/controleur/Controle.cs" line="98" column="21" bodyfile="DigimediaTek86/controleur/Controle.cs" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1controleur_1_1_controle_1a7d1b52b2f6db0fbd7d7713c3c1a54d77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.controleur.Controle.DelPersonnel</definition>
+        <argsstring>(Personnel unpersonnel)</argsstring>
+        <name>DelPersonnel</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1modele_1_1_personnel" kindref="compound">Personnel</ref></type>
+          <declname>unpersonnel</declname>
+        </param>
+        <briefdescription>
+<para>Supprimer un personnel </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>unpersonnel</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/controleur/Controle.cs" line="108" column="21" bodyfile="DigimediaTek86/controleur/Controle.cs" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1controleur_1_1_controle_1a943d2119a5568bb0580b88eb6a92d591" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.controleur.Controle.DelAbs</definition>
+        <argsstring>(Absence uneabs)</argsstring>
+        <name>DelAbs</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1modele_1_1_absence" kindref="compound">Absence</ref></type>
+          <declname>uneabs</declname>
+        </param>
+        <briefdescription>
+<para>Supprimer une absence </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uneabs</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/controleur/Controle.cs" line="118" column="21" bodyfile="DigimediaTek86/controleur/Controle.cs" bodystart="118" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1controleur_1_1_controle_1a99c77b6feb3926ab826b461f5ab15180" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.controleur.Controle.ModPersonnel</definition>
+        <argsstring>(Personnel unpersonnel)</argsstring>
+        <name>ModPersonnel</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1modele_1_1_personnel" kindref="compound">Personnel</ref></type>
+          <declname>unpersonnel</declname>
+        </param>
+        <briefdescription>
+<para>Modifier les informations d&apos;un personnel </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>unpersonnel</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/controleur/Controle.cs" line="128" column="21" bodyfile="DigimediaTek86/controleur/Controle.cs" bodystart="128" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1controleur_1_1_controle_1aa3130069979d186a680ba7435ab66deb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.controleur.Controle.ModAbsdebut</definition>
+        <argsstring>(Absence uneabs)</argsstring>
+        <name>ModAbsdebut</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1modele_1_1_absence" kindref="compound">Absence</ref></type>
+          <declname>uneabs</declname>
+        </param>
+        <briefdescription>
+<para>Modifier la date d&apos;entrée d&apos;une absence </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uneabs</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/controleur/Controle.cs" line="138" column="21" bodyfile="DigimediaTek86/controleur/Controle.cs" bodystart="138" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1controleur_1_1_controle_1a67f0153655b765062b11776dde9014a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.controleur.Controle.ModAbs</definition>
+        <argsstring>(Absence uneabs)</argsstring>
+        <name>ModAbs</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1modele_1_1_absence" kindref="compound">Absence</ref></type>
+          <declname>uneabs</declname>
+        </param>
+        <briefdescription>
+<para>Modifier le motif et la date de fin d&apos;une absence </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uneabs</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/controleur/Controle.cs" line="148" column="21" bodyfile="DigimediaTek86/controleur/Controle.cs" bodystart="148" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1controleur_1_1_controle_1a5fa8934b6e8ed5bd40515d30f1da7ffb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_1_1modele_1_1_motif" kindref="compound">Motif</ref> &gt;</type>
+        <definition>List&lt; Motif &gt; MediaTek.controleur.Controle.GetMotifs</definition>
+        <argsstring>()</argsstring>
+        <name>GetMotifs</name>
+        <briefdescription>
+<para>Récupérer la liste des motifs d&apos;absence </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/controleur/Controle.cs" line="158" column="21" bodyfile="DigimediaTek86/controleur/Controle.cs" bodystart="158" bodyend="161"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe de controleur </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DigimediaTek86/controleur/Controle.cs" line="13" column="8" bodyfile="DigimediaTek86/controleur/Controle.cs" bodystart="14" bodyend="162"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1controleur_1_1_controle_1a8c46d718631edb8c0af70b6a93133708" prot="public" virt="non-virtual"><scope>MediaTek::controleur::Controle</scope><name>AddAbsence</name></member>
+      <member refid="class_media_tek_1_1controleur_1_1_controle_1afcfccd3149b91c0bfa20005a73eed910" prot="public" virt="non-virtual"><scope>MediaTek::controleur::Controle</scope><name>AddPersonnel</name></member>
+      <member refid="class_media_tek_1_1controleur_1_1_controle_1a257a4792f9ac1755ebd961167d49434c" prot="public" virt="non-virtual"><scope>MediaTek::controleur::Controle</scope><name>Authentification</name></member>
+      <member refid="class_media_tek_1_1controleur_1_1_controle_1a7bfc16c571f774a5e5eddc124f7127f8" prot="public" virt="non-virtual"><scope>MediaTek::controleur::Controle</scope><name>Controle</name></member>
+      <member refid="class_media_tek_1_1controleur_1_1_controle_1a943d2119a5568bb0580b88eb6a92d591" prot="public" virt="non-virtual"><scope>MediaTek::controleur::Controle</scope><name>DelAbs</name></member>
+      <member refid="class_media_tek_1_1controleur_1_1_controle_1a7d1b52b2f6db0fbd7d7713c3c1a54d77" prot="public" virt="non-virtual"><scope>MediaTek::controleur::Controle</scope><name>DelPersonnel</name></member>
+      <member refid="class_media_tek_1_1controleur_1_1_controle_1abf10350c186d9ee19415f31c50506e71" prot="private" virt="non-virtual"><scope>MediaTek::controleur::Controle</scope><name>frmConnexion</name></member>
+      <member refid="class_media_tek_1_1controleur_1_1_controle_1a203eac8b66aa2aec0769b9ba8e5492dc" prot="public" virt="non-virtual"><scope>MediaTek::controleur::Controle</scope><name>GetAbsences</name></member>
+      <member refid="class_media_tek_1_1controleur_1_1_controle_1a5fa8934b6e8ed5bd40515d30f1da7ffb" prot="public" virt="non-virtual"><scope>MediaTek::controleur::Controle</scope><name>GetMotifs</name></member>
+      <member refid="class_media_tek_1_1controleur_1_1_controle_1a53c814aa157ea9d198afb555639bf6fb" prot="public" virt="non-virtual"><scope>MediaTek::controleur::Controle</scope><name>GetPersonnels</name></member>
+      <member refid="class_media_tek_1_1controleur_1_1_controle_1a986e0167fe8f85e24cc46a03902c22c4" prot="public" virt="non-virtual"><scope>MediaTek::controleur::Controle</scope><name>GetService</name></member>
+      <member refid="class_media_tek_1_1controleur_1_1_controle_1a67f0153655b765062b11776dde9014a6" prot="public" virt="non-virtual"><scope>MediaTek::controleur::Controle</scope><name>ModAbs</name></member>
+      <member refid="class_media_tek_1_1controleur_1_1_controle_1aa3130069979d186a680ba7435ab66deb" prot="public" virt="non-virtual"><scope>MediaTek::controleur::Controle</scope><name>ModAbsdebut</name></member>
+      <member refid="class_media_tek_1_1controleur_1_1_controle_1a99c77b6feb3926ab826b461f5ab15180" prot="public" virt="non-virtual"><scope>MediaTek::controleur::Controle</scope><name>ModPersonnel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

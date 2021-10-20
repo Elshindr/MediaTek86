@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row" xml:lang="fr">
+<title>Référence de la classe MediaTek.DataBase.projetcnedDataSet.personnelRow</title>
+<indexterm><primary>MediaTek.DataBase.projetcnedDataSet.personnelRow</primary></indexterm>
+<para>
+
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+ 
+</para>
+<para>
+Est dérivée de global.SystemData.DataRow.</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_1a22f6953b678e9a9f26a16f3fbc0e6808"/>bool <emphasis role="strong">IsNOMNull</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_1a13a7541ba09a4981c5e920e68c36a82f"/>void <emphasis role="strong">SetNOMNull</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_1a91e72bb0a19910bc93320860fd839247"/>bool <emphasis role="strong">IsPRENOMNull</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_1a617fee53747c420553134ae26ee09487"/>void <emphasis role="strong">SetPRENOMNull</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_1a3e0087ded544bb8f8120005f67ee8c5a"/>bool <emphasis role="strong">IsTELNull</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_1a7c208ad92623526eef80a91cc9a58014"/>void <emphasis role="strong">SetTELNull</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_1a9d01c87bfc73cbca1e4db80debe10b11"/>bool <emphasis role="strong">IsMAILNull</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_1acd834f030d5f37ead2a5da27dd5cd6c1"/>void <emphasis role="strong">SetMAILNull</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_1a0bed18495e6023fe6ef1d9fe256645e8"/>int <emphasis role="strong">IDPERSONNEL</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_1acf97845bb80559e1d3a278e3f12e2f4c"/>int <emphasis role="strong">IDSERVICE</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_1a72de1e858cab26feed03e0de5c870352"/>string <emphasis role="strong">NOM</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_1a7ec0e1ab1edee53798d28189c95b7229"/>string <emphasis role="strong">PRENOM</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_1ae5e51e81b46177948abcf6e6aae3b5b3"/>string <emphasis role="strong">TEL</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_1af056a4466f24325530ddd4220cd6b05b"/>string <emphasis role="strong">MAIL</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs</section>
+</section>

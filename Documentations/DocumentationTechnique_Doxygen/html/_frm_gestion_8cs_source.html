@@ -1,0 +1,510 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+    <meta name="generator" content="Doxygen 1.9.2"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- BEGIN opengraph metadata -->
+    <meta property="og:title" content="Doxygen Awesome"/>
+    <meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452"/>
+    <meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters."/>
+    <meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/"/>
+    <!-- END opengraph metadata -->
+    <title>Digimedia86:  Fichier source de DigimediaTek86/vue/FrmGestion.cs</title>
+    <link href="tabs.css" rel="stylesheet" type="text/css"/>
+    <!--link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/-->
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <link href="doxygen.css" rel="stylesheet" type="text/css"/>
+    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div id="top">
+      <!-- do not remove this div, it is closed by doxygen! -->
+      <div id="titlearea">
+        <table cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr style="height: 56px;">
+              <td id="projectlogo"><img alt="Logo" src="LogoContexte.png"/></td>
+              <td id="projectalign" style="padding-left: 0.5em;">
+                <div id="projectname">Digimedia86
+                </div>
+                <div id="projectbrief">Gestionnaire d&#39;absences du personnel du réseau MediaTek86</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- end header part --><!-- Généré par Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Recherche','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_frm_gestion_8cs_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">FrmGestion.cs</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using</span> <a class="code hl_namespace" href="namespace_media_tek.html">MediaTek</a>.<a class="code hl_namespace" href="namespace_media_tek_1_1controleur.html">controleur</a>;</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using</span> <a class="code hl_namespace" href="namespace_media_tek.html">MediaTek</a>.<a class="code hl_namespace" href="namespace_media_tek_1_1modele.html">modele</a>;</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using</span> System;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using</span> System.Collections.Generic;</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">using</span> System.Windows.Forms;</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_media_tek_1_1vue.html">MediaTek.vue</a></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html">   12</a></span>    <span class="keyword">public</span> <span class="keyword">partial class </span><a class="code hl_class" href="class_media_tek_1_1vue_1_1_frm_gestion.html">FrmGestion</a> : Form</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aa615dabd2341551223ca043c7b8b7bd3">   17</a></span>        <span class="keyword">private</span> <a class="code hl_class" href="class_media_tek_1_1controleur_1_1_controle.html">Controle</a> <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aa615dabd2341551223ca043c7b8b7bd3">controle</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ac6fcafd6c60045311f7c585f0b2a9c41">   23</a></span>        BindingSource <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ac6fcafd6c60045311f7c585f0b2a9c41">bdgPersonnel</a> = <span class="keyword">new</span> BindingSource();</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a654f990fda5e16c85ef64ddb3070440d">   29</a></span>        BindingSource <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a654f990fda5e16c85ef64ddb3070440d">bdgService</a> = <span class="keyword">new</span> BindingSource();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a86025f48c8ef41f6b01724fbc63941a8">   35</a></span>        BindingSource <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a86025f48c8ef41f6b01724fbc63941a8">bdgAbs</a> = <span class="keyword">new</span> BindingSource();</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a2901b8cfe985a1076b803f55ea7edb0b">   41</a></span>        BindingSource <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a2901b8cfe985a1076b803f55ea7edb0b">bdgMotif</a> = <span class="keyword">new</span> BindingSource();</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#addde039ce4f6f8cd189e815218060fc9">   47</a></span>        <span class="keyword">private</span> Boolean <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#addde039ce4f6f8cd189e815218060fc9">ModifPers</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ab2075ddf23d6b0342859456ed67f1e3d">   52</a></span>        <span class="keyword">private</span> Boolean <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ab2075ddf23d6b0342859456ed67f1e3d">ModifAbs</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a981c5a0d3eae53092554b3639e732870">   60</a></span>        <span class="keyword">public</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a981c5a0d3eae53092554b3639e732870">FrmGestion</a>(<a class="code hl_class" href="class_media_tek_1_1controleur_1_1_controle.html">Controle</a> <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aa615dabd2341551223ca043c7b8b7bd3">controle</a>)</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        {</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>            <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ae9780586bb42f2a51d891737b2d8d5c6">InitializeComponent</a>();</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            this.controle = <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aa615dabd2341551223ca043c7b8b7bd3">controle</a>;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ab6035ef5844defc35986a1b97857097d">Init</a>();</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        }</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ab6035ef5844defc35986a1b97857097d">   76</a></span>        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ab6035ef5844defc35986a1b97857097d">Init</a>()</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        {</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>            grpabsence.Enabled = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>            grpGestionPers.Enabled = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a7a205fc1e7a0eb60586adee75757550b">AfficherListePersonnel</a>();</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>            <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a978477d251964d5cc7b0b781c2f76603">AfficherService</a>();</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        }</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a7a205fc1e7a0eb60586adee75757550b">   90</a></span>        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a7a205fc1e7a0eb60586adee75757550b">AfficherListePersonnel</a>()</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        {</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>            List&lt;Personnel&gt; lesPersonnels = <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aa615dabd2341551223ca043c7b8b7bd3">controle</a>.<a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a53c814aa157ea9d198afb555639bf6fb">GetPersonnels</a>();</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>            <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ac6fcafd6c60045311f7c585f0b2a9c41">bdgPersonnel</a>.DataSource = lesPersonnels;</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>            dataPersonnel.DataSource = <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ac6fcafd6c60045311f7c585f0b2a9c41">bdgPersonnel</a>;</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>            dataPersonnel.Columns[<span class="stringliteral">&quot;idpersonnel&quot;</span>].Visible = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>            dataPersonnel.Columns[<span class="stringliteral">&quot;idservice&quot;</span>].Visible = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>            dataPersonnel.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        }</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a978477d251964d5cc7b0b781c2f76603">  107</a></span>        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a978477d251964d5cc7b0b781c2f76603">AfficherService</a>()</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        {</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>            List&lt;Service&gt; lesServices = <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aa615dabd2341551223ca043c7b8b7bd3">controle</a>.<a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a986e0167fe8f85e24cc46a03902c22c4">GetService</a>();</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>            <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a654f990fda5e16c85ef64ddb3070440d">bdgService</a>.DataSource = lesServices;</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>            cobservice.DataSource = <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a654f990fda5e16c85ef64ddb3070440d">bdgService</a>;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>            <span class="keywordflow">if</span> (cobservice.Items.Count &gt; 0)</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>            {</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>                cobservice.SelectedIndex = 0;</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>            }</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>        }</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ad48c23b3d53cda1aef67ef26aa7d8bd3">  127</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ad48c23b3d53cda1aef67ef26aa7d8bd3">btnAjouterPers_Click</a>(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        {</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>            grpGestionPers.Enabled = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>        }</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a6354eef31cc7714fb1cf6cf611270123">  141</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a6354eef31cc7714fb1cf6cf611270123">btnEnregistrerPers_Click</a>(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>        {</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>            <a class="code hl_class" href="class_media_tek_1_1modele_1_1_service.html">Service</a> service = (<a class="code hl_class" href="class_media_tek_1_1modele_1_1_service.html">Service</a>)<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a654f990fda5e16c85ef64ddb3070440d">bdgService</a>.List[<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a654f990fda5e16c85ef64ddb3070440d">bdgService</a>.Position];</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span> </div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>            if (!txtnom.Text.Equals(<span class="stringliteral">&quot;&quot;</span>) &amp;&amp; !txtprenom.Text.Equals(<span class="stringliteral">&quot;&quot;</span>) &amp;&amp; !txttel.Text.Equals(<span class="stringliteral">&quot;&quot;</span>) &amp;&amp; !txtmail.Text.Equals(<span class="stringliteral">&quot;&quot;</span>) &amp;&amp; cobservice.SelectedIndex != -1)</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>            {</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>                <span class="keywordtype">int</span> idpersonnel = 0;</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#addde039ce4f6f8cd189e815218060fc9">ModifPers</a>)</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>                {</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>                    idpersonnel = (int)dataPersonnel.SelectedRows[0].Cells[<span class="stringliteral">&quot;idpersonnel&quot;</span>].Value;</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>                }</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>                <a class="code hl_class" href="class_media_tek_1_1modele_1_1_personnel.html">Personnel</a> unPersonnel = <span class="keyword">new</span> <a class="code hl_class" href="class_media_tek_1_1modele_1_1_personnel.html">Personnel</a>(idpersonnel, txtnom.Text, txtprenom.Text, txttel.Text, txtmail.Text, service.<a class="code hl_property" href="class_media_tek_1_1modele_1_1_service.html#a7b5c47d1182f79be484ad7ab7dfcc853">Idservice</a>, service.<a class="code hl_property" href="class_media_tek_1_1modele_1_1_service.html#a022a2fd008edf4bc270f1aa28e800dc7">Nom</a>);</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#addde039ce4f6f8cd189e815218060fc9">ModifPers</a>)</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>                {</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>                    <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aa615dabd2341551223ca043c7b8b7bd3">controle</a>.<a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a99c77b6feb3926ab826b461f5ab15180">ModPersonnel</a>(unPersonnel);</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>                    <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#addde039ce4f6f8cd189e815218060fc9">ModifPers</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>                    grpGestionPers.Enabled = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>                }</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>                <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>                {</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>                    <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aa615dabd2341551223ca043c7b8b7bd3">controle</a>.<a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#afcfccd3149b91c0bfa20005a73eed910">AddPersonnel</a>(unPersonnel);</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>                }</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>                <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a7a205fc1e7a0eb60586adee75757550b">AfficherListePersonnel</a>();</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>                <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#af0486a8636d5ff318b9532b495a48055">ViderPers</a>();</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>            }</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>            <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>            {</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>                MessageBox.Show(<span class="stringliteral">&quot;Il faut remplir tout les champ avant validation&quot;</span>, <span class="stringliteral">&quot;Erreur de saisie&quot;</span>);</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>            }</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>        }</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span> </div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a00dcad077671ab12d16cf3aa4fa5e99d">  180</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a00dcad077671ab12d16cf3aa4fa5e99d">btnAnnulerPers_Click</a>(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>        {</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span> </div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>            <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#af0486a8636d5ff318b9532b495a48055">ViderPers</a>();</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>            grpGestionPers.Enabled = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>        }</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span> </div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span> </div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span> </div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#af0486a8636d5ff318b9532b495a48055">  192</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#af0486a8636d5ff318b9532b495a48055">ViderPers</a>()</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>        {</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>            <span class="comment">// Vider champs</span></div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>            txtnom.Text = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>            txtprenom.Text = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>            txttel.Text = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>            txtmail.Text = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>            cobservice.SelectedIndex = 0;</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span> </div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>            <span class="comment">//fermer gestionPers</span></div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>            grpGestionPers.Enabled = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>        }</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span> </div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span> </div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span> </div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aaf4393d62175f3f9fe7551263afa04c6">  213</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aaf4393d62175f3f9fe7551263afa04c6">btnSupprPers_Click</a>(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>        {</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>            <span class="keywordflow">if</span> (dataPersonnel.SelectedRows.Count &gt; 0)</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>            {</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>                <a class="code hl_class" href="class_media_tek_1_1modele_1_1_personnel.html">Personnel</a> unpersonnel = (<a class="code hl_class" href="class_media_tek_1_1modele_1_1_personnel.html">Personnel</a>)<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ac6fcafd6c60045311f7c585f0b2a9c41">bdgPersonnel</a>.List[<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ac6fcafd6c60045311f7c585f0b2a9c41">bdgPersonnel</a>.Position];</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>                if (MessageBox.Show(<span class="stringliteral">&quot;Voulez vous vraiment supprimer &quot;</span> + unpersonnel.<a class="code hl_property" href="class_media_tek_1_1modele_1_1_personnel.html#afdc1d1aa28055e3b0f8a858a11720a73">Nom</a> + <span class="stringliteral">&quot; &quot;</span> + unpersonnel.<a class="code hl_property" href="class_media_tek_1_1modele_1_1_personnel.html#a16bb6939214728565ff8a5c5e395d4e6">Prenom</a> + <span class="stringliteral">&quot; du service &quot;</span> + unpersonnel.<a class="code hl_property" href="class_media_tek_1_1modele_1_1_personnel.html#af28502f1c623f9451da37d09daa0b13f">Service</a> + <span class="stringliteral">&quot;?&quot;</span>, <span class="stringliteral">&quot;Confirmation suppression&quot;</span>, MessageBoxButtons.YesNo) == DialogResult.Yes)</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>                {</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>                    <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aa615dabd2341551223ca043c7b8b7bd3">controle</a>.<a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a7d1b52b2f6db0fbd7d7713c3c1a54d77">DelPersonnel</a>(unpersonnel);</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>                    <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a7a205fc1e7a0eb60586adee75757550b">AfficherListePersonnel</a>();</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>                }</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>            }</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>            <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>            {</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>                MessageBox.Show(<span class="stringliteral">&quot;Sélectionner une ligne&quot;</span>, <span class="stringliteral">&quot;Information&quot;</span>);</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>            }</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>        }</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span> </div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span> </div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span> </div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a341d0244449bf3be4db69681b1305e64">  238</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a341d0244449bf3be4db69681b1305e64">btnModifierPers_Click</a>(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>        {</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>            <span class="keywordflow">if</span> (dataPersonnel.SelectedRows.Count &gt; 0)</div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>            {</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>                grpGestionPers.Enabled = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>                <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#addde039ce4f6f8cd189e815218060fc9">ModifPers</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span> </div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>                <a class="code hl_class" href="class_media_tek_1_1modele_1_1_personnel.html">Personnel</a> unpersonnel = (<a class="code hl_class" href="class_media_tek_1_1modele_1_1_personnel.html">Personnel</a>)<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ac6fcafd6c60045311f7c585f0b2a9c41">bdgPersonnel</a>.List[<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ac6fcafd6c60045311f7c585f0b2a9c41">bdgPersonnel</a>.Position];</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span> </div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>                txtnom.Text = unpersonnel.<a class="code hl_property" href="class_media_tek_1_1modele_1_1_personnel.html#afdc1d1aa28055e3b0f8a858a11720a73">Nom</a>;</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>                txtprenom.Text = unpersonnel.<a class="code hl_property" href="class_media_tek_1_1modele_1_1_personnel.html#a16bb6939214728565ff8a5c5e395d4e6">Prenom</a>;</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>                txtmail.Text = unpersonnel.<a class="code hl_property" href="class_media_tek_1_1modele_1_1_personnel.html#acdba93474621127201e030db14fe14c3">Mail</a>;</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>                txttel.Text = unpersonnel.<a class="code hl_property" href="class_media_tek_1_1modele_1_1_personnel.html#a3a62441503fee914decc8d851175e574">Tel</a>;</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>                cobservice.SelectedIndex = cobservice.FindStringExact(unpersonnel.<a class="code hl_property" href="class_media_tek_1_1modele_1_1_personnel.html#af28502f1c623f9451da37d09daa0b13f">Service</a>);</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>            }</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>            <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>            {</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>                MessageBox.Show(<span class="stringliteral">&quot;Sélectionner une ligne&quot;</span>, <span class="stringliteral">&quot;Information&quot;</span>);</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>            }</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>        }</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span> </div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span> </div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span> </div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#af7b868722827c9df01a3ca62dd3f83d3">  268</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#af7b868722827c9df01a3ca62dd3f83d3">btnGestionAbs_Click</a>(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>        {</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>            <span class="keywordflow">if</span> (dataPersonnel.SelectedRows.Count &gt; 0)</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>            {</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>                grpGestionPers.Enabled = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>                grpabsence.Enabled = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>                grpGestionAbs.Enabled = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span> </div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>                <a class="code hl_class" href="class_media_tek_1_1modele_1_1_personnel.html">Personnel</a> unpersonnel = (<a class="code hl_class" href="class_media_tek_1_1modele_1_1_personnel.html">Personnel</a>)<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ac6fcafd6c60045311f7c585f0b2a9c41">bdgPersonnel</a>.List[<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ac6fcafd6c60045311f7c585f0b2a9c41">bdgPersonnel</a>.Position];</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>                <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a8d92212879b1d4e03519f5adbfba7018">AfficherAbs</a>(unpersonnel);</div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>                <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aca7810b229e977ca8a714a39cb1ddd07">AfficherMotif</a>();</div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>            }</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>            <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>            {</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>                MessageBox.Show(<span class="stringliteral">&quot;Sélectionner une ligne&quot;</span>, <span class="stringliteral">&quot;Information&quot;</span>);</div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>            }</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>        }</div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span> </div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span> </div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span> </div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a8d92212879b1d4e03519f5adbfba7018">  292</a></span>        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a8d92212879b1d4e03519f5adbfba7018">AfficherAbs</a>(<a class="code hl_class" href="class_media_tek_1_1modele_1_1_personnel.html">Personnel</a> unpersonnel)</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>        {</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>            List&lt;Absence&gt; lesabs = <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aa615dabd2341551223ca043c7b8b7bd3">controle</a>.<a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a203eac8b66aa2aec0769b9ba8e5492dc">GetAbsences</a>(unpersonnel);</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>            <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a86025f48c8ef41f6b01724fbc63941a8">bdgAbs</a>.DataSource = lesabs;</div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>            dataAbsence.DataSource = <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a86025f48c8ef41f6b01724fbc63941a8">bdgAbs</a>;</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span> </div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>            dataAbsence.Columns[<span class="stringliteral">&quot;idpersonnel&quot;</span>].Visible = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>            dataAbsence.Columns[<span class="stringliteral">&quot;idmotif&quot;</span>].Visible = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>            dataAbsence.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span> </div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>        }</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span> </div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span> </div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span> </div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aca7810b229e977ca8a714a39cb1ddd07">  309</a></span>        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aca7810b229e977ca8a714a39cb1ddd07">AfficherMotif</a>()</div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>        {</div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>            List&lt;Motif&gt; lesMotifs = <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aa615dabd2341551223ca043c7b8b7bd3">controle</a>.<a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a5fa8934b6e8ed5bd40515d30f1da7ffb">GetMotifs</a>();</div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>            <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a2901b8cfe985a1076b803f55ea7edb0b">bdgMotif</a>.DataSource = lesMotifs;</div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>            cobMotif.DataSource = <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a2901b8cfe985a1076b803f55ea7edb0b">bdgMotif</a>;</div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span> </div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>        }</div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span> </div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span> </div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ab73e458998fd4c604cf8dcddeea3f2f6">  324</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ab73e458998fd4c604cf8dcddeea3f2f6">btnAjouterAbs_Click</a>(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>        {</div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>            grpGestionAbs.Enabled = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span> </div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>        }</div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span> </div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span> </div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ad90c740791e37bcc0113b92ae392173b">  337</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ad90c740791e37bcc0113b92ae392173b">btnEnregistrerAbs_Click</a>(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>        {</div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>            <span class="keywordflow">if</span> ((dateDebut.Value &lt; dateFin.Value) &amp;&amp; (cobMotif.SelectedIndex != -1))</div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>            {</div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>                <a class="code hl_class" href="class_media_tek_1_1modele_1_1_personnel.html">Personnel</a> lepersonnel = (<a class="code hl_class" href="class_media_tek_1_1modele_1_1_personnel.html">Personnel</a>)<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ac6fcafd6c60045311f7c585f0b2a9c41">bdgPersonnel</a>.List[<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ac6fcafd6c60045311f7c585f0b2a9c41">bdgPersonnel</a>.Position];</div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>                <a class="code hl_class" href="class_media_tek_1_1modele_1_1_motif.html">Motif</a> lemotif = (<a class="code hl_class" href="class_media_tek_1_1modele_1_1_motif.html">Motif</a>)<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a2901b8cfe985a1076b803f55ea7edb0b">bdgMotif</a>.List[<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a2901b8cfe985a1076b803f55ea7edb0b">bdgMotif</a>.Position];</div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>                <a class="code hl_class" href="class_media_tek_1_1modele_1_1_absence.html">Absence</a> uneAbsence = <span class="keyword">new</span> <a class="code hl_class" href="class_media_tek_1_1modele_1_1_absence.html">Absence</a>(lepersonnel.<a class="code hl_property" href="class_media_tek_1_1modele_1_1_personnel.html#ab61fb26ed855deb236a29ecf499849b0">Idpersonnel</a>, dateDebut.Value, dateFin.Value, lemotif.Libelle, lemotif.Idmotif);</div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span> </div>
+<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ab2075ddf23d6b0342859456ed67f1e3d">ModifAbs</a>)</div>
+<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>                {</div>
+<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>                    <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aa615dabd2341551223ca043c7b8b7bd3">controle</a>.<a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#aa3130069979d186a680ba7435ab66deb">ModAbsdebut</a>(uneAbsence);</div>
+<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span> </div>
+<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>                    uneAbsence = <span class="keyword">new</span> <a class="code hl_class" href="class_media_tek_1_1modele_1_1_absence.html">Absence</a>(lepersonnel.<a class="code hl_property" href="class_media_tek_1_1modele_1_1_personnel.html#ab61fb26ed855deb236a29ecf499849b0">Idpersonnel</a>, uneAbsence.<a class="code hl_property" href="class_media_tek_1_1modele_1_1_absence.html#a4bed5e70f6afee200df665d29ddf8964">Datedebut</a>, dateFin.Value, lemotif.Libelle, lemotif.Idmotif);</div>
+<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span> </div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>                    <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aa615dabd2341551223ca043c7b8b7bd3">controle</a>.<a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a67f0153655b765062b11776dde9014a6">ModAbs</a>(uneAbsence);</div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>                </div>
+<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>                    <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ab2075ddf23d6b0342859456ed67f1e3d">ModifAbs</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>                }</div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>                <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>                {</div>
+<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>                    <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aa615dabd2341551223ca043c7b8b7bd3">controle</a>.<a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a8c46d718631edb8c0af70b6a93133708">AddAbsence</a>(uneAbsence);</div>
+<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span>                }</div>
+<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span> </div>
+<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span> </div>
+<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>                <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a8d92212879b1d4e03519f5adbfba7018">AfficherAbs</a>(lepersonnel);</div>
+<div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span> </div>
+<div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span>            }</div>
+<div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span>            <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span>            {</div>
+<div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span>                MessageBox.Show(<span class="stringliteral">&quot;Champs non valides&quot;</span>, <span class="stringliteral">&quot;Erreur Saisie&quot;</span>);</div>
+<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>            }</div>
+<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span> </div>
+<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span>            grpGestionAbs.Enabled = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span>            <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a3c232aaea3a1a926d8ad2c3084c8d863">ViderAbs</a>();</div>
+<div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span>        }</div>
+<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span> </div>
+<div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span> </div>
+<div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span> </div>
+<div class="line"><a id="l00381" name="l00381"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a7d2026af01d86da15a9d21765afdf6c4">  381</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a7d2026af01d86da15a9d21765afdf6c4">btnAnnulerAbs_Click</a>(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span>        {</div>
+<div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span>            <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a3c232aaea3a1a926d8ad2c3084c8d863">ViderAbs</a>();</div>
+<div class="line"><a id="l00384" name="l00384"></a><span class="lineno">  384</span>        }</div>
+<div class="line"><a id="l00385" name="l00385"></a><span class="lineno">  385</span> </div>
+<div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span> </div>
+<div class="line"><a id="l00390" name="l00390"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a3c232aaea3a1a926d8ad2c3084c8d863">  390</a></span>        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a3c232aaea3a1a926d8ad2c3084c8d863">ViderAbs</a>()</div>
+<div class="line"><a id="l00391" name="l00391"></a><span class="lineno">  391</span>        {</div>
+<div class="line"><a id="l00392" name="l00392"></a><span class="lineno">  392</span>            dateDebut.Value = DateTime.Today;</div>
+<div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span>            dateFin.Value = DateTime.Today;</div>
+<div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span>            cobMotif.SelectedIndex = 0;</div>
+<div class="line"><a id="l00395" name="l00395"></a><span class="lineno">  395</span> </div>
+<div class="line"><a id="l00396" name="l00396"></a><span class="lineno">  396</span>            grpGestionAbs.Enabled = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00397" name="l00397"></a><span class="lineno">  397</span>        }</div>
+<div class="line"><a id="l00398" name="l00398"></a><span class="lineno">  398</span> </div>
+<div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span> </div>
+<div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span> </div>
+<div class="line"><a id="l00407" name="l00407"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ac9c42508c61795132ae64c0220cbc944">  407</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ac9c42508c61795132ae64c0220cbc944">btnSupprAbs_Click</a>(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00408" name="l00408"></a><span class="lineno">  408</span>        {</div>
+<div class="line"><a id="l00409" name="l00409"></a><span class="lineno">  409</span>            <span class="keywordflow">if</span> (dataAbsence.SelectedRows.Count &gt; 0)</div>
+<div class="line"><a id="l00410" name="l00410"></a><span class="lineno">  410</span>            {</div>
+<div class="line"><a id="l00411" name="l00411"></a><span class="lineno">  411</span>                <a class="code hl_class" href="class_media_tek_1_1modele_1_1_absence.html">Absence</a> absence = (<a class="code hl_class" href="class_media_tek_1_1modele_1_1_absence.html">Absence</a>)<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a86025f48c8ef41f6b01724fbc63941a8">bdgAbs</a>.List[<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a86025f48c8ef41f6b01724fbc63941a8">bdgAbs</a>.Position];</div>
+<div class="line"><a id="l00412" name="l00412"></a><span class="lineno">  412</span>                if (MessageBox.Show(<span class="stringliteral">&quot;Etes vous sur de vouloir supprimer l&#39;absence du&quot;</span> + absence.<a class="code hl_property" href="class_media_tek_1_1modele_1_1_absence.html#a4bed5e70f6afee200df665d29ddf8964">Datedebut</a> + <span class="stringliteral">&quot; au &quot;</span> + absence.<a class="code hl_property" href="class_media_tek_1_1modele_1_1_absence.html#a614ef246a6b7ec7efe6b78e41a3f885d">Datefin</a> + <span class="stringliteral">&quot; pour &quot;</span> + absence.<a class="code hl_property" href="class_media_tek_1_1modele_1_1_absence.html#aa1a6bf0c55b5051ef8201199dea353cf">Motif</a> + <span class="stringliteral">&quot;?&quot;</span>, <span class="stringliteral">&quot;Validation&quot;</span>, MessageBoxButtons.YesNo) == DialogResult.Yes)</div>
+<div class="line"><a id="l00413" name="l00413"></a><span class="lineno">  413</span>                {</div>
+<div class="line"><a id="l00414" name="l00414"></a><span class="lineno">  414</span>                    <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#aa615dabd2341551223ca043c7b8b7bd3">controle</a>.<a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a943d2119a5568bb0580b88eb6a92d591">DelAbs</a>(absence);</div>
+<div class="line"><a id="l00415" name="l00415"></a><span class="lineno">  415</span>                }</div>
+<div class="line"><a id="l00416" name="l00416"></a><span class="lineno">  416</span> </div>
+<div class="line"><a id="l00417" name="l00417"></a><span class="lineno">  417</span>                <a class="code hl_class" href="class_media_tek_1_1modele_1_1_personnel.html">Personnel</a> unpersonnel = (<a class="code hl_class" href="class_media_tek_1_1modele_1_1_personnel.html">Personnel</a>)<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ac6fcafd6c60045311f7c585f0b2a9c41">bdgPersonnel</a>.List[<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ac6fcafd6c60045311f7c585f0b2a9c41">bdgPersonnel</a>.Position];</div>
+<div class="line"><a id="l00418" name="l00418"></a><span class="lineno">  418</span>                <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a8d92212879b1d4e03519f5adbfba7018">AfficherAbs</a>(unpersonnel);</div>
+<div class="line"><a id="l00419" name="l00419"></a><span class="lineno">  419</span>                <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a3c232aaea3a1a926d8ad2c3084c8d863">ViderAbs</a>();</div>
+<div class="line"><a id="l00420" name="l00420"></a><span class="lineno">  420</span>            }</div>
+<div class="line"><a id="l00421" name="l00421"></a><span class="lineno">  421</span>            <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00422" name="l00422"></a><span class="lineno">  422</span>            {</div>
+<div class="line"><a id="l00423" name="l00423"></a><span class="lineno">  423</span>                MessageBox.Show(<span class="stringliteral">&quot;Sélectionner une ligne&quot;</span>, <span class="stringliteral">&quot;Erreur Sélection&quot;</span>);</div>
+<div class="line"><a id="l00424" name="l00424"></a><span class="lineno">  424</span>            }</div>
+<div class="line"><a id="l00425" name="l00425"></a><span class="lineno">  425</span>        }</div>
+<div class="line"><a id="l00426" name="l00426"></a><span class="lineno">  426</span> </div>
+<div class="line"><a id="l00427" name="l00427"></a><span class="lineno">  427</span> </div>
+<div class="line"><a id="l00428" name="l00428"></a><span class="lineno">  428</span> </div>
+<div class="line"><a id="l00435" name="l00435"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_gestion.html#afdb85043320493bcf21a766623ff089c">  435</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_gestion.html#afdb85043320493bcf21a766623ff089c">btnModifierAbs_Click</a>(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00436" name="l00436"></a><span class="lineno">  436</span>        {</div>
+<div class="line"><a id="l00437" name="l00437"></a><span class="lineno">  437</span>            <span class="keywordflow">if</span> (dataAbsence.SelectedRows.Count == 1)</div>
+<div class="line"><a id="l00438" name="l00438"></a><span class="lineno">  438</span>            {</div>
+<div class="line"><a id="l00439" name="l00439"></a><span class="lineno">  439</span>                <a class="code hl_class" href="class_media_tek_1_1modele_1_1_absence.html">Absence</a> uneabsence = (<a class="code hl_class" href="class_media_tek_1_1modele_1_1_absence.html">Absence</a>)<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a86025f48c8ef41f6b01724fbc63941a8">bdgAbs</a>.List[<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#a86025f48c8ef41f6b01724fbc63941a8">bdgAbs</a>.Position];</div>
+<div class="line"><a id="l00440" name="l00440"></a><span class="lineno">  440</span> </div>
+<div class="line"><a id="l00441" name="l00441"></a><span class="lineno">  441</span>                dateDebut.Value = uneabsence.<a class="code hl_property" href="class_media_tek_1_1modele_1_1_absence.html#a4bed5e70f6afee200df665d29ddf8964">Datedebut</a>;</div>
+<div class="line"><a id="l00442" name="l00442"></a><span class="lineno">  442</span>                dateFin.Value = uneabsence.<a class="code hl_property" href="class_media_tek_1_1modele_1_1_absence.html#a614ef246a6b7ec7efe6b78e41a3f885d">Datefin</a>;</div>
+<div class="line"><a id="l00443" name="l00443"></a><span class="lineno">  443</span>                cobMotif.SelectedIndex = cobMotif.FindStringExact(uneabsence.<a class="code hl_property" href="class_media_tek_1_1modele_1_1_absence.html#aa1a6bf0c55b5051ef8201199dea353cf">Motif</a>);</div>
+<div class="line"><a id="l00444" name="l00444"></a><span class="lineno">  444</span> </div>
+<div class="line"><a id="l00445" name="l00445"></a><span class="lineno">  445</span>                grpGestionAbs.Enabled = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00446" name="l00446"></a><span class="lineno">  446</span>                <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_gestion.html#ab2075ddf23d6b0342859456ed67f1e3d">ModifAbs</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00447" name="l00447"></a><span class="lineno">  447</span>            }</div>
+<div class="line"><a id="l00448" name="l00448"></a><span class="lineno">  448</span>            <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00449" name="l00449"></a><span class="lineno">  449</span>            {</div>
+<div class="line"><a id="l00450" name="l00450"></a><span class="lineno">  450</span>                MessageBox.Show(<span class="stringliteral">&quot;Selectionner une ligne&quot;</span>, <span class="stringliteral">&quot;Information&quot;</span>);</div>
+<div class="line"><a id="l00451" name="l00451"></a><span class="lineno">  451</span>            }</div>
+<div class="line"><a id="l00452" name="l00452"></a><span class="lineno">  452</span>        }</div>
+<div class="line"><a id="l00453" name="l00453"></a><span class="lineno">  453</span>   </div>
+<div class="line"><a id="l00454" name="l00454"></a><span class="lineno">  454</span>    }</div>
+<div class="line"><a id="l00455" name="l00455"></a><span class="lineno">  455</span>}</div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html">MediaTek.controleur.Controle</a></div><div class="ttdoc">Classe de controleur</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00013">Controle.cs:14</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a203eac8b66aa2aec0769b9ba8e5492dc"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a203eac8b66aa2aec0769b9ba8e5492dc">MediaTek.controleur.Controle.GetAbsences</a></div><div class="ttdeci">List&lt; Absence &gt; GetAbsences(Personnel unpersonnel)</div><div class="ttdoc">Récupérer puis retourner les infos d'un personnel sur ses absences</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00078">Controle.cs:78</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a53c814aa157ea9d198afb555639bf6fb"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a53c814aa157ea9d198afb555639bf6fb">MediaTek.controleur.Controle.GetPersonnels</a></div><div class="ttdeci">List&lt; Personnel &gt; GetPersonnels()</div><div class="ttdoc">Recuperer puis retourner les infos du personnel de la base de données</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00059">Controle.cs:59</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a5fa8934b6e8ed5bd40515d30f1da7ffb"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a5fa8934b6e8ed5bd40515d30f1da7ffb">MediaTek.controleur.Controle.GetMotifs</a></div><div class="ttdeci">List&lt; Motif &gt; GetMotifs()</div><div class="ttdoc">Récupérer la liste des motifs d'absence</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00158">Controle.cs:158</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a67f0153655b765062b11776dde9014a6"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a67f0153655b765062b11776dde9014a6">MediaTek.controleur.Controle.ModAbs</a></div><div class="ttdeci">void ModAbs(Absence uneabs)</div><div class="ttdoc">Modifier le motif et la date de fin d'une absence</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00148">Controle.cs:148</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a7d1b52b2f6db0fbd7d7713c3c1a54d77"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a7d1b52b2f6db0fbd7d7713c3c1a54d77">MediaTek.controleur.Controle.DelPersonnel</a></div><div class="ttdeci">void DelPersonnel(Personnel unpersonnel)</div><div class="ttdoc">Supprimer un personnel</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00108">Controle.cs:108</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a8c46d718631edb8c0af70b6a93133708"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a8c46d718631edb8c0af70b6a93133708">MediaTek.controleur.Controle.AddAbsence</a></div><div class="ttdeci">void AddAbsence(Absence uneabs)</div><div class="ttdoc">Ajouter une absence</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00098">Controle.cs:98</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a943d2119a5568bb0580b88eb6a92d591"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a943d2119a5568bb0580b88eb6a92d591">MediaTek.controleur.Controle.DelAbs</a></div><div class="ttdeci">void DelAbs(Absence uneabs)</div><div class="ttdoc">Supprimer une absence</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00118">Controle.cs:118</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a986e0167fe8f85e24cc46a03902c22c4"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a986e0167fe8f85e24cc46a03902c22c4">MediaTek.controleur.Controle.GetService</a></div><div class="ttdeci">List&lt; Service &gt; GetService()</div><div class="ttdoc">Récupérer puis retourner la liste des services</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00069">Controle.cs:69</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a99c77b6feb3926ab826b461f5ab15180"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a99c77b6feb3926ab826b461f5ab15180">MediaTek.controleur.Controle.ModPersonnel</a></div><div class="ttdeci">void ModPersonnel(Personnel unpersonnel)</div><div class="ttdoc">Modifier les informations d'un personnel</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00128">Controle.cs:128</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_aa3130069979d186a680ba7435ab66deb"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#aa3130069979d186a680ba7435ab66deb">MediaTek.controleur.Controle.ModAbsdebut</a></div><div class="ttdeci">void ModAbsdebut(Absence uneabs)</div><div class="ttdoc">Modifier la date d'entrée d'une absence</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00138">Controle.cs:138</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_afcfccd3149b91c0bfa20005a73eed910"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#afcfccd3149b91c0bfa20005a73eed910">MediaTek.controleur.Controle.AddPersonnel</a></div><div class="ttdeci">void AddPersonnel(Personnel unpersonnel)</div><div class="ttdoc">Ajouter un personnel</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00088">Controle.cs:88</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1modele_1_1_absence_html"><div class="ttname"><a href="class_media_tek_1_1modele_1_1_absence.html">MediaTek.modele.Absence</a></div><div class="ttdoc">Classe représentant les absences d'un personnel</div><div class="ttdef"><b>Definition:</b> <a href="_absence_8cs_source.html#l00008">Absence.cs:9</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1modele_1_1_absence_html_a4bed5e70f6afee200df665d29ddf8964"><div class="ttname"><a href="class_media_tek_1_1modele_1_1_absence.html#a4bed5e70f6afee200df665d29ddf8964">MediaTek.modele.Absence.Datedebut</a></div><div class="ttdeci">DateTime Datedebut</div><div class="ttdoc">Getter sur datadebut</div><div class="ttdef"><b>Definition:</b> <a href="_absence_8cs_source.html#l00043">Absence.cs:43</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1modele_1_1_absence_html_a614ef246a6b7ec7efe6b78e41a3f885d"><div class="ttname"><a href="class_media_tek_1_1modele_1_1_absence.html#a614ef246a6b7ec7efe6b78e41a3f885d">MediaTek.modele.Absence.Datefin</a></div><div class="ttdeci">DateTime Datefin</div><div class="ttdoc">Getter sur datefin</div><div class="ttdef"><b>Definition:</b> <a href="_absence_8cs_source.html#l00048">Absence.cs:48</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1modele_1_1_absence_html_aa1a6bf0c55b5051ef8201199dea353cf"><div class="ttname"><a href="class_media_tek_1_1modele_1_1_absence.html#aa1a6bf0c55b5051ef8201199dea353cf">MediaTek.modele.Absence.Motif</a></div><div class="ttdeci">string Motif</div><div class="ttdoc">Getter sur motif</div><div class="ttdef"><b>Definition:</b> <a href="_absence_8cs_source.html#l00053">Absence.cs:53</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1modele_1_1_motif_html"><div class="ttname"><a href="class_media_tek_1_1modele_1_1_motif.html">MediaTek.modele.Motif</a></div><div class="ttdoc">Classe représentant les motifs d'absence d'un personnel</div><div class="ttdef"><b>Definition:</b> <a href="_motif_8cs_source.html#l00007">Motif.cs:8</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1modele_1_1_personnel_html"><div class="ttname"><a href="class_media_tek_1_1modele_1_1_personnel.html">MediaTek.modele.Personnel</a></div><div class="ttdoc">Classe représentant le personnel</div><div class="ttdef"><b>Definition:</b> <a href="_personnel_8cs_source.html#l00006">Personnel.cs:7</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1modele_1_1_personnel_html_a16bb6939214728565ff8a5c5e395d4e6"><div class="ttname"><a href="class_media_tek_1_1modele_1_1_personnel.html#a16bb6939214728565ff8a5c5e395d4e6">MediaTek.modele.Personnel.Prenom</a></div><div class="ttdeci">string Prenom</div><div class="ttdoc">Getter sur prenom</div><div class="ttdef"><b>Definition:</b> <a href="_personnel_8cs_source.html#l00056">Personnel.cs:56</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1modele_1_1_personnel_html_a3a62441503fee914decc8d851175e574"><div class="ttname"><a href="class_media_tek_1_1modele_1_1_personnel.html#a3a62441503fee914decc8d851175e574">MediaTek.modele.Personnel.Tel</a></div><div class="ttdeci">string Tel</div><div class="ttdoc">Getter sur tel</div><div class="ttdef"><b>Definition:</b> <a href="_personnel_8cs_source.html#l00061">Personnel.cs:61</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1modele_1_1_personnel_html_ab61fb26ed855deb236a29ecf499849b0"><div class="ttname"><a href="class_media_tek_1_1modele_1_1_personnel.html#ab61fb26ed855deb236a29ecf499849b0">MediaTek.modele.Personnel.Idpersonnel</a></div><div class="ttdeci">int Idpersonnel</div><div class="ttdoc">Getter sur idpersonnel</div><div class="ttdef"><b>Definition:</b> <a href="_personnel_8cs_source.html#l00046">Personnel.cs:46</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1modele_1_1_personnel_html_acdba93474621127201e030db14fe14c3"><div class="ttname"><a href="class_media_tek_1_1modele_1_1_personnel.html#acdba93474621127201e030db14fe14c3">MediaTek.modele.Personnel.Mail</a></div><div class="ttdeci">string Mail</div><div class="ttdoc">Getter sur mail</div><div class="ttdef"><b>Definition:</b> <a href="_personnel_8cs_source.html#l00066">Personnel.cs:66</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1modele_1_1_personnel_html_af28502f1c623f9451da37d09daa0b13f"><div class="ttname"><a href="class_media_tek_1_1modele_1_1_personnel.html#af28502f1c623f9451da37d09daa0b13f">MediaTek.modele.Personnel.Service</a></div><div class="ttdeci">string Service</div><div class="ttdoc">Getter sur service</div><div class="ttdef"><b>Definition:</b> <a href="_personnel_8cs_source.html#l00076">Personnel.cs:76</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1modele_1_1_personnel_html_afdc1d1aa28055e3b0f8a858a11720a73"><div class="ttname"><a href="class_media_tek_1_1modele_1_1_personnel.html#afdc1d1aa28055e3b0f8a858a11720a73">MediaTek.modele.Personnel.Nom</a></div><div class="ttdeci">string Nom</div><div class="ttdoc">Getter sur nom</div><div class="ttdef"><b>Definition:</b> <a href="_personnel_8cs_source.html#l00051">Personnel.cs:51</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1modele_1_1_service_html"><div class="ttname"><a href="class_media_tek_1_1modele_1_1_service.html">MediaTek.modele.Service</a></div><div class="ttdoc">Classe des services du personnel</div><div class="ttdef"><b>Definition:</b> <a href="_service_8cs_source.html#l00006">Service.cs:7</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1modele_1_1_service_html_a022a2fd008edf4bc270f1aa28e800dc7"><div class="ttname"><a href="class_media_tek_1_1modele_1_1_service.html#a022a2fd008edf4bc270f1aa28e800dc7">MediaTek.modele.Service.Nom</a></div><div class="ttdeci">string Nom</div><div class="ttdoc">Getter d'encapsulation de nom</div><div class="ttdef"><b>Definition:</b> <a href="_service_8cs_source.html#l00029">Service.cs:29</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1modele_1_1_service_html_a7b5c47d1182f79be484ad7ab7dfcc853"><div class="ttname"><a href="class_media_tek_1_1modele_1_1_service.html#a7b5c47d1182f79be484ad7ab7dfcc853">MediaTek.modele.Service.Idservice</a></div><div class="ttdeci">int Idservice</div><div class="ttdoc">Getter d'encapsulation d'idservice</div><div class="ttdef"><b>Definition:</b> <a href="_service_8cs_source.html#l00023">Service.cs:23</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html">MediaTek.vue.FrmGestion</a></div><div class="ttdoc">Fenêtre d'affichage et de gestion du personnel et de leurs absences</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00012">FrmGestion.cs:13</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_a00dcad077671ab12d16cf3aa4fa5e99d"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#a00dcad077671ab12d16cf3aa4fa5e99d">MediaTek.vue.FrmGestion.btnAnnulerPers_Click</a></div><div class="ttdeci">void btnAnnulerPers_Click(object sender, EventArgs e)</div><div class="ttdoc">Evenement click sur btnAnnulerPers Gére l'annulation d'un ajout</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00180">FrmGestion.cs:180</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_a2901b8cfe985a1076b803f55ea7edb0b"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#a2901b8cfe985a1076b803f55ea7edb0b">MediaTek.vue.FrmGestion.bdgMotif</a></div><div class="ttdeci">BindingSource bdgMotif</div><div class="ttdoc">Objet de gestion de la liste des motifs d'absence</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00041">FrmGestion.cs:41</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_a341d0244449bf3be4db69681b1305e64"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#a341d0244449bf3be4db69681b1305e64">MediaTek.vue.FrmGestion.btnModifierPers_Click</a></div><div class="ttdeci">void btnModifierPers_Click(object sender, EventArgs e)</div><div class="ttdoc">Evenement Click sur btnModifierPers Gére les zones d'affichages pour la modification d'un personnel s...</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00238">FrmGestion.cs:238</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_a3c232aaea3a1a926d8ad2c3084c8d863"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#a3c232aaea3a1a926d8ad2c3084c8d863">MediaTek.vue.FrmGestion.ViderAbs</a></div><div class="ttdeci">void ViderAbs()</div><div class="ttdoc">Vider les saisies et fermer le grpGestionAbs</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00390">FrmGestion.cs:390</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_a6354eef31cc7714fb1cf6cf611270123"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#a6354eef31cc7714fb1cf6cf611270123">MediaTek.vue.FrmGestion.btnEnregistrerPers_Click</a></div><div class="ttdeci">void btnEnregistrerPers_Click(object sender, EventArgs e)</div><div class="ttdoc">Evenement click sur btnEnregisterPers Gére l'enregistrement des données saisies</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00141">FrmGestion.cs:141</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_a654f990fda5e16c85ef64ddb3070440d"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#a654f990fda5e16c85ef64ddb3070440d">MediaTek.vue.FrmGestion.bdgService</a></div><div class="ttdeci">BindingSource bdgService</div><div class="ttdoc">Objet de gestion de la liste des services</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00029">FrmGestion.cs:29</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_a7a205fc1e7a0eb60586adee75757550b"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#a7a205fc1e7a0eb60586adee75757550b">MediaTek.vue.FrmGestion.AfficherListePersonnel</a></div><div class="ttdeci">void AfficherListePersonnel()</div><div class="ttdoc">Initialisation de la liste du personnel et affiche la liste du personnel</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00090">FrmGestion.cs:90</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_a7d2026af01d86da15a9d21765afdf6c4"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#a7d2026af01d86da15a9d21765afdf6c4">MediaTek.vue.FrmGestion.btnAnnulerAbs_Click</a></div><div class="ttdeci">void btnAnnulerAbs_Click(object sender, EventArgs e)</div><div class="ttdoc">Evenement Click sur btnAnnulerAbs Annuler la saisie d'une absence</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00381">FrmGestion.cs:381</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_a86025f48c8ef41f6b01724fbc63941a8"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#a86025f48c8ef41f6b01724fbc63941a8">MediaTek.vue.FrmGestion.bdgAbs</a></div><div class="ttdeci">BindingSource bdgAbs</div><div class="ttdoc">Objet de gestion de la liste des absences</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00035">FrmGestion.cs:35</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_a8d92212879b1d4e03519f5adbfba7018"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#a8d92212879b1d4e03519f5adbfba7018">MediaTek.vue.FrmGestion.AfficherAbs</a></div><div class="ttdeci">void AfficherAbs(Personnel unpersonnel)</div><div class="ttdoc">Afficher la liste des abscences d'un personnel dans dataAbsence</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00292">FrmGestion.cs:292</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_a978477d251964d5cc7b0b781c2f76603"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#a978477d251964d5cc7b0b781c2f76603">MediaTek.vue.FrmGestion.AfficherService</a></div><div class="ttdeci">void AfficherService()</div><div class="ttdoc">Afficher la liste des services dans cobService</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00107">FrmGestion.cs:107</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_a981c5a0d3eae53092554b3639e732870"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#a981c5a0d3eae53092554b3639e732870">MediaTek.vue.FrmGestion.FrmGestion</a></div><div class="ttdeci">FrmGestion(Controle controle)</div><div class="ttdoc">Initialisation des composants graphiques Récupération de l'instance du controleur Initialisation de l...</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00060">FrmGestion.cs:60</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_aa615dabd2341551223ca043c7b8b7bd3"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#aa615dabd2341551223ca043c7b8b7bd3">MediaTek.vue.FrmGestion.controle</a></div><div class="ttdeci">Controle controle</div><div class="ttdoc">Instance du controleur</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00017">FrmGestion.cs:17</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_aaf4393d62175f3f9fe7551263afa04c6"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#aaf4393d62175f3f9fe7551263afa04c6">MediaTek.vue.FrmGestion.btnSupprPers_Click</a></div><div class="ttdeci">void btnSupprPers_Click(object sender, EventArgs e)</div><div class="ttdoc">Evenement click sur btnSupprPers Gére la suppression d'un personnel apres validation</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00213">FrmGestion.cs:213</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_ab2075ddf23d6b0342859456ed67f1e3d"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#ab2075ddf23d6b0342859456ed67f1e3d">MediaTek.vue.FrmGestion.ModifAbs</a></div><div class="ttdeci">Boolean ModifAbs</div><div class="ttdoc">Variable de gestion des enregistrements d'une absence</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00052">FrmGestion.cs:52</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_ab6035ef5844defc35986a1b97857097d"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#ab6035ef5844defc35986a1b97857097d">MediaTek.vue.FrmGestion.Init</a></div><div class="ttdeci">void Init()</div><div class="ttdoc">Rend non accessible les groupes absence et gestion du personnel Appel les methodes pour afficher la l...</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00076">FrmGestion.cs:76</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_ab73e458998fd4c604cf8dcddeea3f2f6"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#ab73e458998fd4c604cf8dcddeea3f2f6">MediaTek.vue.FrmGestion.btnAjouterAbs_Click</a></div><div class="ttdeci">void btnAjouterAbs_Click(object sender, EventArgs e)</div><div class="ttdoc">Evenement click sur btnAjouterAbs Gére l'affichage des zones de saisies</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00324">FrmGestion.cs:324</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_ac6fcafd6c60045311f7c585f0b2a9c41"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#ac6fcafd6c60045311f7c585f0b2a9c41">MediaTek.vue.FrmGestion.bdgPersonnel</a></div><div class="ttdeci">BindingSource bdgPersonnel</div><div class="ttdoc">Objet de gestion de la liste du personnel</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00023">FrmGestion.cs:23</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_ac9c42508c61795132ae64c0220cbc944"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#ac9c42508c61795132ae64c0220cbc944">MediaTek.vue.FrmGestion.btnSupprAbs_Click</a></div><div class="ttdeci">void btnSupprAbs_Click(object sender, EventArgs e)</div><div class="ttdoc">Evenement click sur btnSupprAbs Supprimer une absence d'un personnel</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00407">FrmGestion.cs:407</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_aca7810b229e977ca8a714a39cb1ddd07"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#aca7810b229e977ca8a714a39cb1ddd07">MediaTek.vue.FrmGestion.AfficherMotif</a></div><div class="ttdeci">void AfficherMotif()</div><div class="ttdoc">Afficher la liste des motifs dans cobMotif</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00309">FrmGestion.cs:309</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_ad48c23b3d53cda1aef67ef26aa7d8bd3"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#ad48c23b3d53cda1aef67ef26aa7d8bd3">MediaTek.vue.FrmGestion.btnAjouterPers_Click</a></div><div class="ttdeci">void btnAjouterPers_Click(object sender, EventArgs e)</div><div class="ttdoc">Event Click sur Ajouter un personnel à la grille Rend accessible les boutons de gestion Récupére la l...</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00127">FrmGestion.cs:127</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_ad90c740791e37bcc0113b92ae392173b"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#ad90c740791e37bcc0113b92ae392173b">MediaTek.vue.FrmGestion.btnEnregistrerAbs_Click</a></div><div class="ttdeci">void btnEnregistrerAbs_Click(object sender, EventArgs e)</div><div class="ttdoc">Evenement click btnEnregistrerAbs Enregistre les données saisies et met l'affichage à jour</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00337">FrmGestion.cs:337</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_addde039ce4f6f8cd189e815218060fc9"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#addde039ce4f6f8cd189e815218060fc9">MediaTek.vue.FrmGestion.ModifPers</a></div><div class="ttdeci">Boolean ModifPers</div><div class="ttdoc">Variable de gestion des enregistrements d'un personnel</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00047">FrmGestion.cs:47</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_ae9780586bb42f2a51d891737b2d8d5c6"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#ae9780586bb42f2a51d891737b2d8d5c6">MediaTek.vue.FrmGestion.InitializeComponent</a></div><div class="ttdeci">void InitializeComponent()</div><div class="ttdoc">Required method for Designer support - do not modify the contents of this method with the code editor...</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8_designer_8cs_source.html#l00030">FrmGestion.Designer.cs:30</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_af0486a8636d5ff318b9532b495a48055"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#af0486a8636d5ff318b9532b495a48055">MediaTek.vue.FrmGestion.ViderPers</a></div><div class="ttdeci">void ViderPers()</div><div class="ttdoc">Vider les champs de textes</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00192">FrmGestion.cs:192</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_af7b868722827c9df01a3ca62dd3f83d3"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#af7b868722827c9df01a3ca62dd3f83d3">MediaTek.vue.FrmGestion.btnGestionAbs_Click</a></div><div class="ttdeci">void btnGestionAbs_Click(object sender, EventArgs e)</div><div class="ttdoc">Evenement click sur btnGestionAbs Gére l'affichage des groupes Appelle les méthodes d'affichage des a...</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00268">FrmGestion.cs:268</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html_afdb85043320493bcf21a766623ff089c"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html#afdb85043320493bcf21a766623ff089c">MediaTek.vue.FrmGestion.btnModifierAbs_Click</a></div><div class="ttdeci">void btnModifierAbs_Click(object sender, EventArgs e)</div><div class="ttdoc">Event click sur btnModifierAbs Gerer la modification d'une absence selectionné</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00435">FrmGestion.cs:435</a></div></div>
+<div class="ttc" id="anamespace_media_tek_1_1controleur_html"><div class="ttname"><a href="namespace_media_tek_1_1controleur.html">MediaTek.controleur</a></div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00008">Controle.cs:9</a></div></div>
+<div class="ttc" id="anamespace_media_tek_1_1modele_html"><div class="ttname"><a href="namespace_media_tek_1_1modele.html">MediaTek.modele</a></div><div class="ttdef"><b>Definition:</b> <a href="_absence_8cs_source.html#l00003">Absence.cs:4</a></div></div>
+<div class="ttc" id="anamespace_media_tek_1_1vue_html"><div class="ttname"><a href="namespace_media_tek_1_1vue.html">MediaTek.vue</a></div><div class="ttdef"><b>Definition:</b> <a href="_frm_connexion_8cs_source.html#l00007">FrmConnexion.cs:8</a></div></div>
+<div class="ttc" id="anamespace_media_tek_html"><div class="ttname"><a href="namespace_media_tek.html">MediaTek</a></div><div class="ttdef"><b>Definition:</b> <a href="_connexion_bdd_8cs_source.html#l00006">ConnexionBdd.cs:7</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.9.1-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath">
+  <!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d3b99d2795bc61c52742c0077a24a6d6.html">DigimediaTek86</a></li><li class="navelem"><a class="el" href="dir_5b8f81b93f2829baf7244ef41799e628.html">vue</a></li><li class="navelem"><b>FrmGestion.cs</b></li>
+    <li class="footer">Généré le Mercredi 20 Octobre 2021 16:46:28 pour Digimedia86 par
+      <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a>
+      1.9.2
+    </li>
+    <li class="footer">Mise en beauté grâce à
+      <a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub">doxygen-awesome-css</a>
+    </li>
+  </ul>
+</div>
+</body>
+</html>

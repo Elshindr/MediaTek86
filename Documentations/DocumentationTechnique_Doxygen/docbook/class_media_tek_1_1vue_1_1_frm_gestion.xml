@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1vue_1_1_frm_gestion" xml:lang="fr">
+<title>Référence de la classe MediaTek.vue.FrmGestion</title>
+<indexterm><primary>MediaTek.vue.FrmGestion</primary></indexterm>
+<para>
+
+<para>Fenêtre d&apos;affichage et de gestion du personnel et de leurs absences </para>
+ 
+</para>
+<para>
+Est dérivée de Form.</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_1_1vue_1_1_frm_gestion_1a981c5a0d3eae53092554b3639e732870">FrmGestion</link> (<link linkend="_class_media_tek_1_1controleur_1_1_controle">Controle</link> controle)</para>
+
+<para>Initialisation des composants graphiques Récupération de l&apos;instance du controleur Initialisation de l&apos;affichage </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1vue_1_1_frm_gestion_1ab6035ef5844defc35986a1b97857097d"/>void <emphasis role="strong">Init</emphasis> ()</para>
+
+<para>Rend non accessible les groupes absence et gestion du personnel Appel les methodes pour afficher la liste du personnel et les services </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1vue_1_1_frm_gestion_1a7a205fc1e7a0eb60586adee75757550b"/>void <emphasis role="strong">AfficherListePersonnel</emphasis> ()</para>
+
+<para>Initialisation de la liste du personnel et affiche la liste du personnel </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1vue_1_1_frm_gestion_1a978477d251964d5cc7b0b781c2f76603"/>void <emphasis role="strong">AfficherService</emphasis> ()</para>
+
+<para>Afficher la liste des services dans cobService </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_media_tek_1_1vue_1_1_frm_gestion_1a8d92212879b1d4e03519f5adbfba7018">AfficherAbs</link> (<link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> unpersonnel)</para>
+
+<para>Afficher la liste des abscences d&apos;un personnel dans dataAbsence </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1vue_1_1_frm_gestion_1aca7810b229e977ca8a714a39cb1ddd07"/>void <emphasis role="strong">AfficherMotif</emphasis> ()</para>
+
+<para>Afficher la liste des motifs dans cobMotif </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1vue_1_1_frm_gestion_1a3c232aaea3a1a926d8ad2c3084c8d863"/>void <emphasis role="strong">ViderAbs</emphasis> ()</para>
+
+<para>Vider les saisies et fermer le grpGestionAbs </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres protégées    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_media_tek_1_1vue_1_1_frm_gestion_1a56bc1b0e7030b717793f4b7e4d067704">Dispose</link> (bool disposing)</para>
+
+<para>Clean up any resources being used. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Fenêtre d&apos;affichage et de gestion du personnel et de leurs absences </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_1_1vue_1_1_frm_gestion_1a981c5a0d3eae53092554b3639e732870"/><section>
+    <title>FrmGestion()</title>
+<indexterm><primary>FrmGestion</primary><secondary>MediaTek.vue.FrmGestion</secondary></indexterm>
+<indexterm><primary>MediaTek.vue.FrmGestion</primary><secondary>FrmGestion</secondary></indexterm>
+<para><computeroutput>MediaTek.vue.FrmGestion.FrmGestion (<link linkend="_class_media_tek_1_1controleur_1_1_controle">Controle</link> controle)</computeroutput></para><para>
+
+<para>Initialisation des composants graphiques Récupération de l&apos;instance du controleur Initialisation de l&apos;affichage </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>controle</entry><entry>
+<para>instance du controleur</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Documentation des fonctions membres</title>
+<anchor xml:id="_class_media_tek_1_1vue_1_1_frm_gestion_1a8d92212879b1d4e03519f5adbfba7018"/><section>
+    <title>AfficherAbs()</title>
+<indexterm><primary>AfficherAbs</primary><secondary>MediaTek.vue.FrmGestion</secondary></indexterm>
+<indexterm><primary>MediaTek.vue.FrmGestion</primary><secondary>AfficherAbs</secondary></indexterm>
+<para><computeroutput>void MediaTek.vue.FrmGestion.AfficherAbs (<link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> unpersonnel)</computeroutput></para><para>
+
+<para>Afficher la liste des abscences d&apos;un personnel dans dataAbsence </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>unpersonnel</entry><entry>
+<para>Personnel unpersonnel</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_media_tek_1_1vue_1_1_frm_gestion_1a56bc1b0e7030b717793f4b7e4d067704"/><section>
+    <title>Dispose()</title>
+<indexterm><primary>Dispose</primary><secondary>MediaTek.vue.FrmGestion</secondary></indexterm>
+<indexterm><primary>MediaTek.vue.FrmGestion</primary><secondary>Dispose</secondary></indexterm>
+<para><computeroutput>override void MediaTek.vue.FrmGestion.Dispose (bool disposing)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>Clean up any resources being used. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>disposing</entry><entry>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/vue/FrmGestion.csDigimediaTek86/vue/FrmGestion.Designer.cs</section>
+</section>

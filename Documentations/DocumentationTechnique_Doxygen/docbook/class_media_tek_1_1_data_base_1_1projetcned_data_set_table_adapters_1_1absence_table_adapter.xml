@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter" xml:lang="fr">
+<title>Référence de la classe MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter</title>
+<indexterm><primary>MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter</primary></indexterm>
+<para>
+
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+ 
+</para>
+<para>
+Est dérivée de global.SystemComponentModel.Component.</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1adbcf7b4aef4d65781f13de8ac6fbf74d"/>virtual int <emphasis role="strong">Fill</emphasis> (<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table">projetcnedDataSet.absenceDataTable</link> dataTable)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1aec3b63c71c07ce524c075dc03a16e77b"/>virtual <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table">projetcnedDataSet.absenceDataTable</link> <emphasis role="strong">GetData</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a3a4fa53a1c024b2db69b1e18091c98bc"/>virtual int <emphasis role="strong">Update</emphasis> (<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table">projetcnedDataSet.absenceDataTable</link> dataTable)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a939f815dafb9fff10b4d1b93a9df649a"/>virtual int <emphasis role="strong">Update</emphasis> (<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set">projetcnedDataSet</link> dataSet)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1adaf9e2aad286610cb8fc87889c78e6ae"/>virtual int <emphasis role="strong">Update</emphasis> (global::System.Data.DataRow dataRow)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a6c0db516ef2b10f10f73421d1d3e3ab1"/>virtual int <emphasis role="strong">Update</emphasis> (global::System.Data.DataRow[] dataRows)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a267337307c6be5973165fda857b7548f"/>virtual int <emphasis role="strong">Delete</emphasis> (int p1, System.DateTime p2, int p3, global::System.Nullable&lt; global::System.DateTime &gt; p5)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a243dc79626ad78970e273af1bde7c63e"/>virtual int <emphasis role="strong">Insert</emphasis> (int p1, System.DateTime p2, int p3, global::System.Nullable&lt; global::System.DateTime &gt; p4)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a78094443c2e07f2e7890eaff1ddb5968"/>virtual int <emphasis role="strong">Update</emphasis> (int p1, System.DateTime p2, int p3, global::System.Nullable&lt; global::System.DateTime &gt; p4, int p5, System.DateTime p6, int p7, global::System.Nullable&lt; global::System.DateTime &gt; p9)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1ac1299e087329caefea52b32fc6c8511f"/>virtual int <emphasis role="strong">Update</emphasis> (int p3, global::System.Nullable&lt; global::System.DateTime &gt; p4, int p5, System.DateTime p6, int p7, global::System.Nullable&lt; global::System.DateTime &gt; p9)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1aa5d7ee54814bd892c9617f5b5bf7590b"/>global::MySql.Data.MySqlClient.MySqlCommand[] <emphasis role="strong">CommandCollection</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1abe0471b383f89339781d71cdf1c6edd6"/>bool <emphasis role="strong">ClearBeforeFill</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs</section>
+</section>

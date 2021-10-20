@@ -1,0 +1,95 @@
+.TH "MediaTek.vue.FrmGestion" 3 "Mardi 19 Octobre 2021" "Digimedia86" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MediaTek.vue.FrmGestion \- Fenêtre d'affichage et de gestion du personnel et de leurs absences  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Est dérivée de Form\&.
+.SS "Fonctions membres publiques"
+
+.in +1c
+.ti -1c
+.RI "\fBFrmGestion\fP (\fBControle\fP controle)"
+.br
+.RI "Initialisation des composants graphiques Récupération de l'instance du controleur Initialisation de l'affichage "
+.ti -1c
+.RI "void \fBInit\fP ()"
+.br
+.RI "Rend non accessible les groupes absence et gestion du personnel Appel les methodes pour afficher la liste du personnel et les services "
+.ti -1c
+.RI "void \fBAfficherListePersonnel\fP ()"
+.br
+.RI "Initialisation de la liste du personnel et affiche la liste du personnel "
+.ti -1c
+.RI "void \fBAfficherService\fP ()"
+.br
+.RI "Afficher la liste des services dans cobService "
+.ti -1c
+.RI "void \fBAfficherAbs\fP (\fBPersonnel\fP unpersonnel)"
+.br
+.RI "Afficher la liste des abscences d'un personnel dans dataAbsence "
+.ti -1c
+.RI "void \fBAfficherMotif\fP ()"
+.br
+.RI "Afficher la liste des motifs dans cobMotif "
+.ti -1c
+.RI "void \fBViderAbs\fP ()"
+.br
+.RI "Vider les saisies et fermer le grpGestionAbs "
+.in -1c
+.SS "Fonctions membres protégées"
+
+.in +1c
+.ti -1c
+.RI "override void \fBDispose\fP (bool disposing)"
+.br
+.RI "Clean up any resources being used\&. "
+.in -1c
+.SH "Description détaillée"
+.PP 
+Fenêtre d'affichage et de gestion du personnel et de leurs absences 
+.SH "Documentation des constructeurs et destructeur"
+.PP 
+.SS "MediaTek\&.vue\&.FrmGestion\&.FrmGestion (\fBControle\fP controle)"
+
+.PP
+Initialisation des composants graphiques Récupération de l'instance du controleur Initialisation de l'affichage 
+.PP
+\fBParamètres\fP
+.RS 4
+\fIcontrole\fP instance du controleur
+.RE
+.PP
+
+.SH "Documentation des fonctions membres"
+.PP 
+.SS "void MediaTek\&.vue\&.FrmGestion\&.AfficherAbs (\fBPersonnel\fP unpersonnel)"
+
+.PP
+Afficher la liste des abscences d'un personnel dans dataAbsence 
+.PP
+\fBParamètres\fP
+.RS 4
+\fIunpersonnel\fP Personnel unpersonnel
+.RE
+.PP
+
+.SS "override void MediaTek\&.vue\&.FrmGestion\&.Dispose (bool disposing)\fC [protected]\fP"
+
+.PP
+Clean up any resources being used\&. 
+.PP
+\fBParamètres\fP
+.RS 4
+\fIdisposing\fP true if managed resources should be disposed; otherwise, false\&.
+.RE
+.PP
+
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour Digimedia86 à partir du code source\&.

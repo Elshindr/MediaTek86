@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_bb55c4692e41024a3b1e84af5885b2e8" xml:lang="fr">
+<title>Répertoire de référence de DigimediaTek86/Properties</title>
+<indexterm><primary>Répertoire de référence de DigimediaTek86/Properties</primary></indexterm>
+<simplesect>
+    <title>Fichiers    </title>
+        <itemizedlist>
+            <listitem><para>fichier <link linkend="__assembly_info_8cs">AssemblyInfo.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__resources_8_designer_8cs">Resources.Designer.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__settings_8_designer_8cs">Settings.Designer.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

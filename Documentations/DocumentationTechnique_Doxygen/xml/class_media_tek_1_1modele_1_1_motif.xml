@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1modele_1_1_motif" kind="class" language="C#" prot="public">
+    <compoundname>MediaTek::modele::Motif</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1modele_1_1_motif_1ad2008a49f3cde170f6f69657cc001160" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MediaTek.modele.Motif.idmotif</definition>
+        <argsstring></argsstring>
+        <name>idmotif</name>
+        <briefdescription>
+<para>Propriété d&apos;identifiant d&apos;un motif </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Motif.cs" line="12" column="21" bodyfile="DigimediaTek86/modele/Motif.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1modele_1_1_motif_1ae7f32c0cd8711e6a5a911aa4556d3fb9" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MediaTek.modele.Motif.libelle</definition>
+        <argsstring></argsstring>
+        <name>libelle</name>
+        <briefdescription>
+<para>Propriété de libellé d&apos;un motif </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Motif.cs" line="17" column="24" bodyfile="DigimediaTek86/modele/Motif.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_1_1modele_1_1_motif_1a253df8290953312336a3c13b1073f4f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MediaTek.modele.Motif.Idmotif</definition>
+        <argsstring></argsstring>
+        <name>Idmotif</name>
+        <briefdescription>
+<para>Getter sur idmotif </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Motif.cs" line="23" column="20" bodyfile="DigimediaTek86/modele/Motif.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1modele_1_1_motif_1aa36d133b6a9d5510b92915eb1630f8d1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTek.modele.Motif.Libelle</definition>
+        <argsstring></argsstring>
+        <name>Libelle</name>
+        <briefdescription>
+<para>Getter sur libelle </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Motif.cs" line="28" column="23" bodyfile="DigimediaTek86/modele/Motif.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_1_1modele_1_1_motif_1afc5eec43d187bc5b05198c16624725ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.modele.Motif.Motif</definition>
+        <argsstring>(int idmotif, string libelle)</argsstring>
+        <name>Motif</name>
+        <param>
+          <type>int</type>
+          <declname>idmotif</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>libelle</declname>
+        </param>
+        <briefdescription>
+<para>Constructeur de <ref refid="class_media_tek_1_1modele_1_1_motif" kindref="compound">Motif</ref> et valorise ses propriétés </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idmotif</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>libelle</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Motif.cs" line="35" column="16" bodyfile="DigimediaTek86/modele/Motif.cs" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1modele_1_1_motif_1ac5c7388e87d043d441a49945f5dc7481" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string MediaTek.modele.Motif.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+<para>Définir le libelle à afficher </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Motif.cs" line="45" column="32" bodyfile="DigimediaTek86/modele/Motif.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe représentant les motifs d&apos;absence d&apos;un personnel </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DigimediaTek86/modele/Motif.cs" line="7" column="11" bodyfile="DigimediaTek86/modele/Motif.cs" bodystart="8" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1modele_1_1_motif_1ad2008a49f3cde170f6f69657cc001160" prot="private" virt="non-virtual"><scope>MediaTek::modele::Motif</scope><name>idmotif</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_motif_1a253df8290953312336a3c13b1073f4f2" prot="public" virt="non-virtual"><scope>MediaTek::modele::Motif</scope><name>Idmotif</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_motif_1ae7f32c0cd8711e6a5a911aa4556d3fb9" prot="private" virt="non-virtual"><scope>MediaTek::modele::Motif</scope><name>libelle</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_motif_1aa36d133b6a9d5510b92915eb1630f8d1" prot="public" virt="non-virtual"><scope>MediaTek::modele::Motif</scope><name>Libelle</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_motif_1afc5eec43d187bc5b05198c16624725ca" prot="public" virt="non-virtual"><scope>MediaTek::modele::Motif</scope><name>Motif</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_motif_1ac5c7388e87d043d441a49945f5dc7481" prot="public" virt="non-virtual"><scope>MediaTek::modele::Motif</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

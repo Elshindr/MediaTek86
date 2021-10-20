@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1_properties_1_1_settings" kind="class" language="C#" prot="package">
+    <compoundname>MediaTek::Properties::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global.SystemConfiguration.ApplicationSettingsBase</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1_properties_1_1_settings_1a7d9f1541045fd8ef1bd6101975981aa0" prot="private" static="yes" mutable="no">
+        <type>Settings</type>
+        <definition>Settings MediaTek.Properties.Settings.defaultInstance</definition>
+        <argsstring></argsstring>
+        <name>defaultInstance</name>
+        <initializer>= ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/Properties/Settings.Designer.cs" line="18" column="33" bodyfile="DigimediaTek86/Properties/Settings.Designer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_1_1_properties_1_1_settings_1a87ad636c26b0633c327533d51f200dda" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Settings</type>
+        <definition>Settings MediaTek.Properties.Settings.Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/Properties/Settings.Designer.cs" line="20" column="32" bodyfile="DigimediaTek86/Properties/Settings.Designer.cs" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_properties_1_1_settings_1a2e25a264e0124417a04bd8e3d2fd9609" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTek.Properties.Settings.projetcnedConnectionString</definition>
+        <argsstring></argsstring>
+        <name>projetcnedConnectionString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/Properties/Settings.Designer.cs" line="31" column="23" bodyfile="DigimediaTek86/Properties/Settings.Designer.cs" bodystart="31" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MediaTek.Properties.Settings</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MediaTek.Properties.Settings</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+    </collaborationgraph>
+    <location file="DigimediaTek86/Properties/Settings.Designer.cs" line="16" column="28" bodyfile="DigimediaTek86/Properties/Settings.Designer.cs" bodystart="16" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1_properties_1_1_settings_1a87ad636c26b0633c327533d51f200dda" prot="public" virt="non-virtual"><scope>MediaTek::Properties::Settings</scope><name>Default</name></member>
+      <member refid="class_media_tek_1_1_properties_1_1_settings_1a7d9f1541045fd8ef1bd6101975981aa0" prot="private" virt="non-virtual"><scope>MediaTek::Properties::Settings</scope><name>defaultInstance</name></member>
+      <member refid="class_media_tek_1_1_properties_1_1_settings_1a2e25a264e0124417a04bd8e3d2fd9609" prot="public" virt="non-virtual"><scope>MediaTek::Properties::Settings</scope><name>projetcnedConnectionString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

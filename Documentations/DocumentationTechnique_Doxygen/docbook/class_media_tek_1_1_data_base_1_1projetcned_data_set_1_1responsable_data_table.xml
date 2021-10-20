@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table" xml:lang="fr">
+<title>Référence de la classe MediaTek.DataBase.projetcnedDataSet.responsableDataTable</title>
+<indexterm><primary>MediaTek.DataBase.projetcnedDataSet.responsableDataTable</primary></indexterm>
+<para>
+
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+ 
+</para>
+<para>
+Est dérivée de global.SystemData.TypedTableBase&lt; responsableRow &gt;.</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1a0f63835c544634fb6220b0746833900e"/>void <emphasis role="strong">AddresponsableRow</emphasis> (<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row">responsableRow</link> row)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1a642a6110c4383ddcd09514385a7a49a3"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row">responsableRow</link> <emphasis role="strong">AddresponsableRow</emphasis> (string login, string pwd)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1a3b1ccb176fd368b99279aee262f2c828"/>override global::System.Data.DataTable <emphasis role="strong">Clone</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1a79f4e1c5fc20b0ba0d18a07c4e4c9a47"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row">responsableRow</link> <emphasis role="strong">NewresponsableRow</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1a074f62be2391187fb931ae4fe61ffe24"/>void <emphasis role="strong">RemoveresponsableRow</emphasis> (<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row">responsableRow</link> row)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres publiques statiques    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1a93adc25d50f45cedcd0aa27369060424"/>static global::System.Xml.Schema.XmlSchemaComplexType <emphasis role="strong">GetTypedTableSchema</emphasis> (global::System.Xml.Schema.XmlSchemaSet xs)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres protégées    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1a8953b1249615297f2f987edd5370775b"/><emphasis role="strong">responsableDataTable</emphasis> (global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1ae992d2fb97950a31c3bbc4f62a452387"/>override global::System.Data.DataTable <emphasis role="strong">CreateInstance</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1a02ee01629396f7ed110c158ed327ef5b"/>override global::System.Data.DataRow <emphasis role="strong">NewRowFromBuilder</emphasis> (global::System.Data.DataRowBuilder builder)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1a7e55b550b9e10a8dc61f2250da406eab"/>override global::System.Type <emphasis role="strong">GetRowType</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1a6ffaa03331cb81fda7d679999fdae851"/>override void <emphasis role="strong">OnRowChanged</emphasis> (global::System.Data.DataRowChangeEventArgs e)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1a74e8b9f3531474b7fd92f2f272ae3bc6"/>override void <emphasis role="strong">OnRowChanging</emphasis> (global::System.Data.DataRowChangeEventArgs e)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1ad71acc59b3852b9870d5d1f770e85627"/>override void <emphasis role="strong">OnRowDeleted</emphasis> (global::System.Data.DataRowChangeEventArgs e)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1a47d25f06b062f8b2ef3ede6157241e5b"/>override void <emphasis role="strong">OnRowDeleting</emphasis> (global::System.Data.DataRowChangeEventArgs e)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1add846276000ffb00b3ce8b923eb83675"/>global::System.Data.DataColumn <emphasis role="strong">loginColumn</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1a8fadea555e442d965b6fd23cd2eed5b0"/>global::System.Data.DataColumn <emphasis role="strong">pwdColumn</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1a7fb507d77bd429d071b4756ce3e03c7a"/>int <emphasis role="strong">Count</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1a979d1baa5f3b81271e36e9061ddc15cd"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row">responsableRow</link> <emphasis role="strong">this[int index]</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Événements    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1a24a56c686d3f6d87d7f2b0dda446e24a"/>responsableRowChangeEventHandler <emphasis role="strong">responsableRowChanging</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1ab063348d4f19e79ea9810f938a1a9c2c"/>responsableRowChangeEventHandler <emphasis role="strong">responsableRowChanged</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1abd485c8191ed9e8e0789d7391167d74e"/>responsableRowChangeEventHandler <emphasis role="strong">responsableRowDeleting</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table_1a28ae7734dec2418ac45f76fd37e5497a"/>responsableRowChangeEventHandler <emphasis role="strong">responsableRowDeleted</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs</section>
+</section>

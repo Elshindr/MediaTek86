@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row" kind="class" language="C#" prot="public">
+    <compoundname>MediaTek::DataBase::projetcnedDataSet::absenceRow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global.SystemData.DataRow</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a723628972b2dd40453ef8ba734b5a7be" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table" kindref="compound">absenceDataTable</ref></type>
+        <definition>absenceDataTable MediaTek.DataBase.projetcnedDataSet.absenceRow.tableabsence</definition>
+        <argsstring></argsstring>
+        <name>tableabsence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1876" column="38" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1876" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a35afb87f767eacf38e174ddcb5138bd3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MediaTek.DataBase.projetcnedDataSet.absenceRow.IDPERSONNEL</definition>
+        <argsstring></argsstring>
+        <name>IDPERSONNEL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1887" column="24" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1887" bodyend="1894"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a49b22093887fd7686ee8f6d8144846a1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>System.DateTime</type>
+        <definition>System.DateTime MediaTek.DataBase.projetcnedDataSet.absenceRow.DATEDEBUT</definition>
+        <argsstring></argsstring>
+        <name>DATEDEBUT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1898" column="35" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1898" bodyend="1905"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a8264f67e190eecbfc204ac466522249e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MediaTek.DataBase.projetcnedDataSet.absenceRow.IDMOTIF</definition>
+        <argsstring></argsstring>
+        <name>IDMOTIF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1909" column="24" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1909" bodyend="1916"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a386714c2b2839453576d510eef565fbf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>System.DateTime</type>
+        <definition>System.DateTime MediaTek.DataBase.projetcnedDataSet.absenceRow.DATEFIN</definition>
+        <argsstring></argsstring>
+        <name>DATEFIN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1920" column="35" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1920" bodyend="1932"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a21cd9610154d4ccb1c7e491902da4cd3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.DataBase.projetcnedDataSet.absenceRow.absenceRow</definition>
+        <argsstring>(global::System.Data.DataRowBuilder rb)</argsstring>
+        <name>absenceRow</name>
+        <param>
+          <type>global::System.Data.DataRowBuilder</type>
+          <declname>rb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1880" column="22" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1880" bodyend="1883"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a69c7832cdf194517c9ba57c3b8e05ade" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTek.DataBase.projetcnedDataSet.absenceRow.IsDATEFINNull</definition>
+        <argsstring>()</argsstring>
+        <name>IsDATEFINNull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1936" column="25" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1936" bodyend="1938"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a78c0cc57f952f8b4b121339cf351a3a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSet.absenceRow.SetDATEFINNull</definition>
+        <argsstring>()</argsstring>
+        <name>SetDATEFINNull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1942" column="25" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1942" bodyend="1944"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSet.absenceRow</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemData::DataRow</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSet.absenceRow</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemData::DataRow</label>
+      </node>
+    </collaborationgraph>
+    <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1874" column="23" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1874" bodyend="1945"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a21cd9610154d4ccb1c7e491902da4cd3" prot="package" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::absenceRow</scope><name>absenceRow</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a49b22093887fd7686ee8f6d8144846a1" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::absenceRow</scope><name>DATEDEBUT</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a386714c2b2839453576d510eef565fbf" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::absenceRow</scope><name>DATEFIN</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a8264f67e190eecbfc204ac466522249e" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::absenceRow</scope><name>IDMOTIF</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a35afb87f767eacf38e174ddcb5138bd3" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::absenceRow</scope><name>IDPERSONNEL</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a69c7832cdf194517c9ba57c3b8e05ade" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::absenceRow</scope><name>IsDATEFINNull</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a78c0cc57f952f8b4b121339cf351a3a3" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::absenceRow</scope><name>SetDATEFINNull</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a723628972b2dd40453ef8ba734b5a7be" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::absenceRow</scope><name>tableabsence</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

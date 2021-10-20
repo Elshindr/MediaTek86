@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1modele_1_1_absence" xml:lang="fr">
+<title>Référence de la classe MediaTek.modele.Absence</title>
+<indexterm><primary>MediaTek.modele.Absence</primary></indexterm>
+<para>
+
+<para>Classe représentant les absences d&apos;un personnel </para>
+ 
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_1_1modele_1_1_absence_1ad1bab89615cb72d084f922eafcee8018">Absence</link> (int idpersonnel, DateTime datedebut, DateTime datefin, string motif, int idmotif)</para>
+
+<para>Constructeur d&apos;<link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> et valorise ses propriétés </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1modele_1_1_absence_1a29a44fca1468951469d53e6df114f924"/>int <emphasis role="strong">Idpersonnel</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Getter sur idpersonnel </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1modele_1_1_absence_1a4bed5e70f6afee200df665d29ddf8964"/>DateTime <emphasis role="strong">Datedebut</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Getter sur datadebut </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1modele_1_1_absence_1a614ef246a6b7ec7efe6b78e41a3f885d"/>DateTime <emphasis role="strong">Datefin</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Getter sur datefin </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1modele_1_1_absence_1aa1a6bf0c55b5051ef8201199dea353cf"/>string <emphasis role="strong">Motif</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Getter sur motif </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1modele_1_1_absence_1a13db7b83e24d17541c3a68f45f6bbf41"/>int <emphasis role="strong">Idmotif</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Getter sur idmotif </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Classe représentant les absences d&apos;un personnel </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_1_1modele_1_1_absence_1ad1bab89615cb72d084f922eafcee8018"/><section>
+    <title>Absence()</title>
+<indexterm><primary>Absence</primary><secondary>MediaTek.modele.Absence</secondary></indexterm>
+<indexterm><primary>MediaTek.modele.Absence</primary><secondary>Absence</secondary></indexterm>
+<para><computeroutput>MediaTek.modele.Absence.Absence (int idpersonnel, DateTime datedebut, DateTime datefin, string motif, int idmotif)</computeroutput></para><para>
+
+<para>Constructeur d&apos;<link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> et valorise ses propriétés </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>idpersonnel</entry><entry></entry>
+                            </row>
+                            <row>
+<entry>datedebut</entry><entry></entry>
+                            </row>
+                            <row>
+<entry>datefin</entry><entry></entry>
+                            </row>
+                            <row>
+<entry>motif</entry><entry></entry>
+                            </row>
+                            <row>
+<entry>idmotif</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/modele/Absence.cs</section>
+</section>

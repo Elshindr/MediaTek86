@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="namespace_media_tek_1_1vue" kind="namespace" language="C#">
+    <compoundname>MediaTek::vue</compoundname>
+    <innerclass refid="class_media_tek_1_1vue_1_1_frm_connexion" prot="public">MediaTek::vue::FrmConnexion</innerclass>
+    <innerclass refid="class_media_tek_1_1vue_1_1_frm_gestion" prot="public">MediaTek::vue::FrmGestion</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DigimediaTek86/vue/FrmConnexion.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="namespace_media_tek_1_1_data_base" kind="namespace" language="C#">
+    <compoundname>MediaTek::DataBase</compoundname>
+    <innerclass refid="class_media_tek_1_1_data_base_1_1projetcned_data_set" prot="public">MediaTek::DataBase::projetcnedDataSet</innerclass>
+    <innernamespace refid="namespace_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters">MediaTek::DataBase::projetcnedDataSetTableAdapters</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="13" column="1"/>
+  </compounddef>
+</doxygen>

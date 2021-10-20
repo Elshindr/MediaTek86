@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set" xml:lang="fr">
+<title>Référence de la classe MediaTek.DataBase.projetcnedDataSet</title>
+<indexterm><primary>MediaTek.DataBase.projetcnedDataSet</primary></indexterm>
+<para>
+
+<para>Represents a strongly typed in-memory cache of data. /summary&gt; </para>
+ 
+</para>
+<para>
+Est dérivée de global.SystemData.DataSet.</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table">absenceDataTable</link></para>
+
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row">absenceRow</link></para>
+
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_change_event">absenceRowChangeEvent</link></para>
+
+<para>Row event argument class /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table">motifDataTable</link></para>
+
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row">motifRow</link></para>
+
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row_change_event">motifRowChangeEvent</link></para>
+
+<para>Row event argument class /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table">personnelDataTable</link></para>
+
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row">personnelRow</link></para>
+
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_change_event">personnelRowChangeEvent</link></para>
+
+<para>Row event argument class /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table">responsableDataTable</link></para>
+
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row">responsableRow</link></para>
+
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_change_event">responsableRowChangeEvent</link></para>
+
+<para>Row event argument class /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table">serviceDataTable</link></para>
+
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row">serviceRow</link></para>
+
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row_change_event">serviceRowChangeEvent</link></para>
+
+<para>Row event argument class /summary&gt; </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1a09f66a94b5ae0cd0c570c918457d5093"/>override global::System.Data.DataSet <emphasis role="strong">Clone</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1a41dc9c0b69433a615eb1be38f451f102"/>delegate void <emphasis role="strong">absenceRowChangeEventHandler</emphasis> (object sender, <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_change_event">absenceRowChangeEvent</link> e)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1a8ac6355d16efb8a38075b8b268bd5b92"/>delegate void <emphasis role="strong">motifRowChangeEventHandler</emphasis> (object sender, <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row_change_event">motifRowChangeEvent</link> e)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1a1fe07efff4d0557b6f8147eb9607297e"/>delegate void <emphasis role="strong">personnelRowChangeEventHandler</emphasis> (object sender, <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_change_event">personnelRowChangeEvent</link> e)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1ae882b8cc86e2c35e3d4aac8bf9650042"/>delegate void <emphasis role="strong">responsableRowChangeEventHandler</emphasis> (object sender, <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_change_event">responsableRowChangeEvent</link> e)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1a1c7b6986ad540730058974f8e676ac10"/>delegate void <emphasis role="strong">serviceRowChangeEventHandler</emphasis> (object sender, <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row_change_event">serviceRowChangeEvent</link> e)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres publiques statiques    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1ac5d92f73b0127d3f15a6f5df9f601fec"/>static global::System.Xml.Schema.XmlSchemaComplexType <emphasis role="strong">GetTypedDataSetSchema</emphasis> (global::System.Xml.Schema.XmlSchemaSet xs)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres protégées    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1a062a853cc00f124fc7de9615a81502bf"/><emphasis role="strong">projetcnedDataSet</emphasis> (global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1ac52a7836e68c6106f8b073a7bb530952"/>override void <emphasis role="strong">InitializeDerivedDataSet</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1a550a658c959af0465e9d20501b9f7167"/>override bool <emphasis role="strong">ShouldSerializeTables</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1a123d401ef120ad4707f52d148456b9b2"/>override bool <emphasis role="strong">ShouldSerializeRelations</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1a5291c1080471c2ea5d0cd6f332579cd6"/>override void <emphasis role="strong">ReadXmlSerializable</emphasis> (global::System.Xml.XmlReader reader)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1a18ced0d4154bd69460329377dea9a3f3"/>override global::System.Xml.Schema.XmlSchema <emphasis role="strong">GetSchemaSerializable</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1ac89de4679603af9e2712469f73096d98"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table">absenceDataTable</link> <emphasis role="strong">absence</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1af4d52c4d3fa9d68aa211d3eacb9461c1"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table">motifDataTable</link> <emphasis role="strong">motif</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1a1a7b1c022b3c7079c8606b2a25643e9f"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table">personnelDataTable</link> <emphasis role="strong">personnel</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1acadf07ba0afda509b1cda27b14019fb3"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table">responsableDataTable</link> <emphasis role="strong">responsable</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1af3c8df638e5a3f64fda4eb3e490342ce"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table">serviceDataTable</link> <emphasis role="strong">service</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1a4f2b2d535e5f29b3ac337599ee5ea965"/>override global::System.Data.SchemaSerializationMode <emphasis role="strong">SchemaSerializationMode</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1a649ed76939bc498941f4cf3c569c0200"/>new global::System.Data.DataTableCollection <emphasis role="strong">Tables</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1aca834a044baf4cda55550a7ba5dfe844"/>new global::System.Data.DataRelationCollection <emphasis role="strong">Relations</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Represents a strongly typed in-memory cache of data. /summary&gt; </para>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs</section>
+</section>

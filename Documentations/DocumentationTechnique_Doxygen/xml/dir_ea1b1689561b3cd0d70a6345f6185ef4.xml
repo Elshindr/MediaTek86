@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="dir_ea1b1689561b3cd0d70a6345f6185ef4" kind="dir">
+    <compoundname>DigimediaTek86/controleur</compoundname>
+    <innerfile refid="_controle_8cs">Controle.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DigimediaTek86/controleur/"/>
+  </compounddef>
+</doxygen>

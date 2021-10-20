@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_media_tek_1_1dal" xml:lang="fr">
+<title>Référence de l&apos;espace de nommage MediaTek.dal</title>
+<indexterm><primary>MediaTek.dal</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_media_tek_1_1dal_1_1_acces_connexion_bdd">AccesConnexionBdd</link></para>
+
+<para>Classe de gestion de la base de donnée </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

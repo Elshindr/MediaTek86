@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1dal_1_1_acces_connexion_bdd" xml:lang="fr">
+<title>Référence de la classe MediaTek.dal.AccesConnexionBdd</title>
+<indexterm><primary>MediaTek.dal.AccesConnexionBdd</primary></indexterm>
+<para>
+
+<para>Classe de gestion de la base de donnée </para>
+ 
+</para>
+<simplesect>
+    <title>Fonctions membres publiques statiques    </title>
+        <itemizedlist>
+            <listitem><para>static Boolean <link linkend="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a71fa166bd0a58cc30d0a2da1c3cfc9b1">Authentification</link> (string log, string pwd)</para>
+
+<para>Verifie si les clés de connexion sont valides </para>
+</listitem>
+            <listitem><para>static List&lt; <link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> &gt; <link linkend="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a125c77a185a72ace2bb96fca5d579c54">GetLePersonnel</link> ()</para>
+
+<para>Récupèrer la liste du personnel provenant de la Base de données </para>
+</listitem>
+            <listitem><para>static List&lt; <link linkend="_class_media_tek_1_1modele_1_1_service">Service</link> &gt; <link linkend="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1aea09f9537db0d5f4b908be91d6df06b4">GetService</link> ()</para>
+
+<para>Demander la liste des services </para>
+</listitem>
+            <listitem><para>static List&lt; <link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> &gt; <link linkend="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a2ac7438e41d5381e2d27ab7b312c6eee">GetLesAbsences</link> (<link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> unpersonnel)</para>
+
+<para>Afficher la liste des absences d&apos;un personnel sélectionné, dans l&apos;ordre inverse de la chronologie(la plus récente en premier). </para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a13df939cbd1c80c239bb94b2b0b862dd">AddPersonnel</link> (<link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> unpersonnel)</para>
+
+<para>Ajouter un personnel </para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a5950b3e50043b5c3b469941d5a428388">AddAbsence</link> (<link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> uneabs)</para>
+
+<para>Ajouter une absence </para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a6c0c000fa833dbbbf50b5cc90b64defd">DelPersonnel</link> (<link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> unpersonnel)</para>
+
+<para>Supprimer un personnel </para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a4f65794f75241f803e2adfd7ad9f3a18">DelAbs</link> (<link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> uneabs)</para>
+
+<para>Supprimer une absence d&apos;un personnel </para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a46fcd22db0b11ec861632025028326e7">ModPersonnel</link> (<link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> unpersonnel)</para>
+
+<para>Modifier un personnel </para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1aa724b83bc00104535c28b09634c3c4b2">ModAbs</link> (<link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> uneabs)</para>
+
+<para>Modifier une absence date de fin ou/et motif </para>
+</listitem>
+            <listitem><para>static void <link linkend="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a468de86ff8a5bac1cbffe7bd2b32627a">ModAbsdebut</link> (<link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> uneabs)</para>
+
+<para>Modifier une absence date d&apos;entrée en absence </para>
+</listitem>
+            <listitem><para>static List&lt; <link linkend="_class_media_tek_1_1modele_1_1_motif">Motif</link> &gt; <link linkend="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a03c037a9e0a7ae352e0d788bafea5fe3">GetMotif</link> ()</para>
+
+<para>Obtenir la liste des motifs d&apos;absence </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Classe de gestion de la base de donnée </para>
+</section>
+<section>
+<title>Documentation des fonctions membres</title>
+<anchor xml:id="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a5950b3e50043b5c3b469941d5a428388"/><section>
+    <title>AddAbsence()</title>
+<indexterm><primary>AddAbsence</primary><secondary>MediaTek.dal.AccesConnexionBdd</secondary></indexterm>
+<indexterm><primary>MediaTek.dal.AccesConnexionBdd</primary><secondary>AddAbsence</secondary></indexterm>
+<para><computeroutput>static void MediaTek.dal.AccesConnexionBdd.AddAbsence (<link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> uneabs)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Ajouter une absence </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>uneabs</entry><entry>
+<para>une absence</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a13df939cbd1c80c239bb94b2b0b862dd"/><section>
+    <title>AddPersonnel()</title>
+<indexterm><primary>AddPersonnel</primary><secondary>MediaTek.dal.AccesConnexionBdd</secondary></indexterm>
+<indexterm><primary>MediaTek.dal.AccesConnexionBdd</primary><secondary>AddPersonnel</secondary></indexterm>
+<para><computeroutput>static void MediaTek.dal.AccesConnexionBdd.AddPersonnel (<link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> unpersonnel)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Ajouter un personnel </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>unpersonnel</entry><entry>
+<para>un personnel</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a71fa166bd0a58cc30d0a2da1c3cfc9b1"/><section>
+    <title>Authentification()</title>
+<indexterm><primary>Authentification</primary><secondary>MediaTek.dal.AccesConnexionBdd</secondary></indexterm>
+<indexterm><primary>MediaTek.dal.AccesConnexionBdd</primary><secondary>Authentification</secondary></indexterm>
+<para><computeroutput>static Boolean MediaTek.dal.AccesConnexionBdd.Authentification (string log, string pwd)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Verifie si les clés de connexion sont valides </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>log</entry><entry>
+<para>login</para>
+</entry>
+                            </row>
+                            <row>
+<entry>pwd</entry><entry>
+<para>mot de passe</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>vrai si clés sont valides</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a4f65794f75241f803e2adfd7ad9f3a18"/><section>
+    <title>DelAbs()</title>
+<indexterm><primary>DelAbs</primary><secondary>MediaTek.dal.AccesConnexionBdd</secondary></indexterm>
+<indexterm><primary>MediaTek.dal.AccesConnexionBdd</primary><secondary>DelAbs</secondary></indexterm>
+<para><computeroutput>static void MediaTek.dal.AccesConnexionBdd.DelAbs (<link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> uneabs)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Supprimer une absence d&apos;un personnel </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>uneabs</entry><entry>
+<para>une absence</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a6c0c000fa833dbbbf50b5cc90b64defd"/><section>
+    <title>DelPersonnel()</title>
+<indexterm><primary>DelPersonnel</primary><secondary>MediaTek.dal.AccesConnexionBdd</secondary></indexterm>
+<indexterm><primary>MediaTek.dal.AccesConnexionBdd</primary><secondary>DelPersonnel</secondary></indexterm>
+<para><computeroutput>static void MediaTek.dal.AccesConnexionBdd.DelPersonnel (<link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> unpersonnel)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Supprimer un personnel </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>unpersonnel</entry><entry>
+<para>le personnel</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a125c77a185a72ace2bb96fca5d579c54"/><section>
+    <title>GetLePersonnel()</title>
+<indexterm><primary>GetLePersonnel</primary><secondary>MediaTek.dal.AccesConnexionBdd</secondary></indexterm>
+<indexterm><primary>MediaTek.dal.AccesConnexionBdd</primary><secondary>GetLePersonnel</secondary></indexterm>
+<para><computeroutput>static List&lt; <link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> &gt; MediaTek.dal.AccesConnexionBdd.GetLePersonnel ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Récupèrer la liste du personnel provenant de la Base de données </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>La liste du personnel</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a2ac7438e41d5381e2d27ab7b312c6eee"/><section>
+    <title>GetLesAbsences()</title>
+<indexterm><primary>GetLesAbsences</primary><secondary>MediaTek.dal.AccesConnexionBdd</secondary></indexterm>
+<indexterm><primary>MediaTek.dal.AccesConnexionBdd</primary><secondary>GetLesAbsences</secondary></indexterm>
+<para><computeroutput>static List&lt; <link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> &gt; MediaTek.dal.AccesConnexionBdd.GetLesAbsences (<link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> unpersonnel)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Afficher la liste des absences d&apos;un personnel sélectionné, dans l&apos;ordre inverse de la chronologie(la plus récente en premier). </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Retourne la liste des absences d&apos;un personnel</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a03c037a9e0a7ae352e0d788bafea5fe3"/><section>
+    <title>GetMotif()</title>
+<indexterm><primary>GetMotif</primary><secondary>MediaTek.dal.AccesConnexionBdd</secondary></indexterm>
+<indexterm><primary>MediaTek.dal.AccesConnexionBdd</primary><secondary>GetMotif</secondary></indexterm>
+<para><computeroutput>static List&lt; <link linkend="_class_media_tek_1_1modele_1_1_motif">Motif</link> &gt; MediaTek.dal.AccesConnexionBdd.GetMotif ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Obtenir la liste des motifs d&apos;absence </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Retourne la liste des motfis d&apos;absence</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1aea09f9537db0d5f4b908be91d6df06b4"/><section>
+    <title>GetService()</title>
+<indexterm><primary>GetService</primary><secondary>MediaTek.dal.AccesConnexionBdd</secondary></indexterm>
+<indexterm><primary>MediaTek.dal.AccesConnexionBdd</primary><secondary>GetService</secondary></indexterm>
+<para><computeroutput>static List&lt; <link linkend="_class_media_tek_1_1modele_1_1_service">Service</link> &gt; MediaTek.dal.AccesConnexionBdd.GetService ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Demander la liste des services </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Retourne la liste des services existants</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1aa724b83bc00104535c28b09634c3c4b2"/><section>
+    <title>ModAbs()</title>
+<indexterm><primary>ModAbs</primary><secondary>MediaTek.dal.AccesConnexionBdd</secondary></indexterm>
+<indexterm><primary>MediaTek.dal.AccesConnexionBdd</primary><secondary>ModAbs</secondary></indexterm>
+<para><computeroutput>static void MediaTek.dal.AccesConnexionBdd.ModAbs (<link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> uneabs)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Modifier une absence date de fin ou/et motif </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>uneabs</entry><entry>
+<para>une absence</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a468de86ff8a5bac1cbffe7bd2b32627a"/><section>
+    <title>ModAbsdebut()</title>
+<indexterm><primary>ModAbsdebut</primary><secondary>MediaTek.dal.AccesConnexionBdd</secondary></indexterm>
+<indexterm><primary>MediaTek.dal.AccesConnexionBdd</primary><secondary>ModAbsdebut</secondary></indexterm>
+<para><computeroutput>static void MediaTek.dal.AccesConnexionBdd.ModAbsdebut (<link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> uneabs)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Modifier une absence date d&apos;entrée en absence </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>uneabs</entry><entry>
+<para>une absence</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a46fcd22db0b11ec861632025028326e7"/><section>
+    <title>ModPersonnel()</title>
+<indexterm><primary>ModPersonnel</primary><secondary>MediaTek.dal.AccesConnexionBdd</secondary></indexterm>
+<indexterm><primary>MediaTek.dal.AccesConnexionBdd</primary><secondary>ModPersonnel</secondary></indexterm>
+<para><computeroutput>static void MediaTek.dal.AccesConnexionBdd.ModPersonnel (<link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> unpersonnel)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Modifier un personnel </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>unpersonnel</entry><entry>
+<para>un personnel</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/dal/AccesConnexionBdd.cs</section>
+</section>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1modele_1_1_personnel" xml:lang="fr">
+<title>Référence de la classe MediaTek.modele.Personnel</title>
+<indexterm><primary>MediaTek.modele.Personnel</primary></indexterm>
+<para>
+
+<para>Classe représentant le personnel </para>
+ 
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_1_1modele_1_1_personnel_1a9daaf4e7ec80ed983c66a68188814533">Personnel</link> (int idpersonnel, string nom, string prenom, string tel, string mail, int idservice, string service)</para>
+
+<para>Constructeur de la classe <link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> et valorise ses propriétes </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1modele_1_1_personnel_1ab61fb26ed855deb236a29ecf499849b0"/>int <emphasis role="strong">Idpersonnel</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Getter sur idpersonnel </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1modele_1_1_personnel_1afdc1d1aa28055e3b0f8a858a11720a73"/>string <emphasis role="strong">Nom</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Getter sur nom </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1modele_1_1_personnel_1a16bb6939214728565ff8a5c5e395d4e6"/>string <emphasis role="strong">Prenom</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Getter sur prenom </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1modele_1_1_personnel_1a3a62441503fee914decc8d851175e574"/>string <emphasis role="strong">Tel</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Getter sur tel </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1modele_1_1_personnel_1acdba93474621127201e030db14fe14c3"/>string <emphasis role="strong">Mail</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Getter sur mail </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1modele_1_1_personnel_1a76c0673c01bb5a9dd7e7b55c39cbb0ca"/>int <emphasis role="strong">Idservice</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Getter sur idservice </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1modele_1_1_personnel_1af28502f1c623f9451da37d09daa0b13f"/>string <emphasis role="strong">Service</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Getter sur service </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Classe représentant le personnel </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_1_1modele_1_1_personnel_1a9daaf4e7ec80ed983c66a68188814533"/><section>
+    <title>Personnel()</title>
+<indexterm><primary>Personnel</primary><secondary>MediaTek.modele.Personnel</secondary></indexterm>
+<indexterm><primary>MediaTek.modele.Personnel</primary><secondary>Personnel</secondary></indexterm>
+<para><computeroutput>MediaTek.modele.Personnel.Personnel (int idpersonnel, string nom, string prenom, string tel, string mail, int idservice, string service)</computeroutput></para><para>
+
+<para>Constructeur de la classe <link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> et valorise ses propriétes </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>idpersonnel</entry><entry></entry>
+                            </row>
+                            <row>
+<entry>nom</entry><entry></entry>
+                            </row>
+                            <row>
+<entry>prenom</entry><entry></entry>
+                            </row>
+                            <row>
+<entry>tel</entry><entry></entry>
+                            </row>
+                            <row>
+<entry>mail</entry><entry></entry>
+                            </row>
+                            <row>
+<entry>idservice</entry><entry></entry>
+                            </row>
+                            <row>
+<entry>service</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/modele/Personnel.cs</section>
+</section>

@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row" kind="class" language="C#" prot="public">
+    <compoundname>MediaTek::DataBase::projetcnedDataSet::responsableRow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global.SystemData.DataRow</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_1a5e7d64b5c810ebadaf19e52167c8980a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table" kindref="compound">responsableDataTable</ref></type>
+        <definition>responsableDataTable MediaTek.DataBase.projetcnedDataSet.responsableRow.tableresponsable</definition>
+        <argsstring></argsstring>
+        <name>tableresponsable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2155" column="42" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2155" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_1a1aa05e9b2ed87675e8a91d35e9a97d31" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTek.DataBase.projetcnedDataSet.responsableRow.login</definition>
+        <argsstring></argsstring>
+        <name>login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2166" column="27" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2166" bodyend="2173"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_1ad6055c1f90fb170079b76cf38a917fba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTek.DataBase.projetcnedDataSet.responsableRow.pwd</definition>
+        <argsstring></argsstring>
+        <name>pwd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2177" column="27" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2177" bodyend="2184"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_1a44b5b95694e70865c781e7219a56cf64" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.DataBase.projetcnedDataSet.responsableRow.responsableRow</definition>
+        <argsstring>(global::System.Data.DataRowBuilder rb)</argsstring>
+        <name>responsableRow</name>
+        <param>
+          <type>global::System.Data.DataRowBuilder</type>
+          <declname>rb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2159" column="22" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2159" bodyend="2162"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSet.responsableRow</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemData::DataRow</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSet.responsableRow</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemData::DataRow</label>
+      </node>
+    </collaborationgraph>
+    <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2153" column="23" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2153" bodyend="2185"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_1a1aa05e9b2ed87675e8a91d35e9a97d31" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::responsableRow</scope><name>login</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_1ad6055c1f90fb170079b76cf38a917fba" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::responsableRow</scope><name>pwd</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_1a44b5b95694e70865c781e7219a56cf64" prot="package" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::responsableRow</scope><name>responsableRow</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_1a5e7d64b5c810ebadaf19e52167c8980a" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::responsableRow</scope><name>tableresponsable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

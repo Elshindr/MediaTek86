@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="namespace_media_tek_1_1connexion" kind="namespace" language="C#">
+    <compoundname>MediaTek::connexion</compoundname>
+    <innerclass refid="class_media_tek_1_1connexion_1_1_connexion_bdd" prot="public">MediaTek::connexion::ConnexionBdd</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DigimediaTek86/connexion/ConnexionBdd.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

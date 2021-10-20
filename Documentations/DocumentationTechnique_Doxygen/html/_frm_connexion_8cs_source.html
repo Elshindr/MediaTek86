@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+    <meta name="generator" content="Doxygen 1.9.2"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- BEGIN opengraph metadata -->
+    <meta property="og:title" content="Doxygen Awesome"/>
+    <meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452"/>
+    <meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters."/>
+    <meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/"/>
+    <!-- END opengraph metadata -->
+    <title>Digimedia86:  Fichier source de DigimediaTek86/vue/FrmConnexion.cs</title>
+    <link href="tabs.css" rel="stylesheet" type="text/css"/>
+    <!--link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/-->
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <link href="doxygen.css" rel="stylesheet" type="text/css"/>
+    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div id="top">
+      <!-- do not remove this div, it is closed by doxygen! -->
+      <div id="titlearea">
+        <table cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr style="height: 56px;">
+              <td id="projectlogo"><img alt="Logo" src="LogoContexte.png"/></td>
+              <td id="projectalign" style="padding-left: 0.5em;">
+                <div id="projectname">Digimedia86
+                </div>
+                <div id="projectbrief">Gestionnaire d&#39;absences du personnel du réseau MediaTek86</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- end header part --><!-- Généré par Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Recherche','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_frm_connexion_8cs_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">FrmConnexion.cs</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using</span> <a class="code hl_namespace" href="namespace_media_tek.html">MediaTek</a>.<a class="code hl_namespace" href="namespace_media_tek_1_1controleur.html">controleur</a>;</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using</span> <a class="code hl_namespace" href="namespace_media_tek.html">MediaTek</a>.<a class="code hl_namespace" href="namespace_media_tek_1_1modele.html">modele</a>;</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using</span> System;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using</span> System.Windows.Forms;</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="namespace_media_tek_1_1vue.html">    7</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_media_tek_1_1vue.html">MediaTek.vue</a></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_connexion.html">   12</a></span>    <span class="keyword">public</span> <span class="keyword">partial class </span><a class="code hl_class" href="class_media_tek_1_1vue_1_1_frm_connexion.html">FrmConnexion</a> : Form</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_connexion.html#a92f1a59e1b99af590b86a2cd127affd6">   17</a></span>        <span class="keyword">private</span> <a class="code hl_class" href="class_media_tek_1_1controleur_1_1_controle.html">Controle</a> <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_connexion.html#a92f1a59e1b99af590b86a2cd127affd6">controle</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_connexion.html#a0d8d1c383c4d0d3922ace8f3d9def325">   25</a></span>        <span class="keyword">public</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_connexion.html#a0d8d1c383c4d0d3922ace8f3d9def325">FrmConnexion</a>(<a class="code hl_class" href="class_media_tek_1_1controleur_1_1_controle.html">Controle</a> <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_connexion.html#a92f1a59e1b99af590b86a2cd127affd6">controle</a>)</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>            <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_connexion.html#a8e04f618f5898c218d2050334d6ace8f">InitializeComponent</a>();</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            this.controle = <a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_connexion.html#a92f1a59e1b99af590b86a2cd127affd6">controle</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        }</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="class_media_tek_1_1vue_1_1_frm_connexion.html#aba93937e5d5cc8b0312d2be8da7ff768">   39</a></span>        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1vue_1_1_frm_connexion.html#aba93937e5d5cc8b0312d2be8da7ff768">btnconnexion_Click</a>(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        {</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            <span class="keywordflow">if</span> (!txtlogin.Text.Equals(<span class="stringliteral">&quot;&quot;</span>) &amp;&amp; !txtpwd.Text.Equals(<span class="stringliteral">&quot;&quot;</span>))</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            {</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>                <span class="keywordflow">if</span> (!<a class="code hl_variable" href="class_media_tek_1_1vue_1_1_frm_connexion.html#a92f1a59e1b99af590b86a2cd127affd6">controle</a>.<a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a257a4792f9ac1755ebd961167d49434c">Authentification</a>(txtlogin.Text, txtpwd.Text))</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>                {</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>                    MessageBox.Show(<span class="stringliteral">&quot;Mauvais mot de passe ou login&quot;</span>, <span class="stringliteral">&quot;Erreur Connexion&quot;</span>);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>                }</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>            }</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>            {</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>                MessageBox.Show(<span class="stringliteral">&quot;Champs non rempli&quot;</span>, <span class="stringliteral">&quot;Erreur champs invalide&quot;</span>);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>            }</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        }</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    }</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>}</div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html">MediaTek.controleur.Controle</a></div><div class="ttdoc">Classe de controleur</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00013">Controle.cs:14</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a257a4792f9ac1755ebd961167d49434c"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a257a4792f9ac1755ebd961167d49434c">MediaTek.controleur.Controle.Authentification</a></div><div class="ttdeci">Boolean Authentification(string log, string pwd)</div><div class="ttdoc">Methode de vérification de connexion, si vrai, ouverture de la fenetre FrmGestion</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00038">Controle.cs:38</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_connexion_html"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_connexion.html">MediaTek.vue.FrmConnexion</a></div><div class="ttdoc">Fenêtre de connexion au programme</div><div class="ttdef"><b>Definition:</b> <a href="_frm_connexion_8cs_source.html#l00012">FrmConnexion.cs:13</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_connexion_html_a0d8d1c383c4d0d3922ace8f3d9def325"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_connexion.html#a0d8d1c383c4d0d3922ace8f3d9def325">MediaTek.vue.FrmConnexion.FrmConnexion</a></div><div class="ttdeci">FrmConnexion(Controle controle)</div><div class="ttdoc">Constructeur Recupere l'instance du controleur et initialisation des composants de la Frame</div><div class="ttdef"><b>Definition:</b> <a href="_frm_connexion_8cs_source.html#l00025">FrmConnexion.cs:25</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_connexion_html_a8e04f618f5898c218d2050334d6ace8f"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_connexion.html#a8e04f618f5898c218d2050334d6ace8f">MediaTek.vue.FrmConnexion.InitializeComponent</a></div><div class="ttdeci">void InitializeComponent()</div><div class="ttdoc">Méthode requise pour la prise en charge du concepteur - ne modifiez pas le contenu de cette méthode a...</div><div class="ttdef"><b>Definition:</b> <a href="_frm_connexion_8_designer_8cs_source.html#l00030">FrmConnexion.Designer.cs:30</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_connexion_html_a92f1a59e1b99af590b86a2cd127affd6"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_connexion.html#a92f1a59e1b99af590b86a2cd127affd6">MediaTek.vue.FrmConnexion.controle</a></div><div class="ttdeci">Controle controle</div><div class="ttdoc">Instance du controleur</div><div class="ttdef"><b>Definition:</b> <a href="_frm_connexion_8cs_source.html#l00017">FrmConnexion.cs:17</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_connexion_html_aba93937e5d5cc8b0312d2be8da7ff768"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_connexion.html#aba93937e5d5cc8b0312d2be8da7ff768">MediaTek.vue.FrmConnexion.btnconnexion_Click</a></div><div class="ttdeci">void btnconnexion_Click(object sender, EventArgs e)</div><div class="ttdoc">Evénement du click sur connexion, vérifie que les valeurs des textbox login et pwd sont correctes Sin...</div><div class="ttdef"><b>Definition:</b> <a href="_frm_connexion_8cs_source.html#l00039">FrmConnexion.cs:39</a></div></div>
+<div class="ttc" id="anamespace_media_tek_1_1controleur_html"><div class="ttname"><a href="namespace_media_tek_1_1controleur.html">MediaTek.controleur</a></div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00008">Controle.cs:9</a></div></div>
+<div class="ttc" id="anamespace_media_tek_1_1modele_html"><div class="ttname"><a href="namespace_media_tek_1_1modele.html">MediaTek.modele</a></div><div class="ttdef"><b>Definition:</b> <a href="_absence_8cs_source.html#l00003">Absence.cs:4</a></div></div>
+<div class="ttc" id="anamespace_media_tek_1_1vue_html"><div class="ttname"><a href="namespace_media_tek_1_1vue.html">MediaTek.vue</a></div><div class="ttdef"><b>Definition:</b> <a href="_frm_connexion_8cs_source.html#l00007">FrmConnexion.cs:8</a></div></div>
+<div class="ttc" id="anamespace_media_tek_html"><div class="ttname"><a href="namespace_media_tek.html">MediaTek</a></div><div class="ttdef"><b>Definition:</b> <a href="_connexion_bdd_8cs_source.html#l00006">ConnexionBdd.cs:7</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.9.1-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath">
+  <!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d3b99d2795bc61c52742c0077a24a6d6.html">DigimediaTek86</a></li><li class="navelem"><a class="el" href="dir_5b8f81b93f2829baf7244ef41799e628.html">vue</a></li><li class="navelem"><b>FrmConnexion.cs</b></li>
+    <li class="footer">Généré le Mercredi 20 Octobre 2021 16:46:28 pour Digimedia86 par
+      <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a>
+      1.9.2
+    </li>
+    <li class="footer">Mise en beauté grâce à
+      <a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub">doxygen-awesome-css</a>
+    </li>
+  </ul>
+</div>
+</body>
+</html>

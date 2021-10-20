@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1dal_1_1_acces_connexion_bdd" kind="class" language="C#" prot="public">
+    <compoundname>MediaTek::dal::AccesConnexionBdd</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1af4730fa01a067c64c012b9c307a6dffa" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string MediaTek.dal.AccesConnexionBdd.chaineConnexion</definition>
+        <argsstring></argsstring>
+        <name>chaineConnexion</name>
+        <initializer>= &quot;server=localhost;user id=root;password= ;database=projetcned;SslMode=none&quot;</initializer>
+        <briefdescription>
+<para>Chaine de connexion à la base de donnée </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/dal/AccesConnexionBdd.cs" line="16" column="31" bodyfile="DigimediaTek86/dal/AccesConnexionBdd.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a71fa166bd0a58cc30d0a2da1c3cfc9b1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>static Boolean MediaTek.dal.AccesConnexionBdd.Authentification</definition>
+        <argsstring>(string log, string pwd)</argsstring>
+        <name>Authentification</name>
+        <param>
+          <type>string</type>
+          <declname>log</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>pwd</declname>
+        </param>
+        <briefdescription>
+<para>Verifie si les clés de connexion sont valides </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>login</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pwd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mot de passe</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>vrai si clés sont valides</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/dal/AccesConnexionBdd.cs" line="25" column="31" bodyfile="DigimediaTek86/dal/AccesConnexionBdd.cs" bodystart="25" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a125c77a185a72ace2bb96fca5d579c54" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_1_1modele_1_1_personnel" kindref="compound">Personnel</ref> &gt;</type>
+        <definition>static List&lt; Personnel &gt; MediaTek.dal.AccesConnexionBdd.GetLePersonnel</definition>
+        <argsstring>()</argsstring>
+        <name>GetLePersonnel</name>
+        <briefdescription>
+<para>Récupèrer la liste du personnel provenant de la Base de données </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>La liste du personnel</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/dal/AccesConnexionBdd.cs" line="55" column="28" bodyfile="DigimediaTek86/dal/AccesConnexionBdd.cs" bodystart="55" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1aea09f9537db0d5f4b908be91d6df06b4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_1_1modele_1_1_service" kindref="compound">Service</ref> &gt;</type>
+        <definition>static List&lt; Service &gt; MediaTek.dal.AccesConnexionBdd.GetService</definition>
+        <argsstring>()</argsstring>
+        <name>GetService</name>
+        <briefdescription>
+<para>Demander la liste des services </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Retourne la liste des services existants</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/dal/AccesConnexionBdd.cs" line="81" column="28" bodyfile="DigimediaTek86/dal/AccesConnexionBdd.cs" bodystart="81" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a2ac7438e41d5381e2d27ab7b312c6eee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_1_1modele_1_1_absence" kindref="compound">Absence</ref> &gt;</type>
+        <definition>static List&lt; Absence &gt; MediaTek.dal.AccesConnexionBdd.GetLesAbsences</definition>
+        <argsstring>(Personnel unpersonnel)</argsstring>
+        <name>GetLesAbsences</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1modele_1_1_personnel" kindref="compound">Personnel</ref></type>
+          <declname>unpersonnel</declname>
+        </param>
+        <briefdescription>
+<para>Afficher la liste des absences d&apos;un personnel sélectionné, dans l&apos;ordre inverse de la chronologie(la plus récente en premier). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Retourne la liste des absences d&apos;un personnel</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/dal/AccesConnexionBdd.cs" line="106" column="28" bodyfile="DigimediaTek86/dal/AccesConnexionBdd.cs" bodystart="106" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a13df939cbd1c80c239bb94b2b0b862dd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MediaTek.dal.AccesConnexionBdd.AddPersonnel</definition>
+        <argsstring>(Personnel unpersonnel)</argsstring>
+        <name>AddPersonnel</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1modele_1_1_personnel" kindref="compound">Personnel</ref></type>
+          <declname>unpersonnel</declname>
+        </param>
+        <briefdescription>
+<para>Ajouter un personnel </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>unpersonnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>un personnel</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/dal/AccesConnexionBdd.cs" line="138" column="28" bodyfile="DigimediaTek86/dal/AccesConnexionBdd.cs" bodystart="138" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a5950b3e50043b5c3b469941d5a428388" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MediaTek.dal.AccesConnexionBdd.AddAbsence</definition>
+        <argsstring>(Absence uneabs)</argsstring>
+        <name>AddAbsence</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1modele_1_1_absence" kindref="compound">Absence</ref></type>
+          <declname>uneabs</declname>
+        </param>
+        <briefdescription>
+<para>Ajouter une absence </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uneabs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>une absence</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/dal/AccesConnexionBdd.cs" line="160" column="28" bodyfile="DigimediaTek86/dal/AccesConnexionBdd.cs" bodystart="160" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a6c0c000fa833dbbbf50b5cc90b64defd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MediaTek.dal.AccesConnexionBdd.DelPersonnel</definition>
+        <argsstring>(Personnel unpersonnel)</argsstring>
+        <name>DelPersonnel</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1modele_1_1_personnel" kindref="compound">Personnel</ref></type>
+          <declname>unpersonnel</declname>
+        </param>
+        <briefdescription>
+<para>Supprimer un personnel </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>unpersonnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>le personnel</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/dal/AccesConnexionBdd.cs" line="180" column="28" bodyfile="DigimediaTek86/dal/AccesConnexionBdd.cs" bodystart="180" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a4f65794f75241f803e2adfd7ad9f3a18" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MediaTek.dal.AccesConnexionBdd.DelAbs</definition>
+        <argsstring>(Absence uneabs)</argsstring>
+        <name>DelAbs</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1modele_1_1_absence" kindref="compound">Absence</ref></type>
+          <declname>uneabs</declname>
+        </param>
+        <briefdescription>
+<para>Supprimer une absence d&apos;un personnel </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uneabs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>une absence</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/dal/AccesConnexionBdd.cs" line="196" column="28" bodyfile="DigimediaTek86/dal/AccesConnexionBdd.cs" bodystart="196" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a46fcd22db0b11ec861632025028326e7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MediaTek.dal.AccesConnexionBdd.ModPersonnel</definition>
+        <argsstring>(Personnel unpersonnel)</argsstring>
+        <name>ModPersonnel</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1modele_1_1_personnel" kindref="compound">Personnel</ref></type>
+          <declname>unpersonnel</declname>
+        </param>
+        <briefdescription>
+<para>Modifier un personnel </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>unpersonnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>un personnel</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/dal/AccesConnexionBdd.cs" line="214" column="28" bodyfile="DigimediaTek86/dal/AccesConnexionBdd.cs" bodystart="214" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1aa724b83bc00104535c28b09634c3c4b2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MediaTek.dal.AccesConnexionBdd.ModAbs</definition>
+        <argsstring>(Absence uneabs)</argsstring>
+        <name>ModAbs</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1modele_1_1_absence" kindref="compound">Absence</ref></type>
+          <declname>uneabs</declname>
+        </param>
+        <briefdescription>
+<para>Modifier une absence date de fin ou/et motif </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uneabs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>une absence</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/dal/AccesConnexionBdd.cs" line="238" column="28" bodyfile="DigimediaTek86/dal/AccesConnexionBdd.cs" bodystart="238" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a468de86ff8a5bac1cbffe7bd2b32627a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MediaTek.dal.AccesConnexionBdd.ModAbsdebut</definition>
+        <argsstring>(Absence uneabs)</argsstring>
+        <name>ModAbsdebut</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1modele_1_1_absence" kindref="compound">Absence</ref></type>
+          <declname>uneabs</declname>
+        </param>
+        <briefdescription>
+<para>Modifier une absence date d&apos;entrée en absence </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uneabs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>une absence</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/dal/AccesConnexionBdd.cs" line="259" column="28" bodyfile="DigimediaTek86/dal/AccesConnexionBdd.cs" bodystart="259" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a03c037a9e0a7ae352e0d788bafea5fe3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_media_tek_1_1modele_1_1_motif" kindref="compound">Motif</ref> &gt;</type>
+        <definition>static List&lt; Motif &gt; MediaTek.dal.AccesConnexionBdd.GetMotif</definition>
+        <argsstring>()</argsstring>
+        <name>GetMotif</name>
+        <briefdescription>
+<para>Obtenir la liste des motifs d&apos;absence </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Retourne la liste des motfis d&apos;absence</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/dal/AccesConnexionBdd.cs" line="278" column="28" bodyfile="DigimediaTek86/dal/AccesConnexionBdd.cs" bodystart="278" bodyend="295"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe de gestion de la base de donnée </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DigimediaTek86/dal/AccesConnexionBdd.cs" line="11" column="11" bodyfile="DigimediaTek86/dal/AccesConnexionBdd.cs" bodystart="12" bodyend="298"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a5950b3e50043b5c3b469941d5a428388" prot="public" virt="non-virtual"><scope>MediaTek::dal::AccesConnexionBdd</scope><name>AddAbsence</name></member>
+      <member refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a13df939cbd1c80c239bb94b2b0b862dd" prot="public" virt="non-virtual"><scope>MediaTek::dal::AccesConnexionBdd</scope><name>AddPersonnel</name></member>
+      <member refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a71fa166bd0a58cc30d0a2da1c3cfc9b1" prot="public" virt="non-virtual"><scope>MediaTek::dal::AccesConnexionBdd</scope><name>Authentification</name></member>
+      <member refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1af4730fa01a067c64c012b9c307a6dffa" prot="private" virt="non-virtual"><scope>MediaTek::dal::AccesConnexionBdd</scope><name>chaineConnexion</name></member>
+      <member refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a4f65794f75241f803e2adfd7ad9f3a18" prot="public" virt="non-virtual"><scope>MediaTek::dal::AccesConnexionBdd</scope><name>DelAbs</name></member>
+      <member refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a6c0c000fa833dbbbf50b5cc90b64defd" prot="public" virt="non-virtual"><scope>MediaTek::dal::AccesConnexionBdd</scope><name>DelPersonnel</name></member>
+      <member refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a125c77a185a72ace2bb96fca5d579c54" prot="public" virt="non-virtual"><scope>MediaTek::dal::AccesConnexionBdd</scope><name>GetLePersonnel</name></member>
+      <member refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a2ac7438e41d5381e2d27ab7b312c6eee" prot="public" virt="non-virtual"><scope>MediaTek::dal::AccesConnexionBdd</scope><name>GetLesAbsences</name></member>
+      <member refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a03c037a9e0a7ae352e0d788bafea5fe3" prot="public" virt="non-virtual"><scope>MediaTek::dal::AccesConnexionBdd</scope><name>GetMotif</name></member>
+      <member refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1aea09f9537db0d5f4b908be91d6df06b4" prot="public" virt="non-virtual"><scope>MediaTek::dal::AccesConnexionBdd</scope><name>GetService</name></member>
+      <member refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1aa724b83bc00104535c28b09634c3c4b2" prot="public" virt="non-virtual"><scope>MediaTek::dal::AccesConnexionBdd</scope><name>ModAbs</name></member>
+      <member refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a468de86ff8a5bac1cbffe7bd2b32627a" prot="public" virt="non-virtual"><scope>MediaTek::dal::AccesConnexionBdd</scope><name>ModAbsdebut</name></member>
+      <member refid="class_media_tek_1_1dal_1_1_acces_connexion_bdd_1a46fcd22db0b11ec861632025028326e7" prot="public" virt="non-virtual"><scope>MediaTek::dal::AccesConnexionBdd</scope><name>ModPersonnel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

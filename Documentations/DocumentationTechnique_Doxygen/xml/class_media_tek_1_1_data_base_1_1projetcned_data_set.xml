@@ -1,0 +1,653 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1_data_base_1_1projetcned_data_set" kind="class" language="C#" prot="public">
+    <compoundname>MediaTek::DataBase::projetcnedDataSet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global.SystemData.DataSet</basecompoundref>
+    <innerclass refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table" prot="public">MediaTek::DataBase::projetcnedDataSet::absenceDataTable</innerclass>
+    <innerclass refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row" prot="public">MediaTek::DataBase::projetcnedDataSet::absenceRow</innerclass>
+    <innerclass refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_change_event" prot="public">MediaTek::DataBase::projetcnedDataSet::absenceRowChangeEvent</innerclass>
+    <innerclass refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table" prot="public">MediaTek::DataBase::projetcnedDataSet::motifDataTable</innerclass>
+    <innerclass refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row" prot="public">MediaTek::DataBase::projetcnedDataSet::motifRow</innerclass>
+    <innerclass refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row_change_event" prot="public">MediaTek::DataBase::projetcnedDataSet::motifRowChangeEvent</innerclass>
+    <innerclass refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table" prot="public">MediaTek::DataBase::projetcnedDataSet::personnelDataTable</innerclass>
+    <innerclass refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row" prot="public">MediaTek::DataBase::projetcnedDataSet::personnelRow</innerclass>
+    <innerclass refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_change_event" prot="public">MediaTek::DataBase::projetcnedDataSet::personnelRowChangeEvent</innerclass>
+    <innerclass refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table" prot="public">MediaTek::DataBase::projetcnedDataSet::responsableDataTable</innerclass>
+    <innerclass refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row" prot="public">MediaTek::DataBase::projetcnedDataSet::responsableRow</innerclass>
+    <innerclass refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_change_event" prot="public">MediaTek::DataBase::projetcnedDataSet::responsableRowChangeEvent</innerclass>
+    <innerclass refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table" prot="public">MediaTek::DataBase::projetcnedDataSet::serviceDataTable</innerclass>
+    <innerclass refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row" prot="public">MediaTek::DataBase::projetcnedDataSet::serviceRow</innerclass>
+    <innerclass refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row_change_event" prot="public">MediaTek::DataBase::projetcnedDataSet::serviceRowChangeEvent</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a313d4e162ac7e83efa76783e88095c45" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table" kindref="compound">absenceDataTable</ref></type>
+        <definition>absenceDataTable MediaTek.DataBase.projetcnedDataSet.tableabsence</definition>
+        <argsstring></argsstring>
+        <name>tableabsence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="27" column="34" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a218cbea12e2e0e9fd0bd1e5b3b1d2d0c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table" kindref="compound">motifDataTable</ref></type>
+        <definition>motifDataTable MediaTek.DataBase.projetcnedDataSet.tablemotif</definition>
+        <argsstring></argsstring>
+        <name>tablemotif</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="29" column="32" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1ac761e118689987f40e0406e30333f826" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table" kindref="compound">personnelDataTable</ref></type>
+        <definition>personnelDataTable MediaTek.DataBase.projetcnedDataSet.tablepersonnel</definition>
+        <argsstring></argsstring>
+        <name>tablepersonnel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="31" column="36" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1ab48ffb3e8b8db9af8aaf3e980ab685bd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table" kindref="compound">responsableDataTable</ref></type>
+        <definition>responsableDataTable MediaTek.DataBase.projetcnedDataSet.tableresponsable</definition>
+        <argsstring></argsstring>
+        <name>tableresponsable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="33" column="38" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a54138ad3f588ad3cd6594d25ca635131" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table" kindref="compound">serviceDataTable</ref></type>
+        <definition>serviceDataTable MediaTek.DataBase.projetcnedDataSet.tableservice</definition>
+        <argsstring></argsstring>
+        <name>tableservice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="35" column="34" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a9f3cc1604d038330c0e2da34bc80b1d1" prot="private" static="no" mutable="no">
+        <type>global::System.Data.SchemaSerializationMode</type>
+        <definition>global::System.Data.SchemaSerializationMode MediaTek.DataBase.projetcnedDataSet._schemaSerializationMode</definition>
+        <argsstring></argsstring>
+        <name>_schemaSerializationMode</name>
+        <initializer>= global::System.Data.SchemaSerializationMode.IncludeSchema</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="37" column="59" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1ac89de4679603af9e2712469f73096d98" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table" kindref="compound">absenceDataTable</ref></type>
+        <definition>absenceDataTable MediaTek.DataBase.projetcnedDataSet.absence</definition>
+        <argsstring></argsstring>
+        <name>absence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="102" column="33" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="102" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1af4d52c4d3fa9d68aa211d3eacb9461c1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table" kindref="compound">motifDataTable</ref></type>
+        <definition>motifDataTable MediaTek.DataBase.projetcnedDataSet.motif</definition>
+        <argsstring></argsstring>
+        <name>motif</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="112" column="31" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="112" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a1a7b1c022b3c7079c8606b2a25643e9f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table" kindref="compound">personnelDataTable</ref></type>
+        <definition>personnelDataTable MediaTek.DataBase.projetcnedDataSet.personnel</definition>
+        <argsstring></argsstring>
+        <name>personnel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="122" column="35" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="122" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1acadf07ba0afda509b1cda27b14019fb3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table" kindref="compound">responsableDataTable</ref></type>
+        <definition>responsableDataTable MediaTek.DataBase.projetcnedDataSet.responsable</definition>
+        <argsstring></argsstring>
+        <name>responsable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="132" column="37" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="132" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1af3c8df638e5a3f64fda4eb3e490342ce" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table" kindref="compound">serviceDataTable</ref></type>
+        <definition>serviceDataTable MediaTek.DataBase.projetcnedDataSet.service</definition>
+        <argsstring></argsstring>
+        <name>service</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="142" column="16" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="142" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a4f2b2d535e5f29b3ac337599ee5ea965" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>override global::System.Data.SchemaSerializationMode</type>
+        <definition>override global::System.Data.SchemaSerializationMode MediaTek.DataBase.projetcnedDataSet.SchemaSerializationMode</definition>
+        <argsstring></argsstring>
+        <name>SchemaSerializationMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="152" column="67" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="152" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a649ed76939bc498941f4cf3c569c0200" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new global::System.Data.DataTableCollection</type>
+        <definition>new global::System.Data.DataTableCollection MediaTek.DataBase.projetcnedDataSet.Tables</definition>
+        <argsstring></argsstring>
+        <name>Tables</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="164" column="58" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="164" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1aca834a044baf4cda55550a7ba5dfe844" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new global::System.Data.DataRelationCollection</type>
+        <definition>new global::System.Data.DataRelationCollection MediaTek.DataBase.projetcnedDataSet.Relations</definition>
+        <argsstring></argsstring>
+        <name>Relations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="173" column="61" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="173" bodyend="177"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1aa9f2ce8ec5254f87cb4207f944354652" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.DataBase.projetcnedDataSet.projetcnedDataSet</definition>
+        <argsstring>()</argsstring>
+        <name>projetcnedDataSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="41" column="16" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="41" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a09f66a94b5ae0cd0c570c918457d5093" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override global::System.Data.DataSet</type>
+        <definition>override global::System.Data.DataSet MediaTek.DataBase.projetcnedDataSet.Clone</definition>
+        <argsstring>()</argsstring>
+        <name>Clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="189" column="51" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="189" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a41dc9c0b69433a615eb1be38f451f102" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void MediaTek.DataBase.projetcnedDataSet.absenceRowChangeEventHandler</definition>
+        <argsstring>(object sender, absenceRowChangeEvent e)</argsstring>
+        <name>absenceRowChangeEventHandler</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_change_event" kindref="compound">absenceRowChangeEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="401" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a8ac6355d16efb8a38075b8b268bd5b92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void MediaTek.DataBase.projetcnedDataSet.motifRowChangeEventHandler</definition>
+        <argsstring>(object sender, motifRowChangeEvent e)</argsstring>
+        <name>motifRowChangeEventHandler</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row_change_event" kindref="compound">motifRowChangeEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="404" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a1fe07efff4d0557b6f8147eb9607297e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void MediaTek.DataBase.projetcnedDataSet.personnelRowChangeEventHandler</definition>
+        <argsstring>(object sender, personnelRowChangeEvent e)</argsstring>
+        <name>personnelRowChangeEventHandler</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_change_event" kindref="compound">personnelRowChangeEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="407" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1ae882b8cc86e2c35e3d4aac8bf9650042" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void MediaTek.DataBase.projetcnedDataSet.responsableRowChangeEventHandler</definition>
+        <argsstring>(object sender, responsableRowChangeEvent e)</argsstring>
+        <name>responsableRowChangeEventHandler</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_change_event" kindref="compound">responsableRowChangeEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="410" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a1c7b6986ad540730058974f8e676ac10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void MediaTek.DataBase.projetcnedDataSet.serviceRowChangeEventHandler</definition>
+        <argsstring>(object sender, serviceRowChangeEvent e)</argsstring>
+        <name>serviceRowChangeEventHandler</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row_change_event" kindref="compound">serviceRowChangeEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="413" column="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a062a853cc00f124fc7de9615a81502bf" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.DataBase.projetcnedDataSet.projetcnedDataSet</definition>
+        <argsstring>(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context)</argsstring>
+        <name>projetcnedDataSet</name>
+        <param>
+          <type>global::System.Runtime.Serialization.SerializationInfo</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>global::System.Runtime.Serialization.StreamingContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="52" column="19" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="52" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1ac52a7836e68c6106f8b073a7bb530952" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaTek.DataBase.projetcnedDataSet.InitializeDerivedDataSet</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeDerivedDataSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="181" column="33" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="181" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a550a658c959af0465e9d20501b9f7167" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MediaTek.DataBase.projetcnedDataSet.ShouldSerializeTables</definition>
+        <argsstring>()</argsstring>
+        <name>ShouldSerializeTables</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="198" column="33" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="198" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a123d401ef120ad4707f52d148456b9b2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MediaTek.DataBase.projetcnedDataSet.ShouldSerializeRelations</definition>
+        <argsstring>()</argsstring>
+        <name>ShouldSerializeRelations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="204" column="33" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="204" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a5291c1080471c2ea5d0cd6f332579cd6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaTek.DataBase.projetcnedDataSet.ReadXmlSerializable</definition>
+        <argsstring>(global::System.Xml.XmlReader reader)</argsstring>
+        <name>ReadXmlSerializable</name>
+        <param>
+          <type>global::System.Xml.XmlReader</type>
+          <declname>reader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="210" column="33" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="210" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a18ced0d4154bd69460329377dea9a3f3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override global::System.Xml.Schema.XmlSchema</type>
+        <definition>override global::System.Xml.Schema.XmlSchema MediaTek.DataBase.projetcnedDataSet.GetSchemaSerializable</definition>
+        <argsstring>()</argsstring>
+        <name>GetSchemaSerializable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="247" column="61" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="247" bodyend="252"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a3e45c5e42a0d6be002b1cdcb6a90941e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSet.InitVars</definition>
+        <argsstring>()</argsstring>
+        <name>InitVars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="256" column="23" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="256" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1aa0a6a20f8daad67864f51cd5506b94b4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSet.InitVars</definition>
+        <argsstring>(bool initTable)</argsstring>
+        <name>InitVars</name>
+        <param>
+          <type>bool</type>
+          <declname>initTable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="262" column="23" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="262" bodyend="293"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a235fe993ec898ce04f9021b38a5306de" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSet.InitClass</definition>
+        <argsstring>()</argsstring>
+        <name>InitClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="297" column="22" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="297" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a293015f12549d938f2b0ab3ea6a30404" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTek.DataBase.projetcnedDataSet.ShouldSerializeabsence</definition>
+        <argsstring>()</argsstring>
+        <name>ShouldSerializeabsence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="317" column="22" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="317" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1acfa54f7bb4d2f86ef5a1f25d7605f956" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTek.DataBase.projetcnedDataSet.ShouldSerializemotif</definition>
+        <argsstring>()</argsstring>
+        <name>ShouldSerializemotif</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="323" column="22" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="323" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a9bd99664d1391a8189a7f1f4c62b36b3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTek.DataBase.projetcnedDataSet.ShouldSerializepersonnel</definition>
+        <argsstring>()</argsstring>
+        <name>ShouldSerializepersonnel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="329" column="22" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="329" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a25d34955b2b84301f2a703a08ceca4ab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTek.DataBase.projetcnedDataSet.ShouldSerializeresponsable</definition>
+        <argsstring>()</argsstring>
+        <name>ShouldSerializeresponsable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="335" column="22" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="335" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1abd5266216a1e50bd7b6a56eb88e7adf7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MediaTek.DataBase.projetcnedDataSet.ShouldSerializeservice</definition>
+        <argsstring>()</argsstring>
+        <name>ShouldSerializeservice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="341" column="22" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="341" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a4301ea7654a1e59dac23e5ad77dacd67" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSet.SchemaChanged</definition>
+        <argsstring>(object sender, global::System.ComponentModel.CollectionChangeEventArgs e)</argsstring>
+        <name>SchemaChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>global::System.ComponentModel.CollectionChangeEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="347" column="22" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="347" bodyend="351"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1ac5d92f73b0127d3f15a6f5df9f601fec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Xml.Schema.XmlSchemaComplexType</type>
+        <definition>static global::System.Xml.Schema.XmlSchemaComplexType MediaTek.DataBase.projetcnedDataSet.GetTypedDataSetSchema</definition>
+        <argsstring>(global::System.Xml.Schema.XmlSchemaSet xs)</argsstring>
+        <name>GetTypedDataSetSchema</name>
+        <param>
+          <type>global::System.Xml.Schema.XmlSchemaSet</type>
+          <declname>xs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="355" column="67" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="355" bodyend="398"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a strongly typed in-memory cache of data. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSet</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemData::DataSet</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSet</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemData::DataSet</label>
+      </node>
+    </collaborationgraph>
+    <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="25" column="19" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="25" bodyend="2410"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a9f3cc1604d038330c0e2da34bc80b1d1" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>_schemaSerializationMode</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1ac89de4679603af9e2712469f73096d98" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>absence</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a41dc9c0b69433a615eb1be38f451f102" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>absenceRowChangeEventHandler</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a09f66a94b5ae0cd0c570c918457d5093" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>Clone</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a18ced0d4154bd69460329377dea9a3f3" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>GetSchemaSerializable</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1ac5d92f73b0127d3f15a6f5df9f601fec" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>GetTypedDataSetSchema</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a235fe993ec898ce04f9021b38a5306de" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>InitClass</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1ac52a7836e68c6106f8b073a7bb530952" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>InitializeDerivedDataSet</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a3e45c5e42a0d6be002b1cdcb6a90941e" prot="package" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>InitVars</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1aa0a6a20f8daad67864f51cd5506b94b4" prot="package" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>InitVars</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1af4d52c4d3fa9d68aa211d3eacb9461c1" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>motif</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a8ac6355d16efb8a38075b8b268bd5b92" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>motifRowChangeEventHandler</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a1a7b1c022b3c7079c8606b2a25643e9f" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>personnel</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a1fe07efff4d0557b6f8147eb9607297e" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>personnelRowChangeEventHandler</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1aa9f2ce8ec5254f87cb4207f944354652" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>projetcnedDataSet</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a062a853cc00f124fc7de9615a81502bf" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>projetcnedDataSet</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a5291c1080471c2ea5d0cd6f332579cd6" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>ReadXmlSerializable</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1aca834a044baf4cda55550a7ba5dfe844" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>Relations</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1acadf07ba0afda509b1cda27b14019fb3" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>responsable</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1ae882b8cc86e2c35e3d4aac8bf9650042" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>responsableRowChangeEventHandler</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a4301ea7654a1e59dac23e5ad77dacd67" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>SchemaChanged</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a4f2b2d535e5f29b3ac337599ee5ea965" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>SchemaSerializationMode</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1af3c8df638e5a3f64fda4eb3e490342ce" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>service</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a1c7b6986ad540730058974f8e676ac10" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>serviceRowChangeEventHandler</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a293015f12549d938f2b0ab3ea6a30404" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>ShouldSerializeabsence</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1acfa54f7bb4d2f86ef5a1f25d7605f956" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>ShouldSerializemotif</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a9bd99664d1391a8189a7f1f4c62b36b3" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>ShouldSerializepersonnel</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a123d401ef120ad4707f52d148456b9b2" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>ShouldSerializeRelations</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a25d34955b2b84301f2a703a08ceca4ab" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>ShouldSerializeresponsable</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1abd5266216a1e50bd7b6a56eb88e7adf7" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>ShouldSerializeservice</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a550a658c959af0465e9d20501b9f7167" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>ShouldSerializeTables</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a313d4e162ac7e83efa76783e88095c45" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>tableabsence</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a218cbea12e2e0e9fd0bd1e5b3b1d2d0c" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>tablemotif</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1ac761e118689987f40e0406e30333f826" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>tablepersonnel</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1ab48ffb3e8b8db9af8aaf3e980ab685bd" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>tableresponsable</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a649ed76939bc498941f4cf3c569c0200" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>Tables</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1a54138ad3f588ad3cd6594d25ca635131" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet</scope><name>tableservice</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

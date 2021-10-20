@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1vue_1_1_frm_connexion" xml:lang="fr">
+<title>Référence de la classe MediaTek.vue.FrmConnexion</title>
+<indexterm><primary>MediaTek.vue.FrmConnexion</primary></indexterm>
+<para>
+
+<para>Fenêtre de connexion au programme </para>
+ 
+</para>
+<para>
+Est dérivée de Form.</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_1_1vue_1_1_frm_connexion_1a0d8d1c383c4d0d3922ace8f3d9def325">FrmConnexion</link> (<link linkend="_class_media_tek_1_1controleur_1_1_controle">Controle</link> controle)</para>
+
+<para>Constructeur Recupere l&apos;instance du controleur et initialisation des composants de la Frame </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres protégées    </title>
+        <itemizedlist>
+            <listitem><para>override void <link linkend="_class_media_tek_1_1vue_1_1_frm_connexion_1a3ed4da5d587b735ca65f5e4b6386e14c">Dispose</link> (bool disposing)</para>
+
+<para>Nettoyage des ressources utilisées. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Fenêtre de connexion au programme </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_1_1vue_1_1_frm_connexion_1a0d8d1c383c4d0d3922ace8f3d9def325"/><section>
+    <title>FrmConnexion()</title>
+<indexterm><primary>FrmConnexion</primary><secondary>MediaTek.vue.FrmConnexion</secondary></indexterm>
+<indexterm><primary>MediaTek.vue.FrmConnexion</primary><secondary>FrmConnexion</secondary></indexterm>
+<para><computeroutput>MediaTek.vue.FrmConnexion.FrmConnexion (<link linkend="_class_media_tek_1_1controleur_1_1_controle">Controle</link> controle)</computeroutput></para><para>
+
+<para>Constructeur Recupere l&apos;instance du controleur et initialisation des composants de la Frame </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>controle</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Documentation des fonctions membres</title>
+<anchor xml:id="_class_media_tek_1_1vue_1_1_frm_connexion_1a3ed4da5d587b735ca65f5e4b6386e14c"/><section>
+    <title>Dispose()</title>
+<indexterm><primary>Dispose</primary><secondary>MediaTek.vue.FrmConnexion</secondary></indexterm>
+<indexterm><primary>MediaTek.vue.FrmConnexion</primary><secondary>Dispose</secondary></indexterm>
+<para><computeroutput>override void MediaTek.vue.FrmConnexion.Dispose (bool disposing)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>Nettoyage des ressources utilisées. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>disposing</entry><entry>
+<para>true si les ressources managées doivent être supprimées ; sinon, false.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/vue/FrmConnexion.csDigimediaTek86/vue/FrmConnexion.Designer.cs</section>
+</section>

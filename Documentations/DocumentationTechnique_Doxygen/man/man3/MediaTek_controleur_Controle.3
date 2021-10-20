@@ -1,0 +1,213 @@
+.TH "MediaTek.controleur.Controle" 3 "Mardi 19 Octobre 2021" "Digimedia86" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MediaTek.controleur.Controle \- Classe de controleur  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Fonctions membres publiques"
+
+.in +1c
+.ti -1c
+.RI "\fBControle\fP ()"
+.br
+.RI "Contructeur et ouverture de la fenetre FrmConnexion "
+.ti -1c
+.RI "Boolean \fBAuthentification\fP (string log, string pwd)"
+.br
+.RI "Methode de vérification de connexion, si vrai, ouverture de la fenetre FrmGestion "
+.ti -1c
+.RI "List< \fBPersonnel\fP > \fBGetPersonnels\fP ()"
+.br
+.RI "Recuperer puis retourner les infos du personnel de la base de données "
+.ti -1c
+.RI "List< \fBService\fP > \fBGetService\fP ()"
+.br
+.RI "Récupérer puis retourner la liste des services "
+.ti -1c
+.RI "List< \fBAbsence\fP > \fBGetAbsences\fP (\fBPersonnel\fP unpersonnel)"
+.br
+.RI "Récupérer puis retourner les infos d'un personnel sur ses absences "
+.ti -1c
+.RI "void \fBAddPersonnel\fP (\fBPersonnel\fP unpersonnel)"
+.br
+.RI "Ajouter un personnel "
+.ti -1c
+.RI "void \fBAddAbsence\fP (\fBAbsence\fP uneabs)"
+.br
+.RI "Ajouter une absence "
+.ti -1c
+.RI "void \fBDelPersonnel\fP (\fBPersonnel\fP unpersonnel)"
+.br
+.RI "Supprimer un personnel "
+.ti -1c
+.RI "void \fBDelAbs\fP (\fBAbsence\fP uneabs)"
+.br
+.RI "Supprimer une absence "
+.ti -1c
+.RI "void \fBModPersonnel\fP (\fBPersonnel\fP unpersonnel)"
+.br
+.RI "Modifier les informations d'un personnel "
+.ti -1c
+.RI "void \fBModAbsdebut\fP (\fBAbsence\fP uneabs)"
+.br
+.RI "Modifier la date d'entrée d'une absence "
+.ti -1c
+.RI "void \fBModAbs\fP (\fBAbsence\fP uneabs)"
+.br
+.RI "Modifier le motif et la date de fin d'une absence "
+.ti -1c
+.RI "List< \fBMotif\fP > \fBGetMotifs\fP ()"
+.br
+.RI "Récupérer la liste des motifs d'absence "
+.in -1c
+.SH "Description détaillée"
+.PP 
+Classe de controleur 
+.SH "Documentation des fonctions membres"
+.PP 
+.SS "void MediaTek\&.controleur\&.Controle\&.AddAbsence (\fBAbsence\fP uneabs)"
+
+.PP
+Ajouter une absence 
+.PP
+\fBParamètres\fP
+.RS 4
+\fIuneabs\fP 
+.RE
+.PP
+
+.SS "void MediaTek\&.controleur\&.Controle\&.AddPersonnel (\fBPersonnel\fP unpersonnel)"
+
+.PP
+Ajouter un personnel 
+.PP
+\fBParamètres\fP
+.RS 4
+\fIunpersonnel\fP 
+.RE
+.PP
+
+.SS "Boolean MediaTek\&.controleur\&.Controle\&.Authentification (string log, string pwd)"
+
+.PP
+Methode de vérification de connexion, si vrai, ouverture de la fenetre FrmGestion 
+.PP
+\fBParamètres\fP
+.RS 4
+\fIlog\fP string log
+.br
+\fIpwd\fP string pwd
+.RE
+.PP
+\fBRenvoie\fP
+.RS 4
+Retourne Vrai si l'authentification réussi, sinon Faux
+.RE
+.PP
+
+.SS "void MediaTek\&.controleur\&.Controle\&.DelAbs (\fBAbsence\fP uneabs)"
+
+.PP
+Supprimer une absence 
+.PP
+\fBParamètres\fP
+.RS 4
+\fIuneabs\fP 
+.RE
+.PP
+
+.SS "void MediaTek\&.controleur\&.Controle\&.DelPersonnel (\fBPersonnel\fP unpersonnel)"
+
+.PP
+Supprimer un personnel 
+.PP
+\fBParamètres\fP
+.RS 4
+\fIunpersonnel\fP 
+.RE
+.PP
+
+.SS "List< \fBAbsence\fP > MediaTek\&.controleur\&.Controle\&.GetAbsences (\fBPersonnel\fP unpersonnel)"
+
+.PP
+Récupérer puis retourner les infos d'un personnel sur ses absences 
+.PP
+\fBRenvoie\fP
+.RS 4
+Liste des absences
+.RE
+.PP
+
+.SS "List< \fBMotif\fP > MediaTek\&.controleur\&.Controle\&.GetMotifs ()"
+
+.PP
+Récupérer la liste des motifs d'absence 
+.PP
+\fBRenvoie\fP
+.RS 4
+
+.RE
+.PP
+
+.SS "List< \fBPersonnel\fP > MediaTek\&.controleur\&.Controle\&.GetPersonnels ()"
+
+.PP
+Recuperer puis retourner les infos du personnel de la base de données 
+.PP
+\fBRenvoie\fP
+.RS 4
+Liste et infos sur le personnel
+.RE
+.PP
+
+.SS "List< \fBService\fP > MediaTek\&.controleur\&.Controle\&.GetService ()"
+
+.PP
+Récupérer puis retourner la liste des services 
+.PP
+\fBRenvoie\fP
+.RS 4
+
+.RE
+.PP
+
+.SS "void MediaTek\&.controleur\&.Controle\&.ModAbs (\fBAbsence\fP uneabs)"
+
+.PP
+Modifier le motif et la date de fin d'une absence 
+.PP
+\fBParamètres\fP
+.RS 4
+\fIuneabs\fP 
+.RE
+.PP
+
+.SS "void MediaTek\&.controleur\&.Controle\&.ModAbsdebut (\fBAbsence\fP uneabs)"
+
+.PP
+Modifier la date d'entrée d'une absence 
+.PP
+\fBParamètres\fP
+.RS 4
+\fIuneabs\fP 
+.RE
+.PP
+
+.SS "void MediaTek\&.controleur\&.Controle\&.ModPersonnel (\fBPersonnel\fP unpersonnel)"
+
+.PP
+Modifier les informations d'un personnel 
+.PP
+\fBParamètres\fP
+.RS 4
+\fIunpersonnel\fP 
+.RE
+.PP
+
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour Digimedia86 à partir du code source\&.

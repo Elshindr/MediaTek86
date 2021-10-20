@@ -1,0 +1,107 @@
+.TH "MediaTek.DataBase.projetcnedDataSet.motifDataTable" 3 "Mardi 19 Octobre 2021" "Digimedia86" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MediaTek.DataBase.projetcnedDataSet.motifDataTable \- Represents the strongly named DataTable class\&. /summary>  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Est dérivée de global\&.SystemData\&.TypedTableBase< motifRow >\&.
+.SS "Fonctions membres publiques"
+
+.in +1c
+.ti -1c
+.RI "void \fBAddmotifRow\fP (\fBmotifRow\fP row)"
+.br
+.ti -1c
+.RI "\fBmotifRow\fP \fBAddmotifRow\fP (string LIBELLE)"
+.br
+.ti -1c
+.RI "\fBmotifRow\fP \fBFindByIDMOTIF\fP (int IDMOTIF)"
+.br
+.ti -1c
+.RI "override global::System\&.Data\&.DataTable \fBClone\fP ()"
+.br
+.ti -1c
+.RI "\fBmotifRow\fP \fBNewmotifRow\fP ()"
+.br
+.ti -1c
+.RI "void \fBRemovemotifRow\fP (\fBmotifRow\fP row)"
+.br
+.in -1c
+.SS "Fonctions membres publiques statiques"
+
+.in +1c
+.ti -1c
+.RI "static global::System\&.Xml\&.Schema\&.XmlSchemaComplexType \fBGetTypedTableSchema\fP (global::System\&.Xml\&.Schema\&.XmlSchemaSet xs)"
+.br
+.in -1c
+.SS "Fonctions membres protégées"
+
+.in +1c
+.ti -1c
+.RI "\fBmotifDataTable\fP (global::System\&.Runtime\&.Serialization\&.SerializationInfo info, global::System\&.Runtime\&.Serialization\&.StreamingContext context)"
+.br
+.ti -1c
+.RI "override global::System\&.Data\&.DataTable \fBCreateInstance\fP ()"
+.br
+.ti -1c
+.RI "override global::System\&.Data\&.DataRow \fBNewRowFromBuilder\fP (global::System\&.Data\&.DataRowBuilder builder)"
+.br
+.ti -1c
+.RI "override global::System\&.Type \fBGetRowType\fP ()"
+.br
+.ti -1c
+.RI "override void \fBOnRowChanged\fP (global::System\&.Data\&.DataRowChangeEventArgs e)"
+.br
+.ti -1c
+.RI "override void \fBOnRowChanging\fP (global::System\&.Data\&.DataRowChangeEventArgs e)"
+.br
+.ti -1c
+.RI "override void \fBOnRowDeleted\fP (global::System\&.Data\&.DataRowChangeEventArgs e)"
+.br
+.ti -1c
+.RI "override void \fBOnRowDeleting\fP (global::System\&.Data\&.DataRowChangeEventArgs e)"
+.br
+.in -1c
+.SS "Propriétés"
+
+.in +1c
+.ti -1c
+.RI "global::System\&.Data\&.DataColumn \fBIDMOTIFColumn\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "global::System\&.Data\&.DataColumn \fBLIBELLEColumn\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "int \fBCount\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBmotifRow\fP \fBthis[int index]\fP\fC [get]\fP"
+.br
+.in -1c
+.SS "Événements"
+
+.in +1c
+.ti -1c
+.RI "motifRowChangeEventHandler \fBmotifRowChanging\fP"
+.br
+.ti -1c
+.RI "motifRowChangeEventHandler \fBmotifRowChanged\fP"
+.br
+.ti -1c
+.RI "motifRowChangeEventHandler \fBmotifRowDeleting\fP"
+.br
+.ti -1c
+.RI "motifRowChangeEventHandler \fBmotifRowDeleted\fP"
+.br
+.in -1c
+.SH "Description détaillée"
+.PP 
+Represents the strongly named DataTable class\&. /summary> 
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour Digimedia86 à partir du code source\&.

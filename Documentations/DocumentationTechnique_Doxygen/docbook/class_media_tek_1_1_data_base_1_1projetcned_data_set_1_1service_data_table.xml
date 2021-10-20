@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table" xml:lang="fr">
+<title>Référence de la classe MediaTek.DataBase.projetcnedDataSet.serviceDataTable</title>
+<indexterm><primary>MediaTek.DataBase.projetcnedDataSet.serviceDataTable</primary></indexterm>
+<para>
+
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+ 
+</para>
+<para>
+Est dérivée de global.SystemData.TypedTableBase&lt; serviceRow &gt;.</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1ae7de864fded45a036ee0c6935c498571"/>void <emphasis role="strong">AddserviceRow</emphasis> (<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row">serviceRow</link> row)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1ad6e063d5a9e07276ea43356c9580cd4f"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row">serviceRow</link> <emphasis role="strong">AddserviceRow</emphasis> (string NOM)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a5946bc9bb2c64b4a90380541dee48825"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row">serviceRow</link> <emphasis role="strong">FindByIDSERVICE</emphasis> (int IDSERVICE)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1ae0d9b372bd954e48048d12fffb57e93d"/>override global::System.Data.DataTable <emphasis role="strong">Clone</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a6a67855581432df3207eaadf77b0712b"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row">serviceRow</link> <emphasis role="strong">NewserviceRow</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1ad4c6668b8a42756ad4f92df0b99c252c"/>void <emphasis role="strong">RemoveserviceRow</emphasis> (<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row">serviceRow</link> row)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres publiques statiques    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a7ef7fdc2216822847b578ba601faa231"/>static global::System.Xml.Schema.XmlSchemaComplexType <emphasis role="strong">GetTypedTableSchema</emphasis> (global::System.Xml.Schema.XmlSchemaSet xs)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres protégées    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a454a7c8fac6dba91252e4271f788653d"/><emphasis role="strong">serviceDataTable</emphasis> (global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1af4a29105f47108fec12101628e87990c"/>override global::System.Data.DataTable <emphasis role="strong">CreateInstance</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a47f9c9658393a0fdd52bbc9219b6e894"/>override global::System.Data.DataRow <emphasis role="strong">NewRowFromBuilder</emphasis> (global::System.Data.DataRowBuilder builder)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a0ca90dda833c195674a46a76be293359"/>override global::System.Type <emphasis role="strong">GetRowType</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a4ee58af61ed199c34a53b8f8eccac2a2"/>override void <emphasis role="strong">OnRowChanged</emphasis> (global::System.Data.DataRowChangeEventArgs e)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a0ac39c5f7e12cf14f13b6f4190abec9b"/>override void <emphasis role="strong">OnRowChanging</emphasis> (global::System.Data.DataRowChangeEventArgs e)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1afb62fb558f860f38be38c516f7d4709d"/>override void <emphasis role="strong">OnRowDeleted</emphasis> (global::System.Data.DataRowChangeEventArgs e)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a0c86fb5f34ea96dd8f40982999bb2a65"/>override void <emphasis role="strong">OnRowDeleting</emphasis> (global::System.Data.DataRowChangeEventArgs e)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a873216e98387fe2108384d7f163cebb1"/>global::System.Data.DataColumn <emphasis role="strong">IDSERVICEColumn</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a9d62dbc10a984eb26473fd33162dc3f0"/>global::System.Data.DataColumn <emphasis role="strong">NOMColumn</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1abdec60a4fcc48f539a05bf36a021f23a"/>int <emphasis role="strong">Count</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a86d3b1773d443cad80ec066a8daf6780"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row">serviceRow</link> <emphasis role="strong">this[int index]</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Événements    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1adfe406ef66077c30db3f2a2294059ae9"/>serviceRowChangeEventHandler <emphasis role="strong">serviceRowChanging</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a0563ec8c6dd0bdfbce20b9cf965113c9"/>serviceRowChangeEventHandler <emphasis role="strong">serviceRowChanged</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a861b13bd9e24d97ffcc515e5bb0d008f"/>serviceRowChangeEventHandler <emphasis role="strong">serviceRowDeleting</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table_1a04b9c56b166d42eb0a00393f55af1dbf"/>serviceRowChangeEventHandler <emphasis role="strong">serviceRowDeleted</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs</section>
+</section>

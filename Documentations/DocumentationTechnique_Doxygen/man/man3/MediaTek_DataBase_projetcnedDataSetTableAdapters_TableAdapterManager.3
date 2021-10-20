@@ -1,0 +1,75 @@
+.TH "MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager" 3 "Mardi 19 Octobre 2021" "Digimedia86" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager \- \fBTableAdapterManager\fP is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios /summary>  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Est dérivée de global\&.SystemComponentModel\&.Component\&.
+.SS "Types publics"
+
+.in +1c
+.ti -1c
+.RI "enum \fBUpdateOrderOption\fP { \fBInsertUpdateDelete\fP = 0, \fBUpdateInsertDelete\fP = 1 }"
+.br
+.RI "Update Order Option /summary> "
+.in -1c
+.SS "Fonctions membres publiques"
+
+.in +1c
+.ti -1c
+.RI "virtual int \fBUpdateAll\fP (\fBprojetcnedDataSet\fP dataSet)"
+.br
+.RI "Update all changes to the dataset\&. /summary> "
+.in -1c
+.SS "Fonctions membres protégées"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBSortSelfReferenceRows\fP (global::System\&.Data\&.DataRow[] rows, global::System\&.Data\&.DataRelation relation, bool childFirst)"
+.br
+.ti -1c
+.RI "virtual bool \fBMatchTableAdapterConnection\fP (global::System\&.Data\&.IDbConnection inputConnection)"
+.br
+.in -1c
+.SS "Propriétés"
+
+.in +1c
+.ti -1c
+.RI "\fBUpdateOrderOption\fP \fBUpdateOrder\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "\fBabsenceTableAdapter\fP \fBabsenceTableAdapter\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "\fBmotifTableAdapter\fP \fBmotifTableAdapter\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "\fBpersonnelTableAdapter\fP \fBpersonnelTableAdapter\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "\fBresponsableTableAdapter\fP \fBresponsableTableAdapter\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "\fBserviceTableAdapter\fP \fBserviceTableAdapter\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "bool \fBBackupDataSetBeforeUpdate\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "global::System\&.Data\&.IDbConnection \fBConnection\fP\fC [getset]\fP"
+.br
+.ti -1c
+.RI "int \fBTableAdapterInstanceCount\fP\fC [get]\fP"
+.br
+.in -1c
+.SH "Description détaillée"
+.PP 
+\fBTableAdapterManager\fP is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios /summary> 
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour Digimedia86 à partir du code source\&.

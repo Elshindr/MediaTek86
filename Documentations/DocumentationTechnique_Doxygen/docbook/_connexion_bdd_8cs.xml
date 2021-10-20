@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__connexion_bdd_8cs" xml:lang="fr">
+<title>Référence du fichier DigimediaTek86/connexion/ConnexionBdd.cs</title>
+<indexterm><primary>DigimediaTek86/connexion/ConnexionBdd.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_media_tek_1_1connexion_1_1_connexion_bdd">MediaTek.connexion.ConnexionBdd</link></para>
+
+<para>Classe de connexion à la Base de donnée </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Espaces de nommage    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_media_tek">MediaTek</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_media_tek_1_1connexion">MediaTek.connexion</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

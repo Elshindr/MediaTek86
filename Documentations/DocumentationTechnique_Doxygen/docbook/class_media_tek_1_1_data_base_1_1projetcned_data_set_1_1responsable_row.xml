@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row" xml:lang="fr">
+<title>Référence de la classe MediaTek.DataBase.projetcnedDataSet.responsableRow</title>
+<indexterm><primary>MediaTek.DataBase.projetcnedDataSet.responsableRow</primary></indexterm>
+<para>
+
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+ 
+</para>
+<para>
+Est dérivée de global.SystemData.DataRow.</para>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_1a1aa05e9b2ed87675e8a91d35e9a97d31"/>string <emphasis role="strong">login</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_1ad6055c1f90fb170079b76cf38a917fba"/>string <emphasis role="strong">pwd</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs</section>
+</section>

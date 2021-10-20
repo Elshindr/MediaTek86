@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1controleur_1_1_controle" xml:lang="fr">
+<title>Référence de la classe MediaTek.controleur.Controle</title>
+<indexterm><primary>MediaTek.controleur.Controle</primary></indexterm>
+<para>
+
+<para>Classe de controleur </para>
+ 
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1controleur_1_1_controle_1a7bfc16c571f774a5e5eddc124f7127f8"/><emphasis role="strong">Controle</emphasis> ()</para>
+
+<para>Contructeur et ouverture de la fenetre FrmConnexion </para>
+</listitem>
+            <listitem><para>Boolean <link linkend="_class_media_tek_1_1controleur_1_1_controle_1a257a4792f9ac1755ebd961167d49434c">Authentification</link> (string log, string pwd)</para>
+
+<para>Methode de vérification de connexion, si vrai, ouverture de la fenetre FrmGestion </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> &gt; <link linkend="_class_media_tek_1_1controleur_1_1_controle_1a53c814aa157ea9d198afb555639bf6fb">GetPersonnels</link> ()</para>
+
+<para>Recuperer puis retourner les infos du personnel de la base de données </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_1_1modele_1_1_service">Service</link> &gt; <link linkend="_class_media_tek_1_1controleur_1_1_controle_1a986e0167fe8f85e24cc46a03902c22c4">GetService</link> ()</para>
+
+<para>Récupérer puis retourner la liste des services </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> &gt; <link linkend="_class_media_tek_1_1controleur_1_1_controle_1a203eac8b66aa2aec0769b9ba8e5492dc">GetAbsences</link> (<link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> unpersonnel)</para>
+
+<para>Récupérer puis retourner les infos d&apos;un personnel sur ses absences </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_media_tek_1_1controleur_1_1_controle_1afcfccd3149b91c0bfa20005a73eed910">AddPersonnel</link> (<link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> unpersonnel)</para>
+
+<para>Ajouter un personnel </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_media_tek_1_1controleur_1_1_controle_1a8c46d718631edb8c0af70b6a93133708">AddAbsence</link> (<link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> uneabs)</para>
+
+<para>Ajouter une absence </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_media_tek_1_1controleur_1_1_controle_1a7d1b52b2f6db0fbd7d7713c3c1a54d77">DelPersonnel</link> (<link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> unpersonnel)</para>
+
+<para>Supprimer un personnel </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_media_tek_1_1controleur_1_1_controle_1a943d2119a5568bb0580b88eb6a92d591">DelAbs</link> (<link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> uneabs)</para>
+
+<para>Supprimer une absence </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_media_tek_1_1controleur_1_1_controle_1a99c77b6feb3926ab826b461f5ab15180">ModPersonnel</link> (<link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> unpersonnel)</para>
+
+<para>Modifier les informations d&apos;un personnel </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_media_tek_1_1controleur_1_1_controle_1aa3130069979d186a680ba7435ab66deb">ModAbsdebut</link> (<link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> uneabs)</para>
+
+<para>Modifier la date d&apos;entrée d&apos;une absence </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_media_tek_1_1controleur_1_1_controle_1a67f0153655b765062b11776dde9014a6">ModAbs</link> (<link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> uneabs)</para>
+
+<para>Modifier le motif et la date de fin d&apos;une absence </para>
+</listitem>
+            <listitem><para>List&lt; <link linkend="_class_media_tek_1_1modele_1_1_motif">Motif</link> &gt; <link linkend="_class_media_tek_1_1controleur_1_1_controle_1a5fa8934b6e8ed5bd40515d30f1da7ffb">GetMotifs</link> ()</para>
+
+<para>Récupérer la liste des motifs d&apos;absence </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Classe de controleur </para>
+</section>
+<section>
+<title>Documentation des fonctions membres</title>
+<anchor xml:id="_class_media_tek_1_1controleur_1_1_controle_1a8c46d718631edb8c0af70b6a93133708"/><section>
+    <title>AddAbsence()</title>
+<indexterm><primary>AddAbsence</primary><secondary>MediaTek.controleur.Controle</secondary></indexterm>
+<indexterm><primary>MediaTek.controleur.Controle</primary><secondary>AddAbsence</secondary></indexterm>
+<para><computeroutput>void MediaTek.controleur.Controle.AddAbsence (<link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> uneabs)</computeroutput></para><para>
+
+<para>Ajouter une absence </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>uneabs</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_media_tek_1_1controleur_1_1_controle_1afcfccd3149b91c0bfa20005a73eed910"/><section>
+    <title>AddPersonnel()</title>
+<indexterm><primary>AddPersonnel</primary><secondary>MediaTek.controleur.Controle</secondary></indexterm>
+<indexterm><primary>MediaTek.controleur.Controle</primary><secondary>AddPersonnel</secondary></indexterm>
+<para><computeroutput>void MediaTek.controleur.Controle.AddPersonnel (<link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> unpersonnel)</computeroutput></para><para>
+
+<para>Ajouter un personnel </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>unpersonnel</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_media_tek_1_1controleur_1_1_controle_1a257a4792f9ac1755ebd961167d49434c"/><section>
+    <title>Authentification()</title>
+<indexterm><primary>Authentification</primary><secondary>MediaTek.controleur.Controle</secondary></indexterm>
+<indexterm><primary>MediaTek.controleur.Controle</primary><secondary>Authentification</secondary></indexterm>
+<para><computeroutput>Boolean MediaTek.controleur.Controle.Authentification (string log, string pwd)</computeroutput></para><para>
+
+<para>Methode de vérification de connexion, si vrai, ouverture de la fenetre FrmGestion </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>log</entry><entry>
+<para>string log</para>
+</entry>
+                            </row>
+                            <row>
+<entry>pwd</entry><entry>
+<para>string pwd</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>Retourne Vrai si l&apos;authentification réussi, sinon Faux</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_1_1controleur_1_1_controle_1a943d2119a5568bb0580b88eb6a92d591"/><section>
+    <title>DelAbs()</title>
+<indexterm><primary>DelAbs</primary><secondary>MediaTek.controleur.Controle</secondary></indexterm>
+<indexterm><primary>MediaTek.controleur.Controle</primary><secondary>DelAbs</secondary></indexterm>
+<para><computeroutput>void MediaTek.controleur.Controle.DelAbs (<link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> uneabs)</computeroutput></para><para>
+
+<para>Supprimer une absence </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>uneabs</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_media_tek_1_1controleur_1_1_controle_1a7d1b52b2f6db0fbd7d7713c3c1a54d77"/><section>
+    <title>DelPersonnel()</title>
+<indexterm><primary>DelPersonnel</primary><secondary>MediaTek.controleur.Controle</secondary></indexterm>
+<indexterm><primary>MediaTek.controleur.Controle</primary><secondary>DelPersonnel</secondary></indexterm>
+<para><computeroutput>void MediaTek.controleur.Controle.DelPersonnel (<link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> unpersonnel)</computeroutput></para><para>
+
+<para>Supprimer un personnel </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>unpersonnel</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_media_tek_1_1controleur_1_1_controle_1a203eac8b66aa2aec0769b9ba8e5492dc"/><section>
+    <title>GetAbsences()</title>
+<indexterm><primary>GetAbsences</primary><secondary>MediaTek.controleur.Controle</secondary></indexterm>
+<indexterm><primary>MediaTek.controleur.Controle</primary><secondary>GetAbsences</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> &gt; MediaTek.controleur.Controle.GetAbsences (<link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> unpersonnel)</computeroutput></para><para>
+
+<para>Récupérer puis retourner les infos d&apos;un personnel sur ses absences </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Liste des absences</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_1_1controleur_1_1_controle_1a5fa8934b6e8ed5bd40515d30f1da7ffb"/><section>
+    <title>GetMotifs()</title>
+<indexterm><primary>GetMotifs</primary><secondary>MediaTek.controleur.Controle</secondary></indexterm>
+<indexterm><primary>MediaTek.controleur.Controle</primary><secondary>GetMotifs</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_1_1modele_1_1_motif">Motif</link> &gt; MediaTek.controleur.Controle.GetMotifs ( )</computeroutput></para><para>
+
+<para>Récupérer la liste des motifs d&apos;absence </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_1_1controleur_1_1_controle_1a53c814aa157ea9d198afb555639bf6fb"/><section>
+    <title>GetPersonnels()</title>
+<indexterm><primary>GetPersonnels</primary><secondary>MediaTek.controleur.Controle</secondary></indexterm>
+<indexterm><primary>MediaTek.controleur.Controle</primary><secondary>GetPersonnels</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> &gt; MediaTek.controleur.Controle.GetPersonnels ( )</computeroutput></para><para>
+
+<para>Recuperer puis retourner les infos du personnel de la base de données </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>Liste et infos sur le personnel</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_1_1controleur_1_1_controle_1a986e0167fe8f85e24cc46a03902c22c4"/><section>
+    <title>GetService()</title>
+<indexterm><primary>GetService</primary><secondary>MediaTek.controleur.Controle</secondary></indexterm>
+<indexterm><primary>MediaTek.controleur.Controle</primary><secondary>GetService</secondary></indexterm>
+<para><computeroutput>List&lt; <link linkend="_class_media_tek_1_1modele_1_1_service">Service</link> &gt; MediaTek.controleur.Controle.GetService ( )</computeroutput></para><para>
+
+<para>Récupérer puis retourner la liste des services </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para></para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_1_1controleur_1_1_controle_1a67f0153655b765062b11776dde9014a6"/><section>
+    <title>ModAbs()</title>
+<indexterm><primary>ModAbs</primary><secondary>MediaTek.controleur.Controle</secondary></indexterm>
+<indexterm><primary>MediaTek.controleur.Controle</primary><secondary>ModAbs</secondary></indexterm>
+<para><computeroutput>void MediaTek.controleur.Controle.ModAbs (<link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> uneabs)</computeroutput></para><para>
+
+<para>Modifier le motif et la date de fin d&apos;une absence </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>uneabs</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_media_tek_1_1controleur_1_1_controle_1aa3130069979d186a680ba7435ab66deb"/><section>
+    <title>ModAbsdebut()</title>
+<indexterm><primary>ModAbsdebut</primary><secondary>MediaTek.controleur.Controle</secondary></indexterm>
+<indexterm><primary>MediaTek.controleur.Controle</primary><secondary>ModAbsdebut</secondary></indexterm>
+<para><computeroutput>void MediaTek.controleur.Controle.ModAbsdebut (<link linkend="_class_media_tek_1_1modele_1_1_absence">Absence</link> uneabs)</computeroutput></para><para>
+
+<para>Modifier la date d&apos;entrée d&apos;une absence </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>uneabs</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_media_tek_1_1controleur_1_1_controle_1a99c77b6feb3926ab826b461f5ab15180"/><section>
+    <title>ModPersonnel()</title>
+<indexterm><primary>ModPersonnel</primary><secondary>MediaTek.controleur.Controle</secondary></indexterm>
+<indexterm><primary>MediaTek.controleur.Controle</primary><secondary>ModPersonnel</secondary></indexterm>
+<para><computeroutput>void MediaTek.controleur.Controle.ModPersonnel (<link linkend="_class_media_tek_1_1modele_1_1_personnel">Personnel</link> unpersonnel)</computeroutput></para><para>
+
+<para>Modifier les informations d&apos;un personnel </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>unpersonnel</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/controleur/Controle.cs</section>
+</section>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1personnel_table_adapter" xml:lang="fr">
+<title>Référence de la classe MediaTek.DataBase.projetcnedDataSetTableAdapters.personnelTableAdapter</title>
+<indexterm><primary>MediaTek.DataBase.projetcnedDataSetTableAdapters.personnelTableAdapter</primary></indexterm>
+<para>
+
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+ 
+</para>
+<para>
+Est dérivée de global.SystemComponentModel.Component.</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1personnel_table_adapter_1adb993049d91a6304073ec04586bd7e02"/>virtual int <emphasis role="strong">Fill</emphasis> (<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table">projetcnedDataSet.personnelDataTable</link> dataTable)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1personnel_table_adapter_1ad75ff591034431b4e5eefe3cea45cfa2"/>virtual <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table">projetcnedDataSet.personnelDataTable</link> <emphasis role="strong">GetData</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1personnel_table_adapter_1ad54127e968a475a58109f38a3bf7c1fd"/>virtual int <emphasis role="strong">Update</emphasis> (<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table">projetcnedDataSet.personnelDataTable</link> dataTable)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1personnel_table_adapter_1a423782c42eff1cfd9566954078c1fb08"/>virtual int <emphasis role="strong">Update</emphasis> (<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set">projetcnedDataSet</link> dataSet)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1personnel_table_adapter_1a7cb43a8f67350266ca3ef5ca612d15b5"/>virtual int <emphasis role="strong">Update</emphasis> (global::System.Data.DataRow dataRow)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1personnel_table_adapter_1a2617eb8a8043d7a723a2beeab3024111"/>virtual int <emphasis role="strong">Update</emphasis> (global::System.Data.DataRow[] dataRows)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1personnel_table_adapter_1aa4a5e39c4ba949cea96ac29dff061dee"/>virtual int <emphasis role="strong">Delete</emphasis> (int p1, int p2, string p4, string p6, string p8, string p10)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1personnel_table_adapter_1a5a7fc23134876f6505b7df840169beed"/>virtual int <emphasis role="strong">Insert</emphasis> (int p1, string p2, string p3, string p4, string p5)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1personnel_table_adapter_1a3304834d0d1d1f1d7aea5ce91f346284"/>virtual int <emphasis role="strong">Update</emphasis> (int p1, string p2, string p3, string p4, string p5, int p6, int p7, string p9, string p11, string p13, string p15)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1personnel_table_adapter_1aebcff93ecc34f40e11570761c7d629fa"/>global::MySql.Data.MySqlClient.MySqlCommand[] <emphasis role="strong">CommandCollection</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1personnel_table_adapter_1ae67f9ea6574f17ca8305761974c63524"/>bool <emphasis role="strong">ClearBeforeFill</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs</section>
+</section>

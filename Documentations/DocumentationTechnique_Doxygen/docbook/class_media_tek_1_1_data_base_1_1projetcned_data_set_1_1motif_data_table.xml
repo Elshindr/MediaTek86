@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table" xml:lang="fr">
+<title>Référence de la classe MediaTek.DataBase.projetcnedDataSet.motifDataTable</title>
+<indexterm><primary>MediaTek.DataBase.projetcnedDataSet.motifDataTable</primary></indexterm>
+<para>
+
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+ 
+</para>
+<para>
+Est dérivée de global.SystemData.TypedTableBase&lt; motifRow &gt;.</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a3df458459ddc1c44c203c143abdc953c"/>void <emphasis role="strong">AddmotifRow</emphasis> (<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row">motifRow</link> row)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a44b4b09590816f598b78e2fdb78f4656"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row">motifRow</link> <emphasis role="strong">AddmotifRow</emphasis> (string LIBELLE)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1aff88a04456bb5b52ae075aba4768c643"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row">motifRow</link> <emphasis role="strong">FindByIDMOTIF</emphasis> (int IDMOTIF)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a9775d3daf7740a12f9625885d28593bf"/>override global::System.Data.DataTable <emphasis role="strong">Clone</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a498544e6e61c4b1a3272978135585f91"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row">motifRow</link> <emphasis role="strong">NewmotifRow</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1aeae9d7c1b714945eabb520cf93b30ba8"/>void <emphasis role="strong">RemovemotifRow</emphasis> (<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row">motifRow</link> row)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres publiques statiques    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a21784851df9e1b3b5769c69802261508"/>static global::System.Xml.Schema.XmlSchemaComplexType <emphasis role="strong">GetTypedTableSchema</emphasis> (global::System.Xml.Schema.XmlSchemaSet xs)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres protégées    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a48784298cd42bc1b85bd9ebd7d23c2ea"/><emphasis role="strong">motifDataTable</emphasis> (global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a775fadbbe0f9eb6e69a906a59d48a5bf"/>override global::System.Data.DataTable <emphasis role="strong">CreateInstance</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1afdfcb70fbcbc8d2e58466c120bb6ddac"/>override global::System.Data.DataRow <emphasis role="strong">NewRowFromBuilder</emphasis> (global::System.Data.DataRowBuilder builder)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a725b4a8be1cf895d9751f9383956c58b"/>override global::System.Type <emphasis role="strong">GetRowType</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1acdf264667bcf3640325247ef231e65dd"/>override void <emphasis role="strong">OnRowChanged</emphasis> (global::System.Data.DataRowChangeEventArgs e)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a33abfc2bf1b8e355b5e1ba0f06a8f59b"/>override void <emphasis role="strong">OnRowChanging</emphasis> (global::System.Data.DataRowChangeEventArgs e)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a8098f4baf3141b685aa8c6ed07d04107"/>override void <emphasis role="strong">OnRowDeleted</emphasis> (global::System.Data.DataRowChangeEventArgs e)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a41802014cef7c890eaab0f329eb2e872"/>override void <emphasis role="strong">OnRowDeleting</emphasis> (global::System.Data.DataRowChangeEventArgs e)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a392a6f2ce30aef46d08dbfc9ba44dcab"/>global::System.Data.DataColumn <emphasis role="strong">IDMOTIFColumn</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a080b664697bec6e5158e9ffc478f734a"/>global::System.Data.DataColumn <emphasis role="strong">LIBELLEColumn</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1af01c08aca75a4f6360801750c9724073"/>int <emphasis role="strong">Count</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a429530a8f319a0e92dba2c61559a713b"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row">motifRow</link> <emphasis role="strong">this[int index]</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Événements    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a1abada30ef460245b50f2120aec28151"/>motifRowChangeEventHandler <emphasis role="strong">motifRowChanging</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a0abf146d2d7c343c4f6e4654288cfbc7"/>motifRowChangeEventHandler <emphasis role="strong">motifRowChanged</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1a11b2da161d7f9b532f69d19ff3cfddb9"/>motifRowChangeEventHandler <emphasis role="strong">motifRowDeleting</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table_1aa14de0c3d365928e4693ecd80e15630e"/>motifRowChangeEventHandler <emphasis role="strong">motifRowDeleted</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs</section>
+</section>

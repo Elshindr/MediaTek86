@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_media_tek_1_1controleur" xml:lang="fr">
+<title>Référence de l&apos;espace de nommage MediaTek.controleur</title>
+<indexterm><primary>MediaTek.controleur</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_media_tek_1_1controleur_1_1_controle">Controle</link></para>
+
+<para>Classe de controleur </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

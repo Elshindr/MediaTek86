@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_5b8f81b93f2829baf7244ef41799e628" xml:lang="fr">
+<title>Répertoire de référence de DigimediaTek86/vue</title>
+<indexterm><primary>Répertoire de référence de DigimediaTek86/vue</primary></indexterm>
+<simplesect>
+    <title>Fichiers    </title>
+        <itemizedlist>
+            <listitem><para>fichier <link linkend="__frm_connexion_8cs">FrmConnexion.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__frm_connexion_8_designer_8cs">FrmConnexion.Designer.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__frm_gestion_8cs">FrmGestion.cs</link></para>
+</listitem>
+            <listitem><para>fichier <link linkend="__frm_gestion_8_designer_8cs">FrmGestion.Designer.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

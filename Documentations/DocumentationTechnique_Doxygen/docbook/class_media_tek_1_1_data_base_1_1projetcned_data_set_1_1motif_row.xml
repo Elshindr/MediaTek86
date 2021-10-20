@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row" xml:lang="fr">
+<title>Référence de la classe MediaTek.DataBase.projetcnedDataSet.motifRow</title>
+<indexterm><primary>MediaTek.DataBase.projetcnedDataSet.motifRow</primary></indexterm>
+<para>
+
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+ 
+</para>
+<para>
+Est dérivée de global.SystemData.DataRow.</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row_1a81d9718150624407e7adf2b1465cdd27"/>bool <emphasis role="strong">IsLIBELLENull</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row_1a8eb5d5d7762ddc63f5f41e3876096411"/>void <emphasis role="strong">SetLIBELLENull</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row_1a4034f27ddf617265c333aec91498c538"/>int <emphasis role="strong">IDMOTIF</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row_1aa19b2592cd6753b18dc96c3a53a7b5b2"/>string <emphasis role="strong">LIBELLE</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs</section>
+</section>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_annotated" xml:lang="fr">
+<title>Liste des classes</title>
+Liste des classes, structures, unions et interfaces avec une brève description :<link linkend="_class_media_tek_1_1modele_1_1_absence">MediaTek.modele.Absence</link>
+<para>Classe représentant les absences d&apos;un personnel </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table">MediaTek.DataBase.projetcnedDataSet.absenceDataTable</link>
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row">MediaTek.DataBase.projetcnedDataSet.absenceRow</link>
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_change_event">MediaTek.DataBase.projetcnedDataSet.absenceRowChangeEvent</link>
+<para>Row event argument class /summary&gt; </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter">MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter</link>
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+<link linkend="_class_media_tek_1_1dal_1_1_acces_connexion_bdd">MediaTek.dal.AccesConnexionBdd</link>
+<para>Classe de gestion de la base de donnée </para>
+<link linkend="_class_media_tek_1_1connexion_1_1_connexion_bdd">MediaTek.connexion.ConnexionBdd</link>
+<para>Classe de connexion à la Base de donnée </para>
+<link linkend="_class_media_tek_1_1controleur_1_1_controle">MediaTek.controleur.Controle</link>
+<para>Classe de controleur </para>
+<link linkend="_class_media_tek_1_1vue_1_1_frm_connexion">MediaTek.vue.FrmConnexion</link>
+<para>Fenêtre de connexion au programme </para>
+<link linkend="_class_media_tek_1_1vue_1_1_frm_gestion">MediaTek.vue.FrmGestion</link>
+<para>Fenêtre d&apos;affichage et de gestion du personnel et de leurs absences </para>
+<link linkend="_class_media_tek_1_1modele_1_1_motif">MediaTek.modele.Motif</link>
+<para>Classe représentant les motifs d&apos;absence d&apos;un personnel </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table">MediaTek.DataBase.projetcnedDataSet.motifDataTable</link>
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row">MediaTek.DataBase.projetcnedDataSet.motifRow</link>
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row_change_event">MediaTek.DataBase.projetcnedDataSet.motifRowChangeEvent</link>
+<para>Row event argument class /summary&gt; </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1motif_table_adapter">MediaTek.DataBase.projetcnedDataSetTableAdapters.motifTableAdapter</link>
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+<link linkend="_class_media_tek_1_1modele_1_1_personnel">MediaTek.modele.Personnel</link>
+<para>Classe représentant le personnel </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table">MediaTek.DataBase.projetcnedDataSet.personnelDataTable</link>
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row">MediaTek.DataBase.projetcnedDataSet.personnelRow</link>
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_change_event">MediaTek.DataBase.projetcnedDataSet.personnelRowChangeEvent</link>
+<para>Row event argument class /summary&gt; </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1personnel_table_adapter">MediaTek.DataBase.projetcnedDataSetTableAdapters.personnelTableAdapter</link>
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set">MediaTek.DataBase.projetcnedDataSet</link>
+<para>Represents a strongly typed in-memory cache of data. /summary&gt; </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table">MediaTek.DataBase.projetcnedDataSet.responsableDataTable</link>
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row">MediaTek.DataBase.projetcnedDataSet.responsableRow</link>
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_change_event">MediaTek.DataBase.projetcnedDataSet.responsableRowChangeEvent</link>
+<para>Row event argument class /summary&gt; </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1responsable_table_adapter">MediaTek.DataBase.projetcnedDataSetTableAdapters.responsableTableAdapter</link>
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+<link linkend="_class_media_tek_1_1modele_1_1_service">MediaTek.modele.Service</link>
+<para>Classe des services du personnel </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table">MediaTek.DataBase.projetcnedDataSet.serviceDataTable</link>
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row">MediaTek.DataBase.projetcnedDataSet.serviceRow</link>
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row_change_event">MediaTek.DataBase.projetcnedDataSet.serviceRowChangeEvent</link>
+<para>Row event argument class /summary&gt; </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1service_table_adapter">MediaTek.DataBase.projetcnedDataSetTableAdapters.serviceTableAdapter</link>
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager">MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager</link>
+<para><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager">TableAdapterManager</link> is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios /summary&gt; </para>
+</section>

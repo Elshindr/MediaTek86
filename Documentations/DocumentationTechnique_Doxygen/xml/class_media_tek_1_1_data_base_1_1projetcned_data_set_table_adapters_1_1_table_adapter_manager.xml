@@ -1,0 +1,476 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager" kind="class" language="C#" prot="public">
+    <compoundname>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global.SystemComponentModel.Component</basecompoundref>
+    <innerclass refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1_1_self_reference_comparer" prot="private">MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager::SelfReferenceComparer</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a4cabc5c722431099ab8362bc0b1cb987" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>UpdateOrderOption</name>
+        <enumvalue id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a4cabc5c722431099ab8362bc0b1cb987a27b77cb15d3da7ded0250d0001bc6755" prot="public">
+          <name>InsertUpdateDelete</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a4cabc5c722431099ab8362bc0b1cb987a894fcc001e51f673d3fb5f3096473dd8" prot="public">
+          <name>UpdateInsertDelete</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Update Order Option /summary&gt; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="5110" column="15" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="5110" bodyend="5115"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a1be724bbcb92174838be1d4efcf8e50e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a4cabc5c722431099ab8362bc0b1cb987" kindref="member">UpdateOrderOption</ref></type>
+        <definition>UpdateOrderOption MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager._updateOrder</definition>
+        <argsstring></argsstring>
+        <name>_updateOrder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4531" column="35" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4531" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a95c16c17cf95313eca7b3bc94118a3f2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter" kindref="compound">absenceTableAdapter</ref></type>
+        <definition>absenceTableAdapter MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager._absenceTableAdapter</definition>
+        <argsstring></argsstring>
+        <name>_absenceTableAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4533" column="37" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4533" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a9bcbe6eef8877b7b5a2f9dcf158660f9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1motif_table_adapter" kindref="compound">motifTableAdapter</ref></type>
+        <definition>motifTableAdapter MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager._motifTableAdapter</definition>
+        <argsstring></argsstring>
+        <name>_motifTableAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4535" column="35" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4535" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1ab50c561c5dcfbf511f4e1df17b694641" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1personnel_table_adapter" kindref="compound">personnelTableAdapter</ref></type>
+        <definition>personnelTableAdapter MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager._personnelTableAdapter</definition>
+        <argsstring></argsstring>
+        <name>_personnelTableAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4537" column="39" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a2fe1a9518e6470981aa5497aa7c4bc8c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1responsable_table_adapter" kindref="compound">responsableTableAdapter</ref></type>
+        <definition>responsableTableAdapter MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager._responsableTableAdapter</definition>
+        <argsstring></argsstring>
+        <name>_responsableTableAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4539" column="41" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4539" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1ac28ad224ef2948c033e57e01a2396327" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1service_table_adapter" kindref="compound">serviceTableAdapter</ref></type>
+        <definition>serviceTableAdapter MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager._serviceTableAdapter</definition>
+        <argsstring></argsstring>
+        <name>_serviceTableAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4541" column="37" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4541" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1ad79d3d1cdc313fba1262368572641e37" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager._backupDataSetBeforeUpdate</definition>
+        <argsstring></argsstring>
+        <name>_backupDataSetBeforeUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4543" column="22" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4543" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1abccea7c0fffd39ce444bbe0b0a60b1bb" prot="private" static="no" mutable="no">
+        <type>global::System.Data.IDbConnection</type>
+        <definition>global::System.Data.IDbConnection MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager._connection</definition>
+        <argsstring></argsstring>
+        <name>_connection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4545" column="49" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4545" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1abc2635a424ec4b38a8fa1cb39e56d1ac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a4cabc5c722431099ab8362bc0b1cb987" kindref="member">UpdateOrderOption</ref></type>
+        <definition>UpdateOrderOption MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.UpdateOrder</definition>
+        <argsstring></argsstring>
+        <name>UpdateOrder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4549" column="34" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4549" bodyend="4556"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1aef34f8e3be2785a954b5512ed407ae75" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter" kindref="compound">absenceTableAdapter</ref></type>
+        <definition>absenceTableAdapter MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.absenceTableAdapter</definition>
+        <argsstring></argsstring>
+        <name>absenceTableAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4563" column="36" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4563" bodyend="4570"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1aae0dbbd478127cf5ccb58a1dcf73e0cc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1motif_table_adapter" kindref="compound">motifTableAdapter</ref></type>
+        <definition>motifTableAdapter MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.motifTableAdapter</definition>
+        <argsstring></argsstring>
+        <name>motifTableAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4577" column="34" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4577" bodyend="4584"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1aea6a57a3a610c76726a5872c8cad5bb7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1personnel_table_adapter" kindref="compound">personnelTableAdapter</ref></type>
+        <definition>personnelTableAdapter MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.personnelTableAdapter</definition>
+        <argsstring></argsstring>
+        <name>personnelTableAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4591" column="38" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4591" bodyend="4598"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a25878ab399cdac1f9c5eac9b5b0ed5a3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1responsable_table_adapter" kindref="compound">responsableTableAdapter</ref></type>
+        <definition>responsableTableAdapter MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.responsableTableAdapter</definition>
+        <argsstring></argsstring>
+        <name>responsableTableAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4605" column="40" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4605" bodyend="4612"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1ac21753dc4fd4436057fe1d99cb02ec53" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1service_table_adapter" kindref="compound">serviceTableAdapter</ref></type>
+        <definition>serviceTableAdapter MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.serviceTableAdapter</definition>
+        <argsstring></argsstring>
+        <name>serviceTableAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4619" column="36" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4619" bodyend="4626"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a5109af24ea35c8fd017e951e51405ebe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.BackupDataSetBeforeUpdate</definition>
+        <argsstring></argsstring>
+        <name>BackupDataSetBeforeUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4630" column="21" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4630" bodyend="4637"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a245bacfd5fff88d21eb7f8e0174ed10a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>global::System.Data.IDbConnection</type>
+        <definition>global::System.Data.IDbConnection MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.Connection</definition>
+        <argsstring></argsstring>
+        <name>Connection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4642" column="48" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4642" bodyend="4672"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a24354a896f641185126aba32e6eb802d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.TableAdapterInstanceCount</definition>
+        <argsstring></argsstring>
+        <name>TableAdapterInstanceCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4677" column="20" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4677" bodyend="4697"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a893d2ad269ffd47c367186b2f7d26ad6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows</definition>
+        <argsstring>(projetcnedDataSet dataSet, global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt; allChangedRows, global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt; allAddedRows)</argsstring>
+        <name>UpdateUpdatedRows</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set" kindref="compound">projetcnedDataSet</ref></type>
+          <declname>dataSet</declname>
+        </param>
+        <param>
+          <type>global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt;</type>
+          <declname>allChangedRows</declname>
+        </param>
+        <param>
+          <type>global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt;</type>
+          <declname>allAddedRows</declname>
+        </param>
+        <briefdescription>
+<para>Update rows in top-down order. /summary&gt; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4704" column="21" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4704" bodyend="4752"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a05f7370884cf71b58eb0775309b91ae9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows</definition>
+        <argsstring>(projetcnedDataSet dataSet, global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt; allAddedRows)</argsstring>
+        <name>UpdateInsertedRows</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set" kindref="compound">projetcnedDataSet</ref></type>
+          <declname>dataSet</declname>
+        </param>
+        <param>
+          <type>global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt;</type>
+          <declname>allAddedRows</declname>
+        </param>
+        <briefdescription>
+<para>Insert rows in top-down order. /summary&gt; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4759" column="21" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4759" bodyend="4802"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1ad8a4cea555c2d53bd41976d3f866a138" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows</definition>
+        <argsstring>(projetcnedDataSet dataSet, global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt; allChangedRows)</argsstring>
+        <name>UpdateDeletedRows</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set" kindref="compound">projetcnedDataSet</ref></type>
+          <declname>dataSet</declname>
+        </param>
+        <param>
+          <type>global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt;</type>
+          <declname>allChangedRows</declname>
+        </param>
+        <briefdescription>
+<para>Delete rows in bottom-up order. /summary&gt; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4809" column="21" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4809" bodyend="4852"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1ad61f60d09885afb39a0e31c48ae86dee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Data.DataRow[]</type>
+        <definition>global::System.Data.DataRow[] MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows</definition>
+        <argsstring>(global::System.Data.DataRow[] updatedRows, global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt; allAddedRows)</argsstring>
+        <name>GetRealUpdatedRows</name>
+        <param>
+          <type>global::System.Data.DataRow[]</type>
+          <declname>updatedRows</declname>
+        </param>
+        <param>
+          <type>global::System.Collections.Generic.List&lt; global::System.Data.DataRow &gt;</type>
+          <declname>allAddedRows</declname>
+        </param>
+        <briefdescription>
+<para>Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first /summary&gt; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4859" column="43" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4859" bodyend="4876"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a0e2ff369f1ca3f70cc9318ad2696e9a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.UpdateAll</definition>
+        <argsstring>(projetcnedDataSet dataSet)</argsstring>
+        <name>UpdateAll</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set" kindref="compound">projetcnedDataSet</ref></type>
+          <declname>dataSet</declname>
+        </param>
+        <briefdescription>
+<para>Update all changes to the dataset. /summary&gt; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4883" column="28" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4883" bodyend="5082"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a02b2a8e0cfb6b1ffaf558d74a29f83cb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.SortSelfReferenceRows</definition>
+        <argsstring>(global::System.Data.DataRow[] rows, global::System.Data.DataRelation relation, bool childFirst)</argsstring>
+        <name>SortSelfReferenceRows</name>
+        <param>
+          <type>global::System.Data.DataRow[]</type>
+          <declname>rows</declname>
+        </param>
+        <param>
+          <type>global::System.Data.DataRelation</type>
+          <declname>relation</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>childFirst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="5086" column="32" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="5086" bodyend="5088"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a0ce8a65358ad1a8ba410c05ce13b15dd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager.MatchTableAdapterConnection</definition>
+        <argsstring>(global::System.Data.IDbConnection inputConnection)</argsstring>
+        <name>MatchTableAdapterConnection</name>
+        <param>
+          <type>global::System.Data.IDbConnection</type>
+          <declname>inputConnection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="5092" column="32" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="5092" bodyend="5104"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager" kindref="compound">TableAdapterManager</ref> is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemComponentModel::Component</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemComponentModel::Component</label>
+      </node>
+    </collaborationgraph>
+    <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="4529" column="19" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="4529" bodyend="5212"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a95c16c17cf95313eca7b3bc94118a3f2" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>_absenceTableAdapter</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1ad79d3d1cdc313fba1262368572641e37" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>_backupDataSetBeforeUpdate</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1abccea7c0fffd39ce444bbe0b0a60b1bb" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>_connection</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a9bcbe6eef8877b7b5a2f9dcf158660f9" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>_motifTableAdapter</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1ab50c561c5dcfbf511f4e1df17b694641" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>_personnelTableAdapter</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a2fe1a9518e6470981aa5497aa7c4bc8c" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>_responsableTableAdapter</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1ac28ad224ef2948c033e57e01a2396327" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>_serviceTableAdapter</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a1be724bbcb92174838be1d4efcf8e50e" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>_updateOrder</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1aef34f8e3be2785a954b5512ed407ae75" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>absenceTableAdapter</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a5109af24ea35c8fd017e951e51405ebe" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>BackupDataSetBeforeUpdate</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a245bacfd5fff88d21eb7f8e0174ed10a" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>Connection</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1ad61f60d09885afb39a0e31c48ae86dee" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>GetRealUpdatedRows</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a0ce8a65358ad1a8ba410c05ce13b15dd" prot="protected" virt="virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>MatchTableAdapterConnection</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1aae0dbbd478127cf5ccb58a1dcf73e0cc" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>motifTableAdapter</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1aea6a57a3a610c76726a5872c8cad5bb7" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>personnelTableAdapter</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a25878ab399cdac1f9c5eac9b5b0ed5a3" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>responsableTableAdapter</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1ac21753dc4fd4436057fe1d99cb02ec53" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>serviceTableAdapter</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a02b2a8e0cfb6b1ffaf558d74a29f83cb" prot="protected" virt="virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>SortSelfReferenceRows</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a24354a896f641185126aba32e6eb802d" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>TableAdapterInstanceCount</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a0e2ff369f1ca3f70cc9318ad2696e9a6" prot="public" virt="virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>UpdateAll</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1ad8a4cea555c2d53bd41976d3f866a138" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>UpdateDeletedRows</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a05f7370884cf71b58eb0775309b91ae9" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>UpdateInsertedRows</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1abc2635a424ec4b38a8fa1cb39e56d1ac" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>UpdateOrder</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a4cabc5c722431099ab8362bc0b1cb987" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>UpdateOrderOption</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a893d2ad269ffd47c367186b2f7d26ad6" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::TableAdapterManager</scope><name>UpdateUpdatedRows</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

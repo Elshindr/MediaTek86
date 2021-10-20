@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__motif_8cs" xml:lang="fr">
+<title>Référence du fichier DigimediaTek86/modele/Motif.cs</title>
+<indexterm><primary>DigimediaTek86/modele/Motif.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_media_tek_1_1modele_1_1_motif">MediaTek.modele.Motif</link></para>
+
+<para>Classe représentant les motifs d&apos;absence d&apos;un personnel </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Espaces de nommage    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_media_tek">MediaTek</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_media_tek_1_1modele">MediaTek.modele</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

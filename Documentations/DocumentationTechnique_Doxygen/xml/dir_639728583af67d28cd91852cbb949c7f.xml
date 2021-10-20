@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="dir_639728583af67d28cd91852cbb949c7f" kind="dir">
+    <compoundname>DigimediaTek86/dal</compoundname>
+    <innerfile refid="_acces_connexion_bdd_8cs">AccesConnexionBdd.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DigimediaTek86/dal/"/>
+  </compounddef>
+</doxygen>

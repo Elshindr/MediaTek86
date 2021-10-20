@@ -1,0 +1,1303 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1vue_1_1_frm_gestion" kind="class" language="C#" prot="public">
+    <compoundname>MediaTek::vue::FrmGestion</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1aa615dabd2341551223ca043c7b8b7bd3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_tek_1_1controleur_1_1_controle" kindref="compound">Controle</ref></type>
+        <definition>Controle MediaTek.vue.FrmGestion.controle</definition>
+        <argsstring></argsstring>
+        <name>controle</name>
+        <briefdescription>
+<para>Instance du controleur </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="17" column="26" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1ac6fcafd6c60045311f7c585f0b2a9c41" prot="private" static="no" mutable="no">
+        <type>BindingSource</type>
+        <definition>BindingSource MediaTek.vue.FrmGestion.bdgPersonnel</definition>
+        <argsstring></argsstring>
+        <name>bdgPersonnel</name>
+        <initializer>= new BindingSource()</initializer>
+        <briefdescription>
+<para>Objet de gestion de la liste du personnel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="23" column="23" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a654f990fda5e16c85ef64ddb3070440d" prot="private" static="no" mutable="no">
+        <type>BindingSource</type>
+        <definition>BindingSource MediaTek.vue.FrmGestion.bdgService</definition>
+        <argsstring></argsstring>
+        <name>bdgService</name>
+        <initializer>= new BindingSource()</initializer>
+        <briefdescription>
+<para>Objet de gestion de la liste des services </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="29" column="23" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a86025f48c8ef41f6b01724fbc63941a8" prot="private" static="no" mutable="no">
+        <type>BindingSource</type>
+        <definition>BindingSource MediaTek.vue.FrmGestion.bdgAbs</definition>
+        <argsstring></argsstring>
+        <name>bdgAbs</name>
+        <initializer>= new BindingSource()</initializer>
+        <briefdescription>
+<para>Objet de gestion de la liste des absences </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="35" column="23" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a2901b8cfe985a1076b803f55ea7edb0b" prot="private" static="no" mutable="no">
+        <type>BindingSource</type>
+        <definition>BindingSource MediaTek.vue.FrmGestion.bdgMotif</definition>
+        <argsstring></argsstring>
+        <name>bdgMotif</name>
+        <initializer>= new BindingSource()</initializer>
+        <briefdescription>
+<para>Objet de gestion de la liste des motifs d&apos;absence </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="41" column="23" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1addde039ce4f6f8cd189e815218060fc9" prot="private" static="no" mutable="no">
+        <type>Boolean</type>
+        <definition>Boolean MediaTek.vue.FrmGestion.ModifPers</definition>
+        <argsstring></argsstring>
+        <name>ModifPers</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Variable de gestion des enregistrements d&apos;un personnel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="47" column="25" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1ab2075ddf23d6b0342859456ed67f1e3d" prot="private" static="no" mutable="no">
+        <type>Boolean</type>
+        <definition>Boolean MediaTek.vue.FrmGestion.ModifAbs</definition>
+        <argsstring></argsstring>
+        <name>ModifAbs</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Variable de gestion des enregistrements d&apos;une absence </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="52" column="25" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a6c2f70548202ca7a522627803a647e24" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer MediaTek.vue.FrmGestion.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="9" column="48" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1abcff6d350e64dc34e3aced1f59d1a8d6" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox MediaTek.vue.FrmGestion.grpGestionPers</definition>
+        <argsstring></argsstring>
+        <name>grpGestionPers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="455" column="44" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="455" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1ae702333c9253a7a0f3862a4b085cb6fb" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label MediaTek.vue.FrmGestion.label5</definition>
+        <argsstring></argsstring>
+        <name>label5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="456" column="41" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="456" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1afb8aa3cac3bbce94362ff26c60763774" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ComboBox</type>
+        <definition>System.Windows.Forms.ComboBox MediaTek.vue.FrmGestion.cobservice</definition>
+        <argsstring></argsstring>
+        <name>cobservice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="457" column="44" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="457" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a2e6731c78f168ce8d26d8eed87aadfb4" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox MediaTek.vue.FrmGestion.txtmail</definition>
+        <argsstring></argsstring>
+        <name>txtmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="458" column="43" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="458" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1af325d7ba8dd82ca382d53c6388c3f4f4" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox MediaTek.vue.FrmGestion.txttel</definition>
+        <argsstring></argsstring>
+        <name>txttel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="459" column="43" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="459" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a7e3622504c7ffd8fb21a76e00b28b287" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox MediaTek.vue.FrmGestion.txtprenom</definition>
+        <argsstring></argsstring>
+        <name>txtprenom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="460" column="43" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="460" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a915030f08e9f9aac8f512fac79dea5d6" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label MediaTek.vue.FrmGestion.label4</definition>
+        <argsstring></argsstring>
+        <name>label4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="461" column="41" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="461" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a319e955b4adfe7b8359b8b2873148ee5" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label MediaTek.vue.FrmGestion.label3</definition>
+        <argsstring></argsstring>
+        <name>label3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="462" column="41" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="462" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1adc32a72f26956659a4eb72894fee5ce8" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label MediaTek.vue.FrmGestion.label2</definition>
+        <argsstring></argsstring>
+        <name>label2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="463" column="41" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="463" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a87122e089773209a03b266887025920a" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox MediaTek.vue.FrmGestion.txtnom</definition>
+        <argsstring></argsstring>
+        <name>txtnom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="464" column="43" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="464" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a6cae0adace8e1c4c20291dc335c8f474" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label MediaTek.vue.FrmGestion.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="465" column="41" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="465" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a38773936f129908a9fcfcf3204430b1f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button MediaTek.vue.FrmGestion.btnAjouterPers</definition>
+        <argsstring></argsstring>
+        <name>btnAjouterPers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="466" column="42" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="466" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a0828a34df7596a4a611570e43d0ba95b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button MediaTek.vue.FrmGestion.btnAnnulerPers</definition>
+        <argsstring></argsstring>
+        <name>btnAnnulerPers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="467" column="42" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="467" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a131953a49ad5eac6787fd4bd685c2dfd" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button MediaTek.vue.FrmGestion.btnEnregistrerPers</definition>
+        <argsstring></argsstring>
+        <name>btnEnregistrerPers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="468" column="42" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="468" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a2a32c4c16a8914a5f42592a9d83e675a" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridView</type>
+        <definition>System.Windows.Forms.DataGridView MediaTek.vue.FrmGestion.dataPersonnel</definition>
+        <argsstring></argsstring>
+        <name>dataPersonnel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="469" column="48" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="469" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a18da5c63bdd0a45e0f69a258f032ab36" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.BindingSource</type>
+        <definition>System.Windows.Forms.BindingSource MediaTek.vue.FrmGestion.projetcnedDataSetBindingSource</definition>
+        <argsstring></argsstring>
+        <name>projetcnedDataSetBindingSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="470" column="49" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="470" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a9e4495d49a7f90ea51baa67bde406aaa" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set" kindref="compound">projetcnedDataSet</ref></type>
+        <definition>projetcnedDataSet MediaTek.vue.FrmGestion.projetcnedDataSet</definition>
+        <argsstring></argsstring>
+        <name>projetcnedDataSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="471" column="35" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="471" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a029fd60104e7b6ca57500bae45c8f833" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox MediaTek.vue.FrmGestion.grpListePersonnel</definition>
+        <argsstring></argsstring>
+        <name>grpListePersonnel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="472" column="44" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="472" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a9925e946b8bdca677865046832059d5e" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button MediaTek.vue.FrmGestion.btnSupprPers</definition>
+        <argsstring></argsstring>
+        <name>btnSupprPers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="473" column="42" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="473" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1ad24f5b308d87b9c3242766447c49c374" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button MediaTek.vue.FrmGestion.btnModifierPers</definition>
+        <argsstring></argsstring>
+        <name>btnModifierPers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="474" column="42" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="474" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a1e9213e3be8a3919ff61aa7e2f461a45" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox MediaTek.vue.FrmGestion.grpabsence</definition>
+        <argsstring></argsstring>
+        <name>grpabsence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="475" column="44" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="475" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1aac469a3a72fc0e02353772cbba10ef46" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridView</type>
+        <definition>System.Windows.Forms.DataGridView MediaTek.vue.FrmGestion.dataAbsence</definition>
+        <argsstring></argsstring>
+        <name>dataAbsence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="476" column="48" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="476" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1ac8c3362bc982a8aef8020727ee970316" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button MediaTek.vue.FrmGestion.btnGestionAbs</definition>
+        <argsstring></argsstring>
+        <name>btnGestionAbs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="477" column="42" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="477" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a68f2016889f810379e3fda91f8503fdf" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button MediaTek.vue.FrmGestion.btnAjouterAbs</definition>
+        <argsstring></argsstring>
+        <name>btnAjouterAbs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="478" column="42" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="478" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1ae3682b60cc41a88d7509ba5aea806c8f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label MediaTek.vue.FrmGestion.label8</definition>
+        <argsstring></argsstring>
+        <name>label8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="479" column="41" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="479" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a6a8b73987d6ea68aced9a6c8297e0046" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label MediaTek.vue.FrmGestion.label7</definition>
+        <argsstring></argsstring>
+        <name>label7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="480" column="41" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="480" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a6df98089fa3c5ee71f5c078e9b1377f8" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label MediaTek.vue.FrmGestion.label6</definition>
+        <argsstring></argsstring>
+        <name>label6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="481" column="41" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="481" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1aa96c8702398bf295d7bdedaf93586cef" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ComboBox</type>
+        <definition>System.Windows.Forms.ComboBox MediaTek.vue.FrmGestion.cobMotif</definition>
+        <argsstring></argsstring>
+        <name>cobMotif</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="482" column="44" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="482" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a1c935922380966b8635bdfd9f1b2807a" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DateTimePicker</type>
+        <definition>System.Windows.Forms.DateTimePicker MediaTek.vue.FrmGestion.dateFin</definition>
+        <argsstring></argsstring>
+        <name>dateFin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="483" column="50" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="483" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1ab2acea9fd5c34332691ff8275ae869a6" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DateTimePicker</type>
+        <definition>System.Windows.Forms.DateTimePicker MediaTek.vue.FrmGestion.dateDebut</definition>
+        <argsstring></argsstring>
+        <name>dateDebut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="484" column="50" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="484" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a824105b23b6b7fc5eaca61ff3069eb5d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button MediaTek.vue.FrmGestion.btnEnregistrerAbs</definition>
+        <argsstring></argsstring>
+        <name>btnEnregistrerAbs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="485" column="42" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="485" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1aa5fb0d8775fd3559a979a09286153f80" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button MediaTek.vue.FrmGestion.btnAnnulerAbs</definition>
+        <argsstring></argsstring>
+        <name>btnAnnulerAbs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="486" column="42" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="486" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1aec2865c90029ed799b896dfdf3b84f46" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button MediaTek.vue.FrmGestion.btnModifierAbs</definition>
+        <argsstring></argsstring>
+        <name>btnModifierAbs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="487" column="42" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="487" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1ac7792c8ee84409781bddae1ab58ae5ba" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button MediaTek.vue.FrmGestion.btnSupprAbs</definition>
+        <argsstring></argsstring>
+        <name>btnSupprAbs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="488" column="42" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="488" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_gestion_1a27bbd09d07f2ada15c89bb7848c5adff" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox MediaTek.vue.FrmGestion.grpGestionAbs</definition>
+        <argsstring></argsstring>
+        <name>grpGestionAbs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="489" column="44" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="489" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1a981c5a0d3eae53092554b3639e732870" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.vue.FrmGestion.FrmGestion</definition>
+        <argsstring>(Controle controle)</argsstring>
+        <name>FrmGestion</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1controleur_1_1_controle" kindref="compound">Controle</ref></type>
+          <declname>controle</declname>
+        </param>
+        <briefdescription>
+<para>Initialisation des composants graphiques Récupération de l&apos;instance du controleur Initialisation de l&apos;affichage </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance du controleur</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="60" column="16" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="60" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1ab6035ef5844defc35986a1b97857097d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmGestion.Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+<para>Rend non accessible les groupes absence et gestion du personnel Appel les methodes pour afficher la liste du personnel et les services </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="76" column="21" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="76" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1a7a205fc1e7a0eb60586adee75757550b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmGestion.AfficherListePersonnel</definition>
+        <argsstring>()</argsstring>
+        <name>AfficherListePersonnel</name>
+        <briefdescription>
+<para>Initialisation de la liste du personnel et affiche la liste du personnel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="90" column="21" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="90" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1a978477d251964d5cc7b0b781c2f76603" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmGestion.AfficherService</definition>
+        <argsstring>()</argsstring>
+        <name>AfficherService</name>
+        <briefdescription>
+<para>Afficher la liste des services dans cobService </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="107" column="21" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="107" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1a8d92212879b1d4e03519f5adbfba7018" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmGestion.AfficherAbs</definition>
+        <argsstring>(Personnel unpersonnel)</argsstring>
+        <name>AfficherAbs</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1modele_1_1_personnel" kindref="compound">Personnel</ref></type>
+          <declname>unpersonnel</declname>
+        </param>
+        <briefdescription>
+<para>Afficher la liste des abscences d&apos;un personnel dans dataAbsence </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>unpersonnel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Personnel unpersonnel</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="292" column="21" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="292" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1aca7810b229e977ca8a714a39cb1ddd07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmGestion.AfficherMotif</definition>
+        <argsstring>()</argsstring>
+        <name>AfficherMotif</name>
+        <briefdescription>
+<para>Afficher la liste des motifs dans cobMotif </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="309" column="21" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="309" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1a3c232aaea3a1a926d8ad2c3084c8d863" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmGestion.ViderAbs</definition>
+        <argsstring>()</argsstring>
+        <name>ViderAbs</name>
+        <briefdescription>
+<para>Vider les saisies et fermer le grpGestionAbs </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="390" column="21" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="390" bodyend="397"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1ad48c23b3d53cda1aef67ef26aa7d8bd3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmGestion.btnAjouterPers_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnAjouterPers_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Event Click sur Ajouter un personnel à la grille Rend accessible les boutons de gestion Récupére la liste des services </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="127" column="22" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="127" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1a6354eef31cc7714fb1cf6cf611270123" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmGestion.btnEnregistrerPers_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnEnregistrerPers_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Evenement click sur btnEnregisterPers Gére l&apos;enregistrement des données saisies </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sender</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="141" column="22" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="141" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1a00dcad077671ab12d16cf3aa4fa5e99d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmGestion.btnAnnulerPers_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnAnnulerPers_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Evenement click sur btnAnnulerPers Gére l&apos;annulation d&apos;un ajout </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sender</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="180" column="22" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="180" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1af0486a8636d5ff318b9532b495a48055" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmGestion.ViderPers</definition>
+        <argsstring>()</argsstring>
+        <name>ViderPers</name>
+        <briefdescription>
+<para>Vider les champs de textes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="192" column="22" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="192" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1aaf4393d62175f3f9fe7551263afa04c6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmGestion.btnSupprPers_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnSupprPers_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Evenement click sur btnSupprPers Gére la suppression d&apos;un personnel apres validation </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sender</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="213" column="22" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="213" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1a341d0244449bf3be4db69681b1305e64" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmGestion.btnModifierPers_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnModifierPers_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Evenement Click sur btnModifierPers Gére les zones d&apos;affichages pour la modification d&apos;un personnel sélectionné </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sender</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="238" column="22" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="238" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1af7b868722827c9df01a3ca62dd3f83d3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmGestion.btnGestionAbs_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnGestionAbs_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Evenement click sur btnGestionAbs Gére l&apos;affichage des groupes Appelle les méthodes d&apos;affichage des absences et motif </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sender</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="268" column="22" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="268" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1ab73e458998fd4c604cf8dcddeea3f2f6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmGestion.btnAjouterAbs_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnAjouterAbs_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Evenement click sur btnAjouterAbs Gére l&apos;affichage des zones de saisies </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sender</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="324" column="22" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="324" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1ad90c740791e37bcc0113b92ae392173b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmGestion.btnEnregistrerAbs_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnEnregistrerAbs_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Evenement click btnEnregistrerAbs Enregistre les données saisies et met l&apos;affichage à jour </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sender</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="337" column="22" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="337" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1a7d2026af01d86da15a9d21765afdf6c4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmGestion.btnAnnulerAbs_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnAnnulerAbs_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Evenement Click sur btnAnnulerAbs Annuler la saisie d&apos;une absence </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sender</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="381" column="22" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="381" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1ac9c42508c61795132ae64c0220cbc944" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmGestion.btnSupprAbs_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnSupprAbs_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Evenement click sur btnSupprAbs Supprimer une absence d&apos;un personnel </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sender</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="407" column="22" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="407" bodyend="425"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1afdb85043320493bcf21a766623ff089c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmGestion.btnModifierAbs_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnModifierAbs_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Event click sur btnModifierAbs Gerer la modification d&apos;une absence selectionné </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sender</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.cs" line="435" column="22" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="435" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1ae9780586bb42f2a51d891737b2d8d5c6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmGestion.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="30" column="22" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="30" bodyend="451"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_gestion_1a56bc1b0e7030b717793f4b7e4d067704" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaTek.vue.FrmGestion.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmGestion.Designer.cs" line="15" column="33" bodyfile="DigimediaTek86/vue/FrmGestion.Designer.cs" bodystart="15" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Fenêtre d&apos;affichage et de gestion du personnel et de leurs absences </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>MediaTek.vue.FrmGestion</label>
+        <link refid="class_media_tek_1_1vue_1_1_frm_gestion"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>MediaTek.vue.FrmGestion</label>
+        <link refid="class_media_tek_1_1vue_1_1_frm_gestion"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="DigimediaTek86/vue/FrmGestion.cs" line="12" column="19" bodyfile="DigimediaTek86/vue/FrmGestion.cs" bodystart="13" bodyend="454"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a8d92212879b1d4e03519f5adbfba7018" prot="public" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>AfficherAbs</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a7a205fc1e7a0eb60586adee75757550b" prot="public" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>AfficherListePersonnel</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1aca7810b229e977ca8a714a39cb1ddd07" prot="public" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>AfficherMotif</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a978477d251964d5cc7b0b781c2f76603" prot="public" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>AfficherService</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a86025f48c8ef41f6b01724fbc63941a8" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>bdgAbs</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a2901b8cfe985a1076b803f55ea7edb0b" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>bdgMotif</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1ac6fcafd6c60045311f7c585f0b2a9c41" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>bdgPersonnel</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a654f990fda5e16c85ef64ddb3070440d" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>bdgService</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a68f2016889f810379e3fda91f8503fdf" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnAjouterAbs</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1ab73e458998fd4c604cf8dcddeea3f2f6" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnAjouterAbs_Click</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a38773936f129908a9fcfcf3204430b1f" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnAjouterPers</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1ad48c23b3d53cda1aef67ef26aa7d8bd3" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnAjouterPers_Click</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1aa5fb0d8775fd3559a979a09286153f80" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnAnnulerAbs</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a7d2026af01d86da15a9d21765afdf6c4" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnAnnulerAbs_Click</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a0828a34df7596a4a611570e43d0ba95b" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnAnnulerPers</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a00dcad077671ab12d16cf3aa4fa5e99d" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnAnnulerPers_Click</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a824105b23b6b7fc5eaca61ff3069eb5d" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnEnregistrerAbs</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1ad90c740791e37bcc0113b92ae392173b" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnEnregistrerAbs_Click</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a131953a49ad5eac6787fd4bd685c2dfd" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnEnregistrerPers</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a6354eef31cc7714fb1cf6cf611270123" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnEnregistrerPers_Click</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1ac8c3362bc982a8aef8020727ee970316" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnGestionAbs</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1af7b868722827c9df01a3ca62dd3f83d3" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnGestionAbs_Click</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1aec2865c90029ed799b896dfdf3b84f46" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnModifierAbs</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1afdb85043320493bcf21a766623ff089c" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnModifierAbs_Click</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1ad24f5b308d87b9c3242766447c49c374" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnModifierPers</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a341d0244449bf3be4db69681b1305e64" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnModifierPers_Click</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1ac7792c8ee84409781bddae1ab58ae5ba" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnSupprAbs</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1ac9c42508c61795132ae64c0220cbc944" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnSupprAbs_Click</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a9925e946b8bdca677865046832059d5e" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnSupprPers</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1aaf4393d62175f3f9fe7551263afa04c6" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>btnSupprPers_Click</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1aa96c8702398bf295d7bdedaf93586cef" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>cobMotif</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1afb8aa3cac3bbce94362ff26c60763774" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>cobservice</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a6c2f70548202ca7a522627803a647e24" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>components</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1aa615dabd2341551223ca043c7b8b7bd3" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>controle</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1aac469a3a72fc0e02353772cbba10ef46" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>dataAbsence</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a2a32c4c16a8914a5f42592a9d83e675a" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>dataPersonnel</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1ab2acea9fd5c34332691ff8275ae869a6" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>dateDebut</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a1c935922380966b8635bdfd9f1b2807a" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>dateFin</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a56bc1b0e7030b717793f4b7e4d067704" prot="protected" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>Dispose</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a981c5a0d3eae53092554b3639e732870" prot="public" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>FrmGestion</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a1e9213e3be8a3919ff61aa7e2f461a45" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>grpabsence</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a27bbd09d07f2ada15c89bb7848c5adff" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>grpGestionAbs</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1abcff6d350e64dc34e3aced1f59d1a8d6" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>grpGestionPers</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a029fd60104e7b6ca57500bae45c8f833" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>grpListePersonnel</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1ab6035ef5844defc35986a1b97857097d" prot="public" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>Init</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1ae9780586bb42f2a51d891737b2d8d5c6" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>InitializeComponent</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a6cae0adace8e1c4c20291dc335c8f474" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>label1</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1adc32a72f26956659a4eb72894fee5ce8" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>label2</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a319e955b4adfe7b8359b8b2873148ee5" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>label3</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a915030f08e9f9aac8f512fac79dea5d6" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>label4</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1ae702333c9253a7a0f3862a4b085cb6fb" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>label5</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a6df98089fa3c5ee71f5c078e9b1377f8" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>label6</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a6a8b73987d6ea68aced9a6c8297e0046" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>label7</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1ae3682b60cc41a88d7509ba5aea806c8f" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>label8</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1ab2075ddf23d6b0342859456ed67f1e3d" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>ModifAbs</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1addde039ce4f6f8cd189e815218060fc9" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>ModifPers</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a9e4495d49a7f90ea51baa67bde406aaa" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>projetcnedDataSet</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a18da5c63bdd0a45e0f69a258f032ab36" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>projetcnedDataSetBindingSource</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a2e6731c78f168ce8d26d8eed87aadfb4" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>txtmail</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a87122e089773209a03b266887025920a" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>txtnom</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a7e3622504c7ffd8fb21a76e00b28b287" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>txtprenom</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1af325d7ba8dd82ca382d53c6388c3f4f4" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>txttel</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1a3c232aaea3a1a926d8ad2c3084c8d863" prot="public" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>ViderAbs</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_gestion_1af0486a8636d5ff318b9532b495a48055" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmGestion</scope><name>ViderPers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

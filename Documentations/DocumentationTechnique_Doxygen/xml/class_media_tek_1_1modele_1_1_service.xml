@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1modele_1_1_service" kind="class" language="C#" prot="public">
+    <compoundname>MediaTek::modele::Service</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1modele_1_1_service_1a34979efd82afaf896402f9d3c0cfb0c7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MediaTek.modele.Service.idservice</definition>
+        <argsstring></argsstring>
+        <name>idservice</name>
+        <briefdescription>
+<para>Variable identifiant des services </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Service.cs" line="11" column="21" bodyfile="DigimediaTek86/modele/Service.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1modele_1_1_service_1a407137eee46fb334b8965ee540162879" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MediaTek.modele.Service.nom</definition>
+        <argsstring></argsstring>
+        <name>nom</name>
+        <briefdescription>
+<para>Variable du libelle d&apos;un service </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Service.cs" line="17" column="24" bodyfile="DigimediaTek86/modele/Service.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_1_1modele_1_1_service_1a7b5c47d1182f79be484ad7ab7dfcc853" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MediaTek.modele.Service.Idservice</definition>
+        <argsstring></argsstring>
+        <name>Idservice</name>
+        <briefdescription>
+<para>Getter d&apos;encapsulation d&apos;idservice </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Service.cs" line="23" column="20" bodyfile="DigimediaTek86/modele/Service.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1modele_1_1_service_1a022a2fd008edf4bc270f1aa28e800dc7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTek.modele.Service.Nom</definition>
+        <argsstring></argsstring>
+        <name>Nom</name>
+        <briefdescription>
+<para>Getter d&apos;encapsulation de nom </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Service.cs" line="29" column="23" bodyfile="DigimediaTek86/modele/Service.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_1_1modele_1_1_service_1a4fe799ff3782a455b66559b90fe88e44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.modele.Service.Service</definition>
+        <argsstring>(int idservice, string nom)</argsstring>
+        <name>Service</name>
+        <param>
+          <type>int</type>
+          <declname>idservice</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nom</declname>
+        </param>
+        <briefdescription>
+<para>Constructeur de service et valorise ses propriétés </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idservice</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nom</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Service.cs" line="37" column="16" bodyfile="DigimediaTek86/modele/Service.cs" bodystart="37" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1modele_1_1_service_1ab80bff03922c6372fa26a350f7265591" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string MediaTek.modele.Service.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+<para>Définir le nom du service n à afficher </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>nom du service</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Service.cs" line="48" column="32" bodyfile="DigimediaTek86/modele/Service.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe des services du personnel </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DigimediaTek86/modele/Service.cs" line="6" column="11" bodyfile="DigimediaTek86/modele/Service.cs" bodystart="7" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1modele_1_1_service_1a34979efd82afaf896402f9d3c0cfb0c7" prot="private" virt="non-virtual"><scope>MediaTek::modele::Service</scope><name>idservice</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_service_1a7b5c47d1182f79be484ad7ab7dfcc853" prot="public" virt="non-virtual"><scope>MediaTek::modele::Service</scope><name>Idservice</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_service_1a407137eee46fb334b8965ee540162879" prot="private" virt="non-virtual"><scope>MediaTek::modele::Service</scope><name>nom</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_service_1a022a2fd008edf4bc270f1aa28e800dc7" prot="public" virt="non-virtual"><scope>MediaTek::modele::Service</scope><name>Nom</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_service_1a4fe799ff3782a455b66559b90fe88e44" prot="public" virt="non-virtual"><scope>MediaTek::modele::Service</scope><name>Service</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_service_1ab80bff03922c6372fa26a350f7265591" prot="public" virt="non-virtual"><scope>MediaTek::modele::Service</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

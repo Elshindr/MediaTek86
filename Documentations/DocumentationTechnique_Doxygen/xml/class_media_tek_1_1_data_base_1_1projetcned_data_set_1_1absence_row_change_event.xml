@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_change_event" kind="class" language="C#" prot="public">
+    <compoundname>MediaTek::DataBase::projetcnedDataSet::absenceRowChangeEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global.SystemEventArgs</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_change_event_1a0de2e059f3d359de65649c76249f89a8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row" kindref="compound">absenceRow</ref></type>
+        <definition>absenceRow MediaTek.DataBase.projetcnedDataSet.absenceRowChangeEvent.eventRow</definition>
+        <argsstring></argsstring>
+        <name>eventRow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2247" column="32" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_change_event_1a3f82feab0589f0087a9ceb30fcf2ec8c" prot="private" static="no" mutable="no">
+        <type>global::System.Data.DataRowAction</type>
+        <definition>global::System.Data.DataRowAction MediaTek.DataBase.projetcnedDataSet.absenceRowChangeEvent.eventAction</definition>
+        <argsstring></argsstring>
+        <name>eventAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2249" column="53" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2249" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_change_event_1abaeaf21f56f6b4b4dcb280f51e4d7570" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row" kindref="compound">absenceRow</ref></type>
+        <definition>absenceRow MediaTek.DataBase.projetcnedDataSet.absenceRowChangeEvent.Row</definition>
+        <argsstring></argsstring>
+        <name>Row</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2260" column="31" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2260" bodyend="2264"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_change_event_1a127441f5bae92b0fe0d99faf95db9680" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Data.DataRowAction</type>
+        <definition>global::System.Data.DataRowAction MediaTek.DataBase.projetcnedDataSet.absenceRowChangeEvent.Action</definition>
+        <argsstring></argsstring>
+        <name>Action</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2268" column="52" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2268" bodyend="2272"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_change_event_1a16df36865a2a82e1edd50639c72291fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.DataBase.projetcnedDataSet.absenceRowChangeEvent.absenceRowChangeEvent</definition>
+        <argsstring>(absenceRow row, global::System.Data.DataRowAction action)</argsstring>
+        <name>absenceRowChangeEvent</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row" kindref="compound">absenceRow</ref></type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>global::System.Data.DataRowAction</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2253" column="20" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2253" bodyend="2256"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Row event argument class /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSet.absenceRowChangeEvent</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_change_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemEventArgs</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSet.absenceRowChangeEvent</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_change_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemEventArgs</label>
+      </node>
+    </collaborationgraph>
+    <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2245" column="15" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2245" bodyend="2273"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_change_event_1a16df36865a2a82e1edd50639c72291fd" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::absenceRowChangeEvent</scope><name>absenceRowChangeEvent</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_change_event_1a127441f5bae92b0fe0d99faf95db9680" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::absenceRowChangeEvent</scope><name>Action</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_change_event_1a3f82feab0589f0087a9ceb30fcf2ec8c" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::absenceRowChangeEvent</scope><name>eventAction</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_change_event_1a0de2e059f3d359de65649c76249f89a8" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::absenceRowChangeEvent</scope><name>eventRow</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_change_event_1abaeaf21f56f6b4b4dcb280f51e4d7570" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::absenceRowChangeEvent</scope><name>Row</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

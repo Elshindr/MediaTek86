@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_media_tek_1_1_properties" xml:lang="fr">
+<title>Référence de l&apos;espace de nommage MediaTek.Properties</title>
+<indexterm><primary>MediaTek.Properties</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <emphasis role="strong">Resources</emphasis></para>
+
+<para>Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées. </para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">Settings</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

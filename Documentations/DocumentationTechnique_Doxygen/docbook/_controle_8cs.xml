@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__controle_8cs" xml:lang="fr">
+<title>Référence du fichier DigimediaTek86/controleur/Controle.cs</title>
+<indexterm><primary>DigimediaTek86/controleur/Controle.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_media_tek_1_1controleur_1_1_controle">MediaTek.controleur.Controle</link></para>
+
+<para>Classe de controleur </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Espaces de nommage    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_media_tek">MediaTek</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_media_tek_1_1controleur">MediaTek.controleur</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

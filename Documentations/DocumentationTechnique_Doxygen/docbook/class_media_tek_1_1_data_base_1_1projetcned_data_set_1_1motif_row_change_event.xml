@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row_change_event" xml:lang="fr">
+<title>Référence de la classe MediaTek.DataBase.projetcnedDataSet.motifRowChangeEvent</title>
+<indexterm><primary>MediaTek.DataBase.projetcnedDataSet.motifRowChangeEvent</primary></indexterm>
+<para>
+
+<para>Row event argument class /summary&gt; </para>
+ 
+</para>
+<para>
+Est dérivée de global.SystemEventArgs.</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row_change_event_1a34cdd84c89ad00085d5742323165dd91"/><emphasis role="strong">motifRowChangeEvent</emphasis> (<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row">motifRow</link> row, global::System.Data.DataRowAction action)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row_change_event_1aed00b4692540aac4a852f6cf537e3685"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row">motifRow</link> <emphasis role="strong">Row</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row_change_event_1a8d50f57317c368197c2b92d04c701231"/>global::System.Data.DataRowAction <emphasis role="strong">Action</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Row event argument class /summary&gt; </para>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs</section>
+</section>

@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_change_event" kind="class" language="C#" prot="public">
+    <compoundname>MediaTek::DataBase::projetcnedDataSet::responsableRowChangeEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global.SystemEventArgs</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_change_event_1adbd7c0da3a7f22dd42cd8391d7c8f2b7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row" kindref="compound">responsableRow</ref></type>
+        <definition>responsableRow MediaTek.DataBase.projetcnedDataSet.responsableRowChangeEvent.eventRow</definition>
+        <argsstring></argsstring>
+        <name>eventRow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2349" column="36" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_change_event_1a03a23325d112b371af227649de464316" prot="private" static="no" mutable="no">
+        <type>global::System.Data.DataRowAction</type>
+        <definition>global::System.Data.DataRowAction MediaTek.DataBase.projetcnedDataSet.responsableRowChangeEvent.eventAction</definition>
+        <argsstring></argsstring>
+        <name>eventAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2351" column="53" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2351" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_change_event_1a796f362a1382569a458163b624c756a7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row" kindref="compound">responsableRow</ref></type>
+        <definition>responsableRow MediaTek.DataBase.projetcnedDataSet.responsableRowChangeEvent.Row</definition>
+        <argsstring></argsstring>
+        <name>Row</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2362" column="35" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2362" bodyend="2366"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_change_event_1a0bbc7894923ba309c0d087166c983583" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Data.DataRowAction</type>
+        <definition>global::System.Data.DataRowAction MediaTek.DataBase.projetcnedDataSet.responsableRowChangeEvent.Action</definition>
+        <argsstring></argsstring>
+        <name>Action</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2370" column="52" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2370" bodyend="2374"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_change_event_1a58abc07bde142ebaa081a78e4f233fe0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.DataBase.projetcnedDataSet.responsableRowChangeEvent.responsableRowChangeEvent</definition>
+        <argsstring>(responsableRow row, global::System.Data.DataRowAction action)</argsstring>
+        <name>responsableRowChangeEvent</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row" kindref="compound">responsableRow</ref></type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>global::System.Data.DataRowAction</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2355" column="20" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2355" bodyend="2358"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Row event argument class /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSet.responsableRowChangeEvent</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_change_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemEventArgs</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSet.responsableRowChangeEvent</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_change_event"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemEventArgs</label>
+      </node>
+    </collaborationgraph>
+    <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2347" column="15" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2347" bodyend="2375"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_change_event_1a0bbc7894923ba309c0d087166c983583" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::responsableRowChangeEvent</scope><name>Action</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_change_event_1a03a23325d112b371af227649de464316" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::responsableRowChangeEvent</scope><name>eventAction</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_change_event_1adbd7c0da3a7f22dd42cd8391d7c8f2b7" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::responsableRowChangeEvent</scope><name>eventRow</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_change_event_1a58abc07bde142ebaa081a78e4f233fe0" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::responsableRowChangeEvent</scope><name>responsableRowChangeEvent</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_change_event_1a796f362a1382569a458163b624c756a7" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::responsableRowChangeEvent</scope><name>Row</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

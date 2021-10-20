@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="namespace_media_tek_1_1modele" kind="namespace" language="C#">
+    <compoundname>MediaTek::modele</compoundname>
+    <innerclass refid="class_media_tek_1_1modele_1_1_absence" prot="public">MediaTek::modele::Absence</innerclass>
+    <innerclass refid="class_media_tek_1_1modele_1_1_motif" prot="public">MediaTek::modele::Motif</innerclass>
+    <innerclass refid="class_media_tek_1_1modele_1_1_personnel" prot="public">MediaTek::modele::Personnel</innerclass>
+    <innerclass refid="class_media_tek_1_1modele_1_1_service" prot="public">MediaTek::modele::Service</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DigimediaTek86/modele/Absence.cs" line="3" column="1"/>
+  </compounddef>
+</doxygen>

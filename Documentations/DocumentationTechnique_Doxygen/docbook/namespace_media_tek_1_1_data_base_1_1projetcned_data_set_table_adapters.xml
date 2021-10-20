@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters" xml:lang="fr">
+<title>Référence de l&apos;espace de nommage MediaTek.DataBase.projetcnedDataSetTableAdapters</title>
+<indexterm><primary>MediaTek.DataBase.projetcnedDataSetTableAdapters</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter">absenceTableAdapter</link></para>
+
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1motif_table_adapter">motifTableAdapter</link></para>
+
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1personnel_table_adapter">personnelTableAdapter</link></para>
+
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1responsable_table_adapter">responsableTableAdapter</link></para>
+
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1service_table_adapter">serviceTableAdapter</link></para>
+
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager">TableAdapterManager</link></para>
+
+<para><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager">TableAdapterManager</link> is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios /summary&gt; </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

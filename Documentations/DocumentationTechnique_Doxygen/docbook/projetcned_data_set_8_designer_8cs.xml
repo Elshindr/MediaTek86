@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_projetcned_data_set_8_designer_8cs" xml:lang="fr">
+<title>Référence du fichier DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs</title>
+<indexterm><primary>DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set">MediaTek.DataBase.projetcnedDataSet</link></para>
+
+<para>Represents a strongly typed in-memory cache of data. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table">MediaTek.DataBase.projetcnedDataSet.absenceDataTable</link></para>
+
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_data_table">MediaTek.DataBase.projetcnedDataSet.motifDataTable</link></para>
+
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table">MediaTek.DataBase.projetcnedDataSet.personnelDataTable</link></para>
+
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table">MediaTek.DataBase.projetcnedDataSet.responsableDataTable</link></para>
+
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_data_table">MediaTek.DataBase.projetcnedDataSet.serviceDataTable</link></para>
+
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row">MediaTek.DataBase.projetcnedDataSet.absenceRow</link></para>
+
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row">MediaTek.DataBase.projetcnedDataSet.motifRow</link></para>
+
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row">MediaTek.DataBase.projetcnedDataSet.personnelRow</link></para>
+
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row">MediaTek.DataBase.projetcnedDataSet.responsableRow</link></para>
+
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row">MediaTek.DataBase.projetcnedDataSet.serviceRow</link></para>
+
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_change_event">MediaTek.DataBase.projetcnedDataSet.absenceRowChangeEvent</link></para>
+
+<para>Row event argument class /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1motif_row_change_event">MediaTek.DataBase.projetcnedDataSet.motifRowChangeEvent</link></para>
+
+<para>Row event argument class /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row_change_event">MediaTek.DataBase.projetcnedDataSet.personnelRowChangeEvent</link></para>
+
+<para>Row event argument class /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_row_change_event">MediaTek.DataBase.projetcnedDataSet.responsableRowChangeEvent</link></para>
+
+<para>Row event argument class /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1service_row_change_event">MediaTek.DataBase.projetcnedDataSet.serviceRowChangeEvent</link></para>
+
+<para>Row event argument class /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter">MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter</link></para>
+
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1motif_table_adapter">MediaTek.DataBase.projetcnedDataSetTableAdapters.motifTableAdapter</link></para>
+
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1personnel_table_adapter">MediaTek.DataBase.projetcnedDataSetTableAdapters.personnelTableAdapter</link></para>
+
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1responsable_table_adapter">MediaTek.DataBase.projetcnedDataSetTableAdapters.responsableTableAdapter</link></para>
+
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1service_table_adapter">MediaTek.DataBase.projetcnedDataSetTableAdapters.serviceTableAdapter</link></para>
+
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager">MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager</link></para>
+
+<para><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager">TableAdapterManager</link> is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios /summary&gt; </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Espaces de nommage    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_media_tek">MediaTek</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_media_tek_1_1_data_base">MediaTek.DataBase</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespace_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters">MediaTek.DataBase.projetcnedDataSetTableAdapters</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

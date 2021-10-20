@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1vue_1_1_frm_connexion" kind="class" language="C#" prot="public">
+    <compoundname>MediaTek::vue::FrmConnexion</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_connexion_1a92f1a59e1b99af590b86a2cd127affd6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_tek_1_1controleur_1_1_controle" kindref="compound">Controle</ref></type>
+        <definition>Controle MediaTek.vue.FrmConnexion.controle</definition>
+        <argsstring></argsstring>
+        <name>controle</name>
+        <briefdescription>
+<para>Instance du controleur </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmConnexion.cs" line="17" column="26" bodyfile="DigimediaTek86/vue/FrmConnexion.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_connexion_1add5951f85b548620a7b4d928d0c9b18f" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer MediaTek.vue.FrmConnexion.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Variable nécessaire au concepteur. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmConnexion.Designer.cs" line="9" column="48" bodyfile="DigimediaTek86/vue/FrmConnexion.Designer.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_connexion_1aed25903ce7fc57dd46fd83679e76dde7" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button MediaTek.vue.FrmConnexion.btnconnexion</definition>
+        <argsstring></argsstring>
+        <name>btnconnexion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmConnexion.Designer.cs" line="101" column="42" bodyfile="DigimediaTek86/vue/FrmConnexion.Designer.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_connexion_1a99e44b4e13c66cb3f4a0479a243a694f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label MediaTek.vue.FrmConnexion.lbllogin</definition>
+        <argsstring></argsstring>
+        <name>lbllogin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmConnexion.Designer.cs" line="102" column="41" bodyfile="DigimediaTek86/vue/FrmConnexion.Designer.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_connexion_1ae890e9a66bf662544eec07d80ac353b6" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label MediaTek.vue.FrmConnexion.lblpwd</definition>
+        <argsstring></argsstring>
+        <name>lblpwd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmConnexion.Designer.cs" line="103" column="41" bodyfile="DigimediaTek86/vue/FrmConnexion.Designer.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_connexion_1a205c85d9058d629e8a5e13420f284036" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox MediaTek.vue.FrmConnexion.txtlogin</definition>
+        <argsstring></argsstring>
+        <name>txtlogin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmConnexion.Designer.cs" line="104" column="43" bodyfile="DigimediaTek86/vue/FrmConnexion.Designer.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1vue_1_1_frm_connexion_1a2d71425798a7890a4f34c8e0576e14c7" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox MediaTek.vue.FrmConnexion.txtpwd</definition>
+        <argsstring></argsstring>
+        <name>txtpwd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmConnexion.Designer.cs" line="105" column="43" bodyfile="DigimediaTek86/vue/FrmConnexion.Designer.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_connexion_1a0d8d1c383c4d0d3922ace8f3d9def325" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.vue.FrmConnexion.FrmConnexion</definition>
+        <argsstring>(Controle controle)</argsstring>
+        <name>FrmConnexion</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1controleur_1_1_controle" kindref="compound">Controle</ref></type>
+          <declname>controle</declname>
+        </param>
+        <briefdescription>
+<para>Constructeur Recupere l&apos;instance du controleur et initialisation des composants de la Frame </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controle</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmConnexion.cs" line="25" column="16" bodyfile="DigimediaTek86/vue/FrmConnexion.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_connexion_1aba93937e5d5cc8b0312d2be8da7ff768" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmConnexion.btnconnexion_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnconnexion_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Evénement du click sur connexion, vérifie que les valeurs des textbox login et pwd sont correctes Sinon affiche un message d&apos;erreur </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sender</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>e</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmConnexion.cs" line="39" column="22" bodyfile="DigimediaTek86/vue/FrmConnexion.cs" bodystart="39" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_connexion_1a8e04f618f5898c218d2050334d6ace8f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.vue.FrmConnexion.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Méthode requise pour la prise en charge du concepteur - ne modifiez pas le contenu de cette méthode avec l&apos;éditeur de code. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmConnexion.Designer.cs" line="30" column="22" bodyfile="DigimediaTek86/vue/FrmConnexion.Designer.cs" bodystart="30" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_media_tek_1_1vue_1_1_frm_connexion_1a3ed4da5d587b735ca65f5e4b6386e14c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaTek.vue.FrmConnexion.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Nettoyage des ressources utilisées. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true si les ressources managées doivent être supprimées ; sinon, false.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/vue/FrmConnexion.Designer.cs" line="15" column="33" bodyfile="DigimediaTek86/vue/FrmConnexion.Designer.cs" bodystart="15" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Fenêtre de connexion au programme </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>MediaTek.vue.FrmConnexion</label>
+        <link refid="class_media_tek_1_1vue_1_1_frm_connexion"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Form</label>
+      </node>
+      <node id="1">
+        <label>MediaTek.vue.FrmConnexion</label>
+        <link refid="class_media_tek_1_1vue_1_1_frm_connexion"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="DigimediaTek86/vue/FrmConnexion.cs" line="12" column="19" bodyfile="DigimediaTek86/vue/FrmConnexion.cs" bodystart="13" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1vue_1_1_frm_connexion_1aed25903ce7fc57dd46fd83679e76dde7" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmConnexion</scope><name>btnconnexion</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_connexion_1aba93937e5d5cc8b0312d2be8da7ff768" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmConnexion</scope><name>btnconnexion_Click</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_connexion_1add5951f85b548620a7b4d928d0c9b18f" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmConnexion</scope><name>components</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_connexion_1a92f1a59e1b99af590b86a2cd127affd6" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmConnexion</scope><name>controle</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_connexion_1a3ed4da5d587b735ca65f5e4b6386e14c" prot="protected" virt="non-virtual"><scope>MediaTek::vue::FrmConnexion</scope><name>Dispose</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_connexion_1a0d8d1c383c4d0d3922ace8f3d9def325" prot="public" virt="non-virtual"><scope>MediaTek::vue::FrmConnexion</scope><name>FrmConnexion</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_connexion_1a8e04f618f5898c218d2050334d6ace8f" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmConnexion</scope><name>InitializeComponent</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_connexion_1a99e44b4e13c66cb3f4a0479a243a694f" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmConnexion</scope><name>lbllogin</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_connexion_1ae890e9a66bf662544eec07d80ac353b6" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmConnexion</scope><name>lblpwd</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_connexion_1a205c85d9058d629e8a5e13420f284036" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmConnexion</scope><name>txtlogin</name></member>
+      <member refid="class_media_tek_1_1vue_1_1_frm_connexion_1a2d71425798a7890a4f34c8e0576e14c7" prot="private" virt="non-virtual"><scope>MediaTek::vue::FrmConnexion</scope><name>txtpwd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

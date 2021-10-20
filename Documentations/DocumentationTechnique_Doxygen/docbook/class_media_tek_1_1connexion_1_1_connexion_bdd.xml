@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1connexion_1_1_connexion_bdd" xml:lang="fr">
+<title>Référence de la classe MediaTek.connexion.ConnexionBdd</title>
+<indexterm><primary>MediaTek.connexion.ConnexionBdd</primary></indexterm>
+<para>
+
+<para>Classe de connexion à la Base de donnée </para>
+ 
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_media_tek_1_1connexion_1_1_connexion_bdd_1a8c769210417d12d97f89b25dbc6f4b1d">ReqUpdate</link> (string req, Dictionary&lt; string, object &gt; parametres)</para>
+
+<para>Exécuter une requête sql d&apos;un autre type que select </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_media_tek_1_1connexion_1_1_connexion_bdd_1a03beafb26d77469f8ab2aa3122100d43">ReqSelect</link> (string req, Dictionary&lt; string, object &gt; parametres)</para>
+
+<para>Exécuter une requête sql de type &quot;select&quot; puis valoriser le curseur </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_media_tek_1_1connexion_1_1_connexion_bdd_1a89e279deeab81f004a5efb91afb150b2">Read</link> ()</para>
+
+<para>Lecture du curseur à la ligne suivante s&apos;il n&apos;est pas null </para>
+</listitem>
+            <listitem><para>object <link linkend="_class_media_tek_1_1connexion_1_1_connexion_bdd_1a16d17c3ff05983c7223798788a7911b3">Field</link> (string champ)</para>
+
+<para>Retourne le contenu d&apos;un champ dont le nom est passé en paramètre </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1connexion_1_1_connexion_bdd_1a568c57ec33b68ba9464800bf8c8f0e6e"/>void <emphasis role="strong">Close</emphasis> ()</para>
+
+<para>Fermeture du curseur </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres publiques statiques    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_media_tek_1_1connexion_1_1_connexion_bdd">ConnexionBdd</link> <link linkend="_class_media_tek_1_1connexion_1_1_connexion_bdd_1a063f6928e0f5d25143adec3216d13c1d">GetInstance</link> (string chaineConnexion)</para>
+
+<para>Créer une instance en singleton de la classe ConnexionBDD </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Classe de connexion à la Base de donnée </para>
+</section>
+<section>
+<title>Documentation des fonctions membres</title>
+<anchor xml:id="_class_media_tek_1_1connexion_1_1_connexion_bdd_1a16d17c3ff05983c7223798788a7911b3"/><section>
+    <title>Field()</title>
+<indexterm><primary>Field</primary><secondary>MediaTek.connexion.ConnexionBdd</secondary></indexterm>
+<indexterm><primary>MediaTek.connexion.ConnexionBdd</primary><secondary>Field</secondary></indexterm>
+<para><computeroutput>object MediaTek.connexion.ConnexionBdd.Field (string champ)</computeroutput></para><para>
+
+<para>Retourne le contenu d&apos;un champ dont le nom est passé en paramètre </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>champ</entry><entry>
+<para>nom du champ</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>valeur du champ</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_1_1connexion_1_1_connexion_bdd_1a063f6928e0f5d25143adec3216d13c1d"/><section>
+    <title>GetInstance()</title>
+<indexterm><primary>GetInstance</primary><secondary>MediaTek.connexion.ConnexionBdd</secondary></indexterm>
+<indexterm><primary>MediaTek.connexion.ConnexionBdd</primary><secondary>GetInstance</secondary></indexterm>
+<para><computeroutput>static <link linkend="_class_media_tek_1_1connexion_1_1_connexion_bdd">ConnexionBdd</link> MediaTek.connexion.ConnexionBdd.GetInstance (string chaineConnexion)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Créer une instance en singleton de la classe ConnexionBDD </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>chaineConnexion</entry><entry>
+<para>chaine de connexion à la base de données </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Renvoie</title>
+
+<para>instance de la classe ConnexionBDD</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_1_1connexion_1_1_connexion_bdd_1a89e279deeab81f004a5efb91afb150b2"/><section>
+    <title>Read()</title>
+<indexterm><primary>Read</primary><secondary>MediaTek.connexion.ConnexionBdd</secondary></indexterm>
+<indexterm><primary>MediaTek.connexion.ConnexionBdd</primary><secondary>Read</secondary></indexterm>
+<para><computeroutput>bool MediaTek.connexion.ConnexionBdd.Read ( )</computeroutput></para><para>
+
+<para>Lecture du curseur à la ligne suivante s&apos;il n&apos;est pas null </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>false si fin de curseur atteinte</para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_media_tek_1_1connexion_1_1_connexion_bdd_1a03beafb26d77469f8ab2aa3122100d43"/><section>
+    <title>ReqSelect()</title>
+<indexterm><primary>ReqSelect</primary><secondary>MediaTek.connexion.ConnexionBdd</secondary></indexterm>
+<indexterm><primary>MediaTek.connexion.ConnexionBdd</primary><secondary>ReqSelect</secondary></indexterm>
+<para><computeroutput>void MediaTek.connexion.ConnexionBdd.ReqSelect (string req, Dictionary&lt; string, object &gt; parametres)</computeroutput></para><para>
+
+<para>Exécuter une requête sql de type &quot;select&quot; puis valoriser le curseur </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>req</entry><entry>
+<para>requête sql</para>
+</entry>
+                            </row>
+                            <row>
+<entry>parametres</entry><entry>
+<para>dictionnaire des requetes préparés</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_media_tek_1_1connexion_1_1_connexion_bdd_1a8c769210417d12d97f89b25dbc6f4b1d"/><section>
+    <title>ReqUpdate()</title>
+<indexterm><primary>ReqUpdate</primary><secondary>MediaTek.connexion.ConnexionBdd</secondary></indexterm>
+<indexterm><primary>MediaTek.connexion.ConnexionBdd</primary><secondary>ReqUpdate</secondary></indexterm>
+<para><computeroutput>void MediaTek.connexion.ConnexionBdd.ReqUpdate (string req, Dictionary&lt; string, object &gt; parametres)</computeroutput></para><para>
+
+<para>Exécuter une requête sql d&apos;un autre type que select </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>req</entry><entry>
+<para>requête sql </para>
+</entry>
+                            </row>
+                            <row>
+<entry>parametres</entry><entry>
+<para>dictionnaire contenant les différents parametres</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/connexion/ConnexionBdd.cs</section>
+</section>

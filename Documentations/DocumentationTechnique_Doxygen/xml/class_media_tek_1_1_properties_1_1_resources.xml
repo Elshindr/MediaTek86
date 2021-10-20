@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1_properties_1_1_resources" kind="class" language="C#" prot="package">
+    <compoundname>MediaTek::Properties::Resources</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1_properties_1_1_resources_1a6bd22e9992ec43f0f4b29a135e2eaee0" prot="private" static="yes" mutable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager MediaTek.Properties.Resources.resourceMan</definition>
+        <argsstring></argsstring>
+        <name>resourceMan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/Properties/Resources.Designer.cs" line="27" column="63" bodyfile="DigimediaTek86/Properties/Resources.Designer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_properties_1_1_resources_1a9bebd0bef5d9f59ad6c59d765565f847" prot="private" static="yes" mutable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo MediaTek.Properties.Resources.resourceCulture</definition>
+        <argsstring></argsstring>
+        <name>resourceCulture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/Properties/Resources.Designer.cs" line="29" column="63" bodyfile="DigimediaTek86/Properties/Resources.Designer.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_1_1_properties_1_1_resources_1af89a9798a31a376ecababc788a921246" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager MediaTek.Properties.Resources.ResourceManager</definition>
+        <argsstring></argsstring>
+        <name>ResourceManager</name>
+        <briefdescription>
+<para>Retourne l&apos;instance ResourceManager mise en cache utilisée par cette classe. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/Properties/Resources.Designer.cs" line="39" column="64" bodyfile="DigimediaTek86/Properties/Resources.Designer.cs" bodystart="39" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_properties_1_1_resources_1a1b47c2778675cc8458a4847c87d33d5c" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo MediaTek.Properties.Resources.Culture</definition>
+        <argsstring></argsstring>
+        <name>Culture</name>
+        <briefdescription>
+<para>Remplace la propriété CurrentUICulture du thread actuel pour toutes les recherches de ressources à l&apos;aide de cette classe de ressource fortement typée. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/Properties/Resources.Designer.cs" line="54" column="64" bodyfile="DigimediaTek86/Properties/Resources.Designer.cs" bodystart="54" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_media_tek_1_1_properties_1_1_resources_1a2dac75594b0a9c8ed60b0c3c460590ab" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.Properties.Resources.Resources</definition>
+        <argsstring>()</argsstring>
+        <name>Resources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/Properties/Resources.Designer.cs" line="32" column="18" bodyfile="DigimediaTek86/Properties/Resources.Designer.cs" bodystart="32" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DigimediaTek86/Properties/Resources.Designer.cs" line="25" column="13" bodyfile="DigimediaTek86/Properties/Resources.Designer.cs" bodystart="25" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1_properties_1_1_resources_1a1b47c2778675cc8458a4847c87d33d5c" prot="package" virt="non-virtual"><scope>MediaTek::Properties::Resources</scope><name>Culture</name></member>
+      <member refid="class_media_tek_1_1_properties_1_1_resources_1a9bebd0bef5d9f59ad6c59d765565f847" prot="private" virt="non-virtual"><scope>MediaTek::Properties::Resources</scope><name>resourceCulture</name></member>
+      <member refid="class_media_tek_1_1_properties_1_1_resources_1a6bd22e9992ec43f0f4b29a135e2eaee0" prot="private" virt="non-virtual"><scope>MediaTek::Properties::Resources</scope><name>resourceMan</name></member>
+      <member refid="class_media_tek_1_1_properties_1_1_resources_1af89a9798a31a376ecababc788a921246" prot="package" virt="non-virtual"><scope>MediaTek::Properties::Resources</scope><name>ResourceManager</name></member>
+      <member refid="class_media_tek_1_1_properties_1_1_resources_1a2dac75594b0a9c8ed60b0c3c460590ab" prot="package" virt="non-virtual"><scope>MediaTek::Properties::Resources</scope><name>Resources</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

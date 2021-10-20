@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager" xml:lang="fr">
+<title>Référence de la classe MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager</title>
+<indexterm><primary>MediaTek.DataBase.projetcnedDataSetTableAdapters.TableAdapterManager</primary></indexterm>
+<para>
+
+<para><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager">TableAdapterManager</link> is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios /summary&gt; </para>
+ 
+</para>
+<para>
+Est dérivée de global.SystemComponentModel.Component.</para>
+<simplesect>
+    <title>Types publics    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a4cabc5c722431099ab8362bc0b1cb987"/>enum <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a4cabc5c722431099ab8362bc0b1cb987">UpdateOrderOption</link> { <emphasis role="strong">InsertUpdateDelete</emphasis> = 0
+, <emphasis role="strong">UpdateInsertDelete</emphasis> = 1
+ }</para>
+
+<para>Update Order Option /summary&gt; </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a0e2ff369f1ca3f70cc9318ad2696e9a6"/>virtual int <emphasis role="strong">UpdateAll</emphasis> (<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set">projetcnedDataSet</link> dataSet)</para>
+
+<para>Update all changes to the dataset. /summary&gt; </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions membres protégées    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a02b2a8e0cfb6b1ffaf558d74a29f83cb"/>virtual void <emphasis role="strong">SortSelfReferenceRows</emphasis> (global::System.Data.DataRow[] rows, global::System.Data.DataRelation relation, bool childFirst)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a0ce8a65358ad1a8ba410c05ce13b15dd"/>virtual bool <emphasis role="strong">MatchTableAdapterConnection</emphasis> (global::System.Data.IDbConnection inputConnection)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1abc2635a424ec4b38a8fa1cb39e56d1ac"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a4cabc5c722431099ab8362bc0b1cb987">UpdateOrderOption</link> <emphasis role="strong">UpdateOrder</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1aef34f8e3be2785a954b5512ed407ae75"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter">absenceTableAdapter</link> <emphasis role="strong">absenceTableAdapter</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1aae0dbbd478127cf5ccb58a1dcf73e0cc"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1motif_table_adapter">motifTableAdapter</link> <emphasis role="strong">motifTableAdapter</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1aea6a57a3a610c76726a5872c8cad5bb7"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1personnel_table_adapter">personnelTableAdapter</link> <emphasis role="strong">personnelTableAdapter</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a25878ab399cdac1f9c5eac9b5b0ed5a3"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1responsable_table_adapter">responsableTableAdapter</link> <emphasis role="strong">responsableTableAdapter</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1ac21753dc4fd4436057fe1d99cb02ec53"/><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1service_table_adapter">serviceTableAdapter</link> <emphasis role="strong">serviceTableAdapter</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a5109af24ea35c8fd017e951e51405ebe"/>bool <emphasis role="strong">BackupDataSetBeforeUpdate</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a245bacfd5fff88d21eb7f8e0174ed10a"/>global::System.Data.IDbConnection <emphasis role="strong">Connection</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager_1a24354a896f641185126aba32e6eb802d"/>int <emphasis role="strong">TableAdapterInstanceCount</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para><link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1_table_adapter_manager">TableAdapterManager</link> is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios /summary&gt; </para>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs</section>
+</section>

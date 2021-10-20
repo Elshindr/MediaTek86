@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1modele_1_1_service" xml:lang="fr">
+<title>Référence de la classe MediaTek.modele.Service</title>
+<indexterm><primary>MediaTek.modele.Service</primary></indexterm>
+<para>
+
+<para>Classe des services du personnel </para>
+ 
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_media_tek_1_1modele_1_1_service_1a4fe799ff3782a455b66559b90fe88e44">Service</link> (int idservice, string nom)</para>
+
+<para>Constructeur de service et valorise ses propriétés </para>
+</listitem>
+            <listitem><para>override string <link linkend="_class_media_tek_1_1modele_1_1_service_1ab80bff03922c6372fa26a350f7265591">ToString</link> ()</para>
+
+<para>Définir le nom du service n à afficher </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1modele_1_1_service_1a7b5c47d1182f79be484ad7ab7dfcc853"/>int <emphasis role="strong">Idservice</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Getter d&apos;encapsulation d&apos;idservice </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1modele_1_1_service_1a022a2fd008edf4bc270f1aa28e800dc7"/>string <emphasis role="strong">Nom</emphasis><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Getter d&apos;encapsulation de nom </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Classe des services du personnel </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_class_media_tek_1_1modele_1_1_service_1a4fe799ff3782a455b66559b90fe88e44"/><section>
+    <title>Service()</title>
+<indexterm><primary>Service</primary><secondary>MediaTek.modele.Service</secondary></indexterm>
+<indexterm><primary>MediaTek.modele.Service</primary><secondary>Service</secondary></indexterm>
+<para><computeroutput>MediaTek.modele.Service.Service (int idservice, string nom)</computeroutput></para><para>
+
+<para>Constructeur de service et valorise ses propriétés </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Paramètres</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>idservice</entry><entry></entry>
+                            </row>
+                            <row>
+<entry>nom</entry><entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Documentation des fonctions membres</title>
+<anchor xml:id="_class_media_tek_1_1modele_1_1_service_1ab80bff03922c6372fa26a350f7265591"/><section>
+    <title>ToString()</title>
+<indexterm><primary>ToString</primary><secondary>MediaTek.modele.Service</secondary></indexterm>
+<indexterm><primary>MediaTek.modele.Service</primary><secondary>ToString</secondary></indexterm>
+<para><computeroutput>override string MediaTek.modele.Service.ToString ( )</computeroutput></para><para>
+
+<para>Définir le nom du service n à afficher </para>
+</para>
+
+<para><formalpara><title>Renvoie</title>
+
+<para>nom du service</para>
+</formalpara>
+</para>
+</section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/modele/Service.cs</section>
+</section>

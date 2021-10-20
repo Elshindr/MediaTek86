@@ -1,0 +1,209 @@
+.TH "MediaTek.dal.AccesConnexionBdd" 3 "Mardi 19 Octobre 2021" "Digimedia86" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MediaTek.dal.AccesConnexionBdd \- Classe de gestion de la base de donnée  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Fonctions membres publiques statiques"
+
+.in +1c
+.ti -1c
+.RI "static Boolean \fBAuthentification\fP (string log, string pwd)"
+.br
+.RI "Verifie si les clés de connexion sont valides "
+.ti -1c
+.RI "static List< \fBPersonnel\fP > \fBGetLePersonnel\fP ()"
+.br
+.RI "Récupèrer la liste du personnel provenant de la Base de données "
+.ti -1c
+.RI "static List< \fBService\fP > \fBGetService\fP ()"
+.br
+.RI "Demander la liste des services "
+.ti -1c
+.RI "static List< \fBAbsence\fP > \fBGetLesAbsences\fP (\fBPersonnel\fP unpersonnel)"
+.br
+.RI "Afficher la liste des absences d'un personnel sélectionné, dans l'ordre inverse de la chronologie(la plus récente en premier)\&. "
+.ti -1c
+.RI "static void \fBAddPersonnel\fP (\fBPersonnel\fP unpersonnel)"
+.br
+.RI "Ajouter un personnel "
+.ti -1c
+.RI "static void \fBAddAbsence\fP (\fBAbsence\fP uneabs)"
+.br
+.RI "Ajouter une absence "
+.ti -1c
+.RI "static void \fBDelPersonnel\fP (\fBPersonnel\fP unpersonnel)"
+.br
+.RI "Supprimer un personnel "
+.ti -1c
+.RI "static void \fBDelAbs\fP (\fBAbsence\fP uneabs)"
+.br
+.RI "Supprimer une absence d'un personnel "
+.ti -1c
+.RI "static void \fBModPersonnel\fP (\fBPersonnel\fP unpersonnel)"
+.br
+.RI "Modifier un personnel "
+.ti -1c
+.RI "static void \fBModAbs\fP (\fBAbsence\fP uneabs)"
+.br
+.RI "Modifier une absence date de fin ou/et motif "
+.ti -1c
+.RI "static void \fBModAbsdebut\fP (\fBAbsence\fP uneabs)"
+.br
+.RI "Modifier une absence date d'entrée en absence "
+.ti -1c
+.RI "static List< \fBMotif\fP > \fBGetMotif\fP ()"
+.br
+.RI "Obtenir la liste des motifs d'absence "
+.in -1c
+.SH "Description détaillée"
+.PP 
+Classe de gestion de la base de donnée 
+.SH "Documentation des fonctions membres"
+.PP 
+.SS "static void MediaTek\&.dal\&.AccesConnexionBdd\&.AddAbsence (\fBAbsence\fP uneabs)\fC [static]\fP"
+
+.PP
+Ajouter une absence 
+.PP
+\fBParamètres\fP
+.RS 4
+\fIuneabs\fP une absence
+.RE
+.PP
+
+.SS "static void MediaTek\&.dal\&.AccesConnexionBdd\&.AddPersonnel (\fBPersonnel\fP unpersonnel)\fC [static]\fP"
+
+.PP
+Ajouter un personnel 
+.PP
+\fBParamètres\fP
+.RS 4
+\fIunpersonnel\fP un personnel
+.RE
+.PP
+
+.SS "static Boolean MediaTek\&.dal\&.AccesConnexionBdd\&.Authentification (string log, string pwd)\fC [static]\fP"
+
+.PP
+Verifie si les clés de connexion sont valides 
+.PP
+\fBParamètres\fP
+.RS 4
+\fIlog\fP login
+.br
+\fIpwd\fP mot de passe
+.RE
+.PP
+\fBRenvoie\fP
+.RS 4
+vrai si clés sont valides
+.RE
+.PP
+
+.SS "static void MediaTek\&.dal\&.AccesConnexionBdd\&.DelAbs (\fBAbsence\fP uneabs)\fC [static]\fP"
+
+.PP
+Supprimer une absence d'un personnel 
+.PP
+\fBParamètres\fP
+.RS 4
+\fIuneabs\fP une absence
+.RE
+.PP
+
+.SS "static void MediaTek\&.dal\&.AccesConnexionBdd\&.DelPersonnel (\fBPersonnel\fP unpersonnel)\fC [static]\fP"
+
+.PP
+Supprimer un personnel 
+.PP
+\fBParamètres\fP
+.RS 4
+\fIunpersonnel\fP le personnel
+.RE
+.PP
+
+.SS "static List< \fBPersonnel\fP > MediaTek\&.dal\&.AccesConnexionBdd\&.GetLePersonnel ()\fC [static]\fP"
+
+.PP
+Récupèrer la liste du personnel provenant de la Base de données 
+.PP
+\fBRenvoie\fP
+.RS 4
+La liste du personnel
+.RE
+.PP
+
+.SS "static List< \fBAbsence\fP > MediaTek\&.dal\&.AccesConnexionBdd\&.GetLesAbsences (\fBPersonnel\fP unpersonnel)\fC [static]\fP"
+
+.PP
+Afficher la liste des absences d'un personnel sélectionné, dans l'ordre inverse de la chronologie(la plus récente en premier)\&. 
+.PP
+\fBRenvoie\fP
+.RS 4
+Retourne la liste des absences d'un personnel
+.RE
+.PP
+
+.SS "static List< \fBMotif\fP > MediaTek\&.dal\&.AccesConnexionBdd\&.GetMotif ()\fC [static]\fP"
+
+.PP
+Obtenir la liste des motifs d'absence 
+.PP
+\fBRenvoie\fP
+.RS 4
+Retourne la liste des motfis d'absence
+.RE
+.PP
+
+.SS "static List< \fBService\fP > MediaTek\&.dal\&.AccesConnexionBdd\&.GetService ()\fC [static]\fP"
+
+.PP
+Demander la liste des services 
+.PP
+\fBRenvoie\fP
+.RS 4
+Retourne la liste des services existants
+.RE
+.PP
+
+.SS "static void MediaTek\&.dal\&.AccesConnexionBdd\&.ModAbs (\fBAbsence\fP uneabs)\fC [static]\fP"
+
+.PP
+Modifier une absence date de fin ou/et motif 
+.PP
+\fBParamètres\fP
+.RS 4
+\fIuneabs\fP une absence
+.RE
+.PP
+
+.SS "static void MediaTek\&.dal\&.AccesConnexionBdd\&.ModAbsdebut (\fBAbsence\fP uneabs)\fC [static]\fP"
+
+.PP
+Modifier une absence date d'entrée en absence 
+.PP
+\fBParamètres\fP
+.RS 4
+\fIuneabs\fP une absence
+.RE
+.PP
+
+.SS "static void MediaTek\&.dal\&.AccesConnexionBdd\&.ModPersonnel (\fBPersonnel\fP unpersonnel)\fC [static]\fP"
+
+.PP
+Modifier un personnel 
+.PP
+\fBParamètres\fP
+.RS 4
+\fIunpersonnel\fP un personnel
+.RE
+.PP
+
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour Digimedia86 à partir du code source\&.

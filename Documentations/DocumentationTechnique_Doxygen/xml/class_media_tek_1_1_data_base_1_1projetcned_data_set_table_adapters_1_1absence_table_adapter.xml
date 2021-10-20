@@ -1,0 +1,489 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter" kind="class" language="C#" prot="public">
+    <compoundname>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global.SystemComponentModel.Component</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a56d76843e46cd7fe2f62488a7e9bd9c1" prot="private" static="no" mutable="no">
+        <type>global::MySql.Data.MySqlClient.MySqlDataAdapter</type>
+        <definition>global::MySql.Data.MySqlClient.MySqlDataAdapter MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter._adapter</definition>
+        <argsstring></argsstring>
+        <name>_adapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2426" column="62" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2426" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a13d3f872a59edd64d77f13655ee6768e" prot="private" static="no" mutable="no">
+        <type>global::MySql.Data.MySqlClient.MySqlConnection</type>
+        <definition>global::MySql.Data.MySqlClient.MySqlConnection MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter._connection</definition>
+        <argsstring></argsstring>
+        <name>_connection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2428" column="61" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2428" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1ad7af5c03cfdf76ea007d32d176d1462f" prot="private" static="no" mutable="no">
+        <type>global::MySql.Data.MySqlClient.MySqlTransaction</type>
+        <definition>global::MySql.Data.MySqlClient.MySqlTransaction MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter._transaction</definition>
+        <argsstring></argsstring>
+        <name>_transaction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2430" column="62" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2430" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a98969ac64b32bf8c04a4261fffeaf042" prot="private" static="no" mutable="no">
+        <type>global::MySql.Data.MySqlClient.MySqlCommand[]</type>
+        <definition>global::MySql.Data.MySqlClient.MySqlCommand [] MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter._commandCollection</definition>
+        <argsstring></argsstring>
+        <name>_commandCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2432" column="58" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2432" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a2a6ad1d148bbd043366067858f0b711f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter._clearBeforeFill</definition>
+        <argsstring></argsstring>
+        <name>_clearBeforeFill</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2434" column="22" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2434" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a7685be2a478255b7242f0293fad3b066" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::MySql.Data.MySqlClient.MySqlDataAdapter</type>
+        <definition>global::MySql.Data.MySqlClient.MySqlDataAdapter MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter.Adapter</definition>
+        <argsstring></argsstring>
+        <name>Adapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2444" column="73" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2444" bodyend="2451"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a18d190e4e02cf1576436ad24c4ae3483" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>global::MySql.Data.MySqlClient.MySqlConnection</type>
+        <definition>global::MySql.Data.MySqlClient.MySqlConnection MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter.Connection</definition>
+        <argsstring></argsstring>
+        <name>Connection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2455" column="62" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2455" bodyend="2479"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a73f5d1bc988fe817815fa88ab30e73d0" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>global::MySql.Data.MySqlClient.MySqlTransaction</type>
+        <definition>global::MySql.Data.MySqlClient.MySqlTransaction MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter.Transaction</definition>
+        <argsstring></argsstring>
+        <name>Transaction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2483" column="63" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2483" bodyend="2505"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1aa5d7ee54814bd892c9617f5b5bf7590b" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::MySql.Data.MySqlClient.MySqlCommand[]</type>
+        <definition>global::MySql.Data.MySqlClient.MySqlCommand [] MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter.CommandCollection</definition>
+        <argsstring></argsstring>
+        <name>CommandCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2509" column="60" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2509" bodyend="2516"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1abe0471b383f89339781d71cdf1c6edd6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter.ClearBeforeFill</definition>
+        <argsstring></argsstring>
+        <name>ClearBeforeFill</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2520" column="21" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2520" bodyend="2527"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1afe09b3abc05c63b3f414363189f05d0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter.absenceTableAdapter</definition>
+        <argsstring>()</argsstring>
+        <name>absenceTableAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2438" column="16" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2438" bodyend="2440"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1adbcf7b4aef4d65781f13de8ac6fbf74d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter.Fill</definition>
+        <argsstring>(projetcnedDataSet.absenceDataTable dataTable)</argsstring>
+        <name>Fill</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table" kindref="compound">projetcnedDataSet.absenceDataTable</ref></type>
+          <declname>dataTable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2726" column="28" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2726" bodyend="2733"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1aec3b63c71c07ce524c075dc03a16e77b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table" kindref="compound">projetcnedDataSet.absenceDataTable</ref></type>
+        <definition>virtual projetcnedDataSet.absenceDataTable MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter.GetData</definition>
+        <argsstring>()</argsstring>
+        <name>GetData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2739" column="58" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2739" bodyend="2744"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a3a4fa53a1c024b2db69b1e18091c98bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter.Update</definition>
+        <argsstring>(projetcnedDataSet.absenceDataTable dataTable)</argsstring>
+        <name>Update</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_data_table" kindref="compound">projetcnedDataSet.absenceDataTable</ref></type>
+          <declname>dataTable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2749" column="28" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2749" bodyend="2751"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a939f815dafb9fff10b4d1b93a9df649a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter.Update</definition>
+        <argsstring>(projetcnedDataSet dataSet)</argsstring>
+        <name>Update</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set" kindref="compound">projetcnedDataSet</ref></type>
+          <declname>dataSet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2756" column="28" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2756" bodyend="2758"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1adaf9e2aad286610cb8fc87889c78e6ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter.Update</definition>
+        <argsstring>(global::System.Data.DataRow dataRow)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>global::System.Data.DataRow</type>
+          <declname>dataRow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2763" column="28" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2763" bodyend="2766"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a6c0db516ef2b10f10f73421d1d3e3ab1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter.Update</definition>
+        <argsstring>(global::System.Data.DataRow[] dataRows)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>global::System.Data.DataRow[]</type>
+          <declname>dataRows</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2771" column="28" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2771" bodyend="2773"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a267337307c6be5973165fda857b7548f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter.Delete</definition>
+        <argsstring>(int p1, System.DateTime p2, int p3, global::System.Nullable&lt; global::System.DateTime &gt; p5)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>System.DateTime</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p3</declname>
+        </param>
+        <param>
+          <type>global::System.Nullable&lt; global::System.DateTime &gt;</type>
+          <declname>p5</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2779" column="28" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2779" bodyend="2805"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a243dc79626ad78970e273af1bde7c63e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter.Insert</definition>
+        <argsstring>(int p1, System.DateTime p2, int p3, global::System.Nullable&lt; global::System.DateTime &gt; p4)</argsstring>
+        <name>Insert</name>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>System.DateTime</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p3</declname>
+        </param>
+        <param>
+          <type>global::System.Nullable&lt; global::System.DateTime &gt;</type>
+          <declname>p4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2811" column="28" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2811" bodyend="2835"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a78094443c2e07f2e7890eaff1ddb5968" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter.Update</definition>
+        <argsstring>(int p1, System.DateTime p2, int p3, global::System.Nullable&lt; global::System.DateTime &gt; p4, int p5, System.DateTime p6, int p7, global::System.Nullable&lt; global::System.DateTime &gt; p9)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>System.DateTime</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p3</declname>
+        </param>
+        <param>
+          <type>global::System.Nullable&lt; global::System.DateTime &gt;</type>
+          <declname>p4</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p5</declname>
+        </param>
+        <param>
+          <type>System.DateTime</type>
+          <declname>p6</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p7</declname>
+        </param>
+        <param>
+          <type>global::System.Nullable&lt; global::System.DateTime &gt;</type>
+          <declname>p9</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2841" column="28" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2841" bodyend="2876"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1ac1299e087329caefea52b32fc6c8511f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter.Update</definition>
+        <argsstring>(int p3, global::System.Nullable&lt; global::System.DateTime &gt; p4, int p5, System.DateTime p6, int p7, global::System.Nullable&lt; global::System.DateTime &gt; p9)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>int</type>
+          <declname>p3</declname>
+        </param>
+        <param>
+          <type>global::System.Nullable&lt; global::System.DateTime &gt;</type>
+          <declname>p4</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p5</declname>
+        </param>
+        <param>
+          <type>System.DateTime</type>
+          <declname>p6</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p7</declname>
+        </param>
+        <param>
+          <type>global::System.Nullable&lt; global::System.DateTime &gt;</type>
+          <declname>p9</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2882" column="28" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2882" bodyend="2884"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a10d73d6b26a20ec1ddf032bb1806879b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter.InitAdapter</definition>
+        <argsstring>()</argsstring>
+        <name>InitAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2531" column="22" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2531" bodyend="2703"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a1cc9a80e28ac2200b9c916a89b5800ba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter.InitConnection</definition>
+        <argsstring>()</argsstring>
+        <name>InitConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2707" column="22" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2707" bodyend="2710"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1af2aff11dbf5e2db7be5ea8646743ef00" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter.InitCommandCollection</definition>
+        <argsstring>()</argsstring>
+        <name>InitCommandCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2714" column="22" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2714" bodyend="2720"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemComponentModel::Component</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSetTableAdapters.absenceTableAdapter</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemComponentModel::Component</label>
+      </node>
+    </collaborationgraph>
+    <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="2424" column="19" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="2424" bodyend="2885"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a56d76843e46cd7fe2f62488a7e9bd9c1" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>_adapter</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a2a6ad1d148bbd043366067858f0b711f" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>_clearBeforeFill</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a98969ac64b32bf8c04a4261fffeaf042" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>_commandCollection</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a13d3f872a59edd64d77f13655ee6768e" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>_connection</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1ad7af5c03cfdf76ea007d32d176d1462f" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>_transaction</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1afe09b3abc05c63b3f414363189f05d0d" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>absenceTableAdapter</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a7685be2a478255b7242f0293fad3b066" prot="package" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>Adapter</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1abe0471b383f89339781d71cdf1c6edd6" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>ClearBeforeFill</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1aa5d7ee54814bd892c9617f5b5bf7590b" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>CommandCollection</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a18d190e4e02cf1576436ad24c4ae3483" prot="package" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>Connection</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a267337307c6be5973165fda857b7548f" prot="public" virt="virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>Delete</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1adbcf7b4aef4d65781f13de8ac6fbf74d" prot="public" virt="virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>Fill</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1aec3b63c71c07ce524c075dc03a16e77b" prot="public" virt="virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>GetData</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a10d73d6b26a20ec1ddf032bb1806879b" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>InitAdapter</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1af2aff11dbf5e2db7be5ea8646743ef00" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>InitCommandCollection</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a1cc9a80e28ac2200b9c916a89b5800ba" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>InitConnection</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a243dc79626ad78970e273af1bde7c63e" prot="public" virt="virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>Insert</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a73f5d1bc988fe817815fa88ab30e73d0" prot="package" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>Transaction</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a3a4fa53a1c024b2db69b1e18091c98bc" prot="public" virt="virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>Update</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a939f815dafb9fff10b4d1b93a9df649a" prot="public" virt="virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>Update</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1adaf9e2aad286610cb8fc87889c78e6ae" prot="public" virt="virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>Update</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a6c0db516ef2b10f10f73421d1d3e3ab1" prot="public" virt="virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>Update</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1a78094443c2e07f2e7890eaff1ddb5968" prot="public" virt="virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>Update</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1absence_table_adapter_1ac1299e087329caefea52b32fc6c8511f" prot="public" virt="virtual"><scope>MediaTek::DataBase::projetcnedDataSetTableAdapters::absenceTableAdapter</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

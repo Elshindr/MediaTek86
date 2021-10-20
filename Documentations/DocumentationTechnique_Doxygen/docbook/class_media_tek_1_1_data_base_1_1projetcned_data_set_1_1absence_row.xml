@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row" xml:lang="fr">
+<title>Référence de la classe MediaTek.DataBase.projetcnedDataSet.absenceRow</title>
+<indexterm><primary>MediaTek.DataBase.projetcnedDataSet.absenceRow</primary></indexterm>
+<para>
+
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+ 
+</para>
+<para>
+Est dérivée de global.SystemData.DataRow.</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a69c7832cdf194517c9ba57c3b8e05ade"/>bool <emphasis role="strong">IsDATEFINNull</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a78c0cc57f952f8b4b121339cf351a3a3"/>void <emphasis role="strong">SetDATEFINNull</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a35afb87f767eacf38e174ddcb5138bd3"/>int <emphasis role="strong">IDPERSONNEL</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a49b22093887fd7686ee8f6d8144846a1"/>System.DateTime <emphasis role="strong">DATEDEBUT</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a8264f67e190eecbfc204ac466522249e"/>int <emphasis role="strong">IDMOTIF</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1absence_row_1a386714c2b2839453576d510eef565fbf"/>System.DateTime <emphasis role="strong">DATEFIN</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Represents strongly named DataRow class. /summary&gt; </para>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs</section>
+</section>

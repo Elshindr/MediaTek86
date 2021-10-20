@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1responsable_table_adapter" xml:lang="fr">
+<title>Référence de la classe MediaTek.DataBase.projetcnedDataSetTableAdapters.responsableTableAdapter</title>
+<indexterm><primary>MediaTek.DataBase.projetcnedDataSetTableAdapters.responsableTableAdapter</primary></indexterm>
+<para>
+
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+ 
+</para>
+<para>
+Est dérivée de global.SystemComponentModel.Component.</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1responsable_table_adapter_1ae905df336724beb00c8407801357bee0"/>virtual int <emphasis role="strong">Fill</emphasis> (<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table">projetcnedDataSet.responsableDataTable</link> dataTable)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1responsable_table_adapter_1aa0a2103b47876f0b6d7b513398f12c1c"/>virtual <link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table">projetcnedDataSet.responsableDataTable</link> <emphasis role="strong">GetData</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1responsable_table_adapter_1a14e2aacd5559e10d813ba0a5bda9f363"/>virtual int <emphasis role="strong">Update</emphasis> (<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1responsable_data_table">projetcnedDataSet.responsableDataTable</link> dataTable)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1responsable_table_adapter_1a69a646075ac5bd0bc48ba51bead42d22"/>virtual int <emphasis role="strong">Update</emphasis> (<link linkend="_class_media_tek_1_1_data_base_1_1projetcned_data_set">projetcnedDataSet</link> dataSet)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1responsable_table_adapter_1a4bd2647128c519ab4c85b8a56f51a1b4"/>virtual int <emphasis role="strong">Update</emphasis> (global::System.Data.DataRow dataRow)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1responsable_table_adapter_1ab9ab5aa4dbb236cbba55facee183a257"/>virtual int <emphasis role="strong">Update</emphasis> (global::System.Data.DataRow[] dataRows)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1responsable_table_adapter_1a03eb1f88f0bba4be05b754c1f239c9c3"/>virtual int <emphasis role="strong">Insert</emphasis> (string p1, string p2)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Propriétés    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1responsable_table_adapter_1a836ce5548d16e1838823b516200c0652"/>global::MySql.Data.MySqlClient.MySqlCommand[] <emphasis role="strong">CommandCollection</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_media_tek_1_1_data_base_1_1projetcned_data_set_table_adapters_1_1responsable_table_adapter_1af5c8fdb318d21b5b4d22c9c8f4314d0e"/>bool <emphasis role="strong">ClearBeforeFill</emphasis><computeroutput> [getset]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para>Represents the connection and commands used to retrieve and save data. /summary&gt; </para>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs</section>
+</section>

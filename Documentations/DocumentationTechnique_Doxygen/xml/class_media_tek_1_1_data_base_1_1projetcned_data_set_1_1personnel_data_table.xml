@@ -1,0 +1,639 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table" kind="class" language="C#" prot="public">
+    <compoundname>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global::SystemData::TypedTableBase&lt; personnelRow &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a515a44d965b924a7dc32172c51980d40" prot="private" static="no" mutable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.personnelDataTable.columnIDPERSONNEL</definition>
+        <argsstring></argsstring>
+        <name>columnIDPERSONNEL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1001" column="50" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1001" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1aa2c8f0095c00d9748c2171a377ff27b2" prot="private" static="no" mutable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.personnelDataTable.columnIDSERVICE</definition>
+        <argsstring></argsstring>
+        <name>columnIDSERVICE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1003" column="50" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1003" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a48e67958cfafdf69786f078a06840dd8" prot="private" static="no" mutable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.personnelDataTable.columnNOM</definition>
+        <argsstring></argsstring>
+        <name>columnNOM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1005" column="50" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1005" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a60860540634c4a1862b784bb338f5312" prot="private" static="no" mutable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.personnelDataTable.columnPRENOM</definition>
+        <argsstring></argsstring>
+        <name>columnPRENOM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1007" column="50" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1007" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a1ecb0c38bd7ade7cfe73e25092e56d63" prot="private" static="no" mutable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.personnelDataTable.columnTEL</definition>
+        <argsstring></argsstring>
+        <name>columnTEL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1009" column="50" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1009" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1ad7c046a1f0b4025bb4fbe4450b6232a2" prot="private" static="no" mutable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.personnelDataTable.columnMAIL</definition>
+        <argsstring></argsstring>
+        <name>columnMAIL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1011" column="50" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1011" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a78071dd73c9abce7de9e277510ee778d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.personnelDataTable.IDPERSONNELColumn</definition>
+        <argsstring></argsstring>
+        <name>IDPERSONNELColumn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1048" column="49" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1048" bodyend="1052"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a6d8c9d14bd176dc1b7d385a79947e46a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.personnelDataTable.IDSERVICEColumn</definition>
+        <argsstring></argsstring>
+        <name>IDSERVICEColumn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1056" column="49" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1056" bodyend="1060"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1aeacc2b96b936607a164527268baa1a4f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.personnelDataTable.NOMColumn</definition>
+        <argsstring></argsstring>
+        <name>NOMColumn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1064" column="49" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1064" bodyend="1068"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1af90dbca400ec2029db29f3639aa3f3c2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.personnelDataTable.PRENOMColumn</definition>
+        <argsstring></argsstring>
+        <name>PRENOMColumn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1072" column="49" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1072" bodyend="1076"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a153f2e54ce7f1d35d5d6ad38b5f02c8b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.personnelDataTable.TELColumn</definition>
+        <argsstring></argsstring>
+        <name>TELColumn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1080" column="49" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1080" bodyend="1084"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1aaf9eb610370854d3f7ec33481915ea2c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Data.DataColumn</type>
+        <definition>global::System.Data.DataColumn MediaTek.DataBase.projetcnedDataSet.personnelDataTable.MAILColumn</definition>
+        <argsstring></argsstring>
+        <name>MAILColumn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1088" column="49" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1088" bodyend="1092"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a07a4dc503dd9fbcd7a658e3036ce94a3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MediaTek.DataBase.projetcnedDataSet.personnelDataTable.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1097" column="24" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1097" bodyend="1101"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a18fb159849effec7afeb754825ffda33" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row" kindref="compound">personnelRow</ref></type>
+        <definition>personnelRow MediaTek.DataBase.projetcnedDataSet.personnelDataTable.this[int index]</definition>
+        <argsstring></argsstring>
+        <name>this[int index]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1105" column="33" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1105" bodyend="1109"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1aa517eec7eed2a65296dd80d1bd2660d4" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>personnelRowChangeEventHandler</type>
+        <definition>personnelRowChangeEventHandler MediaTek.DataBase.projetcnedDataSet.personnelDataTable.personnelRowChanging</definition>
+        <argsstring></argsstring>
+        <name>personnelRowChanging</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1112" column="57" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a08f413e734cc1063c028b05e8cc1bc81" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>personnelRowChangeEventHandler</type>
+        <definition>personnelRowChangeEventHandler MediaTek.DataBase.projetcnedDataSet.personnelDataTable.personnelRowChanged</definition>
+        <argsstring></argsstring>
+        <name>personnelRowChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1115" column="57" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a29cd630418d729160df1eec0f3b3b1a4" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>personnelRowChangeEventHandler</type>
+        <definition>personnelRowChangeEventHandler MediaTek.DataBase.projetcnedDataSet.personnelDataTable.personnelRowDeleting</definition>
+        <argsstring></argsstring>
+        <name>personnelRowDeleting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1118" column="57" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a8ae0a067c30cd4f7a19a27f110fb0b2a" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>personnelRowChangeEventHandler</type>
+        <definition>personnelRowChangeEventHandler MediaTek.DataBase.projetcnedDataSet.personnelDataTable.personnelRowDeleted</definition>
+        <argsstring></argsstring>
+        <name>personnelRowDeleted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1121" column="57" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1121" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1aadf416567607dbc444b5a67187c533f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.DataBase.projetcnedDataSet.personnelDataTable.personnelDataTable</definition>
+        <argsstring>()</argsstring>
+        <name>personnelDataTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1015" column="20" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1015" bodyend="1020"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a7fa6521bfd92fe7e9a6e2ddafb1ab7a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSet.personnelDataTable.AddpersonnelRow</definition>
+        <argsstring>(personnelRow row)</argsstring>
+        <name>AddpersonnelRow</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row" kindref="compound">personnelRow</ref></type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1125" column="25" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1125" bodyend="1127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a53bc917db445e59073c9d742ae35d6c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row" kindref="compound">personnelRow</ref></type>
+        <definition>personnelRow MediaTek.DataBase.projetcnedDataSet.personnelDataTable.AddpersonnelRow</definition>
+        <argsstring>(int IDSERVICE, string NOM, string PRENOM, string TEL, string MAIL)</argsstring>
+        <name>AddpersonnelRow</name>
+        <param>
+          <type>int</type>
+          <declname>IDSERVICE</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>NOM</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>PRENOM</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>TEL</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>MAIL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1131" column="33" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1131" bodyend="1143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1ad18ed5033ae3d95b7261eb0a99306637" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row" kindref="compound">personnelRow</ref></type>
+        <definition>personnelRow MediaTek.DataBase.projetcnedDataSet.personnelDataTable.FindByIDPERSONNEL</definition>
+        <argsstring>(int IDPERSONNEL)</argsstring>
+        <name>FindByIDPERSONNEL</name>
+        <param>
+          <type>int</type>
+          <declname>IDPERSONNEL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1147" column="33" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1147" bodyend="1150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a009e2bbf4dfb80dc782de35f4229313a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override global::System.Data.DataTable</type>
+        <definition>override global::System.Data.DataTable MediaTek.DataBase.projetcnedDataSet.personnelDataTable.Clone</definition>
+        <argsstring>()</argsstring>
+        <name>Clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1154" column="57" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1154" bodyend="1158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1ae5b60eb6caa54003ef12224079e6dce4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row" kindref="compound">personnelRow</ref></type>
+        <definition>personnelRow MediaTek.DataBase.projetcnedDataSet.personnelDataTable.NewpersonnelRow</definition>
+        <argsstring>()</argsstring>
+        <name>NewpersonnelRow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1208" column="33" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1208" bodyend="1210"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1ae6680a1baa2b11f3ce422de9ccf12a75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSet.personnelDataTable.RemovepersonnelRow</definition>
+        <argsstring>(personnelRow row)</argsstring>
+        <name>RemovepersonnelRow</name>
+        <param>
+          <type><ref refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_row" kindref="compound">personnelRow</ref></type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1262" column="25" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1262" bodyend="1264"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1ae39d548e77a0c82e064852b906230eda" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.DataBase.projetcnedDataSet.personnelDataTable.personnelDataTable</definition>
+        <argsstring>(global::System.Data.DataTable table)</argsstring>
+        <name>personnelDataTable</name>
+        <param>
+          <type>global::System.Data.DataTable</type>
+          <declname>table</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1024" column="22" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1024" bodyend="1037"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a6e03477ce4e8197852bd94799f763e2c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSet.personnelDataTable.InitVars</definition>
+        <argsstring>()</argsstring>
+        <name>InitVars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1168" column="27" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1168" bodyend="1175"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1aeb9391b8fecb14b3c331674d35485785" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.DataBase.projetcnedDataSet.personnelDataTable.personnelDataTable</definition>
+        <argsstring>(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context)</argsstring>
+        <name>personnelDataTable</name>
+        <param>
+          <type>global::System.Runtime.Serialization.SerializationInfo</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>global::System.Runtime.Serialization.StreamingContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1041" column="23" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1041" bodyend="1044"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1aa9d8a08286ae6aa8a0f053afd905decf" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override global::System.Data.DataTable</type>
+        <definition>override global::System.Data.DataTable MediaTek.DataBase.projetcnedDataSet.personnelDataTable.CreateInstance</definition>
+        <argsstring>()</argsstring>
+        <name>CreateInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1162" column="60" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1162" bodyend="1164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1ab3528b5d58b517114f76210a4ca905d8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override global::System.Data.DataRow</type>
+        <definition>override global::System.Data.DataRow MediaTek.DataBase.projetcnedDataSet.personnelDataTable.NewRowFromBuilder</definition>
+        <argsstring>(global::System.Data.DataRowBuilder builder)</argsstring>
+        <name>NewRowFromBuilder</name>
+        <param>
+          <type>global::System.Data.DataRowBuilder</type>
+          <declname>builder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1214" column="58" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1214" bodyend="1216"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a139ecc1572edbefef8224b3f9cf40d2e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override global::System.Type</type>
+        <definition>override global::System.Type MediaTek.DataBase.projetcnedDataSet.personnelDataTable.GetRowType</definition>
+        <argsstring>()</argsstring>
+        <name>GetRowType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1220" column="51" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1220" bodyend="1222"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a91a036ea76f9bac7398ba6d2f6b1891c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaTek.DataBase.projetcnedDataSet.personnelDataTable.OnRowChanged</definition>
+        <argsstring>(global::System.Data.DataRowChangeEventArgs e)</argsstring>
+        <name>OnRowChanged</name>
+        <param>
+          <type>global::System.Data.DataRowChangeEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1226" column="37" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1226" bodyend="1231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1ab7c112bb2a46e5cc0c9e017b74e41181" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaTek.DataBase.projetcnedDataSet.personnelDataTable.OnRowChanging</definition>
+        <argsstring>(global::System.Data.DataRowChangeEventArgs e)</argsstring>
+        <name>OnRowChanging</name>
+        <param>
+          <type>global::System.Data.DataRowChangeEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1235" column="37" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1235" bodyend="1240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a3c1e47f6d475cd8f7f760f3b46f3c49b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaTek.DataBase.projetcnedDataSet.personnelDataTable.OnRowDeleted</definition>
+        <argsstring>(global::System.Data.DataRowChangeEventArgs e)</argsstring>
+        <name>OnRowDeleted</name>
+        <param>
+          <type>global::System.Data.DataRowChangeEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1244" column="37" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1244" bodyend="1249"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a3f3dd1de6496dad1082cddc05e822041" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaTek.DataBase.projetcnedDataSet.personnelDataTable.OnRowDeleting</definition>
+        <argsstring>(global::System.Data.DataRowChangeEventArgs e)</argsstring>
+        <name>OnRowDeleting</name>
+        <param>
+          <type>global::System.Data.DataRowChangeEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1253" column="37" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1253" bodyend="1258"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a85d32fda0826c44b7bd5d1510d4aa4b7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaTek.DataBase.projetcnedDataSet.personnelDataTable.InitClass</definition>
+        <argsstring>()</argsstring>
+        <name>InitClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1179" column="26" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1179" bodyend="1204"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a54c49767189a76c08f8f3fcff41f7e32" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Xml.Schema.XmlSchemaComplexType</type>
+        <definition>static global::System.Xml.Schema.XmlSchemaComplexType MediaTek.DataBase.projetcnedDataSet.personnelDataTable.GetTypedTableSchema</definition>
+        <argsstring>(global::System.Xml.Schema.XmlSchemaSet xs)</argsstring>
+        <name>GetTypedTableSchema</name>
+        <param>
+          <type>global::System.Xml.Schema.XmlSchemaSet</type>
+          <declname>xs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="1268" column="71" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="1268" bodyend="1327"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents the strongly named DataTable class. /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSet.personnelDataTable</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemData::TypedTableBase&lt; personnelRow &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MediaTek.DataBase.projetcnedDataSet.personnelDataTable</label>
+        <link refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemData::TypedTableBase&lt; personnelRow &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" line="999" column="23" bodyfile="DigimediaTek86/DataBase/projetcnedDataSet.Designer.cs" bodystart="999" bodyend="1328"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a7fa6521bfd92fe7e9a6e2ddafb1ab7a9" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>AddpersonnelRow</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a53bc917db445e59073c9d742ae35d6c6" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>AddpersonnelRow</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a009e2bbf4dfb80dc782de35f4229313a" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>Clone</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a515a44d965b924a7dc32172c51980d40" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>columnIDPERSONNEL</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1aa2c8f0095c00d9748c2171a377ff27b2" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>columnIDSERVICE</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1ad7c046a1f0b4025bb4fbe4450b6232a2" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>columnMAIL</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a48e67958cfafdf69786f078a06840dd8" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>columnNOM</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a60860540634c4a1862b784bb338f5312" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>columnPRENOM</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a1ecb0c38bd7ade7cfe73e25092e56d63" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>columnTEL</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a07a4dc503dd9fbcd7a658e3036ce94a3" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>Count</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1aa9d8a08286ae6aa8a0f053afd905decf" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>CreateInstance</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1ad18ed5033ae3d95b7261eb0a99306637" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>FindByIDPERSONNEL</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a139ecc1572edbefef8224b3f9cf40d2e" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>GetRowType</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a54c49767189a76c08f8f3fcff41f7e32" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>GetTypedTableSchema</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a78071dd73c9abce7de9e277510ee778d" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>IDPERSONNELColumn</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a6d8c9d14bd176dc1b7d385a79947e46a" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>IDSERVICEColumn</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a85d32fda0826c44b7bd5d1510d4aa4b7" prot="private" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>InitClass</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a6e03477ce4e8197852bd94799f763e2c" prot="package" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>InitVars</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1aaf9eb610370854d3f7ec33481915ea2c" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>MAILColumn</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1ae5b60eb6caa54003ef12224079e6dce4" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>NewpersonnelRow</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1ab3528b5d58b517114f76210a4ca905d8" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>NewRowFromBuilder</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1aeacc2b96b936607a164527268baa1a4f" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>NOMColumn</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a91a036ea76f9bac7398ba6d2f6b1891c" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>OnRowChanged</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1ab7c112bb2a46e5cc0c9e017b74e41181" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>OnRowChanging</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a3c1e47f6d475cd8f7f760f3b46f3c49b" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>OnRowDeleted</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a3f3dd1de6496dad1082cddc05e822041" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>OnRowDeleting</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1aadf416567607dbc444b5a67187c533f2" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>personnelDataTable</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1ae39d548e77a0c82e064852b906230eda" prot="package" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>personnelDataTable</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1aeb9391b8fecb14b3c331674d35485785" prot="protected" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>personnelDataTable</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a08f413e734cc1063c028b05e8cc1bc81" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>personnelRowChanged</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1aa517eec7eed2a65296dd80d1bd2660d4" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>personnelRowChanging</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a8ae0a067c30cd4f7a19a27f110fb0b2a" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>personnelRowDeleted</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a29cd630418d729160df1eec0f3b3b1a4" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>personnelRowDeleting</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1af90dbca400ec2029db29f3639aa3f3c2" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>PRENOMColumn</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1ae6680a1baa2b11f3ce422de9ccf12a75" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>RemovepersonnelRow</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a153f2e54ce7f1d35d5d6ad38b5f02c8b" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>TELColumn</name></member>
+      <member refid="class_media_tek_1_1_data_base_1_1projetcned_data_set_1_1personnel_data_table_1a18fb159849effec7afeb754825ffda33" prot="public" virt="non-virtual"><scope>MediaTek::DataBase::projetcnedDataSet::personnelDataTable</scope><name>this[int index]</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

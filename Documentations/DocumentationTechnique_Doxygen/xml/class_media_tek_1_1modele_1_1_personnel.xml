@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1modele_1_1_personnel" kind="class" language="C#" prot="public">
+    <compoundname>MediaTek::modele::Personnel</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1modele_1_1_personnel_1a1d9b5723700a9da15bfd941c89b691ea" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MediaTek.modele.Personnel.idpersonnel</definition>
+        <argsstring></argsstring>
+        <name>idpersonnel</name>
+        <briefdescription>
+<para>Propriété identifiant du personnel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Personnel.cs" line="11" column="21" bodyfile="DigimediaTek86/modele/Personnel.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1modele_1_1_personnel_1a597fa0fa20c9b081c3067529e15b7765" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MediaTek.modele.Personnel.nom</definition>
+        <argsstring></argsstring>
+        <name>nom</name>
+        <briefdescription>
+<para>Propriété du nom d&apos;un personnel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Personnel.cs" line="16" column="24" bodyfile="DigimediaTek86/modele/Personnel.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1modele_1_1_personnel_1a0bf76fc168b9c7b8ea85211c8984a1cb" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MediaTek.modele.Personnel.prenom</definition>
+        <argsstring></argsstring>
+        <name>prenom</name>
+        <briefdescription>
+<para>Propriété du prenom d&apos;un personnel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Personnel.cs" line="21" column="24" bodyfile="DigimediaTek86/modele/Personnel.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1modele_1_1_personnel_1ad53cbd56f74fdb9d6375c6d904a13f1f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MediaTek.modele.Personnel.tel</definition>
+        <argsstring></argsstring>
+        <name>tel</name>
+        <briefdescription>
+<para>Propriété du tel d&apos;un personnel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Personnel.cs" line="26" column="24" bodyfile="DigimediaTek86/modele/Personnel.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1modele_1_1_personnel_1a62ed22c428a1618d80762651afbaef6d" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MediaTek.modele.Personnel.mail</definition>
+        <argsstring></argsstring>
+        <name>mail</name>
+        <briefdescription>
+<para>Propriété du mail d&apos;un personnel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Personnel.cs" line="31" column="24" bodyfile="DigimediaTek86/modele/Personnel.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1modele_1_1_personnel_1a2c8d139222ad5f34ab8e50aea29966e5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MediaTek.modele.Personnel.idservice</definition>
+        <argsstring></argsstring>
+        <name>idservice</name>
+        <briefdescription>
+<para>Propriété de l&apos;identifiant du service d&apos;un personnel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Personnel.cs" line="36" column="21" bodyfile="DigimediaTek86/modele/Personnel.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1modele_1_1_personnel_1a1998cb08719471e0436318a5962f9682" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MediaTek.modele.Personnel.service</definition>
+        <argsstring></argsstring>
+        <name>service</name>
+        <briefdescription>
+<para>Propriété du service d&apos;un personnel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Personnel.cs" line="41" column="24" bodyfile="DigimediaTek86/modele/Personnel.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_1_1modele_1_1_personnel_1ab61fb26ed855deb236a29ecf499849b0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MediaTek.modele.Personnel.Idpersonnel</definition>
+        <argsstring></argsstring>
+        <name>Idpersonnel</name>
+        <briefdescription>
+<para>Getter sur idpersonnel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Personnel.cs" line="46" column="20" bodyfile="DigimediaTek86/modele/Personnel.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1modele_1_1_personnel_1afdc1d1aa28055e3b0f8a858a11720a73" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTek.modele.Personnel.Nom</definition>
+        <argsstring></argsstring>
+        <name>Nom</name>
+        <briefdescription>
+<para>Getter sur nom </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Personnel.cs" line="51" column="23" bodyfile="DigimediaTek86/modele/Personnel.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1modele_1_1_personnel_1a16bb6939214728565ff8a5c5e395d4e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTek.modele.Personnel.Prenom</definition>
+        <argsstring></argsstring>
+        <name>Prenom</name>
+        <briefdescription>
+<para>Getter sur prenom </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Personnel.cs" line="56" column="23" bodyfile="DigimediaTek86/modele/Personnel.cs" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1modele_1_1_personnel_1a3a62441503fee914decc8d851175e574" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTek.modele.Personnel.Tel</definition>
+        <argsstring></argsstring>
+        <name>Tel</name>
+        <briefdescription>
+<para>Getter sur tel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Personnel.cs" line="61" column="23" bodyfile="DigimediaTek86/modele/Personnel.cs" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1modele_1_1_personnel_1acdba93474621127201e030db14fe14c3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTek.modele.Personnel.Mail</definition>
+        <argsstring></argsstring>
+        <name>Mail</name>
+        <briefdescription>
+<para>Getter sur mail </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Personnel.cs" line="66" column="23" bodyfile="DigimediaTek86/modele/Personnel.cs" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1modele_1_1_personnel_1a76c0673c01bb5a9dd7e7b55c39cbb0ca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MediaTek.modele.Personnel.Idservice</definition>
+        <argsstring></argsstring>
+        <name>Idservice</name>
+        <briefdescription>
+<para>Getter sur idservice </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Personnel.cs" line="71" column="20" bodyfile="DigimediaTek86/modele/Personnel.cs" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1modele_1_1_personnel_1af28502f1c623f9451da37d09daa0b13f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTek.modele.Personnel.Service</definition>
+        <argsstring></argsstring>
+        <name>Service</name>
+        <briefdescription>
+<para>Getter sur service </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Personnel.cs" line="76" column="23" bodyfile="DigimediaTek86/modele/Personnel.cs" bodystart="76" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_1_1modele_1_1_personnel_1a9daaf4e7ec80ed983c66a68188814533" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.modele.Personnel.Personnel</definition>
+        <argsstring>(int idpersonnel, string nom, string prenom, string tel, string mail, int idservice, string service)</argsstring>
+        <name>Personnel</name>
+        <param>
+          <type>int</type>
+          <declname>idpersonnel</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nom</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>prenom</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tel</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>mail</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idservice</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Constructeur de la classe <ref refid="class_media_tek_1_1modele_1_1_personnel" kindref="compound">Personnel</ref> et valorise ses propriétes </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idpersonnel</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nom</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>prenom</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tel</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mail</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idservice</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Personnel.cs" line="89" column="16" bodyfile="DigimediaTek86/modele/Personnel.cs" bodystart="89" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe représentant le personnel </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DigimediaTek86/modele/Personnel.cs" line="6" column="11" bodyfile="DigimediaTek86/modele/Personnel.cs" bodystart="7" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1modele_1_1_personnel_1a1d9b5723700a9da15bfd941c89b691ea" prot="private" virt="non-virtual"><scope>MediaTek::modele::Personnel</scope><name>idpersonnel</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_personnel_1ab61fb26ed855deb236a29ecf499849b0" prot="public" virt="non-virtual"><scope>MediaTek::modele::Personnel</scope><name>Idpersonnel</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_personnel_1a2c8d139222ad5f34ab8e50aea29966e5" prot="private" virt="non-virtual"><scope>MediaTek::modele::Personnel</scope><name>idservice</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_personnel_1a76c0673c01bb5a9dd7e7b55c39cbb0ca" prot="public" virt="non-virtual"><scope>MediaTek::modele::Personnel</scope><name>Idservice</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_personnel_1a62ed22c428a1618d80762651afbaef6d" prot="private" virt="non-virtual"><scope>MediaTek::modele::Personnel</scope><name>mail</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_personnel_1acdba93474621127201e030db14fe14c3" prot="public" virt="non-virtual"><scope>MediaTek::modele::Personnel</scope><name>Mail</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_personnel_1a597fa0fa20c9b081c3067529e15b7765" prot="private" virt="non-virtual"><scope>MediaTek::modele::Personnel</scope><name>nom</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_personnel_1afdc1d1aa28055e3b0f8a858a11720a73" prot="public" virt="non-virtual"><scope>MediaTek::modele::Personnel</scope><name>Nom</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_personnel_1a9daaf4e7ec80ed983c66a68188814533" prot="public" virt="non-virtual"><scope>MediaTek::modele::Personnel</scope><name>Personnel</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_personnel_1a0bf76fc168b9c7b8ea85211c8984a1cb" prot="private" virt="non-virtual"><scope>MediaTek::modele::Personnel</scope><name>prenom</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_personnel_1a16bb6939214728565ff8a5c5e395d4e6" prot="public" virt="non-virtual"><scope>MediaTek::modele::Personnel</scope><name>Prenom</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_personnel_1a1998cb08719471e0436318a5962f9682" prot="private" virt="non-virtual"><scope>MediaTek::modele::Personnel</scope><name>service</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_personnel_1af28502f1c623f9451da37d09daa0b13f" prot="public" virt="non-virtual"><scope>MediaTek::modele::Personnel</scope><name>Service</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_personnel_1ad53cbd56f74fdb9d6375c6d904a13f1f" prot="private" virt="non-virtual"><scope>MediaTek::modele::Personnel</scope><name>tel</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_personnel_1a3a62441503fee914decc8d851175e574" prot="public" virt="non-virtual"><scope>MediaTek::modele::Personnel</scope><name>Tel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

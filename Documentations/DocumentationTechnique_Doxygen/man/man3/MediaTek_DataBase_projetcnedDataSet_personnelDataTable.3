@@ -1,0 +1,119 @@
+.TH "MediaTek.DataBase.projetcnedDataSet.personnelDataTable" 3 "Mardi 19 Octobre 2021" "Digimedia86" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MediaTek.DataBase.projetcnedDataSet.personnelDataTable \- Represents the strongly named DataTable class\&. /summary>  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Est dérivée de global\&.SystemData\&.TypedTableBase< personnelRow >\&.
+.SS "Fonctions membres publiques"
+
+.in +1c
+.ti -1c
+.RI "void \fBAddpersonnelRow\fP (\fBpersonnelRow\fP row)"
+.br
+.ti -1c
+.RI "\fBpersonnelRow\fP \fBAddpersonnelRow\fP (int IDSERVICE, string NOM, string PRENOM, string TEL, string MAIL)"
+.br
+.ti -1c
+.RI "\fBpersonnelRow\fP \fBFindByIDPERSONNEL\fP (int IDPERSONNEL)"
+.br
+.ti -1c
+.RI "override global::System\&.Data\&.DataTable \fBClone\fP ()"
+.br
+.ti -1c
+.RI "\fBpersonnelRow\fP \fBNewpersonnelRow\fP ()"
+.br
+.ti -1c
+.RI "void \fBRemovepersonnelRow\fP (\fBpersonnelRow\fP row)"
+.br
+.in -1c
+.SS "Fonctions membres publiques statiques"
+
+.in +1c
+.ti -1c
+.RI "static global::System\&.Xml\&.Schema\&.XmlSchemaComplexType \fBGetTypedTableSchema\fP (global::System\&.Xml\&.Schema\&.XmlSchemaSet xs)"
+.br
+.in -1c
+.SS "Fonctions membres protégées"
+
+.in +1c
+.ti -1c
+.RI "\fBpersonnelDataTable\fP (global::System\&.Runtime\&.Serialization\&.SerializationInfo info, global::System\&.Runtime\&.Serialization\&.StreamingContext context)"
+.br
+.ti -1c
+.RI "override global::System\&.Data\&.DataTable \fBCreateInstance\fP ()"
+.br
+.ti -1c
+.RI "override global::System\&.Data\&.DataRow \fBNewRowFromBuilder\fP (global::System\&.Data\&.DataRowBuilder builder)"
+.br
+.ti -1c
+.RI "override global::System\&.Type \fBGetRowType\fP ()"
+.br
+.ti -1c
+.RI "override void \fBOnRowChanged\fP (global::System\&.Data\&.DataRowChangeEventArgs e)"
+.br
+.ti -1c
+.RI "override void \fBOnRowChanging\fP (global::System\&.Data\&.DataRowChangeEventArgs e)"
+.br
+.ti -1c
+.RI "override void \fBOnRowDeleted\fP (global::System\&.Data\&.DataRowChangeEventArgs e)"
+.br
+.ti -1c
+.RI "override void \fBOnRowDeleting\fP (global::System\&.Data\&.DataRowChangeEventArgs e)"
+.br
+.in -1c
+.SS "Propriétés"
+
+.in +1c
+.ti -1c
+.RI "global::System\&.Data\&.DataColumn \fBIDPERSONNELColumn\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "global::System\&.Data\&.DataColumn \fBIDSERVICEColumn\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "global::System\&.Data\&.DataColumn \fBNOMColumn\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "global::System\&.Data\&.DataColumn \fBPRENOMColumn\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "global::System\&.Data\&.DataColumn \fBTELColumn\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "global::System\&.Data\&.DataColumn \fBMAILColumn\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "int \fBCount\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBpersonnelRow\fP \fBthis[int index]\fP\fC [get]\fP"
+.br
+.in -1c
+.SS "Événements"
+
+.in +1c
+.ti -1c
+.RI "personnelRowChangeEventHandler \fBpersonnelRowChanging\fP"
+.br
+.ti -1c
+.RI "personnelRowChangeEventHandler \fBpersonnelRowChanged\fP"
+.br
+.ti -1c
+.RI "personnelRowChangeEventHandler \fBpersonnelRowDeleting\fP"
+.br
+.ti -1c
+.RI "personnelRowChangeEventHandler \fBpersonnelRowDeleted\fP"
+.br
+.in -1c
+.SH "Description détaillée"
+.PP 
+Represents the strongly named DataTable class\&. /summary> 
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour Digimedia86 à partir du code source\&.

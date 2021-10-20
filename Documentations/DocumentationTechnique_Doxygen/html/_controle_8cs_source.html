@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+    <meta name="generator" content="Doxygen 1.9.2"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- BEGIN opengraph metadata -->
+    <meta property="og:title" content="Doxygen Awesome"/>
+    <meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452"/>
+    <meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters."/>
+    <meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/"/>
+    <!-- END opengraph metadata -->
+    <title>Digimedia86:  Fichier source de DigimediaTek86/controleur/Controle.cs</title>
+    <link href="tabs.css" rel="stylesheet" type="text/css"/>
+    <!--link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/-->
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+ <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <link href="doxygen.css" rel="stylesheet" type="text/css"/>
+    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div id="top">
+      <!-- do not remove this div, it is closed by doxygen! -->
+      <div id="titlearea">
+        <table cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr style="height: 56px;">
+              <td id="projectlogo"><img alt="Logo" src="LogoContexte.png"/></td>
+              <td id="projectalign" style="padding-left: 0.5em;">
+                <div id="projectname">Digimedia86
+                </div>
+                <div id="projectbrief">Gestionnaire d&#39;absences du personnel du réseau MediaTek86</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- end header part --><!-- Généré par Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Recherche','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_controle_8cs_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Controle.cs</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using</span> <a class="code hl_namespace" href="namespace_media_tek.html">MediaTek</a>.<a class="code hl_namespace" href="namespace_media_tek_1_1dal.html">dal</a>;</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using</span> <a class="code hl_namespace" href="namespace_media_tek.html">MediaTek</a>.<a class="code hl_namespace" href="namespace_media_tek_1_1modele.html">modele</a>;</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using</span> <a class="code hl_namespace" href="namespace_media_tek.html">MediaTek</a>.<a class="code hl_namespace" href="namespace_media_tek_1_1vue.html">vue</a>;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using</span> System;</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">using</span> System.Collections.Generic;</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="namespace_media_tek_1_1controleur.html">    8</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_media_tek_1_1controleur.html">MediaTek.controleur</a></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="class_media_tek_1_1controleur_1_1_controle.html">   13</a></span> <span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="class_media_tek_1_1controleur_1_1_controle.html">Controle</a></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="class_media_tek_1_1controleur_1_1_controle.html#abf10350c186d9ee19415f31c50506e71">   18</a></span>        <span class="keyword">private</span> <a class="code hl_class" href="class_media_tek_1_1vue_1_1_frm_connexion.html">FrmConnexion</a> <a class="code hl_variable" href="class_media_tek_1_1controleur_1_1_controle.html#abf10350c186d9ee19415f31c50506e71">frmConnexion</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_media_tek_1_1controleur_1_1_controle.html#a7bfc16c571f774a5e5eddc124f7127f8">   24</a></span>        <span class="keyword">public</span> <a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a7bfc16c571f774a5e5eddc124f7127f8">Controle</a>()</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        {</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>            <a class="code hl_variable" href="class_media_tek_1_1controleur_1_1_controle.html#abf10350c186d9ee19415f31c50506e71">frmConnexion</a> = <span class="keyword">new</span> <a class="code hl_class" href="class_media_tek_1_1vue_1_1_frm_connexion.html">FrmConnexion</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>            <a class="code hl_variable" href="class_media_tek_1_1controleur_1_1_controle.html#abf10350c186d9ee19415f31c50506e71">frmConnexion</a>.ShowDialog();</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        }</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="class_media_tek_1_1controleur_1_1_controle.html#a257a4792f9ac1755ebd961167d49434c">   38</a></span>        <span class="keyword">public</span> Boolean <a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a257a4792f9ac1755ebd961167d49434c">Authentification</a>(<span class="keywordtype">string</span> log, <span class="keywordtype">string</span> pwd)</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        {</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html">AccesConnexionBdd</a>.<a class="code hl_function" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a71fa166bd0a58cc30d0a2da1c3cfc9b1">Authentification</a>(log, pwd))</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            {</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>                <a class="code hl_variable" href="class_media_tek_1_1controleur_1_1_controle.html#abf10350c186d9ee19415f31c50506e71">frmConnexion</a>.Hide();</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>                (<span class="keyword">new</span> <a class="code hl_class" href="class_media_tek_1_1vue_1_1_frm_gestion.html">FrmGestion</a>(<span class="keyword">this</span>)).ShowDialog();</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            }</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>            <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            {</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            }</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        }</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="class_media_tek_1_1controleur_1_1_controle.html#a53c814aa157ea9d198afb555639bf6fb">   59</a></span>        <span class="keyword">public</span> List&lt;Personnel&gt; <a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a53c814aa157ea9d198afb555639bf6fb">GetPersonnels</a>()</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        {</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            <span class="keywordflow">return</span> <a class="code hl_class" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html">AccesConnexionBdd</a>.<a class="code hl_function" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a125c77a185a72ace2bb96fca5d579c54">GetLePersonnel</a>();</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        }</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="class_media_tek_1_1controleur_1_1_controle.html#a986e0167fe8f85e24cc46a03902c22c4">   69</a></span>        <span class="keyword">public</span> List&lt;Service&gt; <a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a986e0167fe8f85e24cc46a03902c22c4">GetService</a>()</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        {</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>            <span class="keywordflow">return</span> <a class="code hl_class" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html">AccesConnexionBdd</a>.<a class="code hl_function" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#aea09f9537db0d5f4b908be91d6df06b4">GetService</a>();</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        }</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="class_media_tek_1_1controleur_1_1_controle.html#a203eac8b66aa2aec0769b9ba8e5492dc">   78</a></span>        <span class="keyword">public</span> List&lt;Absence&gt; <a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a203eac8b66aa2aec0769b9ba8e5492dc">GetAbsences</a>(<a class="code hl_class" href="class_media_tek_1_1modele_1_1_personnel.html">Personnel</a> unpersonnel)</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        {</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>            <span class="keywordflow">return</span> <a class="code hl_class" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html">AccesConnexionBdd</a>.<a class="code hl_function" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a2ac7438e41d5381e2d27ab7b312c6eee">GetLesAbsences</a>(unpersonnel);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        }</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="class_media_tek_1_1controleur_1_1_controle.html#afcfccd3149b91c0bfa20005a73eed910">   88</a></span>        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#afcfccd3149b91c0bfa20005a73eed910">AddPersonnel</a>(<a class="code hl_class" href="class_media_tek_1_1modele_1_1_personnel.html">Personnel</a> unpersonnel)</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        {</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>            <a class="code hl_class" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html">AccesConnexionBdd</a>.<a class="code hl_function" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a13df939cbd1c80c239bb94b2b0b862dd">AddPersonnel</a>(unpersonnel);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        }</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno"><a class="line" href="class_media_tek_1_1controleur_1_1_controle.html#a8c46d718631edb8c0af70b6a93133708">   98</a></span>        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a8c46d718631edb8c0af70b6a93133708">AddAbsence</a>(<a class="code hl_class" href="class_media_tek_1_1modele_1_1_absence.html">Absence</a> uneabs)</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        {</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>            <a class="code hl_class" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html">AccesConnexionBdd</a>.<a class="code hl_function" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a5950b3e50043b5c3b469941d5a428388">AddAbsence</a>(uneabs);</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>        }</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="class_media_tek_1_1controleur_1_1_controle.html#a7d1b52b2f6db0fbd7d7713c3c1a54d77">  108</a></span>        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a7d1b52b2f6db0fbd7d7713c3c1a54d77">DelPersonnel</a>(<a class="code hl_class" href="class_media_tek_1_1modele_1_1_personnel.html">Personnel</a> unpersonnel)</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        {</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>            <a class="code hl_class" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html">AccesConnexionBdd</a>.<a class="code hl_function" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a6c0c000fa833dbbbf50b5cc90b64defd">DelPersonnel</a>(unpersonnel);</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        }</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="class_media_tek_1_1controleur_1_1_controle.html#a943d2119a5568bb0580b88eb6a92d591">  118</a></span>        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a943d2119a5568bb0580b88eb6a92d591">DelAbs</a>(<a class="code hl_class" href="class_media_tek_1_1modele_1_1_absence.html">Absence</a> uneabs)</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>        {</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>            <a class="code hl_class" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html">AccesConnexionBdd</a>.<a class="code hl_function" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a4f65794f75241f803e2adfd7ad9f3a18">DelAbs</a>(uneabs);</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>        }</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="class_media_tek_1_1controleur_1_1_controle.html#a99c77b6feb3926ab826b461f5ab15180">  128</a></span>        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a99c77b6feb3926ab826b461f5ab15180">ModPersonnel</a>(<a class="code hl_class" href="class_media_tek_1_1modele_1_1_personnel.html">Personnel</a> unpersonnel)</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>        {</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>            <a class="code hl_class" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html">AccesConnexionBdd</a>.<a class="code hl_function" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a46fcd22db0b11ec861632025028326e7">ModPersonnel</a>(unpersonnel);</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>        }</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno"><a class="line" href="class_media_tek_1_1controleur_1_1_controle.html#aa3130069979d186a680ba7435ab66deb">  138</a></span>        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#aa3130069979d186a680ba7435ab66deb">ModAbsdebut</a>(<a class="code hl_class" href="class_media_tek_1_1modele_1_1_absence.html">Absence</a> uneabs)</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>        {</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>             <a class="code hl_class" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html">AccesConnexionBdd</a>.<a class="code hl_function" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a468de86ff8a5bac1cbffe7bd2b32627a">ModAbsdebut</a>(uneabs);</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>        }</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span> </div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno"><a class="line" href="class_media_tek_1_1controleur_1_1_controle.html#a67f0153655b765062b11776dde9014a6">  148</a></span>        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a67f0153655b765062b11776dde9014a6">ModAbs</a>(<a class="code hl_class" href="class_media_tek_1_1modele_1_1_absence.html">Absence</a> uneabs)</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>        {</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>            <a class="code hl_class" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html">AccesConnexionBdd</a>.<a class="code hl_function" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#aa724b83bc00104535c28b09634c3c4b2">ModAbs</a>(uneabs);</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>        }</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>        </div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno"><a class="line" href="class_media_tek_1_1controleur_1_1_controle.html#a5fa8934b6e8ed5bd40515d30f1da7ffb">  158</a></span>        <span class="keyword">public</span> List&lt;Motif&gt; <a class="code hl_function" href="class_media_tek_1_1controleur_1_1_controle.html#a5fa8934b6e8ed5bd40515d30f1da7ffb">GetMotifs</a>()</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>        {</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>            <span class="keywordflow">return</span> <a class="code hl_class" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html">AccesConnexionBdd</a>.<a class="code hl_function" href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a03c037a9e0a7ae352e0d788bafea5fe3">GetMotif</a>();</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>        }</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    }</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span> </div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>}</div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html">MediaTek.controleur.Controle</a></div><div class="ttdoc">Classe de controleur</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00013">Controle.cs:14</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a203eac8b66aa2aec0769b9ba8e5492dc"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a203eac8b66aa2aec0769b9ba8e5492dc">MediaTek.controleur.Controle.GetAbsences</a></div><div class="ttdeci">List&lt; Absence &gt; GetAbsences(Personnel unpersonnel)</div><div class="ttdoc">Récupérer puis retourner les infos d'un personnel sur ses absences</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00078">Controle.cs:78</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a257a4792f9ac1755ebd961167d49434c"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a257a4792f9ac1755ebd961167d49434c">MediaTek.controleur.Controle.Authentification</a></div><div class="ttdeci">Boolean Authentification(string log, string pwd)</div><div class="ttdoc">Methode de vérification de connexion, si vrai, ouverture de la fenetre FrmGestion</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00038">Controle.cs:38</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a53c814aa157ea9d198afb555639bf6fb"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a53c814aa157ea9d198afb555639bf6fb">MediaTek.controleur.Controle.GetPersonnels</a></div><div class="ttdeci">List&lt; Personnel &gt; GetPersonnels()</div><div class="ttdoc">Recuperer puis retourner les infos du personnel de la base de données</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00059">Controle.cs:59</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a5fa8934b6e8ed5bd40515d30f1da7ffb"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a5fa8934b6e8ed5bd40515d30f1da7ffb">MediaTek.controleur.Controle.GetMotifs</a></div><div class="ttdeci">List&lt; Motif &gt; GetMotifs()</div><div class="ttdoc">Récupérer la liste des motifs d'absence</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00158">Controle.cs:158</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a67f0153655b765062b11776dde9014a6"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a67f0153655b765062b11776dde9014a6">MediaTek.controleur.Controle.ModAbs</a></div><div class="ttdeci">void ModAbs(Absence uneabs)</div><div class="ttdoc">Modifier le motif et la date de fin d'une absence</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00148">Controle.cs:148</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a7bfc16c571f774a5e5eddc124f7127f8"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a7bfc16c571f774a5e5eddc124f7127f8">MediaTek.controleur.Controle.Controle</a></div><div class="ttdeci">Controle()</div><div class="ttdoc">Contructeur et ouverture de la fenetre FrmConnexion</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00024">Controle.cs:24</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a7d1b52b2f6db0fbd7d7713c3c1a54d77"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a7d1b52b2f6db0fbd7d7713c3c1a54d77">MediaTek.controleur.Controle.DelPersonnel</a></div><div class="ttdeci">void DelPersonnel(Personnel unpersonnel)</div><div class="ttdoc">Supprimer un personnel</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00108">Controle.cs:108</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a8c46d718631edb8c0af70b6a93133708"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a8c46d718631edb8c0af70b6a93133708">MediaTek.controleur.Controle.AddAbsence</a></div><div class="ttdeci">void AddAbsence(Absence uneabs)</div><div class="ttdoc">Ajouter une absence</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00098">Controle.cs:98</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a943d2119a5568bb0580b88eb6a92d591"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a943d2119a5568bb0580b88eb6a92d591">MediaTek.controleur.Controle.DelAbs</a></div><div class="ttdeci">void DelAbs(Absence uneabs)</div><div class="ttdoc">Supprimer une absence</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00118">Controle.cs:118</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a986e0167fe8f85e24cc46a03902c22c4"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a986e0167fe8f85e24cc46a03902c22c4">MediaTek.controleur.Controle.GetService</a></div><div class="ttdeci">List&lt; Service &gt; GetService()</div><div class="ttdoc">Récupérer puis retourner la liste des services</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00069">Controle.cs:69</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_a99c77b6feb3926ab826b461f5ab15180"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#a99c77b6feb3926ab826b461f5ab15180">MediaTek.controleur.Controle.ModPersonnel</a></div><div class="ttdeci">void ModPersonnel(Personnel unpersonnel)</div><div class="ttdoc">Modifier les informations d'un personnel</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00128">Controle.cs:128</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_aa3130069979d186a680ba7435ab66deb"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#aa3130069979d186a680ba7435ab66deb">MediaTek.controleur.Controle.ModAbsdebut</a></div><div class="ttdeci">void ModAbsdebut(Absence uneabs)</div><div class="ttdoc">Modifier la date d'entrée d'une absence</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00138">Controle.cs:138</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_abf10350c186d9ee19415f31c50506e71"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#abf10350c186d9ee19415f31c50506e71">MediaTek.controleur.Controle.frmConnexion</a></div><div class="ttdeci">FrmConnexion frmConnexion</div><div class="ttdoc">Fenetre de connexion</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00018">Controle.cs:18</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1controleur_1_1_controle_html_afcfccd3149b91c0bfa20005a73eed910"><div class="ttname"><a href="class_media_tek_1_1controleur_1_1_controle.html#afcfccd3149b91c0bfa20005a73eed910">MediaTek.controleur.Controle.AddPersonnel</a></div><div class="ttdeci">void AddPersonnel(Personnel unpersonnel)</div><div class="ttdoc">Ajouter un personnel</div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00088">Controle.cs:88</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1dal_1_1_acces_connexion_bdd_html"><div class="ttname"><a href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html">MediaTek.dal.AccesConnexionBdd</a></div><div class="ttdoc">Classe de gestion de la base de donnée</div><div class="ttdef"><b>Definition:</b> <a href="_acces_connexion_bdd_8cs_source.html#l00011">AccesConnexionBdd.cs:12</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1dal_1_1_acces_connexion_bdd_html_a03c037a9e0a7ae352e0d788bafea5fe3"><div class="ttname"><a href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a03c037a9e0a7ae352e0d788bafea5fe3">MediaTek.dal.AccesConnexionBdd.GetMotif</a></div><div class="ttdeci">static List&lt; Motif &gt; GetMotif()</div><div class="ttdoc">Obtenir la liste des motifs d'absence</div><div class="ttdef"><b>Definition:</b> <a href="_acces_connexion_bdd_8cs_source.html#l00278">AccesConnexionBdd.cs:278</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1dal_1_1_acces_connexion_bdd_html_a125c77a185a72ace2bb96fca5d579c54"><div class="ttname"><a href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a125c77a185a72ace2bb96fca5d579c54">MediaTek.dal.AccesConnexionBdd.GetLePersonnel</a></div><div class="ttdeci">static List&lt; Personnel &gt; GetLePersonnel()</div><div class="ttdoc">Récupèrer la liste du personnel provenant de la Base de données</div><div class="ttdef"><b>Definition:</b> <a href="_acces_connexion_bdd_8cs_source.html#l00055">AccesConnexionBdd.cs:55</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1dal_1_1_acces_connexion_bdd_html_a13df939cbd1c80c239bb94b2b0b862dd"><div class="ttname"><a href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a13df939cbd1c80c239bb94b2b0b862dd">MediaTek.dal.AccesConnexionBdd.AddPersonnel</a></div><div class="ttdeci">static void AddPersonnel(Personnel unpersonnel)</div><div class="ttdoc">Ajouter un personnel</div><div class="ttdef"><b>Definition:</b> <a href="_acces_connexion_bdd_8cs_source.html#l00138">AccesConnexionBdd.cs:138</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1dal_1_1_acces_connexion_bdd_html_a2ac7438e41d5381e2d27ab7b312c6eee"><div class="ttname"><a href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a2ac7438e41d5381e2d27ab7b312c6eee">MediaTek.dal.AccesConnexionBdd.GetLesAbsences</a></div><div class="ttdeci">static List&lt; Absence &gt; GetLesAbsences(Personnel unpersonnel)</div><div class="ttdoc">Afficher la liste des absences d'un personnel sélectionné, dans l'ordre inverse de la chronologie(la ...</div><div class="ttdef"><b>Definition:</b> <a href="_acces_connexion_bdd_8cs_source.html#l00106">AccesConnexionBdd.cs:106</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1dal_1_1_acces_connexion_bdd_html_a468de86ff8a5bac1cbffe7bd2b32627a"><div class="ttname"><a href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a468de86ff8a5bac1cbffe7bd2b32627a">MediaTek.dal.AccesConnexionBdd.ModAbsdebut</a></div><div class="ttdeci">static void ModAbsdebut(Absence uneabs)</div><div class="ttdoc">Modifier une absence date d'entrée en absence</div><div class="ttdef"><b>Definition:</b> <a href="_acces_connexion_bdd_8cs_source.html#l00259">AccesConnexionBdd.cs:259</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1dal_1_1_acces_connexion_bdd_html_a46fcd22db0b11ec861632025028326e7"><div class="ttname"><a href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a46fcd22db0b11ec861632025028326e7">MediaTek.dal.AccesConnexionBdd.ModPersonnel</a></div><div class="ttdeci">static void ModPersonnel(Personnel unpersonnel)</div><div class="ttdoc">Modifier un personnel</div><div class="ttdef"><b>Definition:</b> <a href="_acces_connexion_bdd_8cs_source.html#l00214">AccesConnexionBdd.cs:214</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1dal_1_1_acces_connexion_bdd_html_a4f65794f75241f803e2adfd7ad9f3a18"><div class="ttname"><a href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a4f65794f75241f803e2adfd7ad9f3a18">MediaTek.dal.AccesConnexionBdd.DelAbs</a></div><div class="ttdeci">static void DelAbs(Absence uneabs)</div><div class="ttdoc">Supprimer une absence d'un personnel</div><div class="ttdef"><b>Definition:</b> <a href="_acces_connexion_bdd_8cs_source.html#l00196">AccesConnexionBdd.cs:196</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1dal_1_1_acces_connexion_bdd_html_a5950b3e50043b5c3b469941d5a428388"><div class="ttname"><a href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a5950b3e50043b5c3b469941d5a428388">MediaTek.dal.AccesConnexionBdd.AddAbsence</a></div><div class="ttdeci">static void AddAbsence(Absence uneabs)</div><div class="ttdoc">Ajouter une absence</div><div class="ttdef"><b>Definition:</b> <a href="_acces_connexion_bdd_8cs_source.html#l00160">AccesConnexionBdd.cs:160</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1dal_1_1_acces_connexion_bdd_html_a6c0c000fa833dbbbf50b5cc90b64defd"><div class="ttname"><a href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a6c0c000fa833dbbbf50b5cc90b64defd">MediaTek.dal.AccesConnexionBdd.DelPersonnel</a></div><div class="ttdeci">static void DelPersonnel(Personnel unpersonnel)</div><div class="ttdoc">Supprimer un personnel</div><div class="ttdef"><b>Definition:</b> <a href="_acces_connexion_bdd_8cs_source.html#l00180">AccesConnexionBdd.cs:180</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1dal_1_1_acces_connexion_bdd_html_a71fa166bd0a58cc30d0a2da1c3cfc9b1"><div class="ttname"><a href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#a71fa166bd0a58cc30d0a2da1c3cfc9b1">MediaTek.dal.AccesConnexionBdd.Authentification</a></div><div class="ttdeci">static Boolean Authentification(string log, string pwd)</div><div class="ttdoc">Verifie si les clés de connexion sont valides</div><div class="ttdef"><b>Definition:</b> <a href="_acces_connexion_bdd_8cs_source.html#l00025">AccesConnexionBdd.cs:25</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1dal_1_1_acces_connexion_bdd_html_aa724b83bc00104535c28b09634c3c4b2"><div class="ttname"><a href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#aa724b83bc00104535c28b09634c3c4b2">MediaTek.dal.AccesConnexionBdd.ModAbs</a></div><div class="ttdeci">static void ModAbs(Absence uneabs)</div><div class="ttdoc">Modifier une absence date de fin ou/et motif</div><div class="ttdef"><b>Definition:</b> <a href="_acces_connexion_bdd_8cs_source.html#l00238">AccesConnexionBdd.cs:238</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1dal_1_1_acces_connexion_bdd_html_aea09f9537db0d5f4b908be91d6df06b4"><div class="ttname"><a href="class_media_tek_1_1dal_1_1_acces_connexion_bdd.html#aea09f9537db0d5f4b908be91d6df06b4">MediaTek.dal.AccesConnexionBdd.GetService</a></div><div class="ttdeci">static List&lt; Service &gt; GetService()</div><div class="ttdoc">Demander la liste des services</div><div class="ttdef"><b>Definition:</b> <a href="_acces_connexion_bdd_8cs_source.html#l00081">AccesConnexionBdd.cs:81</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1modele_1_1_absence_html"><div class="ttname"><a href="class_media_tek_1_1modele_1_1_absence.html">MediaTek.modele.Absence</a></div><div class="ttdoc">Classe représentant les absences d'un personnel</div><div class="ttdef"><b>Definition:</b> <a href="_absence_8cs_source.html#l00008">Absence.cs:9</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1modele_1_1_personnel_html"><div class="ttname"><a href="class_media_tek_1_1modele_1_1_personnel.html">MediaTek.modele.Personnel</a></div><div class="ttdoc">Classe représentant le personnel</div><div class="ttdef"><b>Definition:</b> <a href="_personnel_8cs_source.html#l00006">Personnel.cs:7</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_connexion_html"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_connexion.html">MediaTek.vue.FrmConnexion</a></div><div class="ttdoc">Fenêtre de connexion au programme</div><div class="ttdef"><b>Definition:</b> <a href="_frm_connexion_8cs_source.html#l00012">FrmConnexion.cs:13</a></div></div>
+<div class="ttc" id="aclass_media_tek_1_1vue_1_1_frm_gestion_html"><div class="ttname"><a href="class_media_tek_1_1vue_1_1_frm_gestion.html">MediaTek.vue.FrmGestion</a></div><div class="ttdoc">Fenêtre d'affichage et de gestion du personnel et de leurs absences</div><div class="ttdef"><b>Definition:</b> <a href="_frm_gestion_8cs_source.html#l00012">FrmGestion.cs:13</a></div></div>
+<div class="ttc" id="anamespace_media_tek_1_1controleur_html"><div class="ttname"><a href="namespace_media_tek_1_1controleur.html">MediaTek.controleur</a></div><div class="ttdef"><b>Definition:</b> <a href="_controle_8cs_source.html#l00008">Controle.cs:9</a></div></div>
+<div class="ttc" id="anamespace_media_tek_1_1dal_html"><div class="ttname"><a href="namespace_media_tek_1_1dal.html">MediaTek.dal</a></div><div class="ttdef"><b>Definition:</b> <a href="_acces_connexion_bdd_8cs_source.html#l00006">AccesConnexionBdd.cs:7</a></div></div>
+<div class="ttc" id="anamespace_media_tek_1_1modele_html"><div class="ttname"><a href="namespace_media_tek_1_1modele.html">MediaTek.modele</a></div><div class="ttdef"><b>Definition:</b> <a href="_absence_8cs_source.html#l00003">Absence.cs:4</a></div></div>
+<div class="ttc" id="anamespace_media_tek_1_1vue_html"><div class="ttname"><a href="namespace_media_tek_1_1vue.html">MediaTek.vue</a></div><div class="ttdef"><b>Definition:</b> <a href="_frm_connexion_8cs_source.html#l00007">FrmConnexion.cs:8</a></div></div>
+<div class="ttc" id="anamespace_media_tek_html"><div class="ttname"><a href="namespace_media_tek.html">MediaTek</a></div><div class="ttdef"><b>Definition:</b> <a href="_connexion_bdd_8cs_source.html#l00006">ConnexionBdd.cs:7</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.9.1-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath">
+  <!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d3b99d2795bc61c52742c0077a24a6d6.html">DigimediaTek86</a></li><li class="navelem"><a class="el" href="dir_ea1b1689561b3cd0d70a6345f6185ef4.html">controleur</a></li><li class="navelem"><b>Controle.cs</b></li>
+    <li class="footer">Généré le Mercredi 20 Octobre 2021 16:46:28 pour Digimedia86 par
+      <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a>
+      1.9.2
+    </li>
+    <li class="footer">Mise en beauté grâce à
+      <a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub">doxygen-awesome-css</a>
+    </li>
+  </ul>
+</div>
+</body>
+</html>

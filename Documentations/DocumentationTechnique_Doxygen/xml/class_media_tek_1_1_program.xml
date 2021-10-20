@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1_program" kind="class" language="C#" prot="public">
+    <compoundname>MediaTek::Program</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_media_tek_1_1_program_1a0523e1ec5193437a292cca3151d14914" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MediaTek.Program.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>Point d&apos;entrée principal de l&apos;application. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/Program.cs" line="16" column="21" bodyfile="DigimediaTek86/Program.cs" bodystart="16" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe d&apos;entrée de l&apos;application </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DigimediaTek86/Program.cs" line="10" column="12" bodyfile="DigimediaTek86/Program.cs" bodystart="11" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1_program_1a0523e1ec5193437a292cca3151d14914" prot="private" virt="non-virtual"><scope>MediaTek::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

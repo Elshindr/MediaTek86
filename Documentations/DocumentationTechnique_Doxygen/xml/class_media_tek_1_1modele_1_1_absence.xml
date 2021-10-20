@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="fr">
+  <compounddef id="class_media_tek_1_1modele_1_1_absence" kind="class" language="C#" prot="public">
+    <compoundname>MediaTek::modele::Absence</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_tek_1_1modele_1_1_absence_1abc4bea719cc3fec97b25d2c5b8d79f64" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MediaTek.modele.Absence.idpersonnel</definition>
+        <argsstring></argsstring>
+        <name>idpersonnel</name>
+        <briefdescription>
+<para>Propriété d&apos;identifiant d&apos;un personnel absent </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Absence.cs" line="13" column="21" bodyfile="DigimediaTek86/modele/Absence.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1modele_1_1_absence_1afdb02b325d093c3a35cd66ef5fe5d209" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime MediaTek.modele.Absence.datedebut</definition>
+        <argsstring></argsstring>
+        <name>datedebut</name>
+        <briefdescription>
+<para>Propriété date de début de l&apos;absence </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Absence.cs" line="18" column="26" bodyfile="DigimediaTek86/modele/Absence.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1modele_1_1_absence_1ac42f572c6e9ed3b43e0411ecffad20df" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime MediaTek.modele.Absence.datefin</definition>
+        <argsstring></argsstring>
+        <name>datefin</name>
+        <briefdescription>
+<para>Propriété date de fin de l&apos;absence </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Absence.cs" line="23" column="26" bodyfile="DigimediaTek86/modele/Absence.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1modele_1_1_absence_1a09cc3db40d5d197ef69796d17da34ae2" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MediaTek.modele.Absence.motif</definition>
+        <argsstring></argsstring>
+        <name>motif</name>
+        <briefdescription>
+<para>Propriété du motif de l&apos;absence </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Absence.cs" line="28" column="24" bodyfile="DigimediaTek86/modele/Absence.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_tek_1_1modele_1_1_absence_1ac0860a14403037f9200c79bbfbd4ad24" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MediaTek.modele.Absence.idmotif</definition>
+        <argsstring></argsstring>
+        <name>idmotif</name>
+        <briefdescription>
+<para>Propriété de l&apos;identifiant du motif de l&apos;absence </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Absence.cs" line="33" column="21" bodyfile="DigimediaTek86/modele/Absence.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_tek_1_1modele_1_1_absence_1a29a44fca1468951469d53e6df114f924" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MediaTek.modele.Absence.Idpersonnel</definition>
+        <argsstring></argsstring>
+        <name>Idpersonnel</name>
+        <briefdescription>
+<para>Getter sur idpersonnel </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Absence.cs" line="38" column="20" bodyfile="DigimediaTek86/modele/Absence.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1modele_1_1_absence_1a4bed5e70f6afee200df665d29ddf8964" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime MediaTek.modele.Absence.Datedebut</definition>
+        <argsstring></argsstring>
+        <name>Datedebut</name>
+        <briefdescription>
+<para>Getter sur datadebut </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Absence.cs" line="43" column="25" bodyfile="DigimediaTek86/modele/Absence.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1modele_1_1_absence_1a614ef246a6b7ec7efe6b78e41a3f885d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime MediaTek.modele.Absence.Datefin</definition>
+        <argsstring></argsstring>
+        <name>Datefin</name>
+        <briefdescription>
+<para>Getter sur datefin </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Absence.cs" line="48" column="25" bodyfile="DigimediaTek86/modele/Absence.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1modele_1_1_absence_1aa1a6bf0c55b5051ef8201199dea353cf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MediaTek.modele.Absence.Motif</definition>
+        <argsstring></argsstring>
+        <name>Motif</name>
+        <briefdescription>
+<para>Getter sur motif </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Absence.cs" line="53" column="23" bodyfile="DigimediaTek86/modele/Absence.cs" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_tek_1_1modele_1_1_absence_1a13db7b83e24d17541c3a68f45f6bbf41" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MediaTek.modele.Absence.Idmotif</definition>
+        <argsstring></argsstring>
+        <name>Idmotif</name>
+        <briefdescription>
+<para>Getter sur idmotif </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Absence.cs" line="58" column="20" bodyfile="DigimediaTek86/modele/Absence.cs" bodystart="58" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_tek_1_1modele_1_1_absence_1ad1bab89615cb72d084f922eafcee8018" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaTek.modele.Absence.Absence</definition>
+        <argsstring>(int idpersonnel, DateTime datedebut, DateTime datefin, string motif, int idmotif)</argsstring>
+        <name>Absence</name>
+        <param>
+          <type>int</type>
+          <declname>idpersonnel</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>datedebut</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>datefin</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>motif</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idmotif</declname>
+        </param>
+        <briefdescription>
+<para>Constructeur d&apos;<ref refid="class_media_tek_1_1modele_1_1_absence" kindref="compound">Absence</ref> et valorise ses propriétés </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idpersonnel</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datedebut</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>datefin</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>motif</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>idmotif</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DigimediaTek86/modele/Absence.cs" line="68" column="16" bodyfile="DigimediaTek86/modele/Absence.cs" bodystart="68" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe représentant les absences d&apos;un personnel </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DigimediaTek86/modele/Absence.cs" line="8" column="11" bodyfile="DigimediaTek86/modele/Absence.cs" bodystart="9" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_media_tek_1_1modele_1_1_absence_1ad1bab89615cb72d084f922eafcee8018" prot="public" virt="non-virtual"><scope>MediaTek::modele::Absence</scope><name>Absence</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_absence_1afdb02b325d093c3a35cd66ef5fe5d209" prot="private" virt="non-virtual"><scope>MediaTek::modele::Absence</scope><name>datedebut</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_absence_1a4bed5e70f6afee200df665d29ddf8964" prot="public" virt="non-virtual"><scope>MediaTek::modele::Absence</scope><name>Datedebut</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_absence_1ac42f572c6e9ed3b43e0411ecffad20df" prot="private" virt="non-virtual"><scope>MediaTek::modele::Absence</scope><name>datefin</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_absence_1a614ef246a6b7ec7efe6b78e41a3f885d" prot="public" virt="non-virtual"><scope>MediaTek::modele::Absence</scope><name>Datefin</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_absence_1ac0860a14403037f9200c79bbfbd4ad24" prot="private" virt="non-virtual"><scope>MediaTek::modele::Absence</scope><name>idmotif</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_absence_1a13db7b83e24d17541c3a68f45f6bbf41" prot="public" virt="non-virtual"><scope>MediaTek::modele::Absence</scope><name>Idmotif</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_absence_1abc4bea719cc3fec97b25d2c5b8d79f64" prot="private" virt="non-virtual"><scope>MediaTek::modele::Absence</scope><name>idpersonnel</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_absence_1a29a44fca1468951469d53e6df114f924" prot="public" virt="non-virtual"><scope>MediaTek::modele::Absence</scope><name>Idpersonnel</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_absence_1a09cc3db40d5d197ef69796d17da34ae2" prot="private" virt="non-virtual"><scope>MediaTek::modele::Absence</scope><name>motif</name></member>
+      <member refid="class_media_tek_1_1modele_1_1_absence_1aa1a6bf0c55b5051ef8201199dea353cf" prot="public" virt="non-virtual"><scope>MediaTek::modele::Absence</scope><name>Motif</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
