@@ -1,4 +1,4 @@
-<div background-color='black'>[![forthebadge](https://forthebadge.com/images/badges/made-with-c-sharp.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c-sharp.svg)](https://forthebadge.com)
 ![GitHub last commit](https://img.shields.io/github/last-commit/elshindr/MediaTek86?style=for-the-badge)
 
 End-year project for my first grade in BTS SIO
@@ -30,4 +30,3 @@ Afin de répondre aux besoins de numérisations de ses ressources internes et de
 - Assurer le développement de la <a href="https://elshindr.github.io/MediaTek86/DocumentationTechnique_Doxygen/html/index.html">documentation</a> technique, mise en place via **Doxygen**.
 
 - Présenter l'application par l'intermédiaire d'une <a href="https://github.com/Elshindr/MediaTek86/tree/main/Documentations/Video">**vidéo**</a> explicative.
-</div>
