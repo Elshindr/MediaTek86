@@ -1,4 +1,4 @@
-</div background-color='black'>[![forthebadge](https://forthebadge.com/images/badges/made-with-c-sharp.svg)](https://forthebadge.com)
+<div background-color='black'>[![forthebadge](https://forthebadge.com/images/badges/made-with-c-sharp.svg)](https://forthebadge.com)
 ![GitHub last commit](https://img.shields.io/github/last-commit/elshindr/MediaTek86?style=for-the-badge)
 
 End-year project for my first grade in BTS SIO
