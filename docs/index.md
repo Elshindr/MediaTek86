@@ -27,7 +27,6 @@ Afin de répondre aux besoins de numérisations de ses ressources internes et de
 
 - Développer dans le respect du <a href="https://github.com/Elshindr/MediaTek86/blob/main/Documentations/DigimediaTek86_UsersCases.pdf">diagramme de cas d'utilisation et des descriptifs de ses users cases</a> préalablement définis avec le chef de projet dans le langage de programmation **C#**.
 
-- Assurer le développement de la <a href="https://elshindr.github.io/MediaTek86/DigimediaTek86/bin/DocumentationTechnique_Doxygen/html/index.html">documentation</a> technique, mise en place via **Doxygen**.
+- Assurer le développement de la <a href="https://elshindr.github.io/MediaTek86/DocumentationTechnique_Doxygen/html/index.html">documentation</a> technique, mise en place via **Doxygen**.
 
 - Présenter l'application par l'intermédiaire d'une <a href="https://github.com/Elshindr/MediaTek86/tree/main/Documentations/Video">**vidéo**</a> explicative.
-
