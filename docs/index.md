@@ -32,7 +32,7 @@ Afin de répondre aux besoins de numérisations de ses ressources internes et de
 - Présenter l'application par l'intermédiaire d'une **vidéo** explicative.
   
   
-  <div align="center">
+ <div align="center">
   
   <a href="https://github.com/Elshindr/Mediatek86_Personnels/blob/main/docs/Documentations/DigimediaTek86_UsersCases.pdf">
   <img src="https://elshindr.github.io/Mediatek86_Documentaire/assets/Bouton1.PNG" alt="Existant & Besoins"/></a>
@@ -51,5 +51,5 @@ Afin de répondre aux besoins de numérisations de ses ressources internes et de
 <div align="center">
 <iframe width="760" height="515" src="https://www.youtube.com/embed/Rh6RdMTgeSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-</div>
+
 
