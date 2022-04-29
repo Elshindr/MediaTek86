@@ -18,10 +18,12 @@ Afin de répondre aux besoins de numérisations de ses ressources internes et de
 - Développer un modéle de création de base de donnée UML définissant les différents liens entre chaque entités de données nécessaires aux besoins exprimés, ici créé sous **Win'design**.
 
 - Assurer une connexion sécurisée à l'application via la création d'un compte Administrateur ayant les droits d'accès à cette base de données, sous **MySQL**.
-  <div align="center">
+  
+  
+<div align="center">
   <img src="https://github.com/Elshindr/Mediatek86_Personnels/blob/main/docs/Documentations/Maquettes/Maquette_Connexion.png" alt="Maquette Connexion"/>
   <img src="https://github.com/Elshindr/Mediatek86_Personnels/blob/main/docs/Documentations/Maquettes/Maquette_Gestionnaire.png" alt="Maquette Gestionnaire"/>
-  </div>
+</div>
   
 - Gérer les connexions à ce compte Administrateur par l'intermédiaire d'un login et mot de passe cryptés via une **fonction de haschage**.
 
@@ -52,4 +54,4 @@ Afin de répondre aux besoins de numérisations de ses ressources internes et de
 <iframe width="760" height="515" src="https://www.youtube.com/embed/Rh6RdMTgeSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-
+</div>
