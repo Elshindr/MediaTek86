@@ -18,18 +18,18 @@ Afin de répondre aux besoins de numérisations de ses ressources internes et de
 - Utiliser un outils de maquettage maquette afin de présenter les différentes interfaces répondant aux besoins, ici dessiner grâce au logiciel **Pencil**.
 
 <div align="center">
-  <img src="https://elshindr.github.io/Mediatek86_Personnels/blob/main/docs/Documentations/Maquettes/Maquette_Connexion.png" alt="Maquette Connexion"/>
-  <img src="https://elshindr.github.io/Mediatek86_Personnels/blob/main/docs/Documentations/Maquettes/Maquette_Gestionnaire.png" alt="Maquette Gestionnaire"/>
+  <img src="https://elshindr.github.io/Mediatek86_Personnels/Documentations/Maquettes/Maquette_Connexion.png" alt="Maquette Connexion"/>
+  <img src="https://elshindr.github.io/Mediatek86_Personnels/Documentations/Maquettes/Maquette_Gestionnaire.png" alt="Maquette Gestionnaire"/>
 </div>
 
 
 - Développer un modéle de création de base de donnée UML définissant les différents liens entre chaque entités de données nécessaires aux besoins exprimés, ici créé sous **Win'design**.
 
 <div align="center">
-  <img src="https://elshindr.github.io/Mediatek86_Personnels/blob/main/docs/Documentations/BDD/Schema_UML_bdd.jpg" alt="Schema ulm"/>
-  
+  <img src="https://elshindr.github.io/Mediatek86_Personnels/Documentations/BDD/Schema_UML_bdd.jpg" alt="Schema ulm"/>  
 </div>
 
+- Mettre en place des operations Create Read Update Delete
 
 - Assurer une connexion sécurisée à l'application via la création d'un compte Administrateur ayant les droits d'accès à cette base de données, sous **MySQL**.  
 - Gérer les connexions à ce compte Administrateur par l'intermédiaire d'un login et mot de passe cryptés via une **fonction de haschage**.
