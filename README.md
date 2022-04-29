@@ -18,7 +18,11 @@ Afin de répondre aux besoins de numérisations de ses ressources internes et de
 - Développer un modéle de création de base de donnée UML définissant les différents liens entre chaque entités de données nécessaires aux besoins exprimés, ici créé sous **Win'design**.
 
 - Assurer une connexion sécurisée à l'application via la création d'un compte Administrateur ayant les droits d'accès à cette base de données, sous **MySQL**.
-
+  <div align="center">
+  <img src="https://github.com/Elshindr/Mediatek86_Personnels/blob/main/docs/Documentations/Maquettes/Maquette_Connexion.png" alt="Maquette Connexion"/>
+  <img src="https://github.com/Elshindr/Mediatek86_Personnels/blob/main/docs/Documentations/Maquettes/Maquette_Gestionnaire.png" alt="Maquette Gestionnaire"/>
+  </div>
+  
 - Gérer les connexions à ce compte Administrateur par l'intermédiaire d'un login et mot de passe cryptés via une **fonction de haschage**.
 
 - Développer dans le respect du diagramme de cas d'utilisation et des descriptifs de ses users cases préalablement définis avec le chef de projet dans le langage de programmation **C#**.
@@ -35,12 +39,15 @@ Afin de répondre aux besoins de numérisations de ses ressources internes et de
   
   <a href="https://github.com/Elshindr/Mediatek86_Personnels">
   <img src="https://elshindr.github.io/Mediatek86_Documentaire/assets//Bouton2.PNG" alt="Dépot Github"/></a>
-   
+    
+   <a href="https://github.com/Elshindr/Mediatek86_Personnels/blob/main/docs/Documentations/Maquettes/projetcned_Sql.sql">
+  <img src="https://elshindr.github.io/Android_MediaTek86Formations/ressources/Bouton3.PNG" alt="Script SQL"/></a>
    
   <a href="https://elshindr.github.io/Mediatek86_Personnels/DocumentationTechnique_Doxygen/html/namespaces.html">
   <img src="https://elshindr.github.io/Mediatek86_Documentaire/assets/Bouton4.PNG" alt="Documentation Technique"/></a>
   
 </div>
+<hr/><br/>
 <div align="center">
 <iframe width="760" height="515" src="https://www.youtube.com/embed/Rh6RdMTgeSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
