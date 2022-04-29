@@ -12,9 +12,7 @@ InfoTech Services est une Entreprise de Services Numériques (ESN). Prestataire 
 Afin de répondre aux besoins de numérisations de ses ressources internes et de transitions numériques, MediaTek a mis en place un projet de developpement d'une application bureau permettant la gestion des informations de son personnel oeuvrant dans son réseau ainsi que de gèrer leurs absences respectives par l'intermédiaire d'une base de données.
 
 
-### Ainsi, les objectifs de cette mission :
-
-
+### Ainsi, les objectifs de cette mission :  
 - Utiliser un outils de maquettage maquette afin de présenter les différentes interfaces répondant aux besoins, ici dessiner grâce au logiciel **Pencil**.
 
 - Développer un modéle de création de base de donnée UML définissant les différents liens entre chaque entités de données nécessaires aux besoins exprimés, ici créé sous **Win'design**.
@@ -28,5 +26,23 @@ Afin de répondre aux besoins de numérisations de ses ressources internes et de
 - Assurer le développement de la documentation technique, mise en place via **Doxygen**.
 
 - Présenter l'application par l'intermédiaire d'une **vidéo** explicative.
+  
+  
+  <div align="center">
+  
+  <a href="https://github.com/Elshindr/Mediatek86_Personnels/blob/main/docs/Documentations/DigimediaTek86_UsersCases.pdf">
+  <img src="https://elshindr.github.io/Mediatek86_Documentaire/assets/Bouton1.PNG" alt="Existant & Besoins"/></a>
+  
+  <a href="https://github.com/Elshindr/Mediatek86_Personnels">
+  <img src="https://elshindr.github.io/Mediatek86_Documentaire/assets//Bouton2.PNG" alt="Dépot Github"/></a>
+   
+   
+  <a href="https://elshindr.github.io/Mediatek86_Personnels/DocumentationTechnique_Doxygen/html/namespaces.html">
+  <img src="https://elshindr.github.io/Mediatek86_Documentaire/assets/Bouton4.PNG" alt="Documentation Technique"/></a>
+  
+</div>
+<div align="center">
+<iframe width="760" height="515" src="https://www.youtube.com/embed/Rh6RdMTgeSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 </div>
 
